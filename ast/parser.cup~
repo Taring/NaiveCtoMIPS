@@ -1,0 +1,140 @@
+/*
+	show the import
+*/
+import java.io.*;
+import java.util.*;
+import java_cup.runtime.*;
+
+terminal VOID, CHAR, INT, STRUCT, UNION, IF, ELSE, WHILE, FOR, CONTINUE, BREAK, RETURN, SIZEOF;
+
+terminal LPA, RPA, SEMI, COMMA, EVA, LCU, RCU, LSQ, RSQ, MUL, OR, XOR, AND, LT, GT, ADD, SUB, MUL, DIV, MOD, TILDE, NOT_L, DOT;
+
+terminal OP_L, AND_L, EQ, NE, LE, GE, SHL, SHR, INC, DEC, PTR;
+
+terminal MUL_ASSIGN, DIV_ASSIGN, MOD_ASSIGN, ADD_ASSIGN, SUB_ASSIGN, SHL_ASSIGN, SHR_ASSIGN, AND_ASSIGN, XOR_ASSIGN, OR_ASSIGN;
+
+terminal String ID, CONSTINT, CONSTCHAR, CONSTSTR;
+
+non terminal Ast root;
+
+non terminal Decl declaration, function_definition;
+
+non terminal Type type_specifier;
+
+start with root;
+
+/*  First */
+root ::= 
+	declaration:l {: RESULT = new Ast(l); :}
+	| function_definition:l {: RESULT = new Ast(l); :}
+	| program:l declaration:r {: RESULT = l.Add(r); :}
+	| program:l function_definition:r {: RESULT = l.Add(r); :}
+	;
+
+/* Second */
+
+declaration ::=
+	STRUCT ID:l LCU t_type_specifier:r RCU SEMI {: RESULT = new StructDecl(l, r); :}
+	| UNION ID:r LCU t_type_specifier:r RCU SEMI {: RESULT = new UnionDecl(l, r); :}
+	| type_specifier:l init_declarators:r SEMI {: RESULT = new NormalDecl(l, r); :}
+	;
+
+function_definition ::=
+	type_specifier:a plain_declarator:b LPA RPA compound_statement:d {: RESULT = new FunctionDecl(a, b, d) :}
+	| type_specifier:a plain_declarator:b LPA plain-declarations:c RPA compound_statement:d {: RESULT = new FunctionDecl(a, b, c, d) :}
+	;
+
+/*  Third */
+plain-declarations ::=
+	plain_declaration:l {: RESULT =  new LinkedList<VarDecl>(l) :}
+	| plain-declarations:t COMMA plain_declaration:l {: t.Add(l);RESULT = t; :}
+	;
+	
+init_declarators ::=
+	init_declarator:l {: RESULT = new LinkedList<VarDecl>(l) :}
+	| init_declarators:t COMMA init_declarator:l {: t.Add(l); RESULT = t; :}
+	;
+/* Fourth  */
+
+init_declarator ::=
+	declarator
+	| declarator:a EVA initializer:b {: a.init = b; RESULT = a; :}
+	;
+
+/*---Initializer beginning---*/
+initializer
+	: assignment_expression:a {: RESULT = new InitValue(a); :}
+	| LCU t_initializer:c RCU {: RESULT = c :}
+	;
+
+t_initializer
+	: initializer:a {: RESULT = new InitList(new LinkedList<Initializer>(a) ); :}
+	| t_initializer:b COMMA initializer:a {: b.inits.Add(a); RESULT = b; :} 
+	;
+/*---Initializer ending---*/
+
+/*---type beginning----*/
+type_specifier ::=
+	VOID {: RESULT = new VoidType():}
+	| CHAR {: RESULT = new CharType():}
+	| INT {: RESULT = new IntType():}
+	| STRUCT LCU t_type_specifier:a RCU {: RESULT = new StructType(a):}
+	| UNION LCU t_type_specifier:a RCU {: RESULT = new UnionType(a):}
+	| STRUCT ID:s LCU t_type_specifier:a RCU {: RESULT = new StructType(s, a) :}
+	| UNION ID:s LCU t_type_specifier:a RCU {: RESULT = new UnionType(s, a) :}
+	| STRUCT ID:s {: RESULT = new StructType(s) :}
+	| UNION ID:s {: RESULT = new UnionType(s) :}
+	;
+
+t_type_specifier ::=
+	type_specifier:a declarators:b SEMI {: RESULT = new List<NormalDecl>(new NormalDecl(a, b)); :}
+	| t_type_specifier:t type_specifier:a declarators:b SEMI
+		{: t.Add(new NormalDecl(a, b)); RESULT = t; :}
+	;
+
+declarators ::=
+	declarator:l {: RESULT = new LinkedList<Decl>(l); :}
+	| declarators:t COMMA declarator:l {: t.add(l); RESULT = T; :}
+	;
+
+/*---type ending----*/
+	
+plain_declaration ::=
+	type_specifier:a declarator:b {: RESULT = VarDecl(a, b) :}
+	;
+
+
+/*first one & second one -> A(b,c,d);while b,c,d are both Expr*/
+/*third one & fourth one -> ArrayType*/
+declartor ::=
+	plain_declartor
+	| plain_declartor:a LSQ constant_expression :b RSQ	
+		{: RESULT = new ArrayType(a, b); :}
+	;
+
+/*Consider of PointType*/
+plain_declarator :==
+	identifier
+	| MUL plain_declarator:a {: RESULT = new PointerType(ID); :}
+	;
+
+/*---type ending----*/
+
+
+/*---------------------------------------*/
+expression ::=
+	  assignment_expression {: RESULT = Expr:}
+	  | expression COMMA assignment_expression {: :}
+	  ;
+
+primary_expression ::=
+	  identifier
+	| CONSTINT:l {: RESULT = new IntConst(l) :}
+	| CONSTCHAR:l {: RESULT = new CharConst(l) :}
+	| CONSTSTR:l  {: RESULT = new StringConst(l) :}
+	| LPA expression:t RPA {: RESULT = t :}
+	;
+
+identifier ::=
+	ID:l				{: RESULT = new Identifier(l); :}
+	;

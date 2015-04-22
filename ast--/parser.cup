@@ -1,0 +1,394 @@
+/*
+	show the import
+*/
+import java.io.*;
+import java.util.*;
+import java_cup.runtime.*;
+
+//Node TreeRoot;
+
+terminal VOID, CHAR, INT, STRUCT, UNION, IF, ELSE, WHILE, FOR, CONTINUE, BREAK, RETURN, SIZEOF;
+
+terminal LPA, RPA, SEMI, COMMA, EVA, LCU, RCU, LSQ, RSQ, MUL, OR, XOR, AND, LT, GT, ADD, SUB, DIV, MOD, COM, NOT, DOT;
+
+terminal OR_L, AND_L, EQ, NE, LE, GE, SHL, SHR, INC, DEC, PTR;
+
+terminal MUL_ASSIGN, DIV_ASSIGN, MOD_ASSIGN, ADD_ASSIGN, SUB_ASSIGN, SHL_ASSIGN, SHR_ASSIGN, AND_ASSIGN, XOR_ASSIGN, OR_ASSIGN;
+
+terminal String ID, CONSTINT, CONSTCHAR, CONSTSTR;
+
+non terminal Node root, declaration, function_definition, parameters, declarators, init_declarators, init_declarator, initializer, type_specifier, struct_or_union, plain_declaration, declarator, plain_declarator;
+
+non terminal Node statement, expression_statement, compound_statement, iteration_statement, jump_statement;
+
+/*select_statement*/
+non terminal Node selection_statement;
+//non terminal Node if_then_statement, if_then_else_statement, if_then_else_statement_no_short_if, statement_no_short_if, further_statement;
+
+non terminal Node expression, assignment_expression, assignment_operator, constant_expression, logical_or_expression, logical_and_expression;
+
+non terminal Node inclusive_or_expression, exclusive_or_expression, and_expression, equality_expression, equality_operator, relational_expression;
+
+non terminal Node relational_operator, shift_expression, shift_operator, additive_expression, additive_operator, multiplicative_expression;
+
+non terminal Node multiplicative_operator, cast_expression, type_name, unary_expression, unary_operator, postfix_expression, postfix, arguments;
+
+non terminal Node primary_expression;
+non terminal Node t_initializer, t_type_specifier, t_declarator, t_declaration, t_statement, identifier;
+
+precedence left ELSE;
+
+root ::= 
+	declaration:l {: RESULT = new Node(NodeType.ROOT, "root",  l); :}
+	| function_definition:l {: RESULT = new Node(NodeType.ROOT, "root", l); :}
+	| root:l declaration:r {: l.Insert(r); RESULT = l; :}
+	| root:l function_definition:r {:l.Insert(r); RESULT = l; :}
+	;
+
+declaration ::=
+	type_specifier:l SEMI {: RESULT = new Node(NodeType.DECLARATION, "declaration", l); :}
+	| type_specifier:l init_declarators:r SEMI {: RESULT = new Node(NodeType.DECLARATION, "declaration", l, r); :}
+	;
+
+function_definition ::=
+	type_specifier:a plain_declarator:b LPA RPA compound_statement:d {: RESULT = new Node(NodeType.FUNCTION_DEFINITION, "function_definition", a, b, d); :}
+	| type_specifier:a plain_declarator:b LPA parameters:c RPA compound_statement:d {: RESULT = new Node(NodeType.FUNCTION_DEFINITION, "function_definition", a, b, c, d); :}
+	;
+
+parameters ::=
+	plain_declaration:l {: RESULT =  new Node(NodeType.PARAMETERS, "parameters", l); :}
+	| parameters:t COMMA plain_declaration:l {: t.Insert(l); RESULT = t; :}
+	;
+
+declarators ::=
+	declarator:l {: RESULT = new Node(NodeType.DECLARATORS, "declarators", l); :}
+	| declarators:t COMMA declarator:l {: t.Insert(l); RESULT = t; :}
+	;
+
+init_declarators ::=
+	init_declarator:l {: RESULT = new Node(NodeType.INIT_DECLARATORS, "init_declarators", l); :}
+	| init_declarators:t COMMA init_declarator:l {: t.Insert(l); RESULT = t; :}
+	;
+
+init_declarator ::=
+	declarator:l {: RESULT = new Node(NodeType.INIT_DECLARATOR, "init_declarator", l); :}
+	| declarator:a EVA initializer:b {: RESULT = new Node(NodeType.INIT_DECLARATOR, "init_declarator = ", a, b); :}
+	;
+	
+initializer ::=
+	assignment_expression:l {: RESULT = l; :}
+	| LCU t_initializer:c RCU {: RESULT = new Node(NodeType.INITIALIZER, "initializer {}", c); :}
+	;
+
+t_initializer ::=
+	initializer:a {: RESULT = new Node(NodeType.INITIALIZER, "initializers", a); :}
+	| t_initializer:b COMMA initializer:a {: b.Insert(a); RESULT = b; :} 
+	;
+
+type_specifier ::=
+	VOID {: RESULT = new Node(NodeType.KEYWORDS, "voidType"); :}
+	| CHAR {: RESULT = new Node(NodeType.KEYWORDS, "charType"); :}
+	| INT {: RESULT = new Node(NodeType.KEYWORDS, "intType"); :}
+	| struct_or_union:b LCU t_type_specifier:a RCU {: RESULT = new Node(NodeType.TYPE_SPECIFIER, "type_specifier {}",b, a); :}
+	| struct_or_union:b identifier:s LCU t_type_specifier:a RCU {: RESULT = new Node(NodeType.TYPE_SPECIFIER, "type_specifier identifier {}", b, s, a); :}
+	| struct_or_union:b identifier:s {: RESULT = new Node(NodeType.TYPE_SPECIFIER, "type_specifier", b, s); :}
+	;
+
+t_type_specifier ::=
+	type_specifier:a declarators:b SEMI {: RESULT = new Node(NodeType.TYPE_SPECIFIERS, "type_specifiers", a, b); :}
+	| t_type_specifier:t type_specifier:a declarators:b SEMI {: t.Insert(new Node(NodeType.TYPE_SPECIFIERS, "type_specifiers", a, b)); RESULT = t; :}
+	;
+
+struct_or_union ::=
+	STRUCT {: RESULT = new Node(NodeType.KEYWORDS, "struct"); :}
+	| UNION {: RESULT = new Node(NodeType.KEYWORDS, "union"); :}
+	;
+
+plain_declaration ::=
+	type_specifier:a declarator:b {: RESULT = new Node(NodeType.PLAIN_DECLARATION, "plain_declaration", a, b); :}
+	;
+
+declarator ::=
+	plain_declarator:a LPA RPA {: RESULT = new Node(NodeType.DECLARATOR, "declarator ()", a); :}
+	| plain_declarator:a LPA parameters:b RPA {: RESULT = new Node(NodeType.DECLARATOR, "declarator ()", a, b); :}
+	| plain_declarator:a {: RESULT = new Node(NodeType.DECLARATOR, "declarator", a); :}
+	| plain_declarator:a t_declarator:b {: RESULT = new Node(NodeType.DECLARATOR, "declarator", a, b); :}
+	;
+
+t_declarator ::=
+	LSQ constant_expression:a RSQ {: RESULT = new Node(NodeType.DECLARATOR, "declarators []", a); :}
+	| t_declarator:b LSQ constant_expression:a RSQ {: RESULT = new Node(NodeType.DECLARATOR, "declarators []", b, a); :}
+	;
+
+plain_declarator ::=
+	identifier:l {: RESULT = l; :}
+	| MUL plain_declarator:a {: RESULT = new Node(NodeType.PLAIN_DECLARATOR, "plain_declarator *", a); :}
+	;
+
+/*---type ending----*/
+
+/*
+statement ::=
+	further_statement
+	| if_then_statement
+	| if_then_else_statement
+	;
+
+statement_no_short_if ::=
+	further_statement
+	| if_then_else_statement_no_short_if
+	;
+*/
+statement ::=
+	expression_statement:l {: RESULT = l; :}
+	| selection_statement:l {: RESULT = l; :}
+	| compound_statement:l {: RESULT = l; :}
+	| iteration_statement:l {: RESULT = l; :}
+	| jump_statement:l {: RESULT = l; :}
+	;
+
+expression_statement ::=
+	SEMI {: RESULT = new Node(NodeType.EXPRESSION_STATEMENT, "expression_statement"); :}
+	| expression:a SEMI {: RESULT = a; :}
+	;
+
+compound_statement ::=
+	LCU RCU {: RESULT = new Node(NodeType.COMPOUND_STATEMENT, "compound_statement {}"); :}
+	| LCU t_declaration:a RCU {: RESULT = new Node(NodeType.COMPOUND_STATEMENT, "compound_statement {}", a); :}
+	| LCU t_statement:a RCU {: RESULT = new Node(NodeType.COMPOUND_STATEMENT, "compound_statement {}", a); :}
+	| LCU t_declaration:a t_statement:b RCU {: RESULT = new Node(NodeType.COMPOUND_STATEMENT, "compound_statement {}", a, b); :}
+	;
+
+t_declaration ::=
+	declaration:a {: RESULT = new Node(NodeType.DECLARATION, "declarations", a); :}
+	| t_declaration:a declaration:b {: a.Insert(b); RESULT = a; :}
+	;
+
+t_statement ::=
+	statement:a{: RESULT = new Node(NodeType.STATEMENT, "statement", a); :}
+	| t_statement:a statement:b {: a.Insert(b); RESULT = a; :}
+	;
+
+
+selection_statement ::=
+	IF LPA expression:a RPA statement:b {: RESULT = new Node (NodeType.SELECTION_STATEMENT, "selection_statement if", a, b); :}
+	| IF LPA expression:a RPA statement:b ELSE statement:c {: RESULT = new Node (NodeType.SELECTION_STATEMENT, "selection_statement if else", a, b, c); :}
+	;
+
+/*
+if_then_statement ::=
+	IF LPA expression:a RPA statement:b {: RESULT = new Node (SELECTION_STATEMENT, "selection_statement if", a, b); :}
+	;
+if_then_else_statement ::=
+	IF LPA expression:a RPA statement_no_short_if:b ELSE statement:c {: RESULT = new Node (SELECTION_STATEMENT, "selection_statement if else", a, b, c); :}
+	;
+if_then_else_statement_no_short_if ::=
+	IF LPA expression:a RPA statement_no_short_if:b ELSE statement_no_short_if:c {: RESULT = new Node (SELECTION_STATEMENT, "selection_statement if else", a, b, c); :}
+	;
+*/
+
+iteration_statement ::=
+	WHILE LPA expression:a RPA statement:b {: RESULT = new Node(NodeType.ITERATION_STATEMENT, "while()", a, b); :}
+    | FOR LPA            SEMI            SEMI            RPA statement:a {:
+        RESULT = new Node(NodeType.ITERATION_STATEMENT, "for(;;)", a);
+    :}
+    | FOR LPA            SEMI            SEMI expression:a RPA statement:b {:
+        RESULT = new Node(NodeType.ITERATION_STATEMENT, "for(;;*)", a, b);
+    :}
+    | FOR LPA            SEMI expression:a SEMI            RPA statement:b {:
+        RESULT = new Node(NodeType.ITERATION_STATEMENT, "for(;*;)", a, b);
+    :}
+    | FOR LPA            SEMI expression:a SEMI expression:b RPA statement:c {:
+        RESULT = new Node(NodeType.ITERATION_STATEMENT, "for(;*;*)", a, b, c);
+    :}
+    | FOR LPA expression:a SEMI            SEMI            RPA statement:b {:
+        RESULT = new Node(NodeType.ITERATION_STATEMENT, "for(*;;)", a, b);
+    :}
+    | FOR LPA expression:a SEMI            SEMI expression:b RPA statement:c {:
+        RESULT = new Node(NodeType.ITERATION_STATEMENT, "for(*;;*)", a, b, c);
+    :}
+    | FOR LPA expression:a SEMI expression:b SEMI            RPA statement:c {:
+        RESULT = new Node(NodeType.ITERATION_STATEMENT, "for(*;*;)", a, b, c);
+    :}
+    | FOR LPA expression:a SEMI expression:b SEMI expression:c RPA statement:d {:
+        RESULT = new Node(NodeType.ITERATION_STATEMENT, "for(*;*;*)", a, b, c, d);
+    :}
+    ;
+    
+jump_statement ::=
+	CONTINUE SEMI {: RESULT = new Node(NodeType.JUMP_STATEMENT, "jump_statement", new Node(NodeType.CONTINUE, "continue")); :}
+	| BREAK SEMI {: RESULT = new Node(NodeType.JUMP_STATEMENT, "jump_statement", new Node(NodeType.BREAK, "break")); :}
+	| RETURN SEMI {: RESULT = new Node(NodeType.JUMP_STATEMENT, "jump_statement", new Node(NodeType.RETURN, "return")); :}
+	| RETURN expression:a SEMI {: RESULT = new Node(NodeType.JUMP_STATEMENT, "jump_statement", new Node(NodeType.RETURN, "return"), a); :}
+	;
+    
+/*---------------------------------------*/
+
+
+expression ::=
+	  assignment_expression:a {: RESULT = new Node(NodeType.EXPRESSION, "expression", a); :}
+	  | expression:a COMMA assignment_expression:b {: RESULT = new Node(NodeType.EXPRESSION, "expression", a, b); :}
+	  ;
+
+assignment_expression ::=
+	logical_or_expression:l {: RESULT = l; :}
+	| unary_expression:a assignment_operator:b assignment_expression:c {: RESULT = new Node(NodeType.ASSIGN_EXPRESSION, "assignment_expression", a, b, c); :}
+	;
+
+assignment_operator ::=
+	EVA {: RESULT = new Node(NodeType.OPERATOR, "="); :}
+	| MUL_ASSIGN {: RESULT = new Node(NodeType.OPERATOR, "*="); :}
+	| DIV_ASSIGN {: RESULT = new Node(NodeType.OPERATOR, "/="); :}
+	| MOD_ASSIGN {: RESULT = new Node(NodeType.OPERATOR, "%="); :} 
+	| ADD_ASSIGN {: RESULT = new Node(NodeType.OPERATOR, "+="); :}
+	| SUB_ASSIGN {: RESULT = new Node(NodeType.OPERATOR, "-="); :}
+	| SHL_ASSIGN {: RESULT = new Node(NodeType.OPERATOR, "<<="); :}
+	| SHR_ASSIGN {: RESULT = new Node(NodeType.OPERATOR, ">>="); :}
+	| AND_ASSIGN {: RESULT = new Node(NodeType.OPERATOR, "&="); :}
+	| XOR_ASSIGN {: RESULT = new Node(NodeType.OPERATOR, "^="); :}
+	| OR_ASSIGN  {: RESULT = new Node(NodeType.OPERATOR, "|="); :}
+	;
+
+constant_expression ::=
+	logical_or_expression:l {: RESULT = l; :}
+	;
+
+logical_or_expression ::=
+	logical_and_expression:l {: RESULT = l; :}
+	| logical_or_expression:a OR_L logical_and_expression:c {: RESULT = new Node(NodeType.LOGICAL_OR_EXPRESSION, "logical_or_expression ||", a, c); :}
+	;
+
+logical_and_expression ::=
+	inclusive_or_expression:l {: RESULT = l; :}
+	| logical_and_expression:a AND_L inclusive_or_expression:c {: RESULT = new Node(NodeType.LOGICAL_AND_EXPRESSION, "logical_and_expression &&", a, c); :}
+	;
+	
+inclusive_or_expression ::=
+	exclusive_or_expression:l {: RESULT = l; :}
+	| inclusive_or_expression:a OR exclusive_or_expression:c {: RESULT = new Node(NodeType.INCLUSIVE_OR_EXPRESSION, "inclusive_or_expression or", a, c); :}
+	;
+
+exclusive_or_expression ::=
+	and_expression:l {: RESULT = l; :}
+	| exclusive_or_expression:a XOR and_expression:c {: RESULT = new Node(NodeType.EXCLUSIVE_OR_EXPRESSION, "exclusive_or_expression xor", a, c); :}
+	;
+	
+and_expression ::=
+	equality_expression:l {: RESULT = l; :}
+	| and_expression:a AND equality_expression:c {: RESULT = new Node(NodeType.AND_EXPRESSION, "and_expression and", a, c); :}
+	;
+	
+equality_expression ::=
+	relational_expression:l {: RESULT = l; :}
+	| equality_expression:a equality_operator:b relational_expression:c {: RESULT = new Node(NodeType.EQUALITY_EXPRESSION, "equality_expression", a, b, c); :}
+	;
+	
+equality_operator ::=
+	EQ {: RESULT = new Node(NodeType.OPERATOR, "=="); :}
+	| NE {: RESULT = new Node(NodeType.OPERATOR, "!="); :}
+	;
+
+relational_expression ::=
+	shift_expression:l {: RESULT = l; :}
+	| relational_expression:a relational_operator:b shift_expression:c {: RESULT = new Node(NodeType.RELATIONAL_EXPRESSION, "relational_expression", a, b, c); :}
+	;
+
+relational_operator ::=
+	LT {: RESULT = new Node(NodeType.OPERATOR, "<"); :}
+	| GT {: RESULT = new Node(NodeType.OPERATOR, ">"); :}
+	| LE {: RESULT = new Node(NodeType.OPERATOR, "<="); :}
+	| GE {: RESULT = new Node(NodeType.OPERATOR, ">="); :}
+	;
+
+shift_expression ::=
+	additive_expression:l {: RESULT = l; :}
+	| shift_expression:a shift_operator:b additive_expression:c {: RESULT = new Node(NodeType.SHIFT_EXPRESSION, "shift_expression", a, b, c); :}
+	;
+
+shift_operator ::=
+	SHL {: RESULT = new Node(NodeType.OPERATOR, "<<"); :}
+	| SHR {: RESULT = new Node(NodeType.OPERATOR, ">>"); :}
+	;
+	
+additive_expression ::=
+	multiplicative_expression:l {: RESULT = l; :}
+	| additive_expression:a additive_operator:b multiplicative_expression:c {: RESULT = new Node(NodeType.ADDITIVE_EXPRESSION, "additive_expression", a, b, c); :}
+	;
+
+additive_operator ::=
+	ADD {: RESULT = new Node(NodeType.OPERATOR, "+"); :}
+	| SUB {: RESULT = new Node(NodeType.OPERATOR, "-"); :}
+	;
+
+multiplicative_expression ::=
+	cast_expression:l {: RESULT = l; :}
+	| multiplicative_expression:a multiplicative_operator:b cast_expression:c {: RESULT = new Node(NodeType.MULTIPLICATIVE_EXPRESSION, "multiplicative_expression", a, b, c); :}
+	;
+
+multiplicative_operator ::=
+	MUL {: RESULT = new Node(NodeType.OPERATOR, "*"); :}
+	| DIV {: RESULT = new Node(NodeType.OPERATOR, "/"); :}
+	| MOD {: RESULT = new Node(NodeType.OPERATOR, "%"); :}
+	;
+
+cast_expression ::=
+	unary_expression:l {: RESULT = l; :}
+	| LPA type_name:a RPA cast_expression:b {: RESULT = new Node(NodeType.CAST_EXPRESSION, "cast_expression ()", a, b); :}
+	;
+
+type_name ::=
+	type_specifier:a {: RESULT = new Node(NodeType.TYPE_NAME, "type_name", a); :}
+	| type_name MUL {: RESULT = new Node(NodeType.TYPE_NAME, "type_name", new Node(NodeType.OPERATOR, "*")); :}
+	;
+
+unary_expression ::=
+	postfix_expression:l {: RESULT = l; :}
+	| INC unary_expression:a {: RESULT = new Node(NodeType.UNARY_EXPRESSION, "unary_expression", new Node(NodeType.OPERATOR, "++"), a); :}
+	| DEC unary_expression:a {: RESULT = new Node(NodeType.UNARY_EXPRESSION, "unary_expression", new Node(NodeType.OPERATOR, "--"), a); :}
+	| unary_operator:a cast_expression:b {: RESULT = new Node(NodeType.UNARY_EXPRESSION, "unary_expression", a, b); :}
+	| SIZEOF unary_expression:a {: RESULT = new Node(NodeType.UNARY_EXPRESSION, "unary_expression", new Node(NodeType.OPERATOR, "sizeof"), a); :}
+	| SIZEOF LPA type_name:a RPA {: RESULT = new Node(NodeType.UNARY_EXPRESSION, "unary_expression()", new Node(NodeType.OPERATOR, "sizeof"), a); :}
+	;
+
+unary_operator ::=
+	AND {: RESULT = new Node(NodeType.UNARY_OPERATOR, "&"); :}
+	| MUL {: RESULT = new Node(NodeType.UNARY_OPERATOR, "*"); :}
+	| ADD {: RESULT = new Node(NodeType.UNARY_OPERATOR, "+"); :}
+	| SUB {: RESULT = new Node(NodeType.UNARY_OPERATOR, "-"); :}
+	| COM {: RESULT = new Node(NodeType.UNARY_OPERATOR, "~"); :}
+	| NOT {: RESULT = new Node(NodeType.UNARY_OPERATOR, "!"); :}
+	;
+
+postfix_expression ::=
+	primary_expression:l {: RESULT = l; :}
+	| postfix_expression:a postfix:b {: RESULT = new Node(NodeType.POSTFIX_EXPRESSION, "postfix_expression", a, b); :}
+	;
+	
+postfix ::=
+	LSQ expression:a RSQ {: RESULT = new Node(NodeType.POSTFIX, "postfix []", a); :}
+	| LPA RPA {: RESULT = new Node(NodeType.POSTFIX, "postfix ()"); :}
+	| LPA arguments:a RPA {: RESULT = new Node(NodeType.POSTFIX, "postfix ()", a); :}
+	| DOT identifier:a {: RESULT = new Node(NodeType.POSTFIX, "postfix .", new Node(NodeType.OPERATOR, ".")); :}
+	| PTR identifier:a {: RESULT = new Node(NodeType.POSTFIX, "postfix ->", new Node(NodeType.OPERATOR, "->")); :}
+	| INC  {: RESULT = new Node(NodeType.POSTFIX, "postfix []", new Node(NodeType.OPERATOR, "++")); :}
+	| DEC  {: RESULT = new Node(NodeType.POSTFIX, "postfix []", new Node(NodeType.OPERATOR, "--")); :}
+	;
+
+arguments ::=
+	assignment_expression:a {: RESULT = new Node(NodeType.ARGUMENTS, "arguments", a); :}
+	| arguments:b COMMA assignment_expression:a {: b.Insert(a);RESULT = b;  :}
+	;
+
+primary_expression ::=
+	  identifier:l {: RESULT = l; :}
+	| CONSTINT:l {: RESULT = new Node(NodeType.INTEGER_CONSTANT, l); :}
+	| CONSTCHAR:l {: RESULT = new Node(NodeType.CHARACTER_CONSTANT, l); :}
+	| CONSTSTR:l  {: RESULT = new Node(NodeType.STRING_CONSTANT, l); :}
+	| LPA expression:t RPA {: RESULT = new Node(NodeType.PRIMARY_EXPRESSION, "primary_expression ()", t); :}
+	;
+
+identifier ::=
+	ID:l				{: RESULT = new Node(NodeType.IDENTIFIER, l); :}
+	;
+	
+

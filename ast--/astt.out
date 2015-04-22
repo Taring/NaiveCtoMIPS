@@ -1,0 +1,18 @@
+root
+|_function_definition
+  |_intType
+  |_main
+  |_compound_statement {}
+    |_declarations
+    | |_declaration
+    |   |_intType
+    |   |_init_declarators
+    |     |_init_declarator = 
+    |       |_declarator
+    |       | |_zjr
+    |       |_1
+    |_statement
+      |_jump_statement
+        |_return
+        |_expression
+          |_0

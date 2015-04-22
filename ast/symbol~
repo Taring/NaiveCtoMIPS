@@ -1,0 +1,66 @@
+
+//Teminal Assisment
+VOID		void
+CHAR		char
+INT			int
+STRUCT		struct
+UNION		union
+IF			if
+ELSE		else
+WHILE		while
+FOR			for
+CONTINUE	continue
+BREAK		break
+RETURN		return
+SIZEOF		sizeof
+
+LPA			(
+RPA			)
+SEMI 		;
+COMMA 		,
+EVA 		=
+LCU			{
+RCU	 		}
+LSQ			[
+RSQ	 		]
+MUL 		*
+OR	 		|
+XOR 		^
+AND 		&
+LT 			<
+GT 			>
+ADD 		+
+SUB			-
+MUL 		*
+DIV			/
+MOD			%
+TILDE 		~
+NOT_L 		!
+DOT			.
+ 
+OR_L  	 	||
+AND_L 	 	&&
+EQ  		==
+NE   		!=
+LE   		<=
+GE   		>=
+SHL  		<<
+SHR  		>>
+INC  		++
+DEC  		--
+PTR			->
+
+MUL_ASSIGN	*=
+DIV_ASSIGN  /=
+MOD_ASSIGN  %=
+ADD_ASSIGN  +=
+SUB_ASSIGN  -=
+SHL_ASSIGN  <<=
+SHR_ASSIGN  >>=
+AND_ASSIGN  &=
+XOR_ASSIGN  ^=
+OR_ASSIGN   |=
+
+/Non-terminal Assign
+
+
