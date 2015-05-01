@@ -55,7 +55,7 @@ public class semantic {
 	
 	public void CompilerError(String str) {
 		legal = false;
-		System.exit(0);
+		System.exit(1);
 		//System.out.println(str);
 	}
 	
@@ -890,7 +890,7 @@ public class semantic {
 	public InfoNode semantics_check_unary_expression(Node p) {
 		if (p.type != NodeType.UNARY_EXPRESSION)
 			return this.semantics_check_postfix_expression(p);
-		if (p.Child.get(0).type == NodeType.UNARY_EXPRESSION) {
+		if (p.Child.get(0).type == NodeType.UNARY_OPERATOR) {
 			InfoNode ret = this.semantics_check_cast_expression(p.Child.get(1));
 
 			if (p.Child.get(0).data.equals("&")) {
