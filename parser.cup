@@ -372,10 +372,10 @@ postfix ::=
 	LSQ expression:a RSQ {: RESULT = new Node(NodeType.POSTFIX, "postfix []", a); :}
 	| LPA RPA {: RESULT = new Node(NodeType.POSTFIX, "postfix ()"); :}
 	| LPA arguments:a RPA {: RESULT = new Node(NodeType.POSTFIX, "postfix ()", a); :}
-	| DOT identifier:a {: RESULT = new Node(NodeType.POSTFIX, "postfix .", new Node(NodeType.OPERATOR, ".")); :}
-	| PTR identifier:a {: RESULT = new Node(NodeType.POSTFIX, "postfix ->", new Node(NodeType.OPERATOR, "->")); :}
+	| DOT identifier:a {: RESULT = new Node(NodeType.POSTFIX, "postfix .", new Node(NodeType.OPERATOR, "."), a); :}
+	| PTR identifier:a {: RESULT = new Node(NodeType.POSTFIX, "postfix ->", new Node(NodeType.OPERATOR, "->"), a); :}
 	| INC  {: RESULT = new Node(NodeType.POSTFIX, "postfix ++", new Node(NodeType.OPERATOR, "++")); :}
-	| DEC  {: RESULT = new Node(NodeType.POSTFIX, "postfix —-", new Node(NodeType.OPERATOR, "--")); :}
+	| DEC  {: RESULT = new Node(NodeType.POSTFIX, "postfix --", new Node(NodeType.OPERATOR, "--")); :}
 	;
 
 arguments ::=

@@ -2808,7 +2808,7 @@ class CUP$parser$actions {
 		int aleft = ((java_cup.runtime.Symbol)CUP$parser$stack.peek()).left;
 		int aright = ((java_cup.runtime.Symbol)CUP$parser$stack.peek()).right;
 		Node a = (Node)((java_cup.runtime.Symbol) CUP$parser$stack.peek()).value;
-		 RESULT = new Node(NodeType.POSTFIX, "postfix .", new Node(NodeType.OPERATOR, ".")); 
+		 RESULT = new Node(NodeType.POSTFIX, "postfix .", new Node(NodeType.OPERATOR, "."), a); 
               CUP$parser$result = parser.getSymbolFactory().newSymbol("postfix",43, ((java_cup.runtime.Symbol)CUP$parser$stack.elementAt(CUP$parser$top-1)), ((java_cup.runtime.Symbol)CUP$parser$stack.peek()), RESULT);
             }
           return CUP$parser$result;
@@ -2820,7 +2820,7 @@ class CUP$parser$actions {
 		int aleft = ((java_cup.runtime.Symbol)CUP$parser$stack.peek()).left;
 		int aright = ((java_cup.runtime.Symbol)CUP$parser$stack.peek()).right;
 		Node a = (Node)((java_cup.runtime.Symbol) CUP$parser$stack.peek()).value;
-		 RESULT = new Node(NodeType.POSTFIX, "postfix ->", new Node(NodeType.OPERATOR, "->")); 
+		 RESULT = new Node(NodeType.POSTFIX, "postfix ->", new Node(NodeType.OPERATOR, "->"), a); 
               CUP$parser$result = parser.getSymbolFactory().newSymbol("postfix",43, ((java_cup.runtime.Symbol)CUP$parser$stack.elementAt(CUP$parser$top-1)), ((java_cup.runtime.Symbol)CUP$parser$stack.peek()), RESULT);
             }
           return CUP$parser$result;
@@ -2838,7 +2838,7 @@ class CUP$parser$actions {
           case 144: // postfix ::= DEC 
             {
               Node RESULT =null;
-		 RESULT = new Node(NodeType.POSTFIX, "postfix —-", new Node(NodeType.OPERATOR, "--")); 
+		 RESULT = new Node(NodeType.POSTFIX, "postfix --", new Node(NodeType.OPERATOR, "--")); 
               CUP$parser$result = parser.getSymbolFactory().newSymbol("postfix",43, ((java_cup.runtime.Symbol)CUP$parser$stack.peek()), ((java_cup.runtime.Symbol)CUP$parser$stack.peek()), RESULT);
             }
           return CUP$parser$result;

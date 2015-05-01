@@ -6,10 +6,14 @@ public class SymbolTable {
 	//public Map<String, InfoNode> SorU;
 	public int level;
 
+	public ArrayList<InfoNode> SorU;
+
 	public SymbolTable() {
 		S = new ArrayList< ArrayList<InfoNode> >();
 		S.add(new ArrayList<InfoNode>());
+		SorU = new ArrayList<InfoNode>();
 		//SorU = new HashMap<String, InfoNode>();
+		//System.out.println("turing");
 		
 		level = 0;
 	}
@@ -36,7 +40,7 @@ public class SymbolTable {
 
 	public void insert(InfoNode p) {
 		InfoNode q = new InfoNode(p);
-		//System.out.println(q.identifier + "  just insert");
+		//System.out.println(q.identifier + "  just insert in " + level);
 		//S.get(level).put(q.identifier,q);
 		S.get(level).add(q);
 	}
@@ -46,6 +50,7 @@ public class SymbolTable {
 		//System.out.println(q.info.record.name + "  record insert");
 		//SorU.put(q.info.record.name, q);
 		S.get(level).add(q);
+		SorU.add(q);
 	}
 
 	public boolean query_top(String p) {
@@ -60,7 +65,21 @@ public class SymbolTable {
 	public boolean query_function(String p) {
 		for (int i = 0; i < S.get(0).size(); ++i) {
 			InfoNode now = S.get(0).get(i);
+			/*
 			if (now.type == InfoNodeType.FUNCTION && p.equals(now.identifier) )
+				return true;
+			*/
+			if (p.equals(now.identifier))
+				return true;
+		}
+		return false;
+	}
+
+	public boolean query_record(InfoNode p) {
+		//System.out.println(p.info.record.name + "   query record!");
+		for (int i = 0; i < SorU.size(); ++i) {
+			InfoNode now = SorU.get(i);
+			if (now.info.record.name.equals(p.info.record.name))
 				return true;
 		}
 		return false;
