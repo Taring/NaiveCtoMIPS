@@ -55,7 +55,8 @@ public class semantic {
 	
 	public void CompilerError(String str) {
 		legal = false;
-		System.out.println(str);
+		System.exit(0);
+		//System.out.println(str);
 	}
 	
 	public semantic() {
@@ -1096,7 +1097,7 @@ public class semantic {
 				ret.type = InfoNodeType.INT;
 				ret.value = 0;
 			} else {
-				System.out.println(p.data);
+				//System.out.println(p.data);
 				ret = table.fetch_identifier(p.data);
 				if (ret == null)
 					this.CompilerError("No ID:" + p.data + "found");
@@ -1133,7 +1134,7 @@ public class semantic {
 			ret.info.pointer.type = InfoNodeType.CHAR;
 			ret.info.pointer.width = WIDTH_CHAR;//How to show that
 		} else {
-			System.out.println(p.data);
+			//System.out.println(p.data);
 			ret = semantics_check_expression(p.Child.get(0));
 		}
 

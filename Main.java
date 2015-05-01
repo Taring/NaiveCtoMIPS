@@ -14,6 +14,7 @@ public class Main {
 		} catch (Exception e) {
 			//e.printStackTrace();
 			//System.out.println(0);
+			System.out.println(1);
 			System.exit(1);
 		}
 
@@ -24,10 +25,12 @@ public class Main {
 
         semantic sem = new semantic(TreeRoot);
 
-        if (sem.legal)
+        if (sem.legal) {
+        	System.out.println(0);
         	System.exit(0);
-        else
+        }else {
+        	System.out.println(1);
         	System.exit(1);
-
+		}
 	}
 }
