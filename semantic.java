@@ -31,7 +31,7 @@ public class semantic {
 		if (s.charAt(0) == '0') {
 			if (s.length() == 1)
 				return 0;
-			if (s.charAt(1) == 'x' || s.charAt(2) == 'X') { //16
+			if (s.charAt(1) == 'x' || s.charAt(1) == 'X') { //16
 				String s2 = s.substring(2);
 				return Integer.valueOf(s2, 16);
 			}
@@ -394,7 +394,7 @@ public class semantic {
 		//System.out.println("function----");
 
 		table.next_level();
-		//System.out.println(c.info.function.pars.size());
+		//System.out.println(c.info.function.size);
 
 		for (int i = 0; i < c.info.function.size; ++i) {
 			InfoNode tmp = c.info.function.pars.get(i);
@@ -402,6 +402,7 @@ public class semantic {
 				this.CompilerError("variable rename:" + tmp.identifier);
 			}
 			table.insert(tmp);
+			//System.out.println(tmp.identifier);
 		}
 		table.level--;
 		this.semantics_check(p.Child.get(p.Child.size() - 1));
@@ -411,10 +412,12 @@ public class semantic {
 	}
 
 	public InfoNodeFunction semantics_check_parameters(Node p) {
+		//System.out.println("parameters visited!");
 		InfoNodeFunction ret = new InfoNodeFunction();
 		ret.offset = new int[p.Child.size() + 1];
 		ret.offset[0] = 0;
 		ret.pars = new ArrayList<InfoNode>();
+		ret.size = p.Child.size();
 
 		int current = 0;
 		//Node[] da = p.Child.toArray();
@@ -845,8 +848,9 @@ public class semantic {
 		if (p.type != NodeType.CAST_EXPRESSION) {
 			return this.semantics_check_unary_expression(p);
 		}
-		InfoNode x = this.semantics_check_multiplicative_expression(p.Child.get(0));
+		InfoNode x = this.semantics_check_type_name(p.Child.get(0));
 		InfoNode y = this.semantics_check_cast_expression(p.Child.get(1));
+		//System.out.println(x.identifier + "   "+ y.identifier);
 		if (x.type == InfoNodeType.FUNCTION || x.type == InfoNodeType.ARRAY ||
 			x.type == InfoNodeType.STRUCT || x.type == InfoNodeType.UNION ||
 			x.type == InfoNodeType.VOID || x.type == InfoNodeType.NAME) {
@@ -1092,6 +1096,7 @@ public class semantic {
 				ret.type = InfoNodeType.INT;
 				ret.value = 0;
 			} else {
+				System.out.println(p.data);
 				ret = table.fetch_identifier(p.data);
 				if (ret == null)
 					this.CompilerError("No ID:" + p.data + "found");
@@ -1128,6 +1133,7 @@ public class semantic {
 			ret.info.pointer.type = InfoNodeType.CHAR;
 			ret.info.pointer.width = WIDTH_CHAR;//How to show that
 		} else {
+			System.out.println(p.data);
 			ret = semantics_check_expression(p.Child.get(0));
 		}
 

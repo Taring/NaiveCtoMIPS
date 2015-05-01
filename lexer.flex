@@ -48,12 +48,15 @@ LineTerminator = \r|\n|\r\n
 InputCharacter = [^\r\n]
 WhiteSpace = {LineTerminator}|[ \t\f]
 
-/*Comments*/
-Comment = {OneLineComment} | {IncludeComment} | {TraditionalComment}
 
-TraditionalComment = "/*"[^"*/"]*"*/"
+
+/*Comments*/
+Comment = {OneLineComment} | {IncludeComment} | {TraditionalComment} | {DocumentationComment}
+
+TraditionalComment = "/*" [^*] ~"*/" | "/*" "*"+ "/"
+DocumentationComment = "/*" "*"+ [^/*] ~"*/"
 IncludeComment = #[^"\n"]*"\n"
-OneLineComment = "//"[^"\n"]*"\n"
+OneLineComment = "//"[^"\n"]*{LineTerminator}?
 
 /*Constants*/
 Identifier = [a-zA-Z_$][a-zA-Z_$0-9]*

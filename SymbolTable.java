@@ -36,12 +36,14 @@ public class SymbolTable {
 
 	public void insert(InfoNode p) {
 		InfoNode q = new InfoNode(p);
+		//System.out.println(q.identifier + "  just insert");
 		//S.get(level).put(q.identifier,q);
 		S.get(level).add(q);
 	}
 
 	public void insert_record(InfoNode p) {// but name with "?#"
 		InfoNode q = new InfoNode(p);
+		//System.out.println(q.info.record.name + "  record insert");
 		//SorU.put(q.info.record.name, q);
 		S.get(level).add(q);
 	}
