@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+
+public class InfoNodeArray {
+	InfoNode ptr; // The ID of array
+	int size; // the size of array
+	int width; //the bytes of array
+	
+	public InfoNodeArray() {
+		this.ptr = null;
+		size = 0;
+		width = 0;
+	}
+}

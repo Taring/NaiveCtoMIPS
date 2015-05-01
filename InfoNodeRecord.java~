@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class InfoNodeRecord {
+
+	String name;
+
+	int size;//the size of X 
+	List<InfoNode> field;//the list of X
+	int[] offset;//to calculate the memory of each element of list
+	int width;//..
+	
+	public InfoNodeRecord() {
+		this.field = null;
+		witdh = 0;
+		size = 0;
+		this.offset = null;
+	}
+}

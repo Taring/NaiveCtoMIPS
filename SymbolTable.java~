@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+
+public class SymbolTable {
+	public static final int MAX_LEVEL = 233;
+	public List<HashMap<String, InfoNode> > env,SorU;
+	int level;
+
+	public SymbolTable() {
+		env = new ArrayList<HashMap<String, InfoNode> >();
+		SorU = new ArrayList<HashMap<String, InfoNode> >();
+	}
+	
+}

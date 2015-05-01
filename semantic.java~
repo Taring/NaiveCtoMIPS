@@ -1,0 +1,76 @@
+import java.io.*;
+import java.util.*;
+
+public class semantic {
+
+	SymbolTable table;
+	int loop_count, empty_count;
+	boolean legal;
+	
+	void CompilerError(String str) {
+		legal = false;
+		System.out.println(str);
+	}
+	
+	public semantic() {
+		table = null;
+		loop_count = empty_count = 0;
+		legal = false;
+	}
+
+	public semantic(Node Root) {
+		loop_count = empty_count = 0;
+
+		table = new SymbolTable();
+		legal = true;
+	
+		this.semantics_check(Root); 
+	}
+	
+	private void semantics_check(Node p) {
+		switch (p.type) {
+			case ROOT: this.semantics_check_root(p); break;
+			case DECLARATION: this.semantics_check_declaration(p); break;
+			//case NodeType.FUNCTION_DEFINITION: this.semantics_check_function_definition(p); break;
+			//case NodeType.EXPRESSION_STATEMENT: break;
+			//case NodeType.COMPOUND_STATEMENT: this.semantics_check_compound_statement(p); break;
+			//case NodeType.SELECTION_STATEMENT: this.semantics_check_selection_statement(p); break;
+			//case NodeType.ITERATION_STATEMENT: this.semantics_check_iteration_statement(p); break;
+			//case NodeType.JUMP_STATEMENT: this.semantics_check_jump_statement(p); break;
+			//case NodeType.EXPRESSION: p.info = this.semantics_check_expression(p); break;
+			default: this.CompilerError("Semantics_check_ERROR");
+		}
+	}
+
+	private void semantics_check_root(Node p) {
+		Iterator<Node> itr = p.Child.iterator();
+		while (itr.hasNext()) {
+			Node u = itr.next();
+			semantics_check(u);
+		}
+	}
+	
+	private void semantics_check_declaration(Node p) {
+		if (!legal) return;
+		InfoNode base = semantics_check_type_specifier(p.Child.get(0));
+		if (base.type == InfoNodeType.STRUCT || base.type == InfoNodeType.UNION) {
+			if (base.info.record.size > 0) {
+				base.isleftvalue = false;
+				table.insert_record(base);
+			} else this.CompilerError("Impolite Record size");
+		} else if (base.type == InfoNodeType.NAME) {
+			if (table.query_type(base)) {
+				base = table.fetch_type_instance(base);
+			}
+		} else if (!table.query_type(base)) {
+			this.CompileError("Type Undefined");
+		}
+		if (p.Child.size() != 1) {
+			if (base->type == InfoNodeType.VOID) {
+				this.CompileError("Only VOID Error");
+			}
+			
+		}
+	}
+
+}

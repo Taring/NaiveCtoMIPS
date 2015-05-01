@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class InfoNodeFunction {
+	int size;//the size of X 
+	List<InfoNode> pars;//the list of X
+	int[] offset;//to calculate the memory of each element of list
+	int width;//..
+	InfoNode ret;//return Information like
+	
+	public InfoNodeFunction() {
+		this.pars = null;
+		this.ret = null;
+		offset = null;
+		width = 0;
+		size = 0;
+		
+	}
+}

@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+
+public enum TypeInfoNode {
+    INT,
+    CHAR,
+    VOID,
+    ARRAY,
+    POINTER,
+    STRUCT,
+    UNION,
+    FUNCTION,
+    NAME
+}
