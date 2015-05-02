@@ -42,6 +42,7 @@ public class SymbolTable {
 		InfoNode q = new InfoNode(p);
 		//System.out.println(q.identifier + "  just insert in " + level);
 		//S.get(level).put(q.identifier,q);
+		//System.out.println(q.identifier + "  ***  " + level + " *** " + q.isleftvalue);
 		S.get(level).add(q);
 	}
 
@@ -49,26 +50,18 @@ public class SymbolTable {
 		InfoNode q = new InfoNode(p);
 		//System.out.println(q.info.record.name + "  record insert");
 		//SorU.put(q.info.record.name, q);
-		S.get(level).add(q);
+		//S.get(level).add(q);
+		//System.out.println(q.info.record.name + "      " + level + "   " + q.isleftvalue);
 		SorU.add(q);
 	}
 
 	public boolean query_top(String p) {
 		for (int i = 0; i < S.get(level).size(); ++i) {
 			InfoNode now = S.get(level).get(i);
+			/*
 			if (now.isinstance && p.equals(now.identifier))
 				return true;
-		}
-		return false;
-	}
-
-	public boolean query_function(String p) {
-		for (int i = 0; i < S.get(0).size(); ++i) {
-			InfoNode now = S.get(0).get(i);
-			/*
-			if (now.type == InfoNodeType.FUNCTION && p.equals(now.identifier) )
-				return true;
-			*/
+				*/
 			if (p.equals(now.identifier))
 				return true;
 		}
@@ -79,7 +72,7 @@ public class SymbolTable {
 		//System.out.println(p.info.record.name + "   query record!");
 		for (int i = 0; i < SorU.size(); ++i) {
 			InfoNode now = SorU.get(i);
-			if (now.info.record.name.equals(p.info.record.name))
+			if (now.info.record.name.equals(p.info.record.name) && now.info.record.size > 0)
 				return true;
 		}
 		return false;
@@ -95,6 +88,7 @@ public class SymbolTable {
 			return true;
 		}
 
+
 		InfoNodeType real_type = p.type;
 		int flag = 0;// Calulate the length of s# or u#
 		if (p.type == InfoNodeType.NAME) {
@@ -102,24 +96,14 @@ public class SymbolTable {
 				else real_type = InfoNodeType.UNION;
 			flag = 2;
 		}
-
-		for (int i = level; i >= 0; --i)
-			for (int j = 0; j < S.get(i).size(); ++j) {
-				InfoNode now = S.get(i).get(j);
-				if ((!now.isinstance) && now.type == real_type)
-					if ( now.info.record.name.equals(p.info.record.name.substring(flag)) )
-						return true;
-			}
-		return false;
-	}
-
-	public InfoNode fetch_function(String p) {
-		for (int i = 0; i < S.get(0).size(); ++i) {
-			InfoNode now = S.get(0).get(i);
-			if (now.type == InfoNodeType.FUNCTION && p.equals(now.identifier))
-				return new InfoNode(now);
+		//InfoNodeType NAME!
+		for (int i = 0; i < SorU.size(); ++i) {
+			InfoNode now = SorU.get(i);
+			if (now.type == real_type && now.info.record.name.equals(p.info.record.name.substring(flag)) )
+				return true;
 		}
-		return null;
+
+		return false;
 	}
 
 	public InfoNode fetch_identifier(String p) {
@@ -148,15 +132,13 @@ public class SymbolTable {
 				else real_type = InfoNodeType.UNION;
 			flag = 2;
 		}
+		//InfoNodeType NAME!
+		for (int i = 0; i < SorU.size(); ++i) {
+			InfoNode now = SorU.get(i);
+			if (now.type == real_type && now.info.record.name.equals(p.info.record.name.substring(flag)) )
+				return new InfoNode(now);
+		}
 
-		for (int i = level; i >= 0; --i)
-			for (int j = 0; j < S.get(i).size(); ++j) {
-				InfoNode now = S.get(i).get(j);
-				if ((!now.isinstance) && now.type == real_type)
-					if ( now.info.record.name.equals(p.info.record.name.substring(flag)) )
-						return new InfoNode(now);
-			}
-			
-		return null;		
+		return null;	
 	}
 }

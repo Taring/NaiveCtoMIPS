@@ -18,10 +18,12 @@ public class InfoNodeFunction {
 
 	public InfoNodeFunction(InfoNodeFunction p) {
 		this.size = p.size;
-		if (p.pars != null)
+		if (p.pars != null) {
 			//this.pars = p.pars.clone();
-			this.pars = new ArrayList<InfoNode>(p.pars);
-		else
+			this.pars = new ArrayList<InfoNode>();
+			for (int i = 0; i < p.pars.size(); ++i)
+				this.pars.add(new InfoNode(p.pars.get(i)));
+		} else
 			this.pars = null;
 		if (p.size != -1) {
 			this.offset = new int[p.size + 1];

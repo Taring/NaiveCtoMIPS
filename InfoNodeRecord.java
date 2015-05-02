@@ -21,7 +21,9 @@ public class InfoNodeRecord {
 		this.size = p.size;
 		if (p.name != null)
 			this.name = new String(p.name);
-		this.field = new ArrayList<InfoNode>(p.field);
+		this.field = new ArrayList<InfoNode>();
+		for (int i = 0; i < p.field.size(); ++i)
+			this.field.add(new InfoNode(p.field.get(i)));
 		//this.field = p.field.clone();
 		this.offset = new int[this.size + 1];
 		for (int i = 0; i <= this.size; ++i)

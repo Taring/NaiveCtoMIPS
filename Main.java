@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Main {
 	static public void main(String[] argv ) throws IOException{
-		FileReader reader =  new FileReader(argv[0]);
+		StringReader reader =  new StringReader(BufferedInputFile.read(argv[0]));
 		lexer lex = new lexer(reader);
 
 		parser parse = new parser(lex);
@@ -18,12 +18,12 @@ public class Main {
 			System.exit(1);
 		}
 
-		//if (TreeRoot == null) System.out.println("What the Fuck!");
-		
-		//WArray xxx = new WArray();
- 		//TreeRoot.printAst(xxx, 0);
+		if (TreeRoot == null) System.out.println("What the Fuck!");
+		WArray xxx = new WArray();
+ 		TreeRoot.printAst(xxx, 0);
 
-        semantic sem = new semantic(TreeRoot);
+        semantic sem = new semantic();
+        sem.semantic_root(TreeRoot);
 
         if (sem.legal) {
         	System.out.println(0);
