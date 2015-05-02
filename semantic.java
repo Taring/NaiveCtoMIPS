@@ -47,6 +47,46 @@ public class semantic {
 		return Integer.valueOf(s);
 	}
 
+
+	public boolean string_legal(String s) {
+		for (int i = 0; i < s.length(); ++i) {
+			if (s.charAt(i) == '\\') {
+				if (i == s.length() - 1) 
+					return false;
+				char ch = s.charAt(++i);
+				switch (ch) {
+					case 'a': /* BEL */ break;
+					case 'b': /* BS */ break;
+					case 'f': /* FF */ break;
+					case 'n': /* LF */ break;
+					case 'r': /* CR */ break;
+					case 't': /* HT */ break;
+					case 'v': /* VT */ break;
+					case '\\': /* \ */ break;
+					case '?': /* ? */ break;
+					case '\'': /* ' */ break;
+					case '\"': /* " */ break;
+					case '0': /* NULL */ break;
+					default: {
+						if ('1' <= ch  && ch <= '7')
+							continue;
+						if (ch == 'x') {
+							if (i == s.length() - 1)
+								return false;
+							ch = s.charAt(++i);
+							if (('a' <= ch && ch <= 'f') || ('A' <= ch && ch <= 'F') || ('0' <= ch && ch <= '9'))
+								continue;
+						}
+						return false;
+					}
+				}
+			}
+		}
+		
+		return true;
+	}
+	
+
 	public String empty_name() {
 		String out = "";
 		for (int i = 0; i < 8; ++i)
@@ -363,7 +403,18 @@ public class semantic {
 			this.semantic_initializer(p.Child.get(1), ptr);
 	}
 
-	public void semantic_initializer(Node p, InfoNode ptr) { //always legal
+	public void semantic_initializer(Node p, InfoNode ptr) { //just solve the simplist way -- failed
+/*		
+		if (ptr.type == InfoNodeType.INT) {
+			if (p.type != NodeType.INITIALIZER) {
+				InfoNode tmp = this.semantic_assignment_expression(p);
+				if (tmp.type != ptr.type)
+					this.CompilerError("INT ERROR TYPE");
+			} else 	this.semantic_initializer(p.Child.get(0), ptr);
+			return;
+		}
+*/
+
 		if (p.type != NodeType.INITIALIZER) {
 			InfoNode tmp = this.semantic_assignment_expression(p);
 			/*
@@ -373,13 +424,19 @@ public class semantic {
 			return;
 		}
 		/*
+		if (p.type != NodeType.INITIALIZER) {
+			InfoNode tmp = this.semantic_assignment_expression(p);
+			
+			if (!ptr.CanWrite(tmp) )
+				this.CompilerError("Initializer destoryed");
+			return;
+		}
 		for (int i = 0; i < p.Child.size(); ++i) {
 			Node now = p.Child.get(i);
 			InfoNode d_ptr = (ptr) -> reduce;
 			semantic_initializer(now, d_ptr);
 		}
 		*/
-		
 	}
 
 	public void semantic_function_definition(Node p) {
@@ -1172,6 +1229,9 @@ public class semantic {
 				ret.value = p.data.charAt(1);
 			}
 		} else if (p.type == NodeType.STRING_CONSTANT) {
+			if (!this.string_legal(p.data.substring(1, p.data.length() - 1))) {
+				this.CompilerError("String Error");
+			}
 			ret = new InfoNode();
 			ret.isinstance = true;
 			ret.type = InfoNodeType.POINTER;

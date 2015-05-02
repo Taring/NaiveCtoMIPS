@@ -1,1 +1,0 @@
-Difficult name typein1
