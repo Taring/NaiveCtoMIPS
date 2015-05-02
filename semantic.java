@@ -56,7 +56,7 @@ public class semantic {
 	
 	public void CompilerError(String str) {
 		legal = false;
-	    System.out.println(str);
+	    //System.out.println(str);
         System.exit(1);
 		//System.out.println(str);
 	}
@@ -163,9 +163,12 @@ public class semantic {
 		}
 		//System.out.println(base.type);
 		if (p.Child.size() != 1) {
+			/*
 			if (base.type == InfoNodeType.VOID) {
+				//System.out.println(p.Child.get(1).type);
 				this.CompilerError("Only VOID Error");
 			}
+			*/
 			//Node[] da = p.Child.get(1).Child.toArray();
 			for (int i = 0; i < p.Child.get(1).Child.size(); ++i) {
 				this.semantic_init_declarator(p.Child.get(1).Child.get(i), base);
@@ -282,12 +285,12 @@ public class semantic {
 	}
 
 	public InfoNode semantic_declarator(Node p, InfoNode ptr) {
-		if (p.type != NodeType.DECLARATOR) {
-			this.CompilerError("DECLARATOR Error");
-		}
 		ptr = this.semantic_plain_declarator(p.Child.get(0), ptr);
+		if (ptr.type == InfoNodeType.VOID) {
+			this.CompilerError("Only VOID Error");			
+		}
 		if (ptr.type == InfoNodeType.NAME) {
-			System.out.println(ptr.info.record.name);
+			//System.out.println(ptr.info.record.name);
 			this.CompilerError("Difficult name type" + ptr.identifier);
 		}
 		if (p.Child.size() > 1) {
@@ -360,12 +363,23 @@ public class semantic {
 			this.semantic_initializer(p.Child.get(1), ptr);
 	}
 
-	public void semantic_initializer(Node p, InfoNode ptr) {
+	public void semantic_initializer(Node p, InfoNode ptr) { //always legal
 		if (p.type != NodeType.INITIALIZER) {
-			this.semantic_assignment_expression(p);
+			InfoNode tmp = this.semantic_assignment_expression(p);
+			/*
+			if (!ptr.CanWrite(tmp) )
+				this.CompilerError("Initializer destoryed");
+				*/
 			return;
-		} 
-		//wtf= =
+		}
+		/*
+		for (int i = 0; i < p.Child.size(); ++i) {
+			Node now = p.Child.get(i);
+			InfoNode d_ptr = (ptr) -> reduce;
+			semantic_initializer(now, d_ptr);
+		}
+		*/
+		
 	}
 
 	public void semantic_function_definition(Node p) {
@@ -577,14 +591,16 @@ public class semantic {
 		}
 		//System.out.println("---wlgc---");
 		InfoNode x = this.semantic_unary_expression(p.Child.get(0));
-		if (!x.isleftvalue)
+		if (!x.isleftvalue) {
+			//System.out.println(x.type);
 			this.CompilerError("left value happened");
+		}
 		InfoNode y = this.semantic_assignment_expression(p.Child.get(2));
 		if (p.Child.get(1).data.equals("=")) {
 			if (!semantic_same_type(x, y))
 				this.CompilerError("Assginment Error of same type");
 		} else {
-			if (!this.isint(x.type) || !isint(y.type)) 
+			if (!this.isscalar(x.type) || !isscalar(y.type)) 
 				this.CompilerError("Assignment Error of not int");
 		}
 		p.info = new InfoNode(x);
@@ -889,6 +905,7 @@ public class semantic {
 			ret.type = InfoNodeType.POINTER;
 			ret.info.pointer = this.semantic_type_name(p.Child.get(0));
 		}
+
 		p.info = new InfoNode(ret);
 		return ret;
 	}
@@ -913,7 +930,7 @@ public class semantic {
 					ret = ret.info.array.ptr;
 				else this.CompilerError("unary * Error");
 			} else {
-				if (!this.isint(ret.type))
+				if (!this.isscalar(ret.type))
 					this.CompilerError("Unary Normal Error");
 				if (ret.isconst) {
 					if (p.Child.get(0).data.equals("-")) {
@@ -1010,8 +1027,8 @@ public class semantic {
 					InfoNode du = semantic_assignment_expression(u);
 					InfoNode dv = itr2.next();
 					if (!semantic_same_type(dv,du)) {
-						System.out.println(du.identifier + " --- " + dv.identifier);
-						System.out.println(du.type + " --- " + dv.type);
+						//System.out.println(du.identifier + " --- " + dv.identifier);
+						//System.out.println(du.type + " --- " + dv.type);
 						this.CompilerError("function argument type Error");
 					}
 				}
@@ -1093,8 +1110,8 @@ public class semantic {
 
 		if (postfix.data.equals("postfix ++") || postfix.data.equals("postfix --")) {
 			if (!ret.isleftvalue) {
-				System.out.println(ret.identifier);
-				System.out.println(ret.type);
+				//System.out.println(ret.identifier);
+				//System.out.println(ret.type);
 				this.CompilerError("left value ++ postfix Error");
 			}
 			if (ret.isconst)
@@ -1111,7 +1128,7 @@ public class semantic {
 			return ret;
 		}
 
-		System.out.println(postfix.data.equals("postfix --"));
+		//System.out.println(postfix.data.equals("postfix --"));
 		this.CompilerError("Terrible Mistakes");
 		return ret;
 	}
@@ -1160,7 +1177,9 @@ public class semantic {
 			ret.type = InfoNodeType.POINTER;
 			ret.info.pointer = new InfoNode();
 			ret.info.pointer.type = InfoNodeType.CHAR;
-			ret.info.pointer.width = WIDTH_CHAR;//How to show that
+			ret.info.pointer.width = WIDTH_CHAR;
+			ret.info.pointer.isinstance = true;
+			ret.info.pointer.isleftvalue = true;//How to show that
 		} else {
 			//System.out.println(p.data);
 			ret = semantic_expression(p.Child.get(0));

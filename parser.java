@@ -2607,7 +2607,10 @@ class CUP$parser$actions {
           case 123: // type_name ::= type_name MUL 
             {
               Node RESULT =null;
-		 RESULT = new Node(NodeType.TYPE_NAME, "type_name", new Node(NodeType.OPERATOR, "*")); 
+		int aleft = ((java_cup.runtime.Symbol)CUP$parser$stack.elementAt(CUP$parser$top-1)).left;
+		int aright = ((java_cup.runtime.Symbol)CUP$parser$stack.elementAt(CUP$parser$top-1)).right;
+		Node a = (Node)((java_cup.runtime.Symbol) CUP$parser$stack.elementAt(CUP$parser$top-1)).value;
+		 RESULT = new Node(NodeType.TYPE_NAME, "type_name", a, new Node(NodeType.OPERATOR, "*")); 
               CUP$parser$result = parser.getSymbolFactory().newSymbol("type_name",39, ((java_cup.runtime.Symbol)CUP$parser$stack.elementAt(CUP$parser$top-1)), ((java_cup.runtime.Symbol)CUP$parser$stack.peek()), RESULT);
             }
           return CUP$parser$result;

@@ -11,7 +11,7 @@ source midtermvars.sh
 for i in $(ls Phase2/CompileError); do
 	cp Phase2/CompileError/$i bin/data.c
 	cd bin
-	$CCHK data.c > ../outputs/${i%.*}.s
+	$CCHK < data.c > ../outputs/${i%.*}.s
 	echo "exiting status : $?"
 	cd ..
 done
@@ -19,7 +19,7 @@ done
 for i in $(ls Phase2/CompileError-new); do
 	cp Phase2/CompileError-new/$i bin/data.c
 	cd bin
-	$CCHK data.c > ../outputs/${i%.*}.s
+	$CCHK < data.c > ../outputs/${i%.*}.s
 	echo "exiting status : $?"
 	cd ..
 done
@@ -27,7 +27,7 @@ done
 for i in $(ls Phase2/Passed); do
 	cp Phase2/Passed/$i bin/data.c
 	cd bin
-	$CCHK data.c > ../outputs/${i%.*}.s
+	$CCHK < data.c > ../outputs/${i%.*}.s
 	echo "exiting status : $?"
 	cd ..
 done
@@ -35,7 +35,7 @@ done
 for i in $(ls Phase2/Passed-new); do
 	cp Phase2/Passed-new/$i bin/data.c
 	cd bin
-	$CCHK data.c > ../outputs/${i%.*}.s
+	$CCHK < data.c > ../outputs/${i%.*}.s
 	echo "exiting status : $?"
 	cd ..
 

@@ -342,7 +342,7 @@ cast_expression ::=
 
 type_name ::=
 	type_specifier:a {: RESULT = new Node(NodeType.TYPE_NAME, "type_name", a); :}
-	| type_name MUL {: RESULT = new Node(NodeType.TYPE_NAME, "type_name", new Node(NodeType.OPERATOR, "*")); :}
+	| type_name:a MUL {: RESULT = new Node(NodeType.TYPE_NAME, "type_name", a, new Node(NodeType.OPERATOR, "*")); :}
 	;
 
 unary_expression ::=
