@@ -4,7 +4,7 @@ import java.util.*;
 public class InfoNodeFunction {
 	public int size;//the size of the list of X 
 	public List<InfoNode> pars;//the list of X
-	public int offset[];//to calculate the memory of each element of list
+	public int offset[];//to calculate the memory: offset[x + 1] -> pars[x]
 	public int width;//..
 	public InfoNode ret;//return Information like
 	

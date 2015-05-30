@@ -1,10 +1,12 @@
 import java.io.*;
 import java.util.*;
+//import ast.*;
 
 public class semantic {
 
 	public static final int WIDTH_VOID = 0;
 	public static final int WIDTH_CHAR = 1;
+	public static final int WIDTH_INT = 4;
 	public static final int MAX_PARS_PRINTF = 6;
 
 	public SymbolTable table;
@@ -12,6 +14,7 @@ public class semantic {
 	public boolean legal;
 	public InfoNode signFunc;
 	public Random ran;
+	//public ast.ast ast;
 
 	public boolean isint(InfoNodeType a) {
 		if (a == InfoNodeType.INT)
@@ -113,6 +116,7 @@ public class semantic {
 		//create TYPE_FRONT
 		InfoNode type_int = new InfoNode();
 		type_int.type = InfoNodeType.INT;
+		//type_int.width = WIDTH_INT;
 		InfoNode type_void = new InfoNode();
 		type_void.type = InfoNodeType.VOID;
 		type_void.width = WIDTH_VOID;
@@ -150,7 +154,8 @@ public class semantic {
 		ptr.info.function.size = 0;
 		ptr.info.function.offset = new int[]{0};
 		ptr.info.function.width = 0;
-		ptr.info.function.ret = type_char;
+		//ptr.info.function.ret = type_char;
+		ptr.info.function.ret = type_int;
 		table.insert(ptr);
 	}
 	
@@ -401,6 +406,7 @@ public class semantic {
 		p.info = new InfoNode(ptr);
 		if (p.Child.size() > 1)
 			this.semantic_initializer(p.Child.get(1), ptr);
+		//System.out.println("Happy Ending");
 	}
 
 	public void semantic_initializer(Node p, InfoNode ptr) { //just solve the simplist way -- failed
@@ -414,7 +420,7 @@ public class semantic {
 			return;
 		}
 */
-
+		//System.out.println(ptr.type);
 		if (p.type != NodeType.INITIALIZER) {
 			InfoNode tmp = this.semantic_assignment_expression(p);
 			/*
@@ -423,6 +429,15 @@ public class semantic {
 				*/
 			return;
 		}
+
+		if (p.data.equals("initializer {}")) {
+			this.semantic_initializer(p.Child.get(0), ptr);
+		} else if (p.data.equals("initializers")) {
+			for (int i = 0; i < p.Child.size(); ++i) {
+				this.semantic_initializer(p.Child.get(i), ptr.info.array.ptr);
+			}
+		}
+
 		/*
 		if (p.type != NodeType.INITIALIZER) {
 			InfoNode tmp = this.semantic_assignment_expression(p);
@@ -678,8 +693,10 @@ public class semantic {
 			this.CompilerError("|| Error");
 		}
 
-		x.isconst &= y.isconst;
+		//x.isconst &= y.isconst;
 		x.type = InfoNodeType.INT;
+
+		/*
 		if (x.isconst) {
 			//x.value = x.value || y.value;
 			if (x.value != 0 || y.value != 0)
@@ -687,6 +704,18 @@ public class semantic {
 			else 
 				x.value = 0;
 		}
+		*/
+		if (x.isconst && y.isconst) {
+			if (x.value != 0) x.value = 1;
+			if (y.value != 0) y.value = 1;
+			x.value = x.value | y.value;
+		} else if (x.isconst && x.value != 0) {
+			x.isconst = true; x.value = 1;
+		} else if (y.isconst && y.value != 0) {
+			x.isconst = true; x.value = 1;
+		} else
+			x.isconst = false;
+
 		x.isleftvalue = false;
 		
 		p.info = new InfoNode(x);
@@ -703,15 +732,20 @@ public class semantic {
 			this.CompilerError("&& Error");
 		}
 
-		x.isconst &= y.isconst;
+		//x.isconst &= y.isconst;
 		x.type = InfoNodeType.INT;
-		if (x.isconst) {
-			//x.value = x.value && y.value;
-			if (x.value != 0 && y.value != 0)
-				x.value = 1;
-			else
-				x.value = 0;
-		}
+
+		if (x.isconst && y.isconst) {
+			if (x.value != 0) x.value = 1;
+			if (y.value != 0) y.value = 1;
+			x.value = x.value & y.value;
+		} else if (x.isconst && x.value == 0) {
+			x.isconst = true; x.value = 0;
+		} else if (y.isconst && y.value == 0) {
+			x.isconst = true; x.value = 0;
+		} else
+			x.isconst = false;
+
 		x.isleftvalue = false;
 		
 		p.info = new InfoNode(x);
