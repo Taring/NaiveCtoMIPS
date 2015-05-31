@@ -9,10 +9,10 @@ make all
 #prepare outputs directory
 mkdir -p outputs && rm outputs/*
 
-for i in $(ls Phase5/Inherited); do
-    cp Phase5/Inherited/$i bin/data.c
-    cp Phase5/Inherited/Inherited-InputSet/${i%.*}.in bin/data.in
-    cp Phase5/Inherited/Inherited-AnswerSet/${i%.*}.ans bin/data.ans
+for i in $(ls Phase5/Test); do
+    cp Phase5/Test/$i bin/data.c
+    cp Phase5/InputSet/${i%.*}.in bin/data.in
+    cp Phase5/AnswerSet/${i%.*}.ans bin/data.ans
 	cd bin
     $CCHK < data.c > data.s
     cp data.s ../outputs/${i%.*}.s
@@ -26,18 +26,16 @@ for i in $(ls Phase5/Inherited); do
     cd ..
 done
 
-for i in $(ls Phase5/New); do
-    cp Phase5/New/$i bin/data.c
-    cp Phase5/New/New-InputSet/${i%.*}.in bin/data.in
-    cp Phase5/New/New-AnswerSet/${i%.*}.ans bin/data.ans
-    cd bin
-    $CCHK < data.c > data.s
-    cp data.s ../outputs/${i%.*}.s
-    if [ -f data.in ]; then
-        spim -stat -f data.s < data.in > data.out
-    else
-        spim -stat -f data.s > data.out
-    fi
-    diff data.ans data.out
-    cd ..
-done
+#for i in $(ls Phase5/Inherited); do
+#	cp Phase5/Inherited/$i bin/data.c
+#	cd bin
+#    $CCHK < data.c > ../outputs/${i%.*}.s
+#	cd ..
+#done
+
+#for i in $(ls Phase5/New); do
+#	cp Phase5/New/$i bin/data.c
+#	cd bin
+#    $CCHK < data.c > ../outputs/${i%.*}.s
+#	cd ..
+#done

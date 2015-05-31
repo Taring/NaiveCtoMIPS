@@ -100,7 +100,7 @@ public class Quadruple {
 		mips_flag = true;
 	}	
 
-	public Quadruple(String txt, Label l0) {
+	public Quadruple(String txt, Label l0) {//goto, label
 		this.op = new String(txt);
 		this.dest = new Address(AddressType.LABEL, l0.num);
 		this.src1 = null;
@@ -109,7 +109,7 @@ public class Quadruple {
 		mips_flag = true;
 	}
 
-	public Quadruple(String txt, int t0, Label l0) {
+	public Quadruple(String txt, int t0, Label l0) {//bxxz
 		this.op = new String(txt);
 		this.dest = new Address(AddressType.TEMP, t0);
 		this.src1 = new Address(AddressType.LABEL, l0.num);
@@ -118,7 +118,7 @@ public class Quadruple {
 		mips_flag = true;
 	}
 
-	public Quadruple(String txt, String yxy) {
+	public Quadruple(String txt, String yxy) {//func,call
 		this.op = new String(txt);
 		this.dest = new Address(AddressType.NAME, yxy);
 		this.src1 = null;
@@ -127,7 +127,7 @@ public class Quadruple {
 		mips_flag = true;
 	}
 
-	public Quadruple(String txt, int t0, String yxy) {
+	public Quadruple(String txt, int t0, String yxy) {//string 
 		this.op = new String(txt);
 		this.dest = new Address(AddressType.TEMP, t0);
 		this.src1 = new Address(AddressType.NAME, yxy);

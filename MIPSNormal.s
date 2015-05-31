@@ -25,8 +25,8 @@ __printf_loop:
 add $t1, $t1, 1
 lb $a2, ($t1)
 beq $a2, 0, __printf_end
-beq $a2, '%', __printf_format           # %04d, %d, %c, %s, %04d <-> only positve integer
-beq $a2, '\\', __printf_trans            # \n, \t
+beq $a2, '%', __printf_format
+beq $a2, '\\', __printf_trans
 __printf_normal:
 li $v0, 11
 lb $a0, ($t1)
@@ -35,8 +35,8 @@ j __printf_loop
 
 __printf_format:
 lb $t0, 1($t1)
-beq $t0, 'd', __printf_format_d
 beq $t0, 'c', __printf_format_c
+beq $t0, 'd', __printf_format_d
 beq $t0, 's', __printf_format_s
 beq $t0, '0', __printf_format_04d
 beq $t0, '.', __printf_format_dot_3d

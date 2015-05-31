@@ -10,9 +10,19 @@ public class InfiniteRegister {
     final int STATE_ADDRESS = 1;
     public int local_space;
 
+    public ArrayList<Integer> real;
+    public ArrayList<Integer> load;
+
+    public ArrayList<Integer> begin;
+    public ArrayList<Integer> end;
+
     public InfiniteRegister() {
         state = new ArrayList<Integer>();
         offset = new ArrayList<Integer>();
+        real = new ArrayList<Integer>();
+        load = new ArrayList<Integer>();
+        begin = new ArrayList<Integer>();
+        end = new ArrayList<Integer>();
         local_space = 0;
     }
 
@@ -26,6 +36,9 @@ public class InfiniteRegister {
             offset.add(-1);
         else
             offset.add(local_space += 4);
+        real.add(-1);
+        load.add(0);
+        begin.add(-1);end.add(-1);
         return state.size() - 1;
     }
 

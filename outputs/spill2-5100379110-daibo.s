@@ -1,8 +1,1032 @@
 .data
-temp: .space 17508
+temp: .space 19556
 var0: .asciiz "%d "
 .align 2
-var1: .asciiz "\n"
+var1: .asciiz "%d "
+.align 2
+var2: .asciiz "%d "
+.align 2
+var3: .asciiz "%d "
+.align 2
+var4: .asciiz "%d "
+.align 2
+var5: .asciiz "%d "
+.align 2
+var6: .asciiz "%d "
+.align 2
+var7: .asciiz "%d "
+.align 2
+var8: .asciiz "%d "
+.align 2
+var9: .asciiz "%d "
+.align 2
+var10: .asciiz "%d "
+.align 2
+var11: .asciiz "%d "
+.align 2
+var12: .asciiz "%d "
+.align 2
+var13: .asciiz "%d "
+.align 2
+var14: .asciiz "%d "
+.align 2
+var15: .asciiz "%d "
+.align 2
+var16: .asciiz "%d "
+.align 2
+var17: .asciiz "%d "
+.align 2
+var18: .asciiz "%d "
+.align 2
+var19: .asciiz "%d "
+.align 2
+var20: .asciiz "%d "
+.align 2
+var21: .asciiz "%d "
+.align 2
+var22: .asciiz "%d "
+.align 2
+var23: .asciiz "%d "
+.align 2
+var24: .asciiz "%d "
+.align 2
+var25: .asciiz "%d "
+.align 2
+var26: .asciiz "%d "
+.align 2
+var27: .asciiz "%d "
+.align 2
+var28: .asciiz "%d "
+.align 2
+var29: .asciiz "%d "
+.align 2
+var30: .asciiz "%d "
+.align 2
+var31: .asciiz "%d "
+.align 2
+var32: .asciiz "%d "
+.align 2
+var33: .asciiz "%d "
+.align 2
+var34: .asciiz "%d "
+.align 2
+var35: .asciiz "%d "
+.align 2
+var36: .asciiz "%d "
+.align 2
+var37: .asciiz "%d "
+.align 2
+var38: .asciiz "%d "
+.align 2
+var39: .asciiz "%d "
+.align 2
+var40: .asciiz "%d "
+.align 2
+var41: .asciiz "%d "
+.align 2
+var42: .asciiz "%d "
+.align 2
+var43: .asciiz "%d "
+.align 2
+var44: .asciiz "%d "
+.align 2
+var45: .asciiz "%d "
+.align 2
+var46: .asciiz "%d "
+.align 2
+var47: .asciiz "%d "
+.align 2
+var48: .asciiz "%d "
+.align 2
+var49: .asciiz "%d "
+.align 2
+var50: .asciiz "%d "
+.align 2
+var51: .asciiz "%d "
+.align 2
+var52: .asciiz "%d "
+.align 2
+var53: .asciiz "%d "
+.align 2
+var54: .asciiz "%d "
+.align 2
+var55: .asciiz "%d "
+.align 2
+var56: .asciiz "%d "
+.align 2
+var57: .asciiz "%d "
+.align 2
+var58: .asciiz "%d "
+.align 2
+var59: .asciiz "%d "
+.align 2
+var60: .asciiz "%d "
+.align 2
+var61: .asciiz "%d "
+.align 2
+var62: .asciiz "%d "
+.align 2
+var63: .asciiz "%d "
+.align 2
+var64: .asciiz "%d "
+.align 2
+var65: .asciiz "%d "
+.align 2
+var66: .asciiz "%d "
+.align 2
+var67: .asciiz "%d "
+.align 2
+var68: .asciiz "%d "
+.align 2
+var69: .asciiz "%d "
+.align 2
+var70: .asciiz "%d "
+.align 2
+var71: .asciiz "%d "
+.align 2
+var72: .asciiz "%d "
+.align 2
+var73: .asciiz "%d "
+.align 2
+var74: .asciiz "%d "
+.align 2
+var75: .asciiz "%d "
+.align 2
+var76: .asciiz "%d "
+.align 2
+var77: .asciiz "%d "
+.align 2
+var78: .asciiz "%d "
+.align 2
+var79: .asciiz "%d "
+.align 2
+var80: .asciiz "%d "
+.align 2
+var81: .asciiz "%d "
+.align 2
+var82: .asciiz "%d "
+.align 2
+var83: .asciiz "%d "
+.align 2
+var84: .asciiz "%d "
+.align 2
+var85: .asciiz "%d "
+.align 2
+var86: .asciiz "%d "
+.align 2
+var87: .asciiz "%d "
+.align 2
+var88: .asciiz "%d "
+.align 2
+var89: .asciiz "%d "
+.align 2
+var90: .asciiz "%d "
+.align 2
+var91: .asciiz "%d "
+.align 2
+var92: .asciiz "%d "
+.align 2
+var93: .asciiz "%d "
+.align 2
+var94: .asciiz "%d "
+.align 2
+var95: .asciiz "%d "
+.align 2
+var96: .asciiz "%d "
+.align 2
+var97: .asciiz "%d "
+.align 2
+var98: .asciiz "%d "
+.align 2
+var99: .asciiz "%d "
+.align 2
+var100: .asciiz "%d "
+.align 2
+var101: .asciiz "%d "
+.align 2
+var102: .asciiz "%d "
+.align 2
+var103: .asciiz "%d "
+.align 2
+var104: .asciiz "%d "
+.align 2
+var105: .asciiz "%d "
+.align 2
+var106: .asciiz "%d "
+.align 2
+var107: .asciiz "%d "
+.align 2
+var108: .asciiz "%d "
+.align 2
+var109: .asciiz "%d "
+.align 2
+var110: .asciiz "%d "
+.align 2
+var111: .asciiz "%d "
+.align 2
+var112: .asciiz "%d "
+.align 2
+var113: .asciiz "%d "
+.align 2
+var114: .asciiz "%d "
+.align 2
+var115: .asciiz "%d "
+.align 2
+var116: .asciiz "%d "
+.align 2
+var117: .asciiz "%d "
+.align 2
+var118: .asciiz "%d "
+.align 2
+var119: .asciiz "%d "
+.align 2
+var120: .asciiz "%d "
+.align 2
+var121: .asciiz "%d "
+.align 2
+var122: .asciiz "%d "
+.align 2
+var123: .asciiz "%d "
+.align 2
+var124: .asciiz "%d "
+.align 2
+var125: .asciiz "%d "
+.align 2
+var126: .asciiz "%d "
+.align 2
+var127: .asciiz "%d "
+.align 2
+var128: .asciiz "%d "
+.align 2
+var129: .asciiz "%d "
+.align 2
+var130: .asciiz "%d "
+.align 2
+var131: .asciiz "%d "
+.align 2
+var132: .asciiz "%d "
+.align 2
+var133: .asciiz "%d "
+.align 2
+var134: .asciiz "%d "
+.align 2
+var135: .asciiz "%d "
+.align 2
+var136: .asciiz "%d "
+.align 2
+var137: .asciiz "%d "
+.align 2
+var138: .asciiz "%d "
+.align 2
+var139: .asciiz "%d "
+.align 2
+var140: .asciiz "%d "
+.align 2
+var141: .asciiz "%d "
+.align 2
+var142: .asciiz "%d "
+.align 2
+var143: .asciiz "%d "
+.align 2
+var144: .asciiz "%d "
+.align 2
+var145: .asciiz "%d "
+.align 2
+var146: .asciiz "%d "
+.align 2
+var147: .asciiz "%d "
+.align 2
+var148: .asciiz "%d "
+.align 2
+var149: .asciiz "%d "
+.align 2
+var150: .asciiz "%d "
+.align 2
+var151: .asciiz "%d "
+.align 2
+var152: .asciiz "%d "
+.align 2
+var153: .asciiz "%d "
+.align 2
+var154: .asciiz "%d "
+.align 2
+var155: .asciiz "%d "
+.align 2
+var156: .asciiz "%d "
+.align 2
+var157: .asciiz "%d "
+.align 2
+var158: .asciiz "%d "
+.align 2
+var159: .asciiz "%d "
+.align 2
+var160: .asciiz "%d "
+.align 2
+var161: .asciiz "%d "
+.align 2
+var162: .asciiz "%d "
+.align 2
+var163: .asciiz "%d "
+.align 2
+var164: .asciiz "%d "
+.align 2
+var165: .asciiz "%d "
+.align 2
+var166: .asciiz "%d "
+.align 2
+var167: .asciiz "%d "
+.align 2
+var168: .asciiz "%d "
+.align 2
+var169: .asciiz "%d "
+.align 2
+var170: .asciiz "%d "
+.align 2
+var171: .asciiz "%d "
+.align 2
+var172: .asciiz "%d "
+.align 2
+var173: .asciiz "%d "
+.align 2
+var174: .asciiz "%d "
+.align 2
+var175: .asciiz "%d "
+.align 2
+var176: .asciiz "%d "
+.align 2
+var177: .asciiz "%d "
+.align 2
+var178: .asciiz "%d "
+.align 2
+var179: .asciiz "%d "
+.align 2
+var180: .asciiz "%d "
+.align 2
+var181: .asciiz "%d "
+.align 2
+var182: .asciiz "%d "
+.align 2
+var183: .asciiz "%d "
+.align 2
+var184: .asciiz "%d "
+.align 2
+var185: .asciiz "%d "
+.align 2
+var186: .asciiz "%d "
+.align 2
+var187: .asciiz "%d "
+.align 2
+var188: .asciiz "%d "
+.align 2
+var189: .asciiz "%d "
+.align 2
+var190: .asciiz "%d "
+.align 2
+var191: .asciiz "%d "
+.align 2
+var192: .asciiz "%d "
+.align 2
+var193: .asciiz "%d "
+.align 2
+var194: .asciiz "%d "
+.align 2
+var195: .asciiz "%d "
+.align 2
+var196: .asciiz "%d "
+.align 2
+var197: .asciiz "%d "
+.align 2
+var198: .asciiz "%d "
+.align 2
+var199: .asciiz "%d "
+.align 2
+var200: .asciiz "%d "
+.align 2
+var201: .asciiz "%d "
+.align 2
+var202: .asciiz "%d "
+.align 2
+var203: .asciiz "%d "
+.align 2
+var204: .asciiz "%d "
+.align 2
+var205: .asciiz "%d "
+.align 2
+var206: .asciiz "%d "
+.align 2
+var207: .asciiz "%d "
+.align 2
+var208: .asciiz "%d "
+.align 2
+var209: .asciiz "%d "
+.align 2
+var210: .asciiz "%d "
+.align 2
+var211: .asciiz "%d "
+.align 2
+var212: .asciiz "%d "
+.align 2
+var213: .asciiz "%d "
+.align 2
+var214: .asciiz "%d "
+.align 2
+var215: .asciiz "%d "
+.align 2
+var216: .asciiz "%d "
+.align 2
+var217: .asciiz "%d "
+.align 2
+var218: .asciiz "%d "
+.align 2
+var219: .asciiz "%d "
+.align 2
+var220: .asciiz "%d "
+.align 2
+var221: .asciiz "%d "
+.align 2
+var222: .asciiz "%d "
+.align 2
+var223: .asciiz "%d "
+.align 2
+var224: .asciiz "%d "
+.align 2
+var225: .asciiz "%d "
+.align 2
+var226: .asciiz "%d "
+.align 2
+var227: .asciiz "%d "
+.align 2
+var228: .asciiz "%d "
+.align 2
+var229: .asciiz "%d "
+.align 2
+var230: .asciiz "%d "
+.align 2
+var231: .asciiz "%d "
+.align 2
+var232: .asciiz "%d "
+.align 2
+var233: .asciiz "%d "
+.align 2
+var234: .asciiz "%d "
+.align 2
+var235: .asciiz "%d "
+.align 2
+var236: .asciiz "%d "
+.align 2
+var237: .asciiz "%d "
+.align 2
+var238: .asciiz "%d "
+.align 2
+var239: .asciiz "%d "
+.align 2
+var240: .asciiz "%d "
+.align 2
+var241: .asciiz "%d "
+.align 2
+var242: .asciiz "%d "
+.align 2
+var243: .asciiz "%d "
+.align 2
+var244: .asciiz "%d "
+.align 2
+var245: .asciiz "%d "
+.align 2
+var246: .asciiz "%d "
+.align 2
+var247: .asciiz "%d "
+.align 2
+var248: .asciiz "%d "
+.align 2
+var249: .asciiz "%d "
+.align 2
+var250: .asciiz "%d "
+.align 2
+var251: .asciiz "%d "
+.align 2
+var252: .asciiz "%d "
+.align 2
+var253: .asciiz "%d "
+.align 2
+var254: .asciiz "%d "
+.align 2
+var255: .asciiz "%d "
+.align 2
+var256: .asciiz "\n"
+.align 2
+var257: .asciiz "%d "
+.align 2
+var258: .asciiz "%d "
+.align 2
+var259: .asciiz "%d "
+.align 2
+var260: .asciiz "%d "
+.align 2
+var261: .asciiz "%d "
+.align 2
+var262: .asciiz "%d "
+.align 2
+var263: .asciiz "%d "
+.align 2
+var264: .asciiz "%d "
+.align 2
+var265: .asciiz "%d "
+.align 2
+var266: .asciiz "%d "
+.align 2
+var267: .asciiz "%d "
+.align 2
+var268: .asciiz "%d "
+.align 2
+var269: .asciiz "%d "
+.align 2
+var270: .asciiz "%d "
+.align 2
+var271: .asciiz "%d "
+.align 2
+var272: .asciiz "%d "
+.align 2
+var273: .asciiz "%d "
+.align 2
+var274: .asciiz "%d "
+.align 2
+var275: .asciiz "%d "
+.align 2
+var276: .asciiz "%d "
+.align 2
+var277: .asciiz "%d "
+.align 2
+var278: .asciiz "%d "
+.align 2
+var279: .asciiz "%d "
+.align 2
+var280: .asciiz "%d "
+.align 2
+var281: .asciiz "%d "
+.align 2
+var282: .asciiz "%d "
+.align 2
+var283: .asciiz "%d "
+.align 2
+var284: .asciiz "%d "
+.align 2
+var285: .asciiz "%d "
+.align 2
+var286: .asciiz "%d "
+.align 2
+var287: .asciiz "%d "
+.align 2
+var288: .asciiz "%d "
+.align 2
+var289: .asciiz "%d "
+.align 2
+var290: .asciiz "%d "
+.align 2
+var291: .asciiz "%d "
+.align 2
+var292: .asciiz "%d "
+.align 2
+var293: .asciiz "%d "
+.align 2
+var294: .asciiz "%d "
+.align 2
+var295: .asciiz "%d "
+.align 2
+var296: .asciiz "%d "
+.align 2
+var297: .asciiz "%d "
+.align 2
+var298: .asciiz "%d "
+.align 2
+var299: .asciiz "%d "
+.align 2
+var300: .asciiz "%d "
+.align 2
+var301: .asciiz "%d "
+.align 2
+var302: .asciiz "%d "
+.align 2
+var303: .asciiz "%d "
+.align 2
+var304: .asciiz "%d "
+.align 2
+var305: .asciiz "%d "
+.align 2
+var306: .asciiz "%d "
+.align 2
+var307: .asciiz "%d "
+.align 2
+var308: .asciiz "%d "
+.align 2
+var309: .asciiz "%d "
+.align 2
+var310: .asciiz "%d "
+.align 2
+var311: .asciiz "%d "
+.align 2
+var312: .asciiz "%d "
+.align 2
+var313: .asciiz "%d "
+.align 2
+var314: .asciiz "%d "
+.align 2
+var315: .asciiz "%d "
+.align 2
+var316: .asciiz "%d "
+.align 2
+var317: .asciiz "%d "
+.align 2
+var318: .asciiz "%d "
+.align 2
+var319: .asciiz "%d "
+.align 2
+var320: .asciiz "%d "
+.align 2
+var321: .asciiz "%d "
+.align 2
+var322: .asciiz "%d "
+.align 2
+var323: .asciiz "%d "
+.align 2
+var324: .asciiz "%d "
+.align 2
+var325: .asciiz "%d "
+.align 2
+var326: .asciiz "%d "
+.align 2
+var327: .asciiz "%d "
+.align 2
+var328: .asciiz "%d "
+.align 2
+var329: .asciiz "%d "
+.align 2
+var330: .asciiz "%d "
+.align 2
+var331: .asciiz "%d "
+.align 2
+var332: .asciiz "%d "
+.align 2
+var333: .asciiz "%d "
+.align 2
+var334: .asciiz "%d "
+.align 2
+var335: .asciiz "%d "
+.align 2
+var336: .asciiz "%d "
+.align 2
+var337: .asciiz "%d "
+.align 2
+var338: .asciiz "%d "
+.align 2
+var339: .asciiz "%d "
+.align 2
+var340: .asciiz "%d "
+.align 2
+var341: .asciiz "%d "
+.align 2
+var342: .asciiz "%d "
+.align 2
+var343: .asciiz "%d "
+.align 2
+var344: .asciiz "%d "
+.align 2
+var345: .asciiz "%d "
+.align 2
+var346: .asciiz "%d "
+.align 2
+var347: .asciiz "%d "
+.align 2
+var348: .asciiz "%d "
+.align 2
+var349: .asciiz "%d "
+.align 2
+var350: .asciiz "%d "
+.align 2
+var351: .asciiz "%d "
+.align 2
+var352: .asciiz "%d "
+.align 2
+var353: .asciiz "%d "
+.align 2
+var354: .asciiz "%d "
+.align 2
+var355: .asciiz "%d "
+.align 2
+var356: .asciiz "%d "
+.align 2
+var357: .asciiz "%d "
+.align 2
+var358: .asciiz "%d "
+.align 2
+var359: .asciiz "%d "
+.align 2
+var360: .asciiz "%d "
+.align 2
+var361: .asciiz "%d "
+.align 2
+var362: .asciiz "%d "
+.align 2
+var363: .asciiz "%d "
+.align 2
+var364: .asciiz "%d "
+.align 2
+var365: .asciiz "%d "
+.align 2
+var366: .asciiz "%d "
+.align 2
+var367: .asciiz "%d "
+.align 2
+var368: .asciiz "%d "
+.align 2
+var369: .asciiz "%d "
+.align 2
+var370: .asciiz "%d "
+.align 2
+var371: .asciiz "%d "
+.align 2
+var372: .asciiz "%d "
+.align 2
+var373: .asciiz "%d "
+.align 2
+var374: .asciiz "%d "
+.align 2
+var375: .asciiz "%d "
+.align 2
+var376: .asciiz "%d "
+.align 2
+var377: .asciiz "%d "
+.align 2
+var378: .asciiz "%d "
+.align 2
+var379: .asciiz "%d "
+.align 2
+var380: .asciiz "%d "
+.align 2
+var381: .asciiz "%d "
+.align 2
+var382: .asciiz "%d "
+.align 2
+var383: .asciiz "%d "
+.align 2
+var384: .asciiz "%d "
+.align 2
+var385: .asciiz "%d "
+.align 2
+var386: .asciiz "%d "
+.align 2
+var387: .asciiz "%d "
+.align 2
+var388: .asciiz "%d "
+.align 2
+var389: .asciiz "%d "
+.align 2
+var390: .asciiz "%d "
+.align 2
+var391: .asciiz "%d "
+.align 2
+var392: .asciiz "%d "
+.align 2
+var393: .asciiz "%d "
+.align 2
+var394: .asciiz "%d "
+.align 2
+var395: .asciiz "%d "
+.align 2
+var396: .asciiz "%d "
+.align 2
+var397: .asciiz "%d "
+.align 2
+var398: .asciiz "%d "
+.align 2
+var399: .asciiz "%d "
+.align 2
+var400: .asciiz "%d "
+.align 2
+var401: .asciiz "%d "
+.align 2
+var402: .asciiz "%d "
+.align 2
+var403: .asciiz "%d "
+.align 2
+var404: .asciiz "%d "
+.align 2
+var405: .asciiz "%d "
+.align 2
+var406: .asciiz "%d "
+.align 2
+var407: .asciiz "%d "
+.align 2
+var408: .asciiz "%d "
+.align 2
+var409: .asciiz "%d "
+.align 2
+var410: .asciiz "%d "
+.align 2
+var411: .asciiz "%d "
+.align 2
+var412: .asciiz "%d "
+.align 2
+var413: .asciiz "%d "
+.align 2
+var414: .asciiz "%d "
+.align 2
+var415: .asciiz "%d "
+.align 2
+var416: .asciiz "%d "
+.align 2
+var417: .asciiz "%d "
+.align 2
+var418: .asciiz "%d "
+.align 2
+var419: .asciiz "%d "
+.align 2
+var420: .asciiz "%d "
+.align 2
+var421: .asciiz "%d "
+.align 2
+var422: .asciiz "%d "
+.align 2
+var423: .asciiz "%d "
+.align 2
+var424: .asciiz "%d "
+.align 2
+var425: .asciiz "%d "
+.align 2
+var426: .asciiz "%d "
+.align 2
+var427: .asciiz "%d "
+.align 2
+var428: .asciiz "%d "
+.align 2
+var429: .asciiz "%d "
+.align 2
+var430: .asciiz "%d "
+.align 2
+var431: .asciiz "%d "
+.align 2
+var432: .asciiz "%d "
+.align 2
+var433: .asciiz "%d "
+.align 2
+var434: .asciiz "%d "
+.align 2
+var435: .asciiz "%d "
+.align 2
+var436: .asciiz "%d "
+.align 2
+var437: .asciiz "%d "
+.align 2
+var438: .asciiz "%d "
+.align 2
+var439: .asciiz "%d "
+.align 2
+var440: .asciiz "%d "
+.align 2
+var441: .asciiz "%d "
+.align 2
+var442: .asciiz "%d "
+.align 2
+var443: .asciiz "%d "
+.align 2
+var444: .asciiz "%d "
+.align 2
+var445: .asciiz "%d "
+.align 2
+var446: .asciiz "%d "
+.align 2
+var447: .asciiz "%d "
+.align 2
+var448: .asciiz "%d "
+.align 2
+var449: .asciiz "%d "
+.align 2
+var450: .asciiz "%d "
+.align 2
+var451: .asciiz "%d "
+.align 2
+var452: .asciiz "%d "
+.align 2
+var453: .asciiz "%d "
+.align 2
+var454: .asciiz "%d "
+.align 2
+var455: .asciiz "%d "
+.align 2
+var456: .asciiz "%d "
+.align 2
+var457: .asciiz "%d "
+.align 2
+var458: .asciiz "%d "
+.align 2
+var459: .asciiz "%d "
+.align 2
+var460: .asciiz "%d "
+.align 2
+var461: .asciiz "%d "
+.align 2
+var462: .asciiz "%d "
+.align 2
+var463: .asciiz "%d "
+.align 2
+var464: .asciiz "%d "
+.align 2
+var465: .asciiz "%d "
+.align 2
+var466: .asciiz "%d "
+.align 2
+var467: .asciiz "%d "
+.align 2
+var468: .asciiz "%d "
+.align 2
+var469: .asciiz "%d "
+.align 2
+var470: .asciiz "%d "
+.align 2
+var471: .asciiz "%d "
+.align 2
+var472: .asciiz "%d "
+.align 2
+var473: .asciiz "%d "
+.align 2
+var474: .asciiz "%d "
+.align 2
+var475: .asciiz "%d "
+.align 2
+var476: .asciiz "%d "
+.align 2
+var477: .asciiz "%d "
+.align 2
+var478: .asciiz "%d "
+.align 2
+var479: .asciiz "%d "
+.align 2
+var480: .asciiz "%d "
+.align 2
+var481: .asciiz "%d "
+.align 2
+var482: .asciiz "%d "
+.align 2
+var483: .asciiz "%d "
+.align 2
+var484: .asciiz "%d "
+.align 2
+var485: .asciiz "%d "
+.align 2
+var486: .asciiz "%d "
+.align 2
+var487: .asciiz "%d "
+.align 2
+var488: .asciiz "%d "
+.align 2
+var489: .asciiz "%d "
+.align 2
+var490: .asciiz "%d "
+.align 2
+var491: .asciiz "%d "
+.align 2
+var492: .asciiz "%d "
+.align 2
+var493: .asciiz "%d "
+.align 2
+var494: .asciiz "%d "
+.align 2
+var495: .asciiz "%d "
+.align 2
+var496: .asciiz "%d "
+.align 2
+var497: .asciiz "%d "
+.align 2
+var498: .asciiz "%d "
+.align 2
+var499: .asciiz "%d "
+.align 2
+var500: .asciiz "%d "
+.align 2
+var501: .asciiz "%d "
+.align 2
+var502: .asciiz "%d "
+.align 2
+var503: .asciiz "%d "
+.align 2
+var504: .asciiz "%d "
+.align 2
+var505: .asciiz "%d "
+.align 2
+var506: .asciiz "%d "
+.align 2
+var507: .asciiz "%d "
+.align 2
+var508: .asciiz "%d "
+.align 2
+var509: .asciiz "%d "
+.align 2
+var510: .asciiz "%d "
+.align 2
+var511: .asciiz "%d "
+.align 2
+var512: .asciiz "%d "
+.align 2
+var513: .asciiz "\n"
 .align 2
 
 .text
@@ -33,8 +1057,8 @@ __printf_loop:
 add $t1, $t1, 1
 lb $a2, ($t1)
 beq $a2, 0, __printf_end
-beq $a2, '%', __printf_format           # %04d, %d, %c, %s, %04d <-> only positve integer
-beq $a2, '\\', __printf_trans            # \n, \t
+beq $a2, '%', __printf_format
+beq $a2, '\\', __printf_trans
 __printf_normal:
 li $v0, 11
 lb $a0, ($t1)
@@ -43,8 +1067,8 @@ j __printf_loop
 
 __printf_format:
 lb $t0, 1($t1)
-beq $t0, 'd', __printf_format_d
 beq $t0, 'c', __printf_format_c
+beq $t0, 'd', __printf_format_d
 beq $t0, 's', __printf_format_s
 beq $t0, '0', __printf_format_04d
 beq $t0, '.', __printf_format_dot_3d
@@ -124,28 +1148,14 @@ __printf_end:
 jr $ra
 
 __getcount:
-add $8, $29, 0
-sw $8, -4($sp)
-lw $9, -4($sp)
-lw $8, 0($9)
-sw $8, -8($sp)
-lw $9, -8($sp)
-move $8, $9
-sw $8, -12($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -8($sp)
-lw $9, -8($sp)
-add $8, $9, 1
-sw $8, -8($sp)
-lw $8, -8($sp)
-lw $9, -12($sp)
-sw $8, 0($9)
-add $8, $29, 8
-sw $8, -16($sp)
-lw $8, -8($sp)
-lw $9, -16($sp)
-sw $8, 0($9)
+add $11, $29, 0
+lw $12, 0($11)
+move $11, $12
+lw $12, 0($12)
+add $12, $12, 1
+sw $12, 0($11)
+add $11, $29, 8
+sw $12, 0($11)
 jr $ra
 jr $ra
 main:
@@ -153,9 +1163,1032 @@ la $a3, temp
 la $t0, var0
 sw $t0, 7244($a3)
 la $t0, var1
-sw $t0, 12360($a3)
-add $8, $29, -17480
-sw $8, -8($sp)
+sw $t0, 7268($a3)
+la $t0, var2
+sw $t0, 7292($a3)
+la $t0, var3
+sw $t0, 7316($a3)
+la $t0, var4
+sw $t0, 7340($a3)
+la $t0, var5
+sw $t0, 7364($a3)
+la $t0, var6
+sw $t0, 7388($a3)
+la $t0, var7
+sw $t0, 7412($a3)
+la $t0, var8
+sw $t0, 7436($a3)
+la $t0, var9
+sw $t0, 7460($a3)
+la $t0, var10
+sw $t0, 7484($a3)
+la $t0, var11
+sw $t0, 7508($a3)
+la $t0, var12
+sw $t0, 7532($a3)
+la $t0, var13
+sw $t0, 7556($a3)
+la $t0, var14
+sw $t0, 7580($a3)
+la $t0, var15
+sw $t0, 7604($a3)
+la $t0, var16
+sw $t0, 7628($a3)
+la $t0, var17
+sw $t0, 7652($a3)
+la $t0, var18
+sw $t0, 7676($a3)
+la $t0, var19
+sw $t0, 7700($a3)
+la $t0, var20
+sw $t0, 7724($a3)
+la $t0, var21
+sw $t0, 7748($a3)
+la $t0, var22
+sw $t0, 7772($a3)
+la $t0, var23
+sw $t0, 7796($a3)
+la $t0, var24
+sw $t0, 7820($a3)
+la $t0, var25
+sw $t0, 7844($a3)
+la $t0, var26
+sw $t0, 7868($a3)
+la $t0, var27
+sw $t0, 7892($a3)
+la $t0, var28
+sw $t0, 7916($a3)
+la $t0, var29
+sw $t0, 7940($a3)
+la $t0, var30
+sw $t0, 7964($a3)
+la $t0, var31
+sw $t0, 7988($a3)
+la $t0, var32
+sw $t0, 8012($a3)
+la $t0, var33
+sw $t0, 8036($a3)
+la $t0, var34
+sw $t0, 8060($a3)
+la $t0, var35
+sw $t0, 8084($a3)
+la $t0, var36
+sw $t0, 8108($a3)
+la $t0, var37
+sw $t0, 8132($a3)
+la $t0, var38
+sw $t0, 8156($a3)
+la $t0, var39
+sw $t0, 8180($a3)
+la $t0, var40
+sw $t0, 8204($a3)
+la $t0, var41
+sw $t0, 8228($a3)
+la $t0, var42
+sw $t0, 8252($a3)
+la $t0, var43
+sw $t0, 8276($a3)
+la $t0, var44
+sw $t0, 8300($a3)
+la $t0, var45
+sw $t0, 8324($a3)
+la $t0, var46
+sw $t0, 8348($a3)
+la $t0, var47
+sw $t0, 8372($a3)
+la $t0, var48
+sw $t0, 8396($a3)
+la $t0, var49
+sw $t0, 8420($a3)
+la $t0, var50
+sw $t0, 8444($a3)
+la $t0, var51
+sw $t0, 8468($a3)
+la $t0, var52
+sw $t0, 8492($a3)
+la $t0, var53
+sw $t0, 8516($a3)
+la $t0, var54
+sw $t0, 8540($a3)
+la $t0, var55
+sw $t0, 8564($a3)
+la $t0, var56
+sw $t0, 8588($a3)
+la $t0, var57
+sw $t0, 8612($a3)
+la $t0, var58
+sw $t0, 8636($a3)
+la $t0, var59
+sw $t0, 8660($a3)
+la $t0, var60
+sw $t0, 8684($a3)
+la $t0, var61
+sw $t0, 8708($a3)
+la $t0, var62
+sw $t0, 8732($a3)
+la $t0, var63
+sw $t0, 8756($a3)
+la $t0, var64
+sw $t0, 8780($a3)
+la $t0, var65
+sw $t0, 8804($a3)
+la $t0, var66
+sw $t0, 8828($a3)
+la $t0, var67
+sw $t0, 8852($a3)
+la $t0, var68
+sw $t0, 8876($a3)
+la $t0, var69
+sw $t0, 8900($a3)
+la $t0, var70
+sw $t0, 8924($a3)
+la $t0, var71
+sw $t0, 8948($a3)
+la $t0, var72
+sw $t0, 8972($a3)
+la $t0, var73
+sw $t0, 8996($a3)
+la $t0, var74
+sw $t0, 9020($a3)
+la $t0, var75
+sw $t0, 9044($a3)
+la $t0, var76
+sw $t0, 9068($a3)
+la $t0, var77
+sw $t0, 9092($a3)
+la $t0, var78
+sw $t0, 9116($a3)
+la $t0, var79
+sw $t0, 9140($a3)
+la $t0, var80
+sw $t0, 9164($a3)
+la $t0, var81
+sw $t0, 9188($a3)
+la $t0, var82
+sw $t0, 9212($a3)
+la $t0, var83
+sw $t0, 9236($a3)
+la $t0, var84
+sw $t0, 9260($a3)
+la $t0, var85
+sw $t0, 9284($a3)
+la $t0, var86
+sw $t0, 9308($a3)
+la $t0, var87
+sw $t0, 9332($a3)
+la $t0, var88
+sw $t0, 9356($a3)
+la $t0, var89
+sw $t0, 9380($a3)
+la $t0, var90
+sw $t0, 9404($a3)
+la $t0, var91
+sw $t0, 9428($a3)
+la $t0, var92
+sw $t0, 9452($a3)
+la $t0, var93
+sw $t0, 9476($a3)
+la $t0, var94
+sw $t0, 9500($a3)
+la $t0, var95
+sw $t0, 9524($a3)
+la $t0, var96
+sw $t0, 9548($a3)
+la $t0, var97
+sw $t0, 9572($a3)
+la $t0, var98
+sw $t0, 9596($a3)
+la $t0, var99
+sw $t0, 9620($a3)
+la $t0, var100
+sw $t0, 9644($a3)
+la $t0, var101
+sw $t0, 9668($a3)
+la $t0, var102
+sw $t0, 9692($a3)
+la $t0, var103
+sw $t0, 9716($a3)
+la $t0, var104
+sw $t0, 9740($a3)
+la $t0, var105
+sw $t0, 9764($a3)
+la $t0, var106
+sw $t0, 9788($a3)
+la $t0, var107
+sw $t0, 9812($a3)
+la $t0, var108
+sw $t0, 9836($a3)
+la $t0, var109
+sw $t0, 9860($a3)
+la $t0, var110
+sw $t0, 9884($a3)
+la $t0, var111
+sw $t0, 9908($a3)
+la $t0, var112
+sw $t0, 9932($a3)
+la $t0, var113
+sw $t0, 9956($a3)
+la $t0, var114
+sw $t0, 9980($a3)
+la $t0, var115
+sw $t0, 10004($a3)
+la $t0, var116
+sw $t0, 10028($a3)
+la $t0, var117
+sw $t0, 10052($a3)
+la $t0, var118
+sw $t0, 10076($a3)
+la $t0, var119
+sw $t0, 10100($a3)
+la $t0, var120
+sw $t0, 10124($a3)
+la $t0, var121
+sw $t0, 10148($a3)
+la $t0, var122
+sw $t0, 10172($a3)
+la $t0, var123
+sw $t0, 10196($a3)
+la $t0, var124
+sw $t0, 10220($a3)
+la $t0, var125
+sw $t0, 10244($a3)
+la $t0, var126
+sw $t0, 10268($a3)
+la $t0, var127
+sw $t0, 10292($a3)
+la $t0, var128
+sw $t0, 10316($a3)
+la $t0, var129
+sw $t0, 10340($a3)
+la $t0, var130
+sw $t0, 10364($a3)
+la $t0, var131
+sw $t0, 10388($a3)
+la $t0, var132
+sw $t0, 10412($a3)
+la $t0, var133
+sw $t0, 10436($a3)
+la $t0, var134
+sw $t0, 10460($a3)
+la $t0, var135
+sw $t0, 10484($a3)
+la $t0, var136
+sw $t0, 10508($a3)
+la $t0, var137
+sw $t0, 10532($a3)
+la $t0, var138
+sw $t0, 10556($a3)
+la $t0, var139
+sw $t0, 10580($a3)
+la $t0, var140
+sw $t0, 10604($a3)
+la $t0, var141
+sw $t0, 10628($a3)
+la $t0, var142
+sw $t0, 10652($a3)
+la $t0, var143
+sw $t0, 10676($a3)
+la $t0, var144
+sw $t0, 10700($a3)
+la $t0, var145
+sw $t0, 10724($a3)
+la $t0, var146
+sw $t0, 10748($a3)
+la $t0, var147
+sw $t0, 10772($a3)
+la $t0, var148
+sw $t0, 10796($a3)
+la $t0, var149
+sw $t0, 10820($a3)
+la $t0, var150
+sw $t0, 10844($a3)
+la $t0, var151
+sw $t0, 10868($a3)
+la $t0, var152
+sw $t0, 10892($a3)
+la $t0, var153
+sw $t0, 10916($a3)
+la $t0, var154
+sw $t0, 10940($a3)
+la $t0, var155
+sw $t0, 10964($a3)
+la $t0, var156
+sw $t0, 10988($a3)
+la $t0, var157
+sw $t0, 11012($a3)
+la $t0, var158
+sw $t0, 11036($a3)
+la $t0, var159
+sw $t0, 11060($a3)
+la $t0, var160
+sw $t0, 11084($a3)
+la $t0, var161
+sw $t0, 11108($a3)
+la $t0, var162
+sw $t0, 11132($a3)
+la $t0, var163
+sw $t0, 11156($a3)
+la $t0, var164
+sw $t0, 11180($a3)
+la $t0, var165
+sw $t0, 11204($a3)
+la $t0, var166
+sw $t0, 11228($a3)
+la $t0, var167
+sw $t0, 11252($a3)
+la $t0, var168
+sw $t0, 11276($a3)
+la $t0, var169
+sw $t0, 11300($a3)
+la $t0, var170
+sw $t0, 11324($a3)
+la $t0, var171
+sw $t0, 11348($a3)
+la $t0, var172
+sw $t0, 11372($a3)
+la $t0, var173
+sw $t0, 11396($a3)
+la $t0, var174
+sw $t0, 11420($a3)
+la $t0, var175
+sw $t0, 11444($a3)
+la $t0, var176
+sw $t0, 11468($a3)
+la $t0, var177
+sw $t0, 11492($a3)
+la $t0, var178
+sw $t0, 11516($a3)
+la $t0, var179
+sw $t0, 11540($a3)
+la $t0, var180
+sw $t0, 11564($a3)
+la $t0, var181
+sw $t0, 11588($a3)
+la $t0, var182
+sw $t0, 11612($a3)
+la $t0, var183
+sw $t0, 11636($a3)
+la $t0, var184
+sw $t0, 11660($a3)
+la $t0, var185
+sw $t0, 11684($a3)
+la $t0, var186
+sw $t0, 11708($a3)
+la $t0, var187
+sw $t0, 11732($a3)
+la $t0, var188
+sw $t0, 11756($a3)
+la $t0, var189
+sw $t0, 11780($a3)
+la $t0, var190
+sw $t0, 11804($a3)
+la $t0, var191
+sw $t0, 11828($a3)
+la $t0, var192
+sw $t0, 11852($a3)
+la $t0, var193
+sw $t0, 11876($a3)
+la $t0, var194
+sw $t0, 11900($a3)
+la $t0, var195
+sw $t0, 11924($a3)
+la $t0, var196
+sw $t0, 11948($a3)
+la $t0, var197
+sw $t0, 11972($a3)
+la $t0, var198
+sw $t0, 11996($a3)
+la $t0, var199
+sw $t0, 12020($a3)
+la $t0, var200
+sw $t0, 12044($a3)
+la $t0, var201
+sw $t0, 12068($a3)
+la $t0, var202
+sw $t0, 12092($a3)
+la $t0, var203
+sw $t0, 12116($a3)
+la $t0, var204
+sw $t0, 12140($a3)
+la $t0, var205
+sw $t0, 12164($a3)
+la $t0, var206
+sw $t0, 12188($a3)
+la $t0, var207
+sw $t0, 12212($a3)
+la $t0, var208
+sw $t0, 12236($a3)
+la $t0, var209
+sw $t0, 12260($a3)
+la $t0, var210
+sw $t0, 12284($a3)
+la $t0, var211
+sw $t0, 12308($a3)
+la $t0, var212
+sw $t0, 12332($a3)
+la $t0, var213
+sw $t0, 12356($a3)
+la $t0, var214
+sw $t0, 12380($a3)
+la $t0, var215
+sw $t0, 12404($a3)
+la $t0, var216
+sw $t0, 12428($a3)
+la $t0, var217
+sw $t0, 12452($a3)
+la $t0, var218
+sw $t0, 12476($a3)
+la $t0, var219
+sw $t0, 12500($a3)
+la $t0, var220
+sw $t0, 12524($a3)
+la $t0, var221
+sw $t0, 12548($a3)
+la $t0, var222
+sw $t0, 12572($a3)
+la $t0, var223
+sw $t0, 12596($a3)
+la $t0, var224
+sw $t0, 12620($a3)
+la $t0, var225
+sw $t0, 12644($a3)
+la $t0, var226
+sw $t0, 12668($a3)
+la $t0, var227
+sw $t0, 12692($a3)
+la $t0, var228
+sw $t0, 12716($a3)
+la $t0, var229
+sw $t0, 12740($a3)
+la $t0, var230
+sw $t0, 12764($a3)
+la $t0, var231
+sw $t0, 12788($a3)
+la $t0, var232
+sw $t0, 12812($a3)
+la $t0, var233
+sw $t0, 12836($a3)
+la $t0, var234
+sw $t0, 12860($a3)
+la $t0, var235
+sw $t0, 12884($a3)
+la $t0, var236
+sw $t0, 12908($a3)
+la $t0, var237
+sw $t0, 12932($a3)
+la $t0, var238
+sw $t0, 12956($a3)
+la $t0, var239
+sw $t0, 12980($a3)
+la $t0, var240
+sw $t0, 13004($a3)
+la $t0, var241
+sw $t0, 13028($a3)
+la $t0, var242
+sw $t0, 13052($a3)
+la $t0, var243
+sw $t0, 13076($a3)
+la $t0, var244
+sw $t0, 13100($a3)
+la $t0, var245
+sw $t0, 13124($a3)
+la $t0, var246
+sw $t0, 13148($a3)
+la $t0, var247
+sw $t0, 13172($a3)
+la $t0, var248
+sw $t0, 13196($a3)
+la $t0, var249
+sw $t0, 13220($a3)
+la $t0, var250
+sw $t0, 13244($a3)
+la $t0, var251
+sw $t0, 13268($a3)
+la $t0, var252
+sw $t0, 13292($a3)
+la $t0, var253
+sw $t0, 13316($a3)
+la $t0, var254
+sw $t0, 13340($a3)
+la $t0, var255
+sw $t0, 13364($a3)
+la $t0, var256
+sw $t0, 13380($a3)
+la $t0, var257
+sw $t0, 13404($a3)
+la $t0, var258
+sw $t0, 13428($a3)
+la $t0, var259
+sw $t0, 13452($a3)
+la $t0, var260
+sw $t0, 13476($a3)
+la $t0, var261
+sw $t0, 13500($a3)
+la $t0, var262
+sw $t0, 13524($a3)
+la $t0, var263
+sw $t0, 13548($a3)
+la $t0, var264
+sw $t0, 13572($a3)
+la $t0, var265
+sw $t0, 13596($a3)
+la $t0, var266
+sw $t0, 13620($a3)
+la $t0, var267
+sw $t0, 13644($a3)
+la $t0, var268
+sw $t0, 13668($a3)
+la $t0, var269
+sw $t0, 13692($a3)
+la $t0, var270
+sw $t0, 13716($a3)
+la $t0, var271
+sw $t0, 13740($a3)
+la $t0, var272
+sw $t0, 13764($a3)
+la $t0, var273
+sw $t0, 13788($a3)
+la $t0, var274
+sw $t0, 13812($a3)
+la $t0, var275
+sw $t0, 13836($a3)
+la $t0, var276
+sw $t0, 13860($a3)
+la $t0, var277
+sw $t0, 13884($a3)
+la $t0, var278
+sw $t0, 13908($a3)
+la $t0, var279
+sw $t0, 13932($a3)
+la $t0, var280
+sw $t0, 13956($a3)
+la $t0, var281
+sw $t0, 13980($a3)
+la $t0, var282
+sw $t0, 14004($a3)
+la $t0, var283
+sw $t0, 14028($a3)
+la $t0, var284
+sw $t0, 14052($a3)
+la $t0, var285
+sw $t0, 14076($a3)
+la $t0, var286
+sw $t0, 14100($a3)
+la $t0, var287
+sw $t0, 14124($a3)
+la $t0, var288
+sw $t0, 14148($a3)
+la $t0, var289
+sw $t0, 14172($a3)
+la $t0, var290
+sw $t0, 14196($a3)
+la $t0, var291
+sw $t0, 14220($a3)
+la $t0, var292
+sw $t0, 14244($a3)
+la $t0, var293
+sw $t0, 14268($a3)
+la $t0, var294
+sw $t0, 14292($a3)
+la $t0, var295
+sw $t0, 14316($a3)
+la $t0, var296
+sw $t0, 14340($a3)
+la $t0, var297
+sw $t0, 14364($a3)
+la $t0, var298
+sw $t0, 14388($a3)
+la $t0, var299
+sw $t0, 14412($a3)
+la $t0, var300
+sw $t0, 14436($a3)
+la $t0, var301
+sw $t0, 14460($a3)
+la $t0, var302
+sw $t0, 14484($a3)
+la $t0, var303
+sw $t0, 14508($a3)
+la $t0, var304
+sw $t0, 14532($a3)
+la $t0, var305
+sw $t0, 14556($a3)
+la $t0, var306
+sw $t0, 14580($a3)
+la $t0, var307
+sw $t0, 14604($a3)
+la $t0, var308
+sw $t0, 14628($a3)
+la $t0, var309
+sw $t0, 14652($a3)
+la $t0, var310
+sw $t0, 14676($a3)
+la $t0, var311
+sw $t0, 14700($a3)
+la $t0, var312
+sw $t0, 14724($a3)
+la $t0, var313
+sw $t0, 14748($a3)
+la $t0, var314
+sw $t0, 14772($a3)
+la $t0, var315
+sw $t0, 14796($a3)
+la $t0, var316
+sw $t0, 14820($a3)
+la $t0, var317
+sw $t0, 14844($a3)
+la $t0, var318
+sw $t0, 14868($a3)
+la $t0, var319
+sw $t0, 14892($a3)
+la $t0, var320
+sw $t0, 14916($a3)
+la $t0, var321
+sw $t0, 14940($a3)
+la $t0, var322
+sw $t0, 14964($a3)
+la $t0, var323
+sw $t0, 14988($a3)
+la $t0, var324
+sw $t0, 15012($a3)
+la $t0, var325
+sw $t0, 15036($a3)
+la $t0, var326
+sw $t0, 15060($a3)
+la $t0, var327
+sw $t0, 15084($a3)
+la $t0, var328
+sw $t0, 15108($a3)
+la $t0, var329
+sw $t0, 15132($a3)
+la $t0, var330
+sw $t0, 15156($a3)
+la $t0, var331
+sw $t0, 15180($a3)
+la $t0, var332
+sw $t0, 15204($a3)
+la $t0, var333
+sw $t0, 15228($a3)
+la $t0, var334
+sw $t0, 15252($a3)
+la $t0, var335
+sw $t0, 15276($a3)
+la $t0, var336
+sw $t0, 15300($a3)
+la $t0, var337
+sw $t0, 15324($a3)
+la $t0, var338
+sw $t0, 15348($a3)
+la $t0, var339
+sw $t0, 15372($a3)
+la $t0, var340
+sw $t0, 15396($a3)
+la $t0, var341
+sw $t0, 15420($a3)
+la $t0, var342
+sw $t0, 15444($a3)
+la $t0, var343
+sw $t0, 15468($a3)
+la $t0, var344
+sw $t0, 15492($a3)
+la $t0, var345
+sw $t0, 15516($a3)
+la $t0, var346
+sw $t0, 15540($a3)
+la $t0, var347
+sw $t0, 15564($a3)
+la $t0, var348
+sw $t0, 15588($a3)
+la $t0, var349
+sw $t0, 15612($a3)
+la $t0, var350
+sw $t0, 15636($a3)
+la $t0, var351
+sw $t0, 15660($a3)
+la $t0, var352
+sw $t0, 15684($a3)
+la $t0, var353
+sw $t0, 15708($a3)
+la $t0, var354
+sw $t0, 15732($a3)
+la $t0, var355
+sw $t0, 15756($a3)
+la $t0, var356
+sw $t0, 15780($a3)
+la $t0, var357
+sw $t0, 15804($a3)
+la $t0, var358
+sw $t0, 15828($a3)
+la $t0, var359
+sw $t0, 15852($a3)
+la $t0, var360
+sw $t0, 15876($a3)
+la $t0, var361
+sw $t0, 15900($a3)
+la $t0, var362
+sw $t0, 15924($a3)
+la $t0, var363
+sw $t0, 15948($a3)
+la $t0, var364
+sw $t0, 15972($a3)
+la $t0, var365
+sw $t0, 15996($a3)
+la $t0, var366
+sw $t0, 16020($a3)
+la $t0, var367
+sw $t0, 16044($a3)
+la $t0, var368
+sw $t0, 16068($a3)
+la $t0, var369
+sw $t0, 16092($a3)
+la $t0, var370
+sw $t0, 16116($a3)
+la $t0, var371
+sw $t0, 16140($a3)
+la $t0, var372
+sw $t0, 16164($a3)
+la $t0, var373
+sw $t0, 16188($a3)
+la $t0, var374
+sw $t0, 16212($a3)
+la $t0, var375
+sw $t0, 16236($a3)
+la $t0, var376
+sw $t0, 16260($a3)
+la $t0, var377
+sw $t0, 16284($a3)
+la $t0, var378
+sw $t0, 16308($a3)
+la $t0, var379
+sw $t0, 16332($a3)
+la $t0, var380
+sw $t0, 16356($a3)
+la $t0, var381
+sw $t0, 16380($a3)
+la $t0, var382
+sw $t0, 16404($a3)
+la $t0, var383
+sw $t0, 16428($a3)
+la $t0, var384
+sw $t0, 16452($a3)
+la $t0, var385
+sw $t0, 16476($a3)
+la $t0, var386
+sw $t0, 16500($a3)
+la $t0, var387
+sw $t0, 16524($a3)
+la $t0, var388
+sw $t0, 16548($a3)
+la $t0, var389
+sw $t0, 16572($a3)
+la $t0, var390
+sw $t0, 16596($a3)
+la $t0, var391
+sw $t0, 16620($a3)
+la $t0, var392
+sw $t0, 16644($a3)
+la $t0, var393
+sw $t0, 16668($a3)
+la $t0, var394
+sw $t0, 16692($a3)
+la $t0, var395
+sw $t0, 16716($a3)
+la $t0, var396
+sw $t0, 16740($a3)
+la $t0, var397
+sw $t0, 16764($a3)
+la $t0, var398
+sw $t0, 16788($a3)
+la $t0, var399
+sw $t0, 16812($a3)
+la $t0, var400
+sw $t0, 16836($a3)
+la $t0, var401
+sw $t0, 16860($a3)
+la $t0, var402
+sw $t0, 16884($a3)
+la $t0, var403
+sw $t0, 16908($a3)
+la $t0, var404
+sw $t0, 16932($a3)
+la $t0, var405
+sw $t0, 16956($a3)
+la $t0, var406
+sw $t0, 16980($a3)
+la $t0, var407
+sw $t0, 17004($a3)
+la $t0, var408
+sw $t0, 17028($a3)
+la $t0, var409
+sw $t0, 17052($a3)
+la $t0, var410
+sw $t0, 17076($a3)
+la $t0, var411
+sw $t0, 17100($a3)
+la $t0, var412
+sw $t0, 17124($a3)
+la $t0, var413
+sw $t0, 17148($a3)
+la $t0, var414
+sw $t0, 17172($a3)
+la $t0, var415
+sw $t0, 17196($a3)
+la $t0, var416
+sw $t0, 17220($a3)
+la $t0, var417
+sw $t0, 17244($a3)
+la $t0, var418
+sw $t0, 17268($a3)
+la $t0, var419
+sw $t0, 17292($a3)
+la $t0, var420
+sw $t0, 17316($a3)
+la $t0, var421
+sw $t0, 17340($a3)
+la $t0, var422
+sw $t0, 17364($a3)
+la $t0, var423
+sw $t0, 17388($a3)
+la $t0, var424
+sw $t0, 17412($a3)
+la $t0, var425
+sw $t0, 17436($a3)
+la $t0, var426
+sw $t0, 17460($a3)
+la $t0, var427
+sw $t0, 17484($a3)
+la $t0, var428
+sw $t0, 17508($a3)
+la $t0, var429
+sw $t0, 17532($a3)
+la $t0, var430
+sw $t0, 17556($a3)
+la $t0, var431
+sw $t0, 17580($a3)
+la $t0, var432
+sw $t0, 17604($a3)
+la $t0, var433
+sw $t0, 17628($a3)
+la $t0, var434
+sw $t0, 17652($a3)
+la $t0, var435
+sw $t0, 17676($a3)
+la $t0, var436
+sw $t0, 17700($a3)
+la $t0, var437
+sw $t0, 17724($a3)
+la $t0, var438
+sw $t0, 17748($a3)
+la $t0, var439
+sw $t0, 17772($a3)
+la $t0, var440
+sw $t0, 17796($a3)
+la $t0, var441
+sw $t0, 17820($a3)
+la $t0, var442
+sw $t0, 17844($a3)
+la $t0, var443
+sw $t0, 17868($a3)
+la $t0, var444
+sw $t0, 17892($a3)
+la $t0, var445
+sw $t0, 17916($a3)
+la $t0, var446
+sw $t0, 17940($a3)
+la $t0, var447
+sw $t0, 17964($a3)
+la $t0, var448
+sw $t0, 17988($a3)
+la $t0, var449
+sw $t0, 18012($a3)
+la $t0, var450
+sw $t0, 18036($a3)
+la $t0, var451
+sw $t0, 18060($a3)
+la $t0, var452
+sw $t0, 18084($a3)
+la $t0, var453
+sw $t0, 18108($a3)
+la $t0, var454
+sw $t0, 18132($a3)
+la $t0, var455
+sw $t0, 18156($a3)
+la $t0, var456
+sw $t0, 18180($a3)
+la $t0, var457
+sw $t0, 18204($a3)
+la $t0, var458
+sw $t0, 18228($a3)
+la $t0, var459
+sw $t0, 18252($a3)
+la $t0, var460
+sw $t0, 18276($a3)
+la $t0, var461
+sw $t0, 18300($a3)
+la $t0, var462
+sw $t0, 18324($a3)
+la $t0, var463
+sw $t0, 18348($a3)
+la $t0, var464
+sw $t0, 18372($a3)
+la $t0, var465
+sw $t0, 18396($a3)
+la $t0, var466
+sw $t0, 18420($a3)
+la $t0, var467
+sw $t0, 18444($a3)
+la $t0, var468
+sw $t0, 18468($a3)
+la $t0, var469
+sw $t0, 18492($a3)
+la $t0, var470
+sw $t0, 18516($a3)
+la $t0, var471
+sw $t0, 18540($a3)
+la $t0, var472
+sw $t0, 18564($a3)
+la $t0, var473
+sw $t0, 18588($a3)
+la $t0, var474
+sw $t0, 18612($a3)
+la $t0, var475
+sw $t0, 18636($a3)
+la $t0, var476
+sw $t0, 18660($a3)
+la $t0, var477
+sw $t0, 18684($a3)
+la $t0, var478
+sw $t0, 18708($a3)
+la $t0, var479
+sw $t0, 18732($a3)
+la $t0, var480
+sw $t0, 18756($a3)
+la $t0, var481
+sw $t0, 18780($a3)
+la $t0, var482
+sw $t0, 18804($a3)
+la $t0, var483
+sw $t0, 18828($a3)
+la $t0, var484
+sw $t0, 18852($a3)
+la $t0, var485
+sw $t0, 18876($a3)
+la $t0, var486
+sw $t0, 18900($a3)
+la $t0, var487
+sw $t0, 18924($a3)
+la $t0, var488
+sw $t0, 18948($a3)
+la $t0, var489
+sw $t0, 18972($a3)
+la $t0, var490
+sw $t0, 18996($a3)
+la $t0, var491
+sw $t0, 19020($a3)
+la $t0, var492
+sw $t0, 19044($a3)
+la $t0, var493
+sw $t0, 19068($a3)
+la $t0, var494
+sw $t0, 19092($a3)
+la $t0, var495
+sw $t0, 19116($a3)
+la $t0, var496
+sw $t0, 19140($a3)
+la $t0, var497
+sw $t0, 19164($a3)
+la $t0, var498
+sw $t0, 19188($a3)
+la $t0, var499
+sw $t0, 19212($a3)
+la $t0, var500
+sw $t0, 19236($a3)
+la $t0, var501
+sw $t0, 19260($a3)
+la $t0, var502
+sw $t0, 19284($a3)
+la $t0, var503
+sw $t0, 19308($a3)
+la $t0, var504
+sw $t0, 19332($a3)
+la $t0, var505
+sw $t0, 19356($a3)
+la $t0, var506
+sw $t0, 19380($a3)
+la $t0, var507
+sw $t0, 19404($a3)
+la $t0, var508
+sw $t0, 19428($a3)
+la $t0, var509
+sw $t0, 19452($a3)
+la $t0, var510
+sw $t0, 19476($a3)
+la $t0, var511
+sw $t0, 19500($a3)
+la $t0, var512
+sw $t0, 19524($a3)
+la $t0, var513
+sw $t0, 19540($a3)
+add $11, $29, -17480
 add $8, $29, -17484
 sw $8, -16($sp)
 add $8, $29, -17488
@@ -668,24181 +2701,9512 @@ add $8, $29, -18500
 sw $8, -2048($sp)
 add $8, $29, -18504
 sw $8, -2056($sp)
-lw $9, -8($sp)
-move $8, $9
-sw $8, -2060($sp)
-li $8, 4
-sw $8, -2068($sp)
-add $8, $29, -18516
-sw $8, -2072($sp)
-lw $8, -2068($sp)
-lw $9, -2072($sp)
-sw $8, 0($9)
+move $25, $11
+li $24, 4
+add $23, $29, -18516
+sw $24, 0($23)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $25, 16456($sp)
 jal __malloc
+lw $11, 18508($sp)
+lw $25, 16456($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2076($sp)
-lw $9, -2076($sp)
-lw $8, 0($9)
-sw $8, -2064($sp)
-lw $8, -2064($sp)
-lw $9, -2060($sp)
-sw $8, 0($9)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2080($sp)
-li $8, 0
-sw $8, -2084($sp)
-lw $8, -2084($sp)
-lw $9, -2080($sp)
-sw $8, 0($9)
+add $23, $29, -18508
+lw $24, 0($23)
+sw $24, 0($25)
+lw $23, 0($11)
+li $24, 0
+sw $24, 0($23)
 lw $9, -16($sp)
-move $8, $9
-sw $8, -2088($sp)
-add $8, $29, -18516
-sw $8, -2100($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2096($sp)
-lw $8, -2096($sp)
-lw $9, -2100($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16428($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16428($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2104($sp)
-lw $9, -2104($sp)
-lw $8, 0($9)
-sw $8, -2092($sp)
-lw $8, -2092($sp)
-lw $9, -2088($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -24($sp)
-move $8, $9
-sw $8, -2108($sp)
-add $8, $29, -18516
-sw $8, -2120($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2116($sp)
-lw $8, -2116($sp)
-lw $9, -2120($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16408($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16408($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2124($sp)
-lw $9, -2124($sp)
-lw $8, 0($9)
-sw $8, -2112($sp)
-lw $8, -2112($sp)
-lw $9, -2108($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -32($sp)
-move $8, $9
-sw $8, -2128($sp)
-add $8, $29, -18516
-sw $8, -2140($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2136($sp)
-lw $8, -2136($sp)
-lw $9, -2140($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16388($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16388($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2144($sp)
-lw $9, -2144($sp)
-lw $8, 0($9)
-sw $8, -2132($sp)
-lw $8, -2132($sp)
-lw $9, -2128($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -40($sp)
-move $8, $9
-sw $8, -2148($sp)
-add $8, $29, -18516
-sw $8, -2160($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2156($sp)
-lw $8, -2156($sp)
-lw $9, -2160($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16368($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16368($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2164($sp)
-lw $9, -2164($sp)
-lw $8, 0($9)
-sw $8, -2152($sp)
-lw $8, -2152($sp)
-lw $9, -2148($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -48($sp)
-move $8, $9
-sw $8, -2168($sp)
-add $8, $29, -18516
-sw $8, -2180($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2176($sp)
-lw $8, -2176($sp)
-lw $9, -2180($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16348($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16348($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2184($sp)
-lw $9, -2184($sp)
-lw $8, 0($9)
-sw $8, -2172($sp)
-lw $8, -2172($sp)
-lw $9, -2168($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -56($sp)
-move $8, $9
-sw $8, -2188($sp)
-add $8, $29, -18516
-sw $8, -2200($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2196($sp)
-lw $8, -2196($sp)
-lw $9, -2200($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16328($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16328($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2204($sp)
-lw $9, -2204($sp)
-lw $8, 0($9)
-sw $8, -2192($sp)
-lw $8, -2192($sp)
-lw $9, -2188($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -64($sp)
-move $8, $9
-sw $8, -2208($sp)
-add $8, $29, -18516
-sw $8, -2220($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2216($sp)
-lw $8, -2216($sp)
-lw $9, -2220($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16308($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16308($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2224($sp)
-lw $9, -2224($sp)
-lw $8, 0($9)
-sw $8, -2212($sp)
-lw $8, -2212($sp)
-lw $9, -2208($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -72($sp)
-move $8, $9
-sw $8, -2228($sp)
-add $8, $29, -18516
-sw $8, -2240($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2236($sp)
-lw $8, -2236($sp)
-lw $9, -2240($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16288($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16288($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2244($sp)
-lw $9, -2244($sp)
-lw $8, 0($9)
-sw $8, -2232($sp)
-lw $8, -2232($sp)
-lw $9, -2228($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -80($sp)
-move $8, $9
-sw $8, -2248($sp)
-add $8, $29, -18516
-sw $8, -2260($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2256($sp)
-lw $8, -2256($sp)
-lw $9, -2260($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16268($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16268($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2264($sp)
-lw $9, -2264($sp)
-lw $8, 0($9)
-sw $8, -2252($sp)
-lw $8, -2252($sp)
-lw $9, -2248($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -88($sp)
-move $8, $9
-sw $8, -2268($sp)
-add $8, $29, -18516
-sw $8, -2280($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2276($sp)
-lw $8, -2276($sp)
-lw $9, -2280($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16248($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16248($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2284($sp)
-lw $9, -2284($sp)
-lw $8, 0($9)
-sw $8, -2272($sp)
-lw $8, -2272($sp)
-lw $9, -2268($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -96($sp)
-move $8, $9
-sw $8, -2288($sp)
-add $8, $29, -18516
-sw $8, -2300($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2296($sp)
-lw $8, -2296($sp)
-lw $9, -2300($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16228($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16228($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2304($sp)
-lw $9, -2304($sp)
-lw $8, 0($9)
-sw $8, -2292($sp)
-lw $8, -2292($sp)
-lw $9, -2288($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -104($sp)
-move $8, $9
-sw $8, -2308($sp)
-add $8, $29, -18516
-sw $8, -2320($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2316($sp)
-lw $8, -2316($sp)
-lw $9, -2320($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16208($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16208($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2324($sp)
-lw $9, -2324($sp)
-lw $8, 0($9)
-sw $8, -2312($sp)
-lw $8, -2312($sp)
-lw $9, -2308($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -112($sp)
-move $8, $9
-sw $8, -2328($sp)
-add $8, $29, -18516
-sw $8, -2340($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2336($sp)
-lw $8, -2336($sp)
-lw $9, -2340($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16188($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16188($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2344($sp)
-lw $9, -2344($sp)
-lw $8, 0($9)
-sw $8, -2332($sp)
-lw $8, -2332($sp)
-lw $9, -2328($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -120($sp)
-move $8, $9
-sw $8, -2348($sp)
-add $8, $29, -18516
-sw $8, -2360($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2356($sp)
-lw $8, -2356($sp)
-lw $9, -2360($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16168($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16168($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2364($sp)
-lw $9, -2364($sp)
-lw $8, 0($9)
-sw $8, -2352($sp)
-lw $8, -2352($sp)
-lw $9, -2348($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -128($sp)
-move $8, $9
-sw $8, -2368($sp)
-add $8, $29, -18516
-sw $8, -2380($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2376($sp)
-lw $8, -2376($sp)
-lw $9, -2380($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16148($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16148($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2384($sp)
-lw $9, -2384($sp)
-lw $8, 0($9)
-sw $8, -2372($sp)
-lw $8, -2372($sp)
-lw $9, -2368($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -136($sp)
-move $8, $9
-sw $8, -2388($sp)
-add $8, $29, -18516
-sw $8, -2400($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2396($sp)
-lw $8, -2396($sp)
-lw $9, -2400($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16128($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16128($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2404($sp)
-lw $9, -2404($sp)
-lw $8, 0($9)
-sw $8, -2392($sp)
-lw $8, -2392($sp)
-lw $9, -2388($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -144($sp)
-move $8, $9
-sw $8, -2408($sp)
-add $8, $29, -18516
-sw $8, -2420($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2416($sp)
-lw $8, -2416($sp)
-lw $9, -2420($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16108($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16108($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2424($sp)
-lw $9, -2424($sp)
-lw $8, 0($9)
-sw $8, -2412($sp)
-lw $8, -2412($sp)
-lw $9, -2408($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -152($sp)
-move $8, $9
-sw $8, -2428($sp)
-add $8, $29, -18516
-sw $8, -2440($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2436($sp)
-lw $8, -2436($sp)
-lw $9, -2440($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16088($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16088($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2444($sp)
-lw $9, -2444($sp)
-lw $8, 0($9)
-sw $8, -2432($sp)
-lw $8, -2432($sp)
-lw $9, -2428($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -160($sp)
-move $8, $9
-sw $8, -2448($sp)
-add $8, $29, -18516
-sw $8, -2460($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2456($sp)
-lw $8, -2456($sp)
-lw $9, -2460($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16068($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16068($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2464($sp)
-lw $9, -2464($sp)
-lw $8, 0($9)
-sw $8, -2452($sp)
-lw $8, -2452($sp)
-lw $9, -2448($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -168($sp)
-move $8, $9
-sw $8, -2468($sp)
-add $8, $29, -18516
-sw $8, -2480($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2476($sp)
-lw $8, -2476($sp)
-lw $9, -2480($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16048($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16048($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2484($sp)
-lw $9, -2484($sp)
-lw $8, 0($9)
-sw $8, -2472($sp)
-lw $8, -2472($sp)
-lw $9, -2468($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -176($sp)
-move $8, $9
-sw $8, -2488($sp)
-add $8, $29, -18516
-sw $8, -2500($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2496($sp)
-lw $8, -2496($sp)
-lw $9, -2500($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16028($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16028($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2504($sp)
-lw $9, -2504($sp)
-lw $8, 0($9)
-sw $8, -2492($sp)
-lw $8, -2492($sp)
-lw $9, -2488($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -184($sp)
-move $8, $9
-sw $8, -2508($sp)
-add $8, $29, -18516
-sw $8, -2520($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2516($sp)
-lw $8, -2516($sp)
-lw $9, -2520($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 16008($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 16008($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2524($sp)
-lw $9, -2524($sp)
-lw $8, 0($9)
-sw $8, -2512($sp)
-lw $8, -2512($sp)
-lw $9, -2508($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -192($sp)
-move $8, $9
-sw $8, -2528($sp)
-add $8, $29, -18516
-sw $8, -2540($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2536($sp)
-lw $8, -2536($sp)
-lw $9, -2540($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15988($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15988($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2544($sp)
-lw $9, -2544($sp)
-lw $8, 0($9)
-sw $8, -2532($sp)
-lw $8, -2532($sp)
-lw $9, -2528($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -200($sp)
-move $8, $9
-sw $8, -2548($sp)
-add $8, $29, -18516
-sw $8, -2560($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2556($sp)
-lw $8, -2556($sp)
-lw $9, -2560($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15968($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15968($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2564($sp)
-lw $9, -2564($sp)
-lw $8, 0($9)
-sw $8, -2552($sp)
-lw $8, -2552($sp)
-lw $9, -2548($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -208($sp)
-move $8, $9
-sw $8, -2568($sp)
-add $8, $29, -18516
-sw $8, -2580($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2576($sp)
-lw $8, -2576($sp)
-lw $9, -2580($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15948($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15948($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2584($sp)
-lw $9, -2584($sp)
-lw $8, 0($9)
-sw $8, -2572($sp)
-lw $8, -2572($sp)
-lw $9, -2568($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -216($sp)
-move $8, $9
-sw $8, -2588($sp)
-add $8, $29, -18516
-sw $8, -2600($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2596($sp)
-lw $8, -2596($sp)
-lw $9, -2600($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15928($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15928($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2604($sp)
-lw $9, -2604($sp)
-lw $8, 0($9)
-sw $8, -2592($sp)
-lw $8, -2592($sp)
-lw $9, -2588($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -224($sp)
-move $8, $9
-sw $8, -2608($sp)
-add $8, $29, -18516
-sw $8, -2620($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2616($sp)
-lw $8, -2616($sp)
-lw $9, -2620($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15908($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15908($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2624($sp)
-lw $9, -2624($sp)
-lw $8, 0($9)
-sw $8, -2612($sp)
-lw $8, -2612($sp)
-lw $9, -2608($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -232($sp)
-move $8, $9
-sw $8, -2628($sp)
-add $8, $29, -18516
-sw $8, -2640($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2636($sp)
-lw $8, -2636($sp)
-lw $9, -2640($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15888($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15888($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2644($sp)
-lw $9, -2644($sp)
-lw $8, 0($9)
-sw $8, -2632($sp)
-lw $8, -2632($sp)
-lw $9, -2628($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -240($sp)
-move $8, $9
-sw $8, -2648($sp)
-add $8, $29, -18516
-sw $8, -2660($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2656($sp)
-lw $8, -2656($sp)
-lw $9, -2660($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15868($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15868($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2664($sp)
-lw $9, -2664($sp)
-lw $8, 0($9)
-sw $8, -2652($sp)
-lw $8, -2652($sp)
-lw $9, -2648($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -248($sp)
-move $8, $9
-sw $8, -2668($sp)
-add $8, $29, -18516
-sw $8, -2680($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2676($sp)
-lw $8, -2676($sp)
-lw $9, -2680($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15848($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15848($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2684($sp)
-lw $9, -2684($sp)
-lw $8, 0($9)
-sw $8, -2672($sp)
-lw $8, -2672($sp)
-lw $9, -2668($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -256($sp)
-move $8, $9
-sw $8, -2688($sp)
-add $8, $29, -18516
-sw $8, -2700($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2696($sp)
-lw $8, -2696($sp)
-lw $9, -2700($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15828($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15828($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2704($sp)
-lw $9, -2704($sp)
-lw $8, 0($9)
-sw $8, -2692($sp)
-lw $8, -2692($sp)
-lw $9, -2688($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -264($sp)
-move $8, $9
-sw $8, -2708($sp)
-add $8, $29, -18516
-sw $8, -2720($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2716($sp)
-lw $8, -2716($sp)
-lw $9, -2720($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15808($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15808($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2724($sp)
-lw $9, -2724($sp)
-lw $8, 0($9)
-sw $8, -2712($sp)
-lw $8, -2712($sp)
-lw $9, -2708($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -272($sp)
-move $8, $9
-sw $8, -2728($sp)
-add $8, $29, -18516
-sw $8, -2740($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2736($sp)
-lw $8, -2736($sp)
-lw $9, -2740($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15788($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15788($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2744($sp)
-lw $9, -2744($sp)
-lw $8, 0($9)
-sw $8, -2732($sp)
-lw $8, -2732($sp)
-lw $9, -2728($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -280($sp)
-move $8, $9
-sw $8, -2748($sp)
-add $8, $29, -18516
-sw $8, -2760($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2756($sp)
-lw $8, -2756($sp)
-lw $9, -2760($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15768($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15768($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2764($sp)
-lw $9, -2764($sp)
-lw $8, 0($9)
-sw $8, -2752($sp)
-lw $8, -2752($sp)
-lw $9, -2748($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -288($sp)
-move $8, $9
-sw $8, -2768($sp)
-add $8, $29, -18516
-sw $8, -2780($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2776($sp)
-lw $8, -2776($sp)
-lw $9, -2780($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15748($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15748($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2784($sp)
-lw $9, -2784($sp)
-lw $8, 0($9)
-sw $8, -2772($sp)
-lw $8, -2772($sp)
-lw $9, -2768($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -296($sp)
-move $8, $9
-sw $8, -2788($sp)
-add $8, $29, -18516
-sw $8, -2800($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2796($sp)
-lw $8, -2796($sp)
-lw $9, -2800($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15728($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15728($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2804($sp)
-lw $9, -2804($sp)
-lw $8, 0($9)
-sw $8, -2792($sp)
-lw $8, -2792($sp)
-lw $9, -2788($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -304($sp)
-move $8, $9
-sw $8, -2808($sp)
-add $8, $29, -18516
-sw $8, -2820($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2816($sp)
-lw $8, -2816($sp)
-lw $9, -2820($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15708($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15708($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2824($sp)
-lw $9, -2824($sp)
-lw $8, 0($9)
-sw $8, -2812($sp)
-lw $8, -2812($sp)
-lw $9, -2808($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -312($sp)
-move $8, $9
-sw $8, -2828($sp)
-add $8, $29, -18516
-sw $8, -2840($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2836($sp)
-lw $8, -2836($sp)
-lw $9, -2840($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15688($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15688($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2844($sp)
-lw $9, -2844($sp)
-lw $8, 0($9)
-sw $8, -2832($sp)
-lw $8, -2832($sp)
-lw $9, -2828($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -320($sp)
-move $8, $9
-sw $8, -2848($sp)
-add $8, $29, -18516
-sw $8, -2860($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2856($sp)
-lw $8, -2856($sp)
-lw $9, -2860($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15668($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15668($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2864($sp)
-lw $9, -2864($sp)
-lw $8, 0($9)
-sw $8, -2852($sp)
-lw $8, -2852($sp)
-lw $9, -2848($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -328($sp)
-move $8, $9
-sw $8, -2868($sp)
-add $8, $29, -18516
-sw $8, -2880($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2876($sp)
-lw $8, -2876($sp)
-lw $9, -2880($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15648($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15648($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2884($sp)
-lw $9, -2884($sp)
-lw $8, 0($9)
-sw $8, -2872($sp)
-lw $8, -2872($sp)
-lw $9, -2868($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -336($sp)
-move $8, $9
-sw $8, -2888($sp)
-add $8, $29, -18516
-sw $8, -2900($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2896($sp)
-lw $8, -2896($sp)
-lw $9, -2900($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15628($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15628($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2904($sp)
-lw $9, -2904($sp)
-lw $8, 0($9)
-sw $8, -2892($sp)
-lw $8, -2892($sp)
-lw $9, -2888($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -344($sp)
-move $8, $9
-sw $8, -2908($sp)
-add $8, $29, -18516
-sw $8, -2920($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2916($sp)
-lw $8, -2916($sp)
-lw $9, -2920($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15608($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15608($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2924($sp)
-lw $9, -2924($sp)
-lw $8, 0($9)
-sw $8, -2912($sp)
-lw $8, -2912($sp)
-lw $9, -2908($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -352($sp)
-move $8, $9
-sw $8, -2928($sp)
-add $8, $29, -18516
-sw $8, -2940($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2936($sp)
-lw $8, -2936($sp)
-lw $9, -2940($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15588($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15588($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2944($sp)
-lw $9, -2944($sp)
-lw $8, 0($9)
-sw $8, -2932($sp)
-lw $8, -2932($sp)
-lw $9, -2928($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -360($sp)
-move $8, $9
-sw $8, -2948($sp)
-add $8, $29, -18516
-sw $8, -2960($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2956($sp)
-lw $8, -2956($sp)
-lw $9, -2960($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15568($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15568($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2964($sp)
-lw $9, -2964($sp)
-lw $8, 0($9)
-sw $8, -2952($sp)
-lw $8, -2952($sp)
-lw $9, -2948($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -368($sp)
-move $8, $9
-sw $8, -2968($sp)
-add $8, $29, -18516
-sw $8, -2980($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2976($sp)
-lw $8, -2976($sp)
-lw $9, -2980($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15548($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15548($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -2984($sp)
-lw $9, -2984($sp)
-lw $8, 0($9)
-sw $8, -2972($sp)
-lw $8, -2972($sp)
-lw $9, -2968($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -376($sp)
-move $8, $9
-sw $8, -2988($sp)
-add $8, $29, -18516
-sw $8, -3000($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -2996($sp)
-lw $8, -2996($sp)
-lw $9, -3000($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15528($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15528($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3004($sp)
-lw $9, -3004($sp)
-lw $8, 0($9)
-sw $8, -2992($sp)
-lw $8, -2992($sp)
-lw $9, -2988($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -384($sp)
-move $8, $9
-sw $8, -3008($sp)
-add $8, $29, -18516
-sw $8, -3020($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3016($sp)
-lw $8, -3016($sp)
-lw $9, -3020($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15508($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15508($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3024($sp)
-lw $9, -3024($sp)
-lw $8, 0($9)
-sw $8, -3012($sp)
-lw $8, -3012($sp)
-lw $9, -3008($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -392($sp)
-move $8, $9
-sw $8, -3028($sp)
-add $8, $29, -18516
-sw $8, -3040($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3036($sp)
-lw $8, -3036($sp)
-lw $9, -3040($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15488($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15488($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3044($sp)
-lw $9, -3044($sp)
-lw $8, 0($9)
-sw $8, -3032($sp)
-lw $8, -3032($sp)
-lw $9, -3028($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -400($sp)
-move $8, $9
-sw $8, -3048($sp)
-add $8, $29, -18516
-sw $8, -3060($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3056($sp)
-lw $8, -3056($sp)
-lw $9, -3060($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15468($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15468($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3064($sp)
-lw $9, -3064($sp)
-lw $8, 0($9)
-sw $8, -3052($sp)
-lw $8, -3052($sp)
-lw $9, -3048($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -408($sp)
-move $8, $9
-sw $8, -3068($sp)
-add $8, $29, -18516
-sw $8, -3080($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3076($sp)
-lw $8, -3076($sp)
-lw $9, -3080($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15448($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15448($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3084($sp)
-lw $9, -3084($sp)
-lw $8, 0($9)
-sw $8, -3072($sp)
-lw $8, -3072($sp)
-lw $9, -3068($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -416($sp)
-move $8, $9
-sw $8, -3088($sp)
-add $8, $29, -18516
-sw $8, -3100($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3096($sp)
-lw $8, -3096($sp)
-lw $9, -3100($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15428($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15428($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3104($sp)
-lw $9, -3104($sp)
-lw $8, 0($9)
-sw $8, -3092($sp)
-lw $8, -3092($sp)
-lw $9, -3088($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -424($sp)
-move $8, $9
-sw $8, -3108($sp)
-add $8, $29, -18516
-sw $8, -3120($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3116($sp)
-lw $8, -3116($sp)
-lw $9, -3120($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15408($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15408($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3124($sp)
-lw $9, -3124($sp)
-lw $8, 0($9)
-sw $8, -3112($sp)
-lw $8, -3112($sp)
-lw $9, -3108($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -432($sp)
-move $8, $9
-sw $8, -3128($sp)
-add $8, $29, -18516
-sw $8, -3140($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3136($sp)
-lw $8, -3136($sp)
-lw $9, -3140($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15388($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15388($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3144($sp)
-lw $9, -3144($sp)
-lw $8, 0($9)
-sw $8, -3132($sp)
-lw $8, -3132($sp)
-lw $9, -3128($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -440($sp)
-move $8, $9
-sw $8, -3148($sp)
-add $8, $29, -18516
-sw $8, -3160($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3156($sp)
-lw $8, -3156($sp)
-lw $9, -3160($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15368($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15368($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3164($sp)
-lw $9, -3164($sp)
-lw $8, 0($9)
-sw $8, -3152($sp)
-lw $8, -3152($sp)
-lw $9, -3148($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -448($sp)
-move $8, $9
-sw $8, -3168($sp)
-add $8, $29, -18516
-sw $8, -3180($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3176($sp)
-lw $8, -3176($sp)
-lw $9, -3180($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15348($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15348($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3184($sp)
-lw $9, -3184($sp)
-lw $8, 0($9)
-sw $8, -3172($sp)
-lw $8, -3172($sp)
-lw $9, -3168($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -456($sp)
-move $8, $9
-sw $8, -3188($sp)
-add $8, $29, -18516
-sw $8, -3200($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3196($sp)
-lw $8, -3196($sp)
-lw $9, -3200($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15328($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15328($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3204($sp)
-lw $9, -3204($sp)
-lw $8, 0($9)
-sw $8, -3192($sp)
-lw $8, -3192($sp)
-lw $9, -3188($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -464($sp)
-move $8, $9
-sw $8, -3208($sp)
-add $8, $29, -18516
-sw $8, -3220($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3216($sp)
-lw $8, -3216($sp)
-lw $9, -3220($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15308($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15308($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3224($sp)
-lw $9, -3224($sp)
-lw $8, 0($9)
-sw $8, -3212($sp)
-lw $8, -3212($sp)
-lw $9, -3208($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -472($sp)
-move $8, $9
-sw $8, -3228($sp)
-add $8, $29, -18516
-sw $8, -3240($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3236($sp)
-lw $8, -3236($sp)
-lw $9, -3240($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15288($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15288($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3244($sp)
-lw $9, -3244($sp)
-lw $8, 0($9)
-sw $8, -3232($sp)
-lw $8, -3232($sp)
-lw $9, -3228($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -480($sp)
-move $8, $9
-sw $8, -3248($sp)
-add $8, $29, -18516
-sw $8, -3260($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3256($sp)
-lw $8, -3256($sp)
-lw $9, -3260($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15268($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15268($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3264($sp)
-lw $9, -3264($sp)
-lw $8, 0($9)
-sw $8, -3252($sp)
-lw $8, -3252($sp)
-lw $9, -3248($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -488($sp)
-move $8, $9
-sw $8, -3268($sp)
-add $8, $29, -18516
-sw $8, -3280($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3276($sp)
-lw $8, -3276($sp)
-lw $9, -3280($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15248($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15248($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3284($sp)
-lw $9, -3284($sp)
-lw $8, 0($9)
-sw $8, -3272($sp)
-lw $8, -3272($sp)
-lw $9, -3268($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -496($sp)
-move $8, $9
-sw $8, -3288($sp)
-add $8, $29, -18516
-sw $8, -3300($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3296($sp)
-lw $8, -3296($sp)
-lw $9, -3300($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15228($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15228($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3304($sp)
-lw $9, -3304($sp)
-lw $8, 0($9)
-sw $8, -3292($sp)
-lw $8, -3292($sp)
-lw $9, -3288($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -504($sp)
-move $8, $9
-sw $8, -3308($sp)
-add $8, $29, -18516
-sw $8, -3320($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3316($sp)
-lw $8, -3316($sp)
-lw $9, -3320($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15208($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15208($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3324($sp)
-lw $9, -3324($sp)
-lw $8, 0($9)
-sw $8, -3312($sp)
-lw $8, -3312($sp)
-lw $9, -3308($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -512($sp)
-move $8, $9
-sw $8, -3328($sp)
-add $8, $29, -18516
-sw $8, -3340($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3336($sp)
-lw $8, -3336($sp)
-lw $9, -3340($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15188($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15188($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3344($sp)
-lw $9, -3344($sp)
-lw $8, 0($9)
-sw $8, -3332($sp)
-lw $8, -3332($sp)
-lw $9, -3328($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -520($sp)
-move $8, $9
-sw $8, -3348($sp)
-add $8, $29, -18516
-sw $8, -3360($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3356($sp)
-lw $8, -3356($sp)
-lw $9, -3360($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15168($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15168($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3364($sp)
-lw $9, -3364($sp)
-lw $8, 0($9)
-sw $8, -3352($sp)
-lw $8, -3352($sp)
-lw $9, -3348($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -528($sp)
-move $8, $9
-sw $8, -3368($sp)
-add $8, $29, -18516
-sw $8, -3380($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3376($sp)
-lw $8, -3376($sp)
-lw $9, -3380($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15148($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15148($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3384($sp)
-lw $9, -3384($sp)
-lw $8, 0($9)
-sw $8, -3372($sp)
-lw $8, -3372($sp)
-lw $9, -3368($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -536($sp)
-move $8, $9
-sw $8, -3388($sp)
-add $8, $29, -18516
-sw $8, -3400($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3396($sp)
-lw $8, -3396($sp)
-lw $9, -3400($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15128($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15128($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3404($sp)
-lw $9, -3404($sp)
-lw $8, 0($9)
-sw $8, -3392($sp)
-lw $8, -3392($sp)
-lw $9, -3388($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -544($sp)
-move $8, $9
-sw $8, -3408($sp)
-add $8, $29, -18516
-sw $8, -3420($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3416($sp)
-lw $8, -3416($sp)
-lw $9, -3420($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15108($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15108($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3424($sp)
-lw $9, -3424($sp)
-lw $8, 0($9)
-sw $8, -3412($sp)
-lw $8, -3412($sp)
-lw $9, -3408($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -552($sp)
-move $8, $9
-sw $8, -3428($sp)
-add $8, $29, -18516
-sw $8, -3440($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3436($sp)
-lw $8, -3436($sp)
-lw $9, -3440($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15088($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15088($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3444($sp)
-lw $9, -3444($sp)
-lw $8, 0($9)
-sw $8, -3432($sp)
-lw $8, -3432($sp)
-lw $9, -3428($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -560($sp)
-move $8, $9
-sw $8, -3448($sp)
-add $8, $29, -18516
-sw $8, -3460($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3456($sp)
-lw $8, -3456($sp)
-lw $9, -3460($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15068($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15068($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3464($sp)
-lw $9, -3464($sp)
-lw $8, 0($9)
-sw $8, -3452($sp)
-lw $8, -3452($sp)
-lw $9, -3448($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -568($sp)
-move $8, $9
-sw $8, -3468($sp)
-add $8, $29, -18516
-sw $8, -3480($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3476($sp)
-lw $8, -3476($sp)
-lw $9, -3480($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15048($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15048($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3484($sp)
-lw $9, -3484($sp)
-lw $8, 0($9)
-sw $8, -3472($sp)
-lw $8, -3472($sp)
-lw $9, -3468($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -576($sp)
-move $8, $9
-sw $8, -3488($sp)
-add $8, $29, -18516
-sw $8, -3500($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3496($sp)
-lw $8, -3496($sp)
-lw $9, -3500($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15028($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15028($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3504($sp)
-lw $9, -3504($sp)
-lw $8, 0($9)
-sw $8, -3492($sp)
-lw $8, -3492($sp)
-lw $9, -3488($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -584($sp)
-move $8, $9
-sw $8, -3508($sp)
-add $8, $29, -18516
-sw $8, -3520($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3516($sp)
-lw $8, -3516($sp)
-lw $9, -3520($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 15008($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 15008($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3524($sp)
-lw $9, -3524($sp)
-lw $8, 0($9)
-sw $8, -3512($sp)
-lw $8, -3512($sp)
-lw $9, -3508($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -592($sp)
-move $8, $9
-sw $8, -3528($sp)
-add $8, $29, -18516
-sw $8, -3540($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3536($sp)
-lw $8, -3536($sp)
-lw $9, -3540($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14988($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14988($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3544($sp)
-lw $9, -3544($sp)
-lw $8, 0($9)
-sw $8, -3532($sp)
-lw $8, -3532($sp)
-lw $9, -3528($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -600($sp)
-move $8, $9
-sw $8, -3548($sp)
-add $8, $29, -18516
-sw $8, -3560($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3556($sp)
-lw $8, -3556($sp)
-lw $9, -3560($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14968($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14968($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3564($sp)
-lw $9, -3564($sp)
-lw $8, 0($9)
-sw $8, -3552($sp)
-lw $8, -3552($sp)
-lw $9, -3548($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -608($sp)
-move $8, $9
-sw $8, -3568($sp)
-add $8, $29, -18516
-sw $8, -3580($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3576($sp)
-lw $8, -3576($sp)
-lw $9, -3580($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14948($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14948($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3584($sp)
-lw $9, -3584($sp)
-lw $8, 0($9)
-sw $8, -3572($sp)
-lw $8, -3572($sp)
-lw $9, -3568($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -616($sp)
-move $8, $9
-sw $8, -3588($sp)
-add $8, $29, -18516
-sw $8, -3600($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3596($sp)
-lw $8, -3596($sp)
-lw $9, -3600($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14928($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14928($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3604($sp)
-lw $9, -3604($sp)
-lw $8, 0($9)
-sw $8, -3592($sp)
-lw $8, -3592($sp)
-lw $9, -3588($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -624($sp)
-move $8, $9
-sw $8, -3608($sp)
-add $8, $29, -18516
-sw $8, -3620($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3616($sp)
-lw $8, -3616($sp)
-lw $9, -3620($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14908($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14908($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3624($sp)
-lw $9, -3624($sp)
-lw $8, 0($9)
-sw $8, -3612($sp)
-lw $8, -3612($sp)
-lw $9, -3608($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -632($sp)
-move $8, $9
-sw $8, -3628($sp)
-add $8, $29, -18516
-sw $8, -3640($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3636($sp)
-lw $8, -3636($sp)
-lw $9, -3640($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14888($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14888($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3644($sp)
-lw $9, -3644($sp)
-lw $8, 0($9)
-sw $8, -3632($sp)
-lw $8, -3632($sp)
-lw $9, -3628($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -640($sp)
-move $8, $9
-sw $8, -3648($sp)
-add $8, $29, -18516
-sw $8, -3660($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3656($sp)
-lw $8, -3656($sp)
-lw $9, -3660($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14868($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14868($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3664($sp)
-lw $9, -3664($sp)
-lw $8, 0($9)
-sw $8, -3652($sp)
-lw $8, -3652($sp)
-lw $9, -3648($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -648($sp)
-move $8, $9
-sw $8, -3668($sp)
-add $8, $29, -18516
-sw $8, -3680($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3676($sp)
-lw $8, -3676($sp)
-lw $9, -3680($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14848($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14848($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3684($sp)
-lw $9, -3684($sp)
-lw $8, 0($9)
-sw $8, -3672($sp)
-lw $8, -3672($sp)
-lw $9, -3668($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -656($sp)
-move $8, $9
-sw $8, -3688($sp)
-add $8, $29, -18516
-sw $8, -3700($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3696($sp)
-lw $8, -3696($sp)
-lw $9, -3700($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14828($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14828($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3704($sp)
-lw $9, -3704($sp)
-lw $8, 0($9)
-sw $8, -3692($sp)
-lw $8, -3692($sp)
-lw $9, -3688($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -664($sp)
-move $8, $9
-sw $8, -3708($sp)
-add $8, $29, -18516
-sw $8, -3720($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3716($sp)
-lw $8, -3716($sp)
-lw $9, -3720($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14808($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14808($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3724($sp)
-lw $9, -3724($sp)
-lw $8, 0($9)
-sw $8, -3712($sp)
-lw $8, -3712($sp)
-lw $9, -3708($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -672($sp)
-move $8, $9
-sw $8, -3728($sp)
-add $8, $29, -18516
-sw $8, -3740($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3736($sp)
-lw $8, -3736($sp)
-lw $9, -3740($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14788($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14788($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3744($sp)
-lw $9, -3744($sp)
-lw $8, 0($9)
-sw $8, -3732($sp)
-lw $8, -3732($sp)
-lw $9, -3728($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -680($sp)
-move $8, $9
-sw $8, -3748($sp)
-add $8, $29, -18516
-sw $8, -3760($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3756($sp)
-lw $8, -3756($sp)
-lw $9, -3760($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14768($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14768($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3764($sp)
-lw $9, -3764($sp)
-lw $8, 0($9)
-sw $8, -3752($sp)
-lw $8, -3752($sp)
-lw $9, -3748($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -688($sp)
-move $8, $9
-sw $8, -3768($sp)
-add $8, $29, -18516
-sw $8, -3780($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3776($sp)
-lw $8, -3776($sp)
-lw $9, -3780($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14748($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14748($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3784($sp)
-lw $9, -3784($sp)
-lw $8, 0($9)
-sw $8, -3772($sp)
-lw $8, -3772($sp)
-lw $9, -3768($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -696($sp)
-move $8, $9
-sw $8, -3788($sp)
-add $8, $29, -18516
-sw $8, -3800($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3796($sp)
-lw $8, -3796($sp)
-lw $9, -3800($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14728($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14728($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3804($sp)
-lw $9, -3804($sp)
-lw $8, 0($9)
-sw $8, -3792($sp)
-lw $8, -3792($sp)
-lw $9, -3788($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -704($sp)
-move $8, $9
-sw $8, -3808($sp)
-add $8, $29, -18516
-sw $8, -3820($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3816($sp)
-lw $8, -3816($sp)
-lw $9, -3820($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14708($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14708($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3824($sp)
-lw $9, -3824($sp)
-lw $8, 0($9)
-sw $8, -3812($sp)
-lw $8, -3812($sp)
-lw $9, -3808($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -712($sp)
-move $8, $9
-sw $8, -3828($sp)
-add $8, $29, -18516
-sw $8, -3840($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3836($sp)
-lw $8, -3836($sp)
-lw $9, -3840($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14688($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14688($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3844($sp)
-lw $9, -3844($sp)
-lw $8, 0($9)
-sw $8, -3832($sp)
-lw $8, -3832($sp)
-lw $9, -3828($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -720($sp)
-move $8, $9
-sw $8, -3848($sp)
-add $8, $29, -18516
-sw $8, -3860($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3856($sp)
-lw $8, -3856($sp)
-lw $9, -3860($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14668($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14668($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3864($sp)
-lw $9, -3864($sp)
-lw $8, 0($9)
-sw $8, -3852($sp)
-lw $8, -3852($sp)
-lw $9, -3848($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -728($sp)
-move $8, $9
-sw $8, -3868($sp)
-add $8, $29, -18516
-sw $8, -3880($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3876($sp)
-lw $8, -3876($sp)
-lw $9, -3880($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14648($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14648($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3884($sp)
-lw $9, -3884($sp)
-lw $8, 0($9)
-sw $8, -3872($sp)
-lw $8, -3872($sp)
-lw $9, -3868($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -736($sp)
-move $8, $9
-sw $8, -3888($sp)
-add $8, $29, -18516
-sw $8, -3900($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3896($sp)
-lw $8, -3896($sp)
-lw $9, -3900($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14628($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14628($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3904($sp)
-lw $9, -3904($sp)
-lw $8, 0($9)
-sw $8, -3892($sp)
-lw $8, -3892($sp)
-lw $9, -3888($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -744($sp)
-move $8, $9
-sw $8, -3908($sp)
-add $8, $29, -18516
-sw $8, -3920($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3916($sp)
-lw $8, -3916($sp)
-lw $9, -3920($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14608($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14608($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3924($sp)
-lw $9, -3924($sp)
-lw $8, 0($9)
-sw $8, -3912($sp)
-lw $8, -3912($sp)
-lw $9, -3908($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -752($sp)
-move $8, $9
-sw $8, -3928($sp)
-add $8, $29, -18516
-sw $8, -3940($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3936($sp)
-lw $8, -3936($sp)
-lw $9, -3940($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14588($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14588($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3944($sp)
-lw $9, -3944($sp)
-lw $8, 0($9)
-sw $8, -3932($sp)
-lw $8, -3932($sp)
-lw $9, -3928($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -760($sp)
-move $8, $9
-sw $8, -3948($sp)
-add $8, $29, -18516
-sw $8, -3960($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3956($sp)
-lw $8, -3956($sp)
-lw $9, -3960($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14568($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14568($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3964($sp)
-lw $9, -3964($sp)
-lw $8, 0($9)
-sw $8, -3952($sp)
-lw $8, -3952($sp)
-lw $9, -3948($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -768($sp)
-move $8, $9
-sw $8, -3968($sp)
-add $8, $29, -18516
-sw $8, -3980($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3976($sp)
-lw $8, -3976($sp)
-lw $9, -3980($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14548($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14548($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -3984($sp)
-lw $9, -3984($sp)
-lw $8, 0($9)
-sw $8, -3972($sp)
-lw $8, -3972($sp)
-lw $9, -3968($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -776($sp)
-move $8, $9
-sw $8, -3988($sp)
-add $8, $29, -18516
-sw $8, -4000($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -3996($sp)
-lw $8, -3996($sp)
-lw $9, -4000($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14528($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14528($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4004($sp)
-lw $9, -4004($sp)
-lw $8, 0($9)
-sw $8, -3992($sp)
-lw $8, -3992($sp)
-lw $9, -3988($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -784($sp)
-move $8, $9
-sw $8, -4008($sp)
-add $8, $29, -18516
-sw $8, -4020($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4016($sp)
-lw $8, -4016($sp)
-lw $9, -4020($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14508($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14508($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4024($sp)
-lw $9, -4024($sp)
-lw $8, 0($9)
-sw $8, -4012($sp)
-lw $8, -4012($sp)
-lw $9, -4008($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -792($sp)
-move $8, $9
-sw $8, -4028($sp)
-add $8, $29, -18516
-sw $8, -4040($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4036($sp)
-lw $8, -4036($sp)
-lw $9, -4040($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14488($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14488($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4044($sp)
-lw $9, -4044($sp)
-lw $8, 0($9)
-sw $8, -4032($sp)
-lw $8, -4032($sp)
-lw $9, -4028($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -800($sp)
-move $8, $9
-sw $8, -4048($sp)
-add $8, $29, -18516
-sw $8, -4060($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4056($sp)
-lw $8, -4056($sp)
-lw $9, -4060($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14468($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14468($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4064($sp)
-lw $9, -4064($sp)
-lw $8, 0($9)
-sw $8, -4052($sp)
-lw $8, -4052($sp)
-lw $9, -4048($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -808($sp)
-move $8, $9
-sw $8, -4068($sp)
-add $8, $29, -18516
-sw $8, -4080($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4076($sp)
-lw $8, -4076($sp)
-lw $9, -4080($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14448($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14448($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4084($sp)
-lw $9, -4084($sp)
-lw $8, 0($9)
-sw $8, -4072($sp)
-lw $8, -4072($sp)
-lw $9, -4068($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -816($sp)
-move $8, $9
-sw $8, -4088($sp)
-add $8, $29, -18516
-sw $8, -4100($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4096($sp)
-lw $8, -4096($sp)
-lw $9, -4100($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14428($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14428($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4104($sp)
-lw $9, -4104($sp)
-lw $8, 0($9)
-sw $8, -4092($sp)
-lw $8, -4092($sp)
-lw $9, -4088($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -824($sp)
-move $8, $9
-sw $8, -4108($sp)
-add $8, $29, -18516
-sw $8, -4120($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4116($sp)
-lw $8, -4116($sp)
-lw $9, -4120($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14408($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14408($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4124($sp)
-lw $9, -4124($sp)
-lw $8, 0($9)
-sw $8, -4112($sp)
-lw $8, -4112($sp)
-lw $9, -4108($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -832($sp)
-move $8, $9
-sw $8, -4128($sp)
-add $8, $29, -18516
-sw $8, -4140($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4136($sp)
-lw $8, -4136($sp)
-lw $9, -4140($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14388($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14388($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4144($sp)
-lw $9, -4144($sp)
-lw $8, 0($9)
-sw $8, -4132($sp)
-lw $8, -4132($sp)
-lw $9, -4128($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -840($sp)
-move $8, $9
-sw $8, -4148($sp)
-add $8, $29, -18516
-sw $8, -4160($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4156($sp)
-lw $8, -4156($sp)
-lw $9, -4160($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14368($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14368($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4164($sp)
-lw $9, -4164($sp)
-lw $8, 0($9)
-sw $8, -4152($sp)
-lw $8, -4152($sp)
-lw $9, -4148($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -848($sp)
-move $8, $9
-sw $8, -4168($sp)
-add $8, $29, -18516
-sw $8, -4180($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4176($sp)
-lw $8, -4176($sp)
-lw $9, -4180($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14348($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14348($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4184($sp)
-lw $9, -4184($sp)
-lw $8, 0($9)
-sw $8, -4172($sp)
-lw $8, -4172($sp)
-lw $9, -4168($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -856($sp)
-move $8, $9
-sw $8, -4188($sp)
-add $8, $29, -18516
-sw $8, -4200($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4196($sp)
-lw $8, -4196($sp)
-lw $9, -4200($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14328($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14328($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4204($sp)
-lw $9, -4204($sp)
-lw $8, 0($9)
-sw $8, -4192($sp)
-lw $8, -4192($sp)
-lw $9, -4188($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -864($sp)
-move $8, $9
-sw $8, -4208($sp)
-add $8, $29, -18516
-sw $8, -4220($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4216($sp)
-lw $8, -4216($sp)
-lw $9, -4220($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14308($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14308($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4224($sp)
-lw $9, -4224($sp)
-lw $8, 0($9)
-sw $8, -4212($sp)
-lw $8, -4212($sp)
-lw $9, -4208($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -872($sp)
-move $8, $9
-sw $8, -4228($sp)
-add $8, $29, -18516
-sw $8, -4240($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4236($sp)
-lw $8, -4236($sp)
-lw $9, -4240($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14288($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14288($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4244($sp)
-lw $9, -4244($sp)
-lw $8, 0($9)
-sw $8, -4232($sp)
-lw $8, -4232($sp)
-lw $9, -4228($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -880($sp)
-move $8, $9
-sw $8, -4248($sp)
-add $8, $29, -18516
-sw $8, -4260($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4256($sp)
-lw $8, -4256($sp)
-lw $9, -4260($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14268($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14268($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4264($sp)
-lw $9, -4264($sp)
-lw $8, 0($9)
-sw $8, -4252($sp)
-lw $8, -4252($sp)
-lw $9, -4248($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -888($sp)
-move $8, $9
-sw $8, -4268($sp)
-add $8, $29, -18516
-sw $8, -4280($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4276($sp)
-lw $8, -4276($sp)
-lw $9, -4280($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14248($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14248($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4284($sp)
-lw $9, -4284($sp)
-lw $8, 0($9)
-sw $8, -4272($sp)
-lw $8, -4272($sp)
-lw $9, -4268($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -896($sp)
-move $8, $9
-sw $8, -4288($sp)
-add $8, $29, -18516
-sw $8, -4300($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4296($sp)
-lw $8, -4296($sp)
-lw $9, -4300($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14228($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14228($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4304($sp)
-lw $9, -4304($sp)
-lw $8, 0($9)
-sw $8, -4292($sp)
-lw $8, -4292($sp)
-lw $9, -4288($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -904($sp)
-move $8, $9
-sw $8, -4308($sp)
-add $8, $29, -18516
-sw $8, -4320($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4316($sp)
-lw $8, -4316($sp)
-lw $9, -4320($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14208($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14208($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4324($sp)
-lw $9, -4324($sp)
-lw $8, 0($9)
-sw $8, -4312($sp)
-lw $8, -4312($sp)
-lw $9, -4308($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -912($sp)
-move $8, $9
-sw $8, -4328($sp)
-add $8, $29, -18516
-sw $8, -4340($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4336($sp)
-lw $8, -4336($sp)
-lw $9, -4340($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14188($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14188($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4344($sp)
-lw $9, -4344($sp)
-lw $8, 0($9)
-sw $8, -4332($sp)
-lw $8, -4332($sp)
-lw $9, -4328($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -920($sp)
-move $8, $9
-sw $8, -4348($sp)
-add $8, $29, -18516
-sw $8, -4360($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4356($sp)
-lw $8, -4356($sp)
-lw $9, -4360($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14168($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14168($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4364($sp)
-lw $9, -4364($sp)
-lw $8, 0($9)
-sw $8, -4352($sp)
-lw $8, -4352($sp)
-lw $9, -4348($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -928($sp)
-move $8, $9
-sw $8, -4368($sp)
-add $8, $29, -18516
-sw $8, -4380($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4376($sp)
-lw $8, -4376($sp)
-lw $9, -4380($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14148($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14148($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4384($sp)
-lw $9, -4384($sp)
-lw $8, 0($9)
-sw $8, -4372($sp)
-lw $8, -4372($sp)
-lw $9, -4368($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -936($sp)
-move $8, $9
-sw $8, -4388($sp)
-add $8, $29, -18516
-sw $8, -4400($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4396($sp)
-lw $8, -4396($sp)
-lw $9, -4400($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14128($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14128($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4404($sp)
-lw $9, -4404($sp)
-lw $8, 0($9)
-sw $8, -4392($sp)
-lw $8, -4392($sp)
-lw $9, -4388($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -944($sp)
-move $8, $9
-sw $8, -4408($sp)
-add $8, $29, -18516
-sw $8, -4420($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4416($sp)
-lw $8, -4416($sp)
-lw $9, -4420($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14108($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14108($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4424($sp)
-lw $9, -4424($sp)
-lw $8, 0($9)
-sw $8, -4412($sp)
-lw $8, -4412($sp)
-lw $9, -4408($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -952($sp)
-move $8, $9
-sw $8, -4428($sp)
-add $8, $29, -18516
-sw $8, -4440($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4436($sp)
-lw $8, -4436($sp)
-lw $9, -4440($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14088($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14088($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4444($sp)
-lw $9, -4444($sp)
-lw $8, 0($9)
-sw $8, -4432($sp)
-lw $8, -4432($sp)
-lw $9, -4428($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -960($sp)
-move $8, $9
-sw $8, -4448($sp)
-add $8, $29, -18516
-sw $8, -4460($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4456($sp)
-lw $8, -4456($sp)
-lw $9, -4460($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14068($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14068($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4464($sp)
-lw $9, -4464($sp)
-lw $8, 0($9)
-sw $8, -4452($sp)
-lw $8, -4452($sp)
-lw $9, -4448($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -968($sp)
-move $8, $9
-sw $8, -4468($sp)
-add $8, $29, -18516
-sw $8, -4480($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4476($sp)
-lw $8, -4476($sp)
-lw $9, -4480($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14048($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14048($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4484($sp)
-lw $9, -4484($sp)
-lw $8, 0($9)
-sw $8, -4472($sp)
-lw $8, -4472($sp)
-lw $9, -4468($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -976($sp)
-move $8, $9
-sw $8, -4488($sp)
-add $8, $29, -18516
-sw $8, -4500($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4496($sp)
-lw $8, -4496($sp)
-lw $9, -4500($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14028($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14028($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4504($sp)
-lw $9, -4504($sp)
-lw $8, 0($9)
-sw $8, -4492($sp)
-lw $8, -4492($sp)
-lw $9, -4488($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -984($sp)
-move $8, $9
-sw $8, -4508($sp)
-add $8, $29, -18516
-sw $8, -4520($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4516($sp)
-lw $8, -4516($sp)
-lw $9, -4520($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 14008($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 14008($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4524($sp)
-lw $9, -4524($sp)
-lw $8, 0($9)
-sw $8, -4512($sp)
-lw $8, -4512($sp)
-lw $9, -4508($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -992($sp)
-move $8, $9
-sw $8, -4528($sp)
-add $8, $29, -18516
-sw $8, -4540($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4536($sp)
-lw $8, -4536($sp)
-lw $9, -4540($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13988($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13988($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4544($sp)
-lw $9, -4544($sp)
-lw $8, 0($9)
-sw $8, -4532($sp)
-lw $8, -4532($sp)
-lw $9, -4528($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1000($sp)
-move $8, $9
-sw $8, -4548($sp)
-add $8, $29, -18516
-sw $8, -4560($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4556($sp)
-lw $8, -4556($sp)
-lw $9, -4560($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13968($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13968($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4564($sp)
-lw $9, -4564($sp)
-lw $8, 0($9)
-sw $8, -4552($sp)
-lw $8, -4552($sp)
-lw $9, -4548($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1008($sp)
-move $8, $9
-sw $8, -4568($sp)
-add $8, $29, -18516
-sw $8, -4580($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4576($sp)
-lw $8, -4576($sp)
-lw $9, -4580($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13948($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13948($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4584($sp)
-lw $9, -4584($sp)
-lw $8, 0($9)
-sw $8, -4572($sp)
-lw $8, -4572($sp)
-lw $9, -4568($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1016($sp)
-move $8, $9
-sw $8, -4588($sp)
-add $8, $29, -18516
-sw $8, -4600($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4596($sp)
-lw $8, -4596($sp)
-lw $9, -4600($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13928($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13928($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4604($sp)
-lw $9, -4604($sp)
-lw $8, 0($9)
-sw $8, -4592($sp)
-lw $8, -4592($sp)
-lw $9, -4588($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1024($sp)
-move $8, $9
-sw $8, -4608($sp)
-add $8, $29, -18516
-sw $8, -4620($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4616($sp)
-lw $8, -4616($sp)
-lw $9, -4620($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13908($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13908($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4624($sp)
-lw $9, -4624($sp)
-lw $8, 0($9)
-sw $8, -4612($sp)
-lw $8, -4612($sp)
-lw $9, -4608($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1032($sp)
-move $8, $9
-sw $8, -4628($sp)
-add $8, $29, -18516
-sw $8, -4640($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4636($sp)
-lw $8, -4636($sp)
-lw $9, -4640($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13888($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13888($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4644($sp)
-lw $9, -4644($sp)
-lw $8, 0($9)
-sw $8, -4632($sp)
-lw $8, -4632($sp)
-lw $9, -4628($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1040($sp)
-move $8, $9
-sw $8, -4648($sp)
-add $8, $29, -18516
-sw $8, -4660($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4656($sp)
-lw $8, -4656($sp)
-lw $9, -4660($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13868($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13868($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4664($sp)
-lw $9, -4664($sp)
-lw $8, 0($9)
-sw $8, -4652($sp)
-lw $8, -4652($sp)
-lw $9, -4648($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1048($sp)
-move $8, $9
-sw $8, -4668($sp)
-add $8, $29, -18516
-sw $8, -4680($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4676($sp)
-lw $8, -4676($sp)
-lw $9, -4680($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13848($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13848($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4684($sp)
-lw $9, -4684($sp)
-lw $8, 0($9)
-sw $8, -4672($sp)
-lw $8, -4672($sp)
-lw $9, -4668($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1056($sp)
-move $8, $9
-sw $8, -4688($sp)
-add $8, $29, -18516
-sw $8, -4700($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4696($sp)
-lw $8, -4696($sp)
-lw $9, -4700($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13828($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13828($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4704($sp)
-lw $9, -4704($sp)
-lw $8, 0($9)
-sw $8, -4692($sp)
-lw $8, -4692($sp)
-lw $9, -4688($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1064($sp)
-move $8, $9
-sw $8, -4708($sp)
-add $8, $29, -18516
-sw $8, -4720($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4716($sp)
-lw $8, -4716($sp)
-lw $9, -4720($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13808($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13808($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4724($sp)
-lw $9, -4724($sp)
-lw $8, 0($9)
-sw $8, -4712($sp)
-lw $8, -4712($sp)
-lw $9, -4708($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1072($sp)
-move $8, $9
-sw $8, -4728($sp)
-add $8, $29, -18516
-sw $8, -4740($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4736($sp)
-lw $8, -4736($sp)
-lw $9, -4740($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13788($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13788($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4744($sp)
-lw $9, -4744($sp)
-lw $8, 0($9)
-sw $8, -4732($sp)
-lw $8, -4732($sp)
-lw $9, -4728($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1080($sp)
-move $8, $9
-sw $8, -4748($sp)
-add $8, $29, -18516
-sw $8, -4760($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4756($sp)
-lw $8, -4756($sp)
-lw $9, -4760($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13768($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13768($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4764($sp)
-lw $9, -4764($sp)
-lw $8, 0($9)
-sw $8, -4752($sp)
-lw $8, -4752($sp)
-lw $9, -4748($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1088($sp)
-move $8, $9
-sw $8, -4768($sp)
-add $8, $29, -18516
-sw $8, -4780($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4776($sp)
-lw $8, -4776($sp)
-lw $9, -4780($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13748($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13748($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4784($sp)
-lw $9, -4784($sp)
-lw $8, 0($9)
-sw $8, -4772($sp)
-lw $8, -4772($sp)
-lw $9, -4768($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1096($sp)
-move $8, $9
-sw $8, -4788($sp)
-add $8, $29, -18516
-sw $8, -4800($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4796($sp)
-lw $8, -4796($sp)
-lw $9, -4800($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13728($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13728($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4804($sp)
-lw $9, -4804($sp)
-lw $8, 0($9)
-sw $8, -4792($sp)
-lw $8, -4792($sp)
-lw $9, -4788($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1104($sp)
-move $8, $9
-sw $8, -4808($sp)
-add $8, $29, -18516
-sw $8, -4820($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4816($sp)
-lw $8, -4816($sp)
-lw $9, -4820($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13708($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13708($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4824($sp)
-lw $9, -4824($sp)
-lw $8, 0($9)
-sw $8, -4812($sp)
-lw $8, -4812($sp)
-lw $9, -4808($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1112($sp)
-move $8, $9
-sw $8, -4828($sp)
-add $8, $29, -18516
-sw $8, -4840($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4836($sp)
-lw $8, -4836($sp)
-lw $9, -4840($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13688($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13688($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4844($sp)
-lw $9, -4844($sp)
-lw $8, 0($9)
-sw $8, -4832($sp)
-lw $8, -4832($sp)
-lw $9, -4828($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1120($sp)
-move $8, $9
-sw $8, -4848($sp)
-add $8, $29, -18516
-sw $8, -4860($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4856($sp)
-lw $8, -4856($sp)
-lw $9, -4860($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13668($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13668($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4864($sp)
-lw $9, -4864($sp)
-lw $8, 0($9)
-sw $8, -4852($sp)
-lw $8, -4852($sp)
-lw $9, -4848($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1128($sp)
-move $8, $9
-sw $8, -4868($sp)
-add $8, $29, -18516
-sw $8, -4880($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4876($sp)
-lw $8, -4876($sp)
-lw $9, -4880($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13648($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13648($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4884($sp)
-lw $9, -4884($sp)
-lw $8, 0($9)
-sw $8, -4872($sp)
-lw $8, -4872($sp)
-lw $9, -4868($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1136($sp)
-move $8, $9
-sw $8, -4888($sp)
-add $8, $29, -18516
-sw $8, -4900($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4896($sp)
-lw $8, -4896($sp)
-lw $9, -4900($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13628($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13628($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4904($sp)
-lw $9, -4904($sp)
-lw $8, 0($9)
-sw $8, -4892($sp)
-lw $8, -4892($sp)
-lw $9, -4888($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1144($sp)
-move $8, $9
-sw $8, -4908($sp)
-add $8, $29, -18516
-sw $8, -4920($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4916($sp)
-lw $8, -4916($sp)
-lw $9, -4920($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13608($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13608($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4924($sp)
-lw $9, -4924($sp)
-lw $8, 0($9)
-sw $8, -4912($sp)
-lw $8, -4912($sp)
-lw $9, -4908($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1152($sp)
-move $8, $9
-sw $8, -4928($sp)
-add $8, $29, -18516
-sw $8, -4940($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4936($sp)
-lw $8, -4936($sp)
-lw $9, -4940($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13588($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13588($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4944($sp)
-lw $9, -4944($sp)
-lw $8, 0($9)
-sw $8, -4932($sp)
-lw $8, -4932($sp)
-lw $9, -4928($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1160($sp)
-move $8, $9
-sw $8, -4948($sp)
-add $8, $29, -18516
-sw $8, -4960($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4956($sp)
-lw $8, -4956($sp)
-lw $9, -4960($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13568($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13568($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4964($sp)
-lw $9, -4964($sp)
-lw $8, 0($9)
-sw $8, -4952($sp)
-lw $8, -4952($sp)
-lw $9, -4948($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1168($sp)
-move $8, $9
-sw $8, -4968($sp)
-add $8, $29, -18516
-sw $8, -4980($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4976($sp)
-lw $8, -4976($sp)
-lw $9, -4980($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13548($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13548($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -4984($sp)
-lw $9, -4984($sp)
-lw $8, 0($9)
-sw $8, -4972($sp)
-lw $8, -4972($sp)
-lw $9, -4968($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1176($sp)
-move $8, $9
-sw $8, -4988($sp)
-add $8, $29, -18516
-sw $8, -5000($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -4996($sp)
-lw $8, -4996($sp)
-lw $9, -5000($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13528($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13528($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5004($sp)
-lw $9, -5004($sp)
-lw $8, 0($9)
-sw $8, -4992($sp)
-lw $8, -4992($sp)
-lw $9, -4988($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1184($sp)
-move $8, $9
-sw $8, -5008($sp)
-add $8, $29, -18516
-sw $8, -5020($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5016($sp)
-lw $8, -5016($sp)
-lw $9, -5020($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13508($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13508($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5024($sp)
-lw $9, -5024($sp)
-lw $8, 0($9)
-sw $8, -5012($sp)
-lw $8, -5012($sp)
-lw $9, -5008($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1192($sp)
-move $8, $9
-sw $8, -5028($sp)
-add $8, $29, -18516
-sw $8, -5040($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5036($sp)
-lw $8, -5036($sp)
-lw $9, -5040($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13488($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13488($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5044($sp)
-lw $9, -5044($sp)
-lw $8, 0($9)
-sw $8, -5032($sp)
-lw $8, -5032($sp)
-lw $9, -5028($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1200($sp)
-move $8, $9
-sw $8, -5048($sp)
-add $8, $29, -18516
-sw $8, -5060($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5056($sp)
-lw $8, -5056($sp)
-lw $9, -5060($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13468($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13468($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5064($sp)
-lw $9, -5064($sp)
-lw $8, 0($9)
-sw $8, -5052($sp)
-lw $8, -5052($sp)
-lw $9, -5048($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1208($sp)
-move $8, $9
-sw $8, -5068($sp)
-add $8, $29, -18516
-sw $8, -5080($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5076($sp)
-lw $8, -5076($sp)
-lw $9, -5080($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13448($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13448($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5084($sp)
-lw $9, -5084($sp)
-lw $8, 0($9)
-sw $8, -5072($sp)
-lw $8, -5072($sp)
-lw $9, -5068($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1216($sp)
-move $8, $9
-sw $8, -5088($sp)
-add $8, $29, -18516
-sw $8, -5100($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5096($sp)
-lw $8, -5096($sp)
-lw $9, -5100($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13428($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13428($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5104($sp)
-lw $9, -5104($sp)
-lw $8, 0($9)
-sw $8, -5092($sp)
-lw $8, -5092($sp)
-lw $9, -5088($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1224($sp)
-move $8, $9
-sw $8, -5108($sp)
-add $8, $29, -18516
-sw $8, -5120($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5116($sp)
-lw $8, -5116($sp)
-lw $9, -5120($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13408($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13408($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5124($sp)
-lw $9, -5124($sp)
-lw $8, 0($9)
-sw $8, -5112($sp)
-lw $8, -5112($sp)
-lw $9, -5108($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1232($sp)
-move $8, $9
-sw $8, -5128($sp)
-add $8, $29, -18516
-sw $8, -5140($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5136($sp)
-lw $8, -5136($sp)
-lw $9, -5140($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13388($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13388($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5144($sp)
-lw $9, -5144($sp)
-lw $8, 0($9)
-sw $8, -5132($sp)
-lw $8, -5132($sp)
-lw $9, -5128($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1240($sp)
-move $8, $9
-sw $8, -5148($sp)
-add $8, $29, -18516
-sw $8, -5160($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5156($sp)
-lw $8, -5156($sp)
-lw $9, -5160($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13368($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13368($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5164($sp)
-lw $9, -5164($sp)
-lw $8, 0($9)
-sw $8, -5152($sp)
-lw $8, -5152($sp)
-lw $9, -5148($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1248($sp)
-move $8, $9
-sw $8, -5168($sp)
-add $8, $29, -18516
-sw $8, -5180($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5176($sp)
-lw $8, -5176($sp)
-lw $9, -5180($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13348($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13348($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5184($sp)
-lw $9, -5184($sp)
-lw $8, 0($9)
-sw $8, -5172($sp)
-lw $8, -5172($sp)
-lw $9, -5168($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1256($sp)
-move $8, $9
-sw $8, -5188($sp)
-add $8, $29, -18516
-sw $8, -5200($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5196($sp)
-lw $8, -5196($sp)
-lw $9, -5200($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13328($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13328($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5204($sp)
-lw $9, -5204($sp)
-lw $8, 0($9)
-sw $8, -5192($sp)
-lw $8, -5192($sp)
-lw $9, -5188($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1264($sp)
-move $8, $9
-sw $8, -5208($sp)
-add $8, $29, -18516
-sw $8, -5220($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5216($sp)
-lw $8, -5216($sp)
-lw $9, -5220($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13308($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13308($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5224($sp)
-lw $9, -5224($sp)
-lw $8, 0($9)
-sw $8, -5212($sp)
-lw $8, -5212($sp)
-lw $9, -5208($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1272($sp)
-move $8, $9
-sw $8, -5228($sp)
-add $8, $29, -18516
-sw $8, -5240($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5236($sp)
-lw $8, -5236($sp)
-lw $9, -5240($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13288($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13288($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5244($sp)
-lw $9, -5244($sp)
-lw $8, 0($9)
-sw $8, -5232($sp)
-lw $8, -5232($sp)
-lw $9, -5228($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1280($sp)
-move $8, $9
-sw $8, -5248($sp)
-add $8, $29, -18516
-sw $8, -5260($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5256($sp)
-lw $8, -5256($sp)
-lw $9, -5260($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13268($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13268($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5264($sp)
-lw $9, -5264($sp)
-lw $8, 0($9)
-sw $8, -5252($sp)
-lw $8, -5252($sp)
-lw $9, -5248($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1288($sp)
-move $8, $9
-sw $8, -5268($sp)
-add $8, $29, -18516
-sw $8, -5280($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5276($sp)
-lw $8, -5276($sp)
-lw $9, -5280($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13248($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13248($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5284($sp)
-lw $9, -5284($sp)
-lw $8, 0($9)
-sw $8, -5272($sp)
-lw $8, -5272($sp)
-lw $9, -5268($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1296($sp)
-move $8, $9
-sw $8, -5288($sp)
-add $8, $29, -18516
-sw $8, -5300($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5296($sp)
-lw $8, -5296($sp)
-lw $9, -5300($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13228($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13228($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5304($sp)
-lw $9, -5304($sp)
-lw $8, 0($9)
-sw $8, -5292($sp)
-lw $8, -5292($sp)
-lw $9, -5288($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1304($sp)
-move $8, $9
-sw $8, -5308($sp)
-add $8, $29, -18516
-sw $8, -5320($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5316($sp)
-lw $8, -5316($sp)
-lw $9, -5320($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13208($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13208($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5324($sp)
-lw $9, -5324($sp)
-lw $8, 0($9)
-sw $8, -5312($sp)
-lw $8, -5312($sp)
-lw $9, -5308($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1312($sp)
-move $8, $9
-sw $8, -5328($sp)
-add $8, $29, -18516
-sw $8, -5340($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5336($sp)
-lw $8, -5336($sp)
-lw $9, -5340($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13188($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13188($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5344($sp)
-lw $9, -5344($sp)
-lw $8, 0($9)
-sw $8, -5332($sp)
-lw $8, -5332($sp)
-lw $9, -5328($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1320($sp)
-move $8, $9
-sw $8, -5348($sp)
-add $8, $29, -18516
-sw $8, -5360($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5356($sp)
-lw $8, -5356($sp)
-lw $9, -5360($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13168($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13168($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5364($sp)
-lw $9, -5364($sp)
-lw $8, 0($9)
-sw $8, -5352($sp)
-lw $8, -5352($sp)
-lw $9, -5348($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1328($sp)
-move $8, $9
-sw $8, -5368($sp)
-add $8, $29, -18516
-sw $8, -5380($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5376($sp)
-lw $8, -5376($sp)
-lw $9, -5380($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13148($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13148($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5384($sp)
-lw $9, -5384($sp)
-lw $8, 0($9)
-sw $8, -5372($sp)
-lw $8, -5372($sp)
-lw $9, -5368($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1336($sp)
-move $8, $9
-sw $8, -5388($sp)
-add $8, $29, -18516
-sw $8, -5400($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5396($sp)
-lw $8, -5396($sp)
-lw $9, -5400($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13128($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13128($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5404($sp)
-lw $9, -5404($sp)
-lw $8, 0($9)
-sw $8, -5392($sp)
-lw $8, -5392($sp)
-lw $9, -5388($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1344($sp)
-move $8, $9
-sw $8, -5408($sp)
-add $8, $29, -18516
-sw $8, -5420($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5416($sp)
-lw $8, -5416($sp)
-lw $9, -5420($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13108($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13108($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5424($sp)
-lw $9, -5424($sp)
-lw $8, 0($9)
-sw $8, -5412($sp)
-lw $8, -5412($sp)
-lw $9, -5408($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1352($sp)
-move $8, $9
-sw $8, -5428($sp)
-add $8, $29, -18516
-sw $8, -5440($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5436($sp)
-lw $8, -5436($sp)
-lw $9, -5440($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13088($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13088($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5444($sp)
-lw $9, -5444($sp)
-lw $8, 0($9)
-sw $8, -5432($sp)
-lw $8, -5432($sp)
-lw $9, -5428($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1360($sp)
-move $8, $9
-sw $8, -5448($sp)
-add $8, $29, -18516
-sw $8, -5460($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5456($sp)
-lw $8, -5456($sp)
-lw $9, -5460($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13068($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13068($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5464($sp)
-lw $9, -5464($sp)
-lw $8, 0($9)
-sw $8, -5452($sp)
-lw $8, -5452($sp)
-lw $9, -5448($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1368($sp)
-move $8, $9
-sw $8, -5468($sp)
-add $8, $29, -18516
-sw $8, -5480($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5476($sp)
-lw $8, -5476($sp)
-lw $9, -5480($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13048($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13048($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5484($sp)
-lw $9, -5484($sp)
-lw $8, 0($9)
-sw $8, -5472($sp)
-lw $8, -5472($sp)
-lw $9, -5468($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1376($sp)
-move $8, $9
-sw $8, -5488($sp)
-add $8, $29, -18516
-sw $8, -5500($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5496($sp)
-lw $8, -5496($sp)
-lw $9, -5500($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13028($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13028($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5504($sp)
-lw $9, -5504($sp)
-lw $8, 0($9)
-sw $8, -5492($sp)
-lw $8, -5492($sp)
-lw $9, -5488($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1384($sp)
-move $8, $9
-sw $8, -5508($sp)
-add $8, $29, -18516
-sw $8, -5520($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5516($sp)
-lw $8, -5516($sp)
-lw $9, -5520($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 13008($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 13008($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5524($sp)
-lw $9, -5524($sp)
-lw $8, 0($9)
-sw $8, -5512($sp)
-lw $8, -5512($sp)
-lw $9, -5508($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1392($sp)
-move $8, $9
-sw $8, -5528($sp)
-add $8, $29, -18516
-sw $8, -5540($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5536($sp)
-lw $8, -5536($sp)
-lw $9, -5540($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12988($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12988($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5544($sp)
-lw $9, -5544($sp)
-lw $8, 0($9)
-sw $8, -5532($sp)
-lw $8, -5532($sp)
-lw $9, -5528($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1400($sp)
-move $8, $9
-sw $8, -5548($sp)
-add $8, $29, -18516
-sw $8, -5560($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5556($sp)
-lw $8, -5556($sp)
-lw $9, -5560($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12968($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12968($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5564($sp)
-lw $9, -5564($sp)
-lw $8, 0($9)
-sw $8, -5552($sp)
-lw $8, -5552($sp)
-lw $9, -5548($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1408($sp)
-move $8, $9
-sw $8, -5568($sp)
-add $8, $29, -18516
-sw $8, -5580($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5576($sp)
-lw $8, -5576($sp)
-lw $9, -5580($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12948($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12948($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5584($sp)
-lw $9, -5584($sp)
-lw $8, 0($9)
-sw $8, -5572($sp)
-lw $8, -5572($sp)
-lw $9, -5568($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1416($sp)
-move $8, $9
-sw $8, -5588($sp)
-add $8, $29, -18516
-sw $8, -5600($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5596($sp)
-lw $8, -5596($sp)
-lw $9, -5600($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12928($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12928($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5604($sp)
-lw $9, -5604($sp)
-lw $8, 0($9)
-sw $8, -5592($sp)
-lw $8, -5592($sp)
-lw $9, -5588($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1424($sp)
-move $8, $9
-sw $8, -5608($sp)
-add $8, $29, -18516
-sw $8, -5620($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5616($sp)
-lw $8, -5616($sp)
-lw $9, -5620($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12908($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12908($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5624($sp)
-lw $9, -5624($sp)
-lw $8, 0($9)
-sw $8, -5612($sp)
-lw $8, -5612($sp)
-lw $9, -5608($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1432($sp)
-move $8, $9
-sw $8, -5628($sp)
-add $8, $29, -18516
-sw $8, -5640($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5636($sp)
-lw $8, -5636($sp)
-lw $9, -5640($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12888($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12888($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5644($sp)
-lw $9, -5644($sp)
-lw $8, 0($9)
-sw $8, -5632($sp)
-lw $8, -5632($sp)
-lw $9, -5628($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1440($sp)
-move $8, $9
-sw $8, -5648($sp)
-add $8, $29, -18516
-sw $8, -5660($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5656($sp)
-lw $8, -5656($sp)
-lw $9, -5660($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12868($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12868($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5664($sp)
-lw $9, -5664($sp)
-lw $8, 0($9)
-sw $8, -5652($sp)
-lw $8, -5652($sp)
-lw $9, -5648($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1448($sp)
-move $8, $9
-sw $8, -5668($sp)
-add $8, $29, -18516
-sw $8, -5680($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5676($sp)
-lw $8, -5676($sp)
-lw $9, -5680($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12848($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12848($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5684($sp)
-lw $9, -5684($sp)
-lw $8, 0($9)
-sw $8, -5672($sp)
-lw $8, -5672($sp)
-lw $9, -5668($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1456($sp)
-move $8, $9
-sw $8, -5688($sp)
-add $8, $29, -18516
-sw $8, -5700($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5696($sp)
-lw $8, -5696($sp)
-lw $9, -5700($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12828($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12828($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5704($sp)
-lw $9, -5704($sp)
-lw $8, 0($9)
-sw $8, -5692($sp)
-lw $8, -5692($sp)
-lw $9, -5688($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1464($sp)
-move $8, $9
-sw $8, -5708($sp)
-add $8, $29, -18516
-sw $8, -5720($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5716($sp)
-lw $8, -5716($sp)
-lw $9, -5720($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12808($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12808($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5724($sp)
-lw $9, -5724($sp)
-lw $8, 0($9)
-sw $8, -5712($sp)
-lw $8, -5712($sp)
-lw $9, -5708($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1472($sp)
-move $8, $9
-sw $8, -5728($sp)
-add $8, $29, -18516
-sw $8, -5740($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5736($sp)
-lw $8, -5736($sp)
-lw $9, -5740($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12788($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12788($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5744($sp)
-lw $9, -5744($sp)
-lw $8, 0($9)
-sw $8, -5732($sp)
-lw $8, -5732($sp)
-lw $9, -5728($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1480($sp)
-move $8, $9
-sw $8, -5748($sp)
-add $8, $29, -18516
-sw $8, -5760($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5756($sp)
-lw $8, -5756($sp)
-lw $9, -5760($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12768($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12768($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5764($sp)
-lw $9, -5764($sp)
-lw $8, 0($9)
-sw $8, -5752($sp)
-lw $8, -5752($sp)
-lw $9, -5748($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1488($sp)
-move $8, $9
-sw $8, -5768($sp)
-add $8, $29, -18516
-sw $8, -5780($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5776($sp)
-lw $8, -5776($sp)
-lw $9, -5780($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12748($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12748($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5784($sp)
-lw $9, -5784($sp)
-lw $8, 0($9)
-sw $8, -5772($sp)
-lw $8, -5772($sp)
-lw $9, -5768($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1496($sp)
-move $8, $9
-sw $8, -5788($sp)
-add $8, $29, -18516
-sw $8, -5800($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5796($sp)
-lw $8, -5796($sp)
-lw $9, -5800($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12728($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12728($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5804($sp)
-lw $9, -5804($sp)
-lw $8, 0($9)
-sw $8, -5792($sp)
-lw $8, -5792($sp)
-lw $9, -5788($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1504($sp)
-move $8, $9
-sw $8, -5808($sp)
-add $8, $29, -18516
-sw $8, -5820($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5816($sp)
-lw $8, -5816($sp)
-lw $9, -5820($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12708($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12708($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5824($sp)
-lw $9, -5824($sp)
-lw $8, 0($9)
-sw $8, -5812($sp)
-lw $8, -5812($sp)
-lw $9, -5808($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1512($sp)
-move $8, $9
-sw $8, -5828($sp)
-add $8, $29, -18516
-sw $8, -5840($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5836($sp)
-lw $8, -5836($sp)
-lw $9, -5840($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12688($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12688($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5844($sp)
-lw $9, -5844($sp)
-lw $8, 0($9)
-sw $8, -5832($sp)
-lw $8, -5832($sp)
-lw $9, -5828($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1520($sp)
-move $8, $9
-sw $8, -5848($sp)
-add $8, $29, -18516
-sw $8, -5860($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5856($sp)
-lw $8, -5856($sp)
-lw $9, -5860($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12668($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12668($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5864($sp)
-lw $9, -5864($sp)
-lw $8, 0($9)
-sw $8, -5852($sp)
-lw $8, -5852($sp)
-lw $9, -5848($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1528($sp)
-move $8, $9
-sw $8, -5868($sp)
-add $8, $29, -18516
-sw $8, -5880($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5876($sp)
-lw $8, -5876($sp)
-lw $9, -5880($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12648($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12648($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5884($sp)
-lw $9, -5884($sp)
-lw $8, 0($9)
-sw $8, -5872($sp)
-lw $8, -5872($sp)
-lw $9, -5868($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1536($sp)
-move $8, $9
-sw $8, -5888($sp)
-add $8, $29, -18516
-sw $8, -5900($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5896($sp)
-lw $8, -5896($sp)
-lw $9, -5900($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12628($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12628($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5904($sp)
-lw $9, -5904($sp)
-lw $8, 0($9)
-sw $8, -5892($sp)
-lw $8, -5892($sp)
-lw $9, -5888($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1544($sp)
-move $8, $9
-sw $8, -5908($sp)
-add $8, $29, -18516
-sw $8, -5920($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5916($sp)
-lw $8, -5916($sp)
-lw $9, -5920($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12608($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12608($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5924($sp)
-lw $9, -5924($sp)
-lw $8, 0($9)
-sw $8, -5912($sp)
-lw $8, -5912($sp)
-lw $9, -5908($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1552($sp)
-move $8, $9
-sw $8, -5928($sp)
-add $8, $29, -18516
-sw $8, -5940($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5936($sp)
-lw $8, -5936($sp)
-lw $9, -5940($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12588($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12588($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5944($sp)
-lw $9, -5944($sp)
-lw $8, 0($9)
-sw $8, -5932($sp)
-lw $8, -5932($sp)
-lw $9, -5928($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1560($sp)
-move $8, $9
-sw $8, -5948($sp)
-add $8, $29, -18516
-sw $8, -5960($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5956($sp)
-lw $8, -5956($sp)
-lw $9, -5960($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12568($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12568($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5964($sp)
-lw $9, -5964($sp)
-lw $8, 0($9)
-sw $8, -5952($sp)
-lw $8, -5952($sp)
-lw $9, -5948($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1568($sp)
-move $8, $9
-sw $8, -5968($sp)
-add $8, $29, -18516
-sw $8, -5980($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5976($sp)
-lw $8, -5976($sp)
-lw $9, -5980($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12548($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12548($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -5984($sp)
-lw $9, -5984($sp)
-lw $8, 0($9)
-sw $8, -5972($sp)
-lw $8, -5972($sp)
-lw $9, -5968($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1576($sp)
-move $8, $9
-sw $8, -5988($sp)
-add $8, $29, -18516
-sw $8, -6000($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -5996($sp)
-lw $8, -5996($sp)
-lw $9, -6000($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12528($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12528($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6004($sp)
-lw $9, -6004($sp)
-lw $8, 0($9)
-sw $8, -5992($sp)
-lw $8, -5992($sp)
-lw $9, -5988($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1584($sp)
-move $8, $9
-sw $8, -6008($sp)
-add $8, $29, -18516
-sw $8, -6020($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6016($sp)
-lw $8, -6016($sp)
-lw $9, -6020($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12508($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12508($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6024($sp)
-lw $9, -6024($sp)
-lw $8, 0($9)
-sw $8, -6012($sp)
-lw $8, -6012($sp)
-lw $9, -6008($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1592($sp)
-move $8, $9
-sw $8, -6028($sp)
-add $8, $29, -18516
-sw $8, -6040($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6036($sp)
-lw $8, -6036($sp)
-lw $9, -6040($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12488($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12488($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6044($sp)
-lw $9, -6044($sp)
-lw $8, 0($9)
-sw $8, -6032($sp)
-lw $8, -6032($sp)
-lw $9, -6028($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1600($sp)
-move $8, $9
-sw $8, -6048($sp)
-add $8, $29, -18516
-sw $8, -6060($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6056($sp)
-lw $8, -6056($sp)
-lw $9, -6060($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12468($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12468($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6064($sp)
-lw $9, -6064($sp)
-lw $8, 0($9)
-sw $8, -6052($sp)
-lw $8, -6052($sp)
-lw $9, -6048($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1608($sp)
-move $8, $9
-sw $8, -6068($sp)
-add $8, $29, -18516
-sw $8, -6080($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6076($sp)
-lw $8, -6076($sp)
-lw $9, -6080($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12448($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12448($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6084($sp)
-lw $9, -6084($sp)
-lw $8, 0($9)
-sw $8, -6072($sp)
-lw $8, -6072($sp)
-lw $9, -6068($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1616($sp)
-move $8, $9
-sw $8, -6088($sp)
-add $8, $29, -18516
-sw $8, -6100($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6096($sp)
-lw $8, -6096($sp)
-lw $9, -6100($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12428($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12428($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6104($sp)
-lw $9, -6104($sp)
-lw $8, 0($9)
-sw $8, -6092($sp)
-lw $8, -6092($sp)
-lw $9, -6088($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1624($sp)
-move $8, $9
-sw $8, -6108($sp)
-add $8, $29, -18516
-sw $8, -6120($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6116($sp)
-lw $8, -6116($sp)
-lw $9, -6120($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12408($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12408($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6124($sp)
-lw $9, -6124($sp)
-lw $8, 0($9)
-sw $8, -6112($sp)
-lw $8, -6112($sp)
-lw $9, -6108($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1632($sp)
-move $8, $9
-sw $8, -6128($sp)
-add $8, $29, -18516
-sw $8, -6140($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6136($sp)
-lw $8, -6136($sp)
-lw $9, -6140($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12388($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12388($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6144($sp)
-lw $9, -6144($sp)
-lw $8, 0($9)
-sw $8, -6132($sp)
-lw $8, -6132($sp)
-lw $9, -6128($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1640($sp)
-move $8, $9
-sw $8, -6148($sp)
-add $8, $29, -18516
-sw $8, -6160($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6156($sp)
-lw $8, -6156($sp)
-lw $9, -6160($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12368($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12368($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6164($sp)
-lw $9, -6164($sp)
-lw $8, 0($9)
-sw $8, -6152($sp)
-lw $8, -6152($sp)
-lw $9, -6148($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1648($sp)
-move $8, $9
-sw $8, -6168($sp)
-add $8, $29, -18516
-sw $8, -6180($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6176($sp)
-lw $8, -6176($sp)
-lw $9, -6180($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12348($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12348($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6184($sp)
-lw $9, -6184($sp)
-lw $8, 0($9)
-sw $8, -6172($sp)
-lw $8, -6172($sp)
-lw $9, -6168($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1656($sp)
-move $8, $9
-sw $8, -6188($sp)
-add $8, $29, -18516
-sw $8, -6200($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6196($sp)
-lw $8, -6196($sp)
-lw $9, -6200($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12328($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12328($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6204($sp)
-lw $9, -6204($sp)
-lw $8, 0($9)
-sw $8, -6192($sp)
-lw $8, -6192($sp)
-lw $9, -6188($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1664($sp)
-move $8, $9
-sw $8, -6208($sp)
-add $8, $29, -18516
-sw $8, -6220($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6216($sp)
-lw $8, -6216($sp)
-lw $9, -6220($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12308($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12308($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6224($sp)
-lw $9, -6224($sp)
-lw $8, 0($9)
-sw $8, -6212($sp)
-lw $8, -6212($sp)
-lw $9, -6208($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1672($sp)
-move $8, $9
-sw $8, -6228($sp)
-add $8, $29, -18516
-sw $8, -6240($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6236($sp)
-lw $8, -6236($sp)
-lw $9, -6240($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12288($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12288($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6244($sp)
-lw $9, -6244($sp)
-lw $8, 0($9)
-sw $8, -6232($sp)
-lw $8, -6232($sp)
-lw $9, -6228($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1680($sp)
-move $8, $9
-sw $8, -6248($sp)
-add $8, $29, -18516
-sw $8, -6260($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6256($sp)
-lw $8, -6256($sp)
-lw $9, -6260($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12268($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12268($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6264($sp)
-lw $9, -6264($sp)
-lw $8, 0($9)
-sw $8, -6252($sp)
-lw $8, -6252($sp)
-lw $9, -6248($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1688($sp)
-move $8, $9
-sw $8, -6268($sp)
-add $8, $29, -18516
-sw $8, -6280($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6276($sp)
-lw $8, -6276($sp)
-lw $9, -6280($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12248($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12248($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6284($sp)
-lw $9, -6284($sp)
-lw $8, 0($9)
-sw $8, -6272($sp)
-lw $8, -6272($sp)
-lw $9, -6268($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1696($sp)
-move $8, $9
-sw $8, -6288($sp)
-add $8, $29, -18516
-sw $8, -6300($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6296($sp)
-lw $8, -6296($sp)
-lw $9, -6300($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12228($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12228($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6304($sp)
-lw $9, -6304($sp)
-lw $8, 0($9)
-sw $8, -6292($sp)
-lw $8, -6292($sp)
-lw $9, -6288($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1704($sp)
-move $8, $9
-sw $8, -6308($sp)
-add $8, $29, -18516
-sw $8, -6320($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6316($sp)
-lw $8, -6316($sp)
-lw $9, -6320($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12208($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12208($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6324($sp)
-lw $9, -6324($sp)
-lw $8, 0($9)
-sw $8, -6312($sp)
-lw $8, -6312($sp)
-lw $9, -6308($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1712($sp)
-move $8, $9
-sw $8, -6328($sp)
-add $8, $29, -18516
-sw $8, -6340($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6336($sp)
-lw $8, -6336($sp)
-lw $9, -6340($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12188($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12188($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6344($sp)
-lw $9, -6344($sp)
-lw $8, 0($9)
-sw $8, -6332($sp)
-lw $8, -6332($sp)
-lw $9, -6328($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1720($sp)
-move $8, $9
-sw $8, -6348($sp)
-add $8, $29, -18516
-sw $8, -6360($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6356($sp)
-lw $8, -6356($sp)
-lw $9, -6360($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12168($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12168($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6364($sp)
-lw $9, -6364($sp)
-lw $8, 0($9)
-sw $8, -6352($sp)
-lw $8, -6352($sp)
-lw $9, -6348($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1728($sp)
-move $8, $9
-sw $8, -6368($sp)
-add $8, $29, -18516
-sw $8, -6380($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6376($sp)
-lw $8, -6376($sp)
-lw $9, -6380($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12148($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12148($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6384($sp)
-lw $9, -6384($sp)
-lw $8, 0($9)
-sw $8, -6372($sp)
-lw $8, -6372($sp)
-lw $9, -6368($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1736($sp)
-move $8, $9
-sw $8, -6388($sp)
-add $8, $29, -18516
-sw $8, -6400($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6396($sp)
-lw $8, -6396($sp)
-lw $9, -6400($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12128($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12128($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6404($sp)
-lw $9, -6404($sp)
-lw $8, 0($9)
-sw $8, -6392($sp)
-lw $8, -6392($sp)
-lw $9, -6388($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1744($sp)
-move $8, $9
-sw $8, -6408($sp)
-add $8, $29, -18516
-sw $8, -6420($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6416($sp)
-lw $8, -6416($sp)
-lw $9, -6420($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12108($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12108($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6424($sp)
-lw $9, -6424($sp)
-lw $8, 0($9)
-sw $8, -6412($sp)
-lw $8, -6412($sp)
-lw $9, -6408($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1752($sp)
-move $8, $9
-sw $8, -6428($sp)
-add $8, $29, -18516
-sw $8, -6440($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6436($sp)
-lw $8, -6436($sp)
-lw $9, -6440($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12088($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12088($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6444($sp)
-lw $9, -6444($sp)
-lw $8, 0($9)
-sw $8, -6432($sp)
-lw $8, -6432($sp)
-lw $9, -6428($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1760($sp)
-move $8, $9
-sw $8, -6448($sp)
-add $8, $29, -18516
-sw $8, -6460($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6456($sp)
-lw $8, -6456($sp)
-lw $9, -6460($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12068($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12068($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6464($sp)
-lw $9, -6464($sp)
-lw $8, 0($9)
-sw $8, -6452($sp)
-lw $8, -6452($sp)
-lw $9, -6448($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1768($sp)
-move $8, $9
-sw $8, -6468($sp)
-add $8, $29, -18516
-sw $8, -6480($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6476($sp)
-lw $8, -6476($sp)
-lw $9, -6480($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12048($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12048($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6484($sp)
-lw $9, -6484($sp)
-lw $8, 0($9)
-sw $8, -6472($sp)
-lw $8, -6472($sp)
-lw $9, -6468($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1776($sp)
-move $8, $9
-sw $8, -6488($sp)
-add $8, $29, -18516
-sw $8, -6500($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6496($sp)
-lw $8, -6496($sp)
-lw $9, -6500($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12028($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12028($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6504($sp)
-lw $9, -6504($sp)
-lw $8, 0($9)
-sw $8, -6492($sp)
-lw $8, -6492($sp)
-lw $9, -6488($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1784($sp)
-move $8, $9
-sw $8, -6508($sp)
-add $8, $29, -18516
-sw $8, -6520($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6516($sp)
-lw $8, -6516($sp)
-lw $9, -6520($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 12008($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 12008($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6524($sp)
-lw $9, -6524($sp)
-lw $8, 0($9)
-sw $8, -6512($sp)
-lw $8, -6512($sp)
-lw $9, -6508($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1792($sp)
-move $8, $9
-sw $8, -6528($sp)
-add $8, $29, -18516
-sw $8, -6540($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6536($sp)
-lw $8, -6536($sp)
-lw $9, -6540($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11988($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11988($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6544($sp)
-lw $9, -6544($sp)
-lw $8, 0($9)
-sw $8, -6532($sp)
-lw $8, -6532($sp)
-lw $9, -6528($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1800($sp)
-move $8, $9
-sw $8, -6548($sp)
-add $8, $29, -18516
-sw $8, -6560($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6556($sp)
-lw $8, -6556($sp)
-lw $9, -6560($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11968($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11968($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6564($sp)
-lw $9, -6564($sp)
-lw $8, 0($9)
-sw $8, -6552($sp)
-lw $8, -6552($sp)
-lw $9, -6548($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1808($sp)
-move $8, $9
-sw $8, -6568($sp)
-add $8, $29, -18516
-sw $8, -6580($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6576($sp)
-lw $8, -6576($sp)
-lw $9, -6580($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11948($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11948($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6584($sp)
-lw $9, -6584($sp)
-lw $8, 0($9)
-sw $8, -6572($sp)
-lw $8, -6572($sp)
-lw $9, -6568($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1816($sp)
-move $8, $9
-sw $8, -6588($sp)
-add $8, $29, -18516
-sw $8, -6600($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6596($sp)
-lw $8, -6596($sp)
-lw $9, -6600($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11928($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11928($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6604($sp)
-lw $9, -6604($sp)
-lw $8, 0($9)
-sw $8, -6592($sp)
-lw $8, -6592($sp)
-lw $9, -6588($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1824($sp)
-move $8, $9
-sw $8, -6608($sp)
-add $8, $29, -18516
-sw $8, -6620($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6616($sp)
-lw $8, -6616($sp)
-lw $9, -6620($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11908($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11908($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6624($sp)
-lw $9, -6624($sp)
-lw $8, 0($9)
-sw $8, -6612($sp)
-lw $8, -6612($sp)
-lw $9, -6608($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1832($sp)
-move $8, $9
-sw $8, -6628($sp)
-add $8, $29, -18516
-sw $8, -6640($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6636($sp)
-lw $8, -6636($sp)
-lw $9, -6640($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11888($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11888($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6644($sp)
-lw $9, -6644($sp)
-lw $8, 0($9)
-sw $8, -6632($sp)
-lw $8, -6632($sp)
-lw $9, -6628($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1840($sp)
-move $8, $9
-sw $8, -6648($sp)
-add $8, $29, -18516
-sw $8, -6660($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6656($sp)
-lw $8, -6656($sp)
-lw $9, -6660($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11868($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11868($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6664($sp)
-lw $9, -6664($sp)
-lw $8, 0($9)
-sw $8, -6652($sp)
-lw $8, -6652($sp)
-lw $9, -6648($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1848($sp)
-move $8, $9
-sw $8, -6668($sp)
-add $8, $29, -18516
-sw $8, -6680($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6676($sp)
-lw $8, -6676($sp)
-lw $9, -6680($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11848($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11848($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6684($sp)
-lw $9, -6684($sp)
-lw $8, 0($9)
-sw $8, -6672($sp)
-lw $8, -6672($sp)
-lw $9, -6668($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1856($sp)
-move $8, $9
-sw $8, -6688($sp)
-add $8, $29, -18516
-sw $8, -6700($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6696($sp)
-lw $8, -6696($sp)
-lw $9, -6700($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11828($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11828($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6704($sp)
-lw $9, -6704($sp)
-lw $8, 0($9)
-sw $8, -6692($sp)
-lw $8, -6692($sp)
-lw $9, -6688($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1864($sp)
-move $8, $9
-sw $8, -6708($sp)
-add $8, $29, -18516
-sw $8, -6720($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6716($sp)
-lw $8, -6716($sp)
-lw $9, -6720($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11808($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11808($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6724($sp)
-lw $9, -6724($sp)
-lw $8, 0($9)
-sw $8, -6712($sp)
-lw $8, -6712($sp)
-lw $9, -6708($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1872($sp)
-move $8, $9
-sw $8, -6728($sp)
-add $8, $29, -18516
-sw $8, -6740($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6736($sp)
-lw $8, -6736($sp)
-lw $9, -6740($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11788($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11788($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6744($sp)
-lw $9, -6744($sp)
-lw $8, 0($9)
-sw $8, -6732($sp)
-lw $8, -6732($sp)
-lw $9, -6728($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1880($sp)
-move $8, $9
-sw $8, -6748($sp)
-add $8, $29, -18516
-sw $8, -6760($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6756($sp)
-lw $8, -6756($sp)
-lw $9, -6760($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11768($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11768($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6764($sp)
-lw $9, -6764($sp)
-lw $8, 0($9)
-sw $8, -6752($sp)
-lw $8, -6752($sp)
-lw $9, -6748($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1888($sp)
-move $8, $9
-sw $8, -6768($sp)
-add $8, $29, -18516
-sw $8, -6780($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6776($sp)
-lw $8, -6776($sp)
-lw $9, -6780($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11748($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11748($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6784($sp)
-lw $9, -6784($sp)
-lw $8, 0($9)
-sw $8, -6772($sp)
-lw $8, -6772($sp)
-lw $9, -6768($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1896($sp)
-move $8, $9
-sw $8, -6788($sp)
-add $8, $29, -18516
-sw $8, -6800($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6796($sp)
-lw $8, -6796($sp)
-lw $9, -6800($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11728($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11728($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6804($sp)
-lw $9, -6804($sp)
-lw $8, 0($9)
-sw $8, -6792($sp)
-lw $8, -6792($sp)
-lw $9, -6788($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1904($sp)
-move $8, $9
-sw $8, -6808($sp)
-add $8, $29, -18516
-sw $8, -6820($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6816($sp)
-lw $8, -6816($sp)
-lw $9, -6820($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11708($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11708($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6824($sp)
-lw $9, -6824($sp)
-lw $8, 0($9)
-sw $8, -6812($sp)
-lw $8, -6812($sp)
-lw $9, -6808($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1912($sp)
-move $8, $9
-sw $8, -6828($sp)
-add $8, $29, -18516
-sw $8, -6840($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6836($sp)
-lw $8, -6836($sp)
-lw $9, -6840($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11688($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11688($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6844($sp)
-lw $9, -6844($sp)
-lw $8, 0($9)
-sw $8, -6832($sp)
-lw $8, -6832($sp)
-lw $9, -6828($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1920($sp)
-move $8, $9
-sw $8, -6848($sp)
-add $8, $29, -18516
-sw $8, -6860($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6856($sp)
-lw $8, -6856($sp)
-lw $9, -6860($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11668($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11668($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6864($sp)
-lw $9, -6864($sp)
-lw $8, 0($9)
-sw $8, -6852($sp)
-lw $8, -6852($sp)
-lw $9, -6848($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1928($sp)
-move $8, $9
-sw $8, -6868($sp)
-add $8, $29, -18516
-sw $8, -6880($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6876($sp)
-lw $8, -6876($sp)
-lw $9, -6880($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11648($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11648($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6884($sp)
-lw $9, -6884($sp)
-lw $8, 0($9)
-sw $8, -6872($sp)
-lw $8, -6872($sp)
-lw $9, -6868($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1936($sp)
-move $8, $9
-sw $8, -6888($sp)
-add $8, $29, -18516
-sw $8, -6900($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6896($sp)
-lw $8, -6896($sp)
-lw $9, -6900($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11628($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11628($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6904($sp)
-lw $9, -6904($sp)
-lw $8, 0($9)
-sw $8, -6892($sp)
-lw $8, -6892($sp)
-lw $9, -6888($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1944($sp)
-move $8, $9
-sw $8, -6908($sp)
-add $8, $29, -18516
-sw $8, -6920($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6916($sp)
-lw $8, -6916($sp)
-lw $9, -6920($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11608($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11608($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6924($sp)
-lw $9, -6924($sp)
-lw $8, 0($9)
-sw $8, -6912($sp)
-lw $8, -6912($sp)
-lw $9, -6908($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1952($sp)
-move $8, $9
-sw $8, -6928($sp)
-add $8, $29, -18516
-sw $8, -6940($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6936($sp)
-lw $8, -6936($sp)
-lw $9, -6940($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11588($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11588($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6944($sp)
-lw $9, -6944($sp)
-lw $8, 0($9)
-sw $8, -6932($sp)
-lw $8, -6932($sp)
-lw $9, -6928($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1960($sp)
-move $8, $9
-sw $8, -6948($sp)
-add $8, $29, -18516
-sw $8, -6960($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6956($sp)
-lw $8, -6956($sp)
-lw $9, -6960($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11568($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11568($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6964($sp)
-lw $9, -6964($sp)
-lw $8, 0($9)
-sw $8, -6952($sp)
-lw $8, -6952($sp)
-lw $9, -6948($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1968($sp)
-move $8, $9
-sw $8, -6968($sp)
-add $8, $29, -18516
-sw $8, -6980($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6976($sp)
-lw $8, -6976($sp)
-lw $9, -6980($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11548($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11548($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -6984($sp)
-lw $9, -6984($sp)
-lw $8, 0($9)
-sw $8, -6972($sp)
-lw $8, -6972($sp)
-lw $9, -6968($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1976($sp)
-move $8, $9
-sw $8, -6988($sp)
-add $8, $29, -18516
-sw $8, -7000($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -6996($sp)
-lw $8, -6996($sp)
-lw $9, -7000($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11528($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11528($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -7004($sp)
-lw $9, -7004($sp)
-lw $8, 0($9)
-sw $8, -6992($sp)
-lw $8, -6992($sp)
-lw $9, -6988($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1984($sp)
-move $8, $9
-sw $8, -7008($sp)
-add $8, $29, -18516
-sw $8, -7020($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -7016($sp)
-lw $8, -7016($sp)
-lw $9, -7020($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11508($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11508($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -7024($sp)
-lw $9, -7024($sp)
-lw $8, 0($9)
-sw $8, -7012($sp)
-lw $8, -7012($sp)
-lw $9, -7008($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -1992($sp)
-move $8, $9
-sw $8, -7028($sp)
-add $8, $29, -18516
-sw $8, -7040($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -7036($sp)
-lw $8, -7036($sp)
-lw $9, -7040($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11488($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11488($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -7044($sp)
-lw $9, -7044($sp)
-lw $8, 0($9)
-sw $8, -7032($sp)
-lw $8, -7032($sp)
-lw $9, -7028($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -2000($sp)
-move $8, $9
-sw $8, -7048($sp)
-add $8, $29, -18516
-sw $8, -7060($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -7056($sp)
-lw $8, -7056($sp)
-lw $9, -7060($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11468($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11468($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -7064($sp)
-lw $9, -7064($sp)
-lw $8, 0($9)
-sw $8, -7052($sp)
-lw $8, -7052($sp)
-lw $9, -7048($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -2008($sp)
-move $8, $9
-sw $8, -7068($sp)
-add $8, $29, -18516
-sw $8, -7080($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -7076($sp)
-lw $8, -7076($sp)
-lw $9, -7080($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11448($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11448($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -7084($sp)
-lw $9, -7084($sp)
-lw $8, 0($9)
-sw $8, -7072($sp)
-lw $8, -7072($sp)
-lw $9, -7068($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -2016($sp)
-move $8, $9
-sw $8, -7088($sp)
-add $8, $29, -18516
-sw $8, -7100($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -7096($sp)
-lw $8, -7096($sp)
-lw $9, -7100($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11428($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11428($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -7104($sp)
-lw $9, -7104($sp)
-lw $8, 0($9)
-sw $8, -7092($sp)
-lw $8, -7092($sp)
-lw $9, -7088($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -2024($sp)
-move $8, $9
-sw $8, -7108($sp)
-add $8, $29, -18516
-sw $8, -7120($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -7116($sp)
-lw $8, -7116($sp)
-lw $9, -7120($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11408($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11408($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -7124($sp)
-lw $9, -7124($sp)
-lw $8, 0($9)
-sw $8, -7112($sp)
-lw $8, -7112($sp)
-lw $9, -7108($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -2032($sp)
-move $8, $9
-sw $8, -7128($sp)
-add $8, $29, -18516
-sw $8, -7140($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -7136($sp)
-lw $8, -7136($sp)
-lw $9, -7140($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11388($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11388($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -7144($sp)
-lw $9, -7144($sp)
-lw $8, 0($9)
-sw $8, -7132($sp)
-lw $8, -7132($sp)
-lw $9, -7128($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -2040($sp)
-move $8, $9
-sw $8, -7148($sp)
-add $8, $29, -18516
-sw $8, -7160($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -7156($sp)
-lw $8, -7156($sp)
-lw $9, -7160($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11368($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11368($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -7164($sp)
-lw $9, -7164($sp)
-lw $8, 0($9)
-sw $8, -7152($sp)
-lw $8, -7152($sp)
-lw $9, -7148($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -2048($sp)
-move $8, $9
-sw $8, -7168($sp)
-add $8, $29, -18516
-sw $8, -7180($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -7176($sp)
-lw $8, -7176($sp)
-lw $9, -7180($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $11, 18508($sp)
+sw $23, 11348($sp)
 jal __getcount
+lw $11, 18508($sp)
+lw $23, 11348($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -7184($sp)
-lw $9, -7184($sp)
-lw $8, 0($9)
-sw $8, -7172($sp)
-lw $8, -7172($sp)
-lw $9, -7168($sp)
-sw $8, 0($9)
+add $24, $29, -18508
+lw $25, 0($24)
+sw $25, 0($23)
 lw $9, -2056($sp)
-move $8, $9
-sw $8, -7188($sp)
-add $8, $29, -18516
-sw $8, -7200($sp)
-lw $9, -8($sp)
-lw $8, 0($9)
-sw $8, -7196($sp)
-lw $8, -7196($sp)
-lw $9, -7200($sp)
-sw $8, 0($9)
+move $23, $9
+add $24, $29, -18516
+lw $25, 0($11)
+sw $25, 0($24)
 add $29, $29, -18516
+sw $23, 11328($sp)
 jal __getcount
+lw $23, 11328($sp)
 sub $29, $29, -18516
-add $8, $29, -18508
-sw $8, -7204($sp)
-lw $9, -7204($sp)
-lw $8, 0($9)
-sw $8, -7192($sp)
-lw $8, -7192($sp)
-lw $9, -7188($sp)
-sw $8, 0($9)
-add $8, $29, -18512
-sw $8, -7216($sp)
+add $11, $29, -18508
+lw $24, 0($11)
+sw $24, 0($23)
+add $11, $29, -18512
 lw $9, -16($sp)
-lw $8, 0($9)
-sw $8, -7212($sp)
-lw $8, -7212($sp)
-lw $9, -7216($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7220($sp)
-add $8, $29, -18516
-sw $8, -7224($sp)
-lw $8, -7220($sp)
-lw $9, -7224($sp)
-sw $8, 0($9)
+lw $23, 0($9)
+sw $23, 0($11)
+lw $12, 7244($a3)
+move $11, $12
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7236($sp)
+add $11, $29, -18512
 lw $9, -24($sp)
-lw $8, 0($9)
-sw $8, -7232($sp)
-lw $8, -7232($sp)
-lw $9, -7236($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7240($sp)
-add $8, $29, -18516
-sw $8, -7244($sp)
-lw $8, -7240($sp)
-lw $9, -7244($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $13, 7268($a3)
+move $11, $13
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7256($sp)
+add $11, $29, -18512
 lw $9, -32($sp)
-lw $8, 0($9)
-sw $8, -7252($sp)
-lw $8, -7252($sp)
-lw $9, -7256($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7260($sp)
-add $8, $29, -18516
-sw $8, -7264($sp)
-lw $8, -7260($sp)
-lw $9, -7264($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $14, 7292($a3)
+move $11, $14
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7276($sp)
+add $11, $29, -18512
 lw $9, -40($sp)
-lw $8, 0($9)
-sw $8, -7272($sp)
-lw $8, -7272($sp)
-lw $9, -7276($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7280($sp)
-add $8, $29, -18516
-sw $8, -7284($sp)
-lw $8, -7280($sp)
-lw $9, -7284($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $15, 7316($a3)
+move $11, $15
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7296($sp)
+add $11, $29, -18512
 lw $9, -48($sp)
-lw $8, 0($9)
-sw $8, -7292($sp)
-lw $8, -7292($sp)
-lw $9, -7296($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7300($sp)
-add $8, $29, -18516
-sw $8, -7304($sp)
-lw $8, -7300($sp)
-lw $9, -7304($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $16, 7340($a3)
+move $11, $16
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7316($sp)
+add $11, $29, -18512
 lw $9, -56($sp)
-lw $8, 0($9)
-sw $8, -7312($sp)
-lw $8, -7312($sp)
-lw $9, -7316($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7320($sp)
-add $8, $29, -18516
-sw $8, -7324($sp)
-lw $8, -7320($sp)
-lw $9, -7324($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $17, 7364($a3)
+move $11, $17
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7336($sp)
+add $11, $29, -18512
 lw $9, -64($sp)
-lw $8, 0($9)
-sw $8, -7332($sp)
-lw $8, -7332($sp)
-lw $9, -7336($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7340($sp)
-add $8, $29, -18516
-sw $8, -7344($sp)
-lw $8, -7340($sp)
-lw $9, -7344($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $18, 7388($a3)
+move $11, $18
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7356($sp)
+add $11, $29, -18512
 lw $9, -72($sp)
-lw $8, 0($9)
-sw $8, -7352($sp)
-lw $8, -7352($sp)
-lw $9, -7356($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7360($sp)
-add $8, $29, -18516
-sw $8, -7364($sp)
-lw $8, -7360($sp)
-lw $9, -7364($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $19, 7412($a3)
+move $11, $19
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7376($sp)
+add $11, $29, -18512
 lw $9, -80($sp)
-lw $8, 0($9)
-sw $8, -7372($sp)
-lw $8, -7372($sp)
-lw $9, -7376($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7380($sp)
-add $8, $29, -18516
-sw $8, -7384($sp)
-lw $8, -7380($sp)
-lw $9, -7384($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $20, 7436($a3)
+move $11, $20
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7396($sp)
+add $11, $29, -18512
 lw $9, -88($sp)
-lw $8, 0($9)
-sw $8, -7392($sp)
-lw $8, -7392($sp)
-lw $9, -7396($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7400($sp)
-add $8, $29, -18516
-sw $8, -7404($sp)
-lw $8, -7400($sp)
-lw $9, -7404($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $21, 7460($a3)
+move $11, $21
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7416($sp)
+add $11, $29, -18512
 lw $9, -96($sp)
-lw $8, 0($9)
-sw $8, -7412($sp)
-lw $8, -7412($sp)
-lw $9, -7416($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7420($sp)
-add $8, $29, -18516
-sw $8, -7424($sp)
-lw $8, -7420($sp)
-lw $9, -7424($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $22, 7484($a3)
+move $11, $22
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7436($sp)
+add $11, $29, -18512
 lw $9, -104($sp)
-lw $8, 0($9)
-sw $8, -7432($sp)
-lw $8, -7432($sp)
-lw $9, -7436($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7440($sp)
-add $8, $29, -18516
-sw $8, -7444($sp)
-lw $8, -7440($sp)
-lw $9, -7444($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7508($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7456($sp)
+add $11, $29, -18512
 lw $9, -112($sp)
-lw $8, 0($9)
-sw $8, -7452($sp)
-lw $8, -7452($sp)
-lw $9, -7456($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7460($sp)
-add $8, $29, -18516
-sw $8, -7464($sp)
-lw $8, -7460($sp)
-lw $9, -7464($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7532($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7476($sp)
+add $11, $29, -18512
 lw $9, -120($sp)
-lw $8, 0($9)
-sw $8, -7472($sp)
-lw $8, -7472($sp)
-lw $9, -7476($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7480($sp)
-add $8, $29, -18516
-sw $8, -7484($sp)
-lw $8, -7480($sp)
-lw $9, -7484($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7556($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7496($sp)
+add $11, $29, -18512
 lw $9, -128($sp)
-lw $8, 0($9)
-sw $8, -7492($sp)
-lw $8, -7492($sp)
-lw $9, -7496($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7500($sp)
-add $8, $29, -18516
-sw $8, -7504($sp)
-lw $8, -7500($sp)
-lw $9, -7504($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7580($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7516($sp)
+add $11, $29, -18512
 lw $9, -136($sp)
-lw $8, 0($9)
-sw $8, -7512($sp)
-lw $8, -7512($sp)
-lw $9, -7516($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7520($sp)
-add $8, $29, -18516
-sw $8, -7524($sp)
-lw $8, -7520($sp)
-lw $9, -7524($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7604($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7536($sp)
+add $11, $29, -18512
 lw $9, -144($sp)
-lw $8, 0($9)
-sw $8, -7532($sp)
-lw $8, -7532($sp)
-lw $9, -7536($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7540($sp)
-add $8, $29, -18516
-sw $8, -7544($sp)
-lw $8, -7540($sp)
-lw $9, -7544($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7628($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7556($sp)
+add $11, $29, -18512
 lw $9, -152($sp)
-lw $8, 0($9)
-sw $8, -7552($sp)
-lw $8, -7552($sp)
-lw $9, -7556($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7560($sp)
-add $8, $29, -18516
-sw $8, -7564($sp)
-lw $8, -7560($sp)
-lw $9, -7564($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7652($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7576($sp)
+add $11, $29, -18512
 lw $9, -160($sp)
-lw $8, 0($9)
-sw $8, -7572($sp)
-lw $8, -7572($sp)
-lw $9, -7576($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7580($sp)
-add $8, $29, -18516
-sw $8, -7584($sp)
-lw $8, -7580($sp)
-lw $9, -7584($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7676($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7596($sp)
+add $11, $29, -18512
 lw $9, -168($sp)
-lw $8, 0($9)
-sw $8, -7592($sp)
-lw $8, -7592($sp)
-lw $9, -7596($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7600($sp)
-add $8, $29, -18516
-sw $8, -7604($sp)
-lw $8, -7600($sp)
-lw $9, -7604($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7700($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7616($sp)
+add $11, $29, -18512
 lw $9, -176($sp)
-lw $8, 0($9)
-sw $8, -7612($sp)
-lw $8, -7612($sp)
-lw $9, -7616($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7620($sp)
-add $8, $29, -18516
-sw $8, -7624($sp)
-lw $8, -7620($sp)
-lw $9, -7624($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7724($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7636($sp)
+add $11, $29, -18512
 lw $9, -184($sp)
-lw $8, 0($9)
-sw $8, -7632($sp)
-lw $8, -7632($sp)
-lw $9, -7636($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7640($sp)
-add $8, $29, -18516
-sw $8, -7644($sp)
-lw $8, -7640($sp)
-lw $9, -7644($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7748($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7656($sp)
+add $11, $29, -18512
 lw $9, -192($sp)
-lw $8, 0($9)
-sw $8, -7652($sp)
-lw $8, -7652($sp)
-lw $9, -7656($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7660($sp)
-add $8, $29, -18516
-sw $8, -7664($sp)
-lw $8, -7660($sp)
-lw $9, -7664($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7772($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7676($sp)
+add $11, $29, -18512
 lw $9, -200($sp)
-lw $8, 0($9)
-sw $8, -7672($sp)
-lw $8, -7672($sp)
-lw $9, -7676($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7680($sp)
-add $8, $29, -18516
-sw $8, -7684($sp)
-lw $8, -7680($sp)
-lw $9, -7684($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7796($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7696($sp)
+add $11, $29, -18512
 lw $9, -208($sp)
-lw $8, 0($9)
-sw $8, -7692($sp)
-lw $8, -7692($sp)
-lw $9, -7696($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7700($sp)
-add $8, $29, -18516
-sw $8, -7704($sp)
-lw $8, -7700($sp)
-lw $9, -7704($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7820($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7716($sp)
+add $11, $29, -18512
 lw $9, -216($sp)
-lw $8, 0($9)
-sw $8, -7712($sp)
-lw $8, -7712($sp)
-lw $9, -7716($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7720($sp)
-add $8, $29, -18516
-sw $8, -7724($sp)
-lw $8, -7720($sp)
-lw $9, -7724($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7844($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7736($sp)
+add $11, $29, -18512
 lw $9, -224($sp)
-lw $8, 0($9)
-sw $8, -7732($sp)
-lw $8, -7732($sp)
-lw $9, -7736($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7740($sp)
-add $8, $29, -18516
-sw $8, -7744($sp)
-lw $8, -7740($sp)
-lw $9, -7744($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7868($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7756($sp)
+add $11, $29, -18512
 lw $9, -232($sp)
-lw $8, 0($9)
-sw $8, -7752($sp)
-lw $8, -7752($sp)
-lw $9, -7756($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7760($sp)
-add $8, $29, -18516
-sw $8, -7764($sp)
-lw $8, -7760($sp)
-lw $9, -7764($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7892($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7776($sp)
+add $11, $29, -18512
 lw $9, -240($sp)
-lw $8, 0($9)
-sw $8, -7772($sp)
-lw $8, -7772($sp)
-lw $9, -7776($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7780($sp)
-add $8, $29, -18516
-sw $8, -7784($sp)
-lw $8, -7780($sp)
-lw $9, -7784($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7916($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7796($sp)
+add $11, $29, -18512
 lw $9, -248($sp)
-lw $8, 0($9)
-sw $8, -7792($sp)
-lw $8, -7792($sp)
-lw $9, -7796($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7800($sp)
-add $8, $29, -18516
-sw $8, -7804($sp)
-lw $8, -7800($sp)
-lw $9, -7804($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7940($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7816($sp)
+add $11, $29, -18512
 lw $9, -256($sp)
-lw $8, 0($9)
-sw $8, -7812($sp)
-lw $8, -7812($sp)
-lw $9, -7816($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7820($sp)
-add $8, $29, -18516
-sw $8, -7824($sp)
-lw $8, -7820($sp)
-lw $9, -7824($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7964($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7836($sp)
+add $11, $29, -18512
 lw $9, -264($sp)
-lw $8, 0($9)
-sw $8, -7832($sp)
-lw $8, -7832($sp)
-lw $9, -7836($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7840($sp)
-add $8, $29, -18516
-sw $8, -7844($sp)
-lw $8, -7840($sp)
-lw $9, -7844($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 7988($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7856($sp)
+add $11, $29, -18512
 lw $9, -272($sp)
-lw $8, 0($9)
-sw $8, -7852($sp)
-lw $8, -7852($sp)
-lw $9, -7856($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7860($sp)
-add $8, $29, -18516
-sw $8, -7864($sp)
-lw $8, -7860($sp)
-lw $9, -7864($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8012($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7876($sp)
+add $11, $29, -18512
 lw $9, -280($sp)
-lw $8, 0($9)
-sw $8, -7872($sp)
-lw $8, -7872($sp)
-lw $9, -7876($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7880($sp)
-add $8, $29, -18516
-sw $8, -7884($sp)
-lw $8, -7880($sp)
-lw $9, -7884($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8036($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7896($sp)
+add $11, $29, -18512
 lw $9, -288($sp)
-lw $8, 0($9)
-sw $8, -7892($sp)
-lw $8, -7892($sp)
-lw $9, -7896($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7900($sp)
-add $8, $29, -18516
-sw $8, -7904($sp)
-lw $8, -7900($sp)
-lw $9, -7904($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8060($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7916($sp)
+add $11, $29, -18512
 lw $9, -296($sp)
-lw $8, 0($9)
-sw $8, -7912($sp)
-lw $8, -7912($sp)
-lw $9, -7916($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7920($sp)
-add $8, $29, -18516
-sw $8, -7924($sp)
-lw $8, -7920($sp)
-lw $9, -7924($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8084($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7936($sp)
+add $11, $29, -18512
 lw $9, -304($sp)
-lw $8, 0($9)
-sw $8, -7932($sp)
-lw $8, -7932($sp)
-lw $9, -7936($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7940($sp)
-add $8, $29, -18516
-sw $8, -7944($sp)
-lw $8, -7940($sp)
-lw $9, -7944($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8108($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7956($sp)
+add $11, $29, -18512
 lw $9, -312($sp)
-lw $8, 0($9)
-sw $8, -7952($sp)
-lw $8, -7952($sp)
-lw $9, -7956($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7960($sp)
-add $8, $29, -18516
-sw $8, -7964($sp)
-lw $8, -7960($sp)
-lw $9, -7964($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8132($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7976($sp)
+add $11, $29, -18512
 lw $9, -320($sp)
-lw $8, 0($9)
-sw $8, -7972($sp)
-lw $8, -7972($sp)
-lw $9, -7976($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -7980($sp)
-add $8, $29, -18516
-sw $8, -7984($sp)
-lw $8, -7980($sp)
-lw $9, -7984($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8156($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -7996($sp)
+add $11, $29, -18512
 lw $9, -328($sp)
-lw $8, 0($9)
-sw $8, -7992($sp)
-lw $8, -7992($sp)
-lw $9, -7996($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8000($sp)
-add $8, $29, -18516
-sw $8, -8004($sp)
-lw $8, -8000($sp)
-lw $9, -8004($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8180($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8016($sp)
+add $11, $29, -18512
 lw $9, -336($sp)
-lw $8, 0($9)
-sw $8, -8012($sp)
-lw $8, -8012($sp)
-lw $9, -8016($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8020($sp)
-add $8, $29, -18516
-sw $8, -8024($sp)
-lw $8, -8020($sp)
-lw $9, -8024($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8204($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8036($sp)
+add $11, $29, -18512
 lw $9, -344($sp)
-lw $8, 0($9)
-sw $8, -8032($sp)
-lw $8, -8032($sp)
-lw $9, -8036($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8040($sp)
-add $8, $29, -18516
-sw $8, -8044($sp)
-lw $8, -8040($sp)
-lw $9, -8044($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8228($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8056($sp)
+add $11, $29, -18512
 lw $9, -352($sp)
-lw $8, 0($9)
-sw $8, -8052($sp)
-lw $8, -8052($sp)
-lw $9, -8056($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8060($sp)
-add $8, $29, -18516
-sw $8, -8064($sp)
-lw $8, -8060($sp)
-lw $9, -8064($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8252($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8076($sp)
+add $11, $29, -18512
 lw $9, -360($sp)
-lw $8, 0($9)
-sw $8, -8072($sp)
-lw $8, -8072($sp)
-lw $9, -8076($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8080($sp)
-add $8, $29, -18516
-sw $8, -8084($sp)
-lw $8, -8080($sp)
-lw $9, -8084($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8276($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8096($sp)
+add $11, $29, -18512
 lw $9, -368($sp)
-lw $8, 0($9)
-sw $8, -8092($sp)
-lw $8, -8092($sp)
-lw $9, -8096($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8100($sp)
-add $8, $29, -18516
-sw $8, -8104($sp)
-lw $8, -8100($sp)
-lw $9, -8104($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8300($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8116($sp)
+add $11, $29, -18512
 lw $9, -376($sp)
-lw $8, 0($9)
-sw $8, -8112($sp)
-lw $8, -8112($sp)
-lw $9, -8116($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8120($sp)
-add $8, $29, -18516
-sw $8, -8124($sp)
-lw $8, -8120($sp)
-lw $9, -8124($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8324($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8136($sp)
+add $11, $29, -18512
 lw $9, -384($sp)
-lw $8, 0($9)
-sw $8, -8132($sp)
-lw $8, -8132($sp)
-lw $9, -8136($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8140($sp)
-add $8, $29, -18516
-sw $8, -8144($sp)
-lw $8, -8140($sp)
-lw $9, -8144($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8348($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8156($sp)
+add $11, $29, -18512
 lw $9, -392($sp)
-lw $8, 0($9)
-sw $8, -8152($sp)
-lw $8, -8152($sp)
-lw $9, -8156($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8160($sp)
-add $8, $29, -18516
-sw $8, -8164($sp)
-lw $8, -8160($sp)
-lw $9, -8164($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8372($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8176($sp)
+add $11, $29, -18512
 lw $9, -400($sp)
-lw $8, 0($9)
-sw $8, -8172($sp)
-lw $8, -8172($sp)
-lw $9, -8176($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8180($sp)
-add $8, $29, -18516
-sw $8, -8184($sp)
-lw $8, -8180($sp)
-lw $9, -8184($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8396($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8196($sp)
+add $11, $29, -18512
 lw $9, -408($sp)
-lw $8, 0($9)
-sw $8, -8192($sp)
-lw $8, -8192($sp)
-lw $9, -8196($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8200($sp)
-add $8, $29, -18516
-sw $8, -8204($sp)
-lw $8, -8200($sp)
-lw $9, -8204($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8420($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8216($sp)
+add $11, $29, -18512
 lw $9, -416($sp)
-lw $8, 0($9)
-sw $8, -8212($sp)
-lw $8, -8212($sp)
-lw $9, -8216($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8220($sp)
-add $8, $29, -18516
-sw $8, -8224($sp)
-lw $8, -8220($sp)
-lw $9, -8224($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8444($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8236($sp)
+add $11, $29, -18512
 lw $9, -424($sp)
-lw $8, 0($9)
-sw $8, -8232($sp)
-lw $8, -8232($sp)
-lw $9, -8236($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8240($sp)
-add $8, $29, -18516
-sw $8, -8244($sp)
-lw $8, -8240($sp)
-lw $9, -8244($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8468($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8256($sp)
+add $11, $29, -18512
 lw $9, -432($sp)
-lw $8, 0($9)
-sw $8, -8252($sp)
-lw $8, -8252($sp)
-lw $9, -8256($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8260($sp)
-add $8, $29, -18516
-sw $8, -8264($sp)
-lw $8, -8260($sp)
-lw $9, -8264($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8492($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8276($sp)
+add $11, $29, -18512
 lw $9, -440($sp)
-lw $8, 0($9)
-sw $8, -8272($sp)
-lw $8, -8272($sp)
-lw $9, -8276($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8280($sp)
-add $8, $29, -18516
-sw $8, -8284($sp)
-lw $8, -8280($sp)
-lw $9, -8284($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8516($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8296($sp)
+add $11, $29, -18512
 lw $9, -448($sp)
-lw $8, 0($9)
-sw $8, -8292($sp)
-lw $8, -8292($sp)
-lw $9, -8296($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8300($sp)
-add $8, $29, -18516
-sw $8, -8304($sp)
-lw $8, -8300($sp)
-lw $9, -8304($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8540($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8316($sp)
+add $11, $29, -18512
 lw $9, -456($sp)
-lw $8, 0($9)
-sw $8, -8312($sp)
-lw $8, -8312($sp)
-lw $9, -8316($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8320($sp)
-add $8, $29, -18516
-sw $8, -8324($sp)
-lw $8, -8320($sp)
-lw $9, -8324($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8564($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8336($sp)
+add $11, $29, -18512
 lw $9, -464($sp)
-lw $8, 0($9)
-sw $8, -8332($sp)
-lw $8, -8332($sp)
-lw $9, -8336($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8340($sp)
-add $8, $29, -18516
-sw $8, -8344($sp)
-lw $8, -8340($sp)
-lw $9, -8344($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8588($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8356($sp)
+add $11, $29, -18512
 lw $9, -472($sp)
-lw $8, 0($9)
-sw $8, -8352($sp)
-lw $8, -8352($sp)
-lw $9, -8356($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8360($sp)
-add $8, $29, -18516
-sw $8, -8364($sp)
-lw $8, -8360($sp)
-lw $9, -8364($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8612($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8376($sp)
+add $11, $29, -18512
 lw $9, -480($sp)
-lw $8, 0($9)
-sw $8, -8372($sp)
-lw $8, -8372($sp)
-lw $9, -8376($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8380($sp)
-add $8, $29, -18516
-sw $8, -8384($sp)
-lw $8, -8380($sp)
-lw $9, -8384($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8636($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8396($sp)
+add $11, $29, -18512
 lw $9, -488($sp)
-lw $8, 0($9)
-sw $8, -8392($sp)
-lw $8, -8392($sp)
-lw $9, -8396($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8400($sp)
-add $8, $29, -18516
-sw $8, -8404($sp)
-lw $8, -8400($sp)
-lw $9, -8404($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8660($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8416($sp)
+add $11, $29, -18512
 lw $9, -496($sp)
-lw $8, 0($9)
-sw $8, -8412($sp)
-lw $8, -8412($sp)
-lw $9, -8416($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8420($sp)
-add $8, $29, -18516
-sw $8, -8424($sp)
-lw $8, -8420($sp)
-lw $9, -8424($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8684($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8436($sp)
+add $11, $29, -18512
 lw $9, -504($sp)
-lw $8, 0($9)
-sw $8, -8432($sp)
-lw $8, -8432($sp)
-lw $9, -8436($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8440($sp)
-add $8, $29, -18516
-sw $8, -8444($sp)
-lw $8, -8440($sp)
-lw $9, -8444($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8708($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8456($sp)
+add $11, $29, -18512
 lw $9, -512($sp)
-lw $8, 0($9)
-sw $8, -8452($sp)
-lw $8, -8452($sp)
-lw $9, -8456($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8460($sp)
-add $8, $29, -18516
-sw $8, -8464($sp)
-lw $8, -8460($sp)
-lw $9, -8464($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8732($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8476($sp)
+add $11, $29, -18512
 lw $9, -520($sp)
-lw $8, 0($9)
-sw $8, -8472($sp)
-lw $8, -8472($sp)
-lw $9, -8476($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8480($sp)
-add $8, $29, -18516
-sw $8, -8484($sp)
-lw $8, -8480($sp)
-lw $9, -8484($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8756($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8496($sp)
+add $11, $29, -18512
 lw $9, -528($sp)
-lw $8, 0($9)
-sw $8, -8492($sp)
-lw $8, -8492($sp)
-lw $9, -8496($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8500($sp)
-add $8, $29, -18516
-sw $8, -8504($sp)
-lw $8, -8500($sp)
-lw $9, -8504($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8780($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8516($sp)
+add $11, $29, -18512
 lw $9, -536($sp)
-lw $8, 0($9)
-sw $8, -8512($sp)
-lw $8, -8512($sp)
-lw $9, -8516($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8520($sp)
-add $8, $29, -18516
-sw $8, -8524($sp)
-lw $8, -8520($sp)
-lw $9, -8524($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8804($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8536($sp)
+add $11, $29, -18512
 lw $9, -544($sp)
-lw $8, 0($9)
-sw $8, -8532($sp)
-lw $8, -8532($sp)
-lw $9, -8536($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8540($sp)
-add $8, $29, -18516
-sw $8, -8544($sp)
-lw $8, -8540($sp)
-lw $9, -8544($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8828($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8556($sp)
+add $11, $29, -18512
 lw $9, -552($sp)
-lw $8, 0($9)
-sw $8, -8552($sp)
-lw $8, -8552($sp)
-lw $9, -8556($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8560($sp)
-add $8, $29, -18516
-sw $8, -8564($sp)
-lw $8, -8560($sp)
-lw $9, -8564($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8852($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8576($sp)
+add $11, $29, -18512
 lw $9, -560($sp)
-lw $8, 0($9)
-sw $8, -8572($sp)
-lw $8, -8572($sp)
-lw $9, -8576($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8580($sp)
-add $8, $29, -18516
-sw $8, -8584($sp)
-lw $8, -8580($sp)
-lw $9, -8584($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8876($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8596($sp)
+add $11, $29, -18512
 lw $9, -568($sp)
-lw $8, 0($9)
-sw $8, -8592($sp)
-lw $8, -8592($sp)
-lw $9, -8596($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8600($sp)
-add $8, $29, -18516
-sw $8, -8604($sp)
-lw $8, -8600($sp)
-lw $9, -8604($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8900($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8616($sp)
+add $11, $29, -18512
 lw $9, -576($sp)
-lw $8, 0($9)
-sw $8, -8612($sp)
-lw $8, -8612($sp)
-lw $9, -8616($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8620($sp)
-add $8, $29, -18516
-sw $8, -8624($sp)
-lw $8, -8620($sp)
-lw $9, -8624($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8924($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8636($sp)
+add $11, $29, -18512
 lw $9, -584($sp)
-lw $8, 0($9)
-sw $8, -8632($sp)
-lw $8, -8632($sp)
-lw $9, -8636($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8640($sp)
-add $8, $29, -18516
-sw $8, -8644($sp)
-lw $8, -8640($sp)
-lw $9, -8644($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8948($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8656($sp)
+add $11, $29, -18512
 lw $9, -592($sp)
-lw $8, 0($9)
-sw $8, -8652($sp)
-lw $8, -8652($sp)
-lw $9, -8656($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8660($sp)
-add $8, $29, -18516
-sw $8, -8664($sp)
-lw $8, -8660($sp)
-lw $9, -8664($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8972($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8676($sp)
+add $11, $29, -18512
 lw $9, -600($sp)
-lw $8, 0($9)
-sw $8, -8672($sp)
-lw $8, -8672($sp)
-lw $9, -8676($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8680($sp)
-add $8, $29, -18516
-sw $8, -8684($sp)
-lw $8, -8680($sp)
-lw $9, -8684($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 8996($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8696($sp)
+add $11, $29, -18512
 lw $9, -608($sp)
-lw $8, 0($9)
-sw $8, -8692($sp)
-lw $8, -8692($sp)
-lw $9, -8696($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8700($sp)
-add $8, $29, -18516
-sw $8, -8704($sp)
-lw $8, -8700($sp)
-lw $9, -8704($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9020($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8716($sp)
+add $11, $29, -18512
 lw $9, -616($sp)
-lw $8, 0($9)
-sw $8, -8712($sp)
-lw $8, -8712($sp)
-lw $9, -8716($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8720($sp)
-add $8, $29, -18516
-sw $8, -8724($sp)
-lw $8, -8720($sp)
-lw $9, -8724($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9044($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8736($sp)
+add $11, $29, -18512
 lw $9, -624($sp)
-lw $8, 0($9)
-sw $8, -8732($sp)
-lw $8, -8732($sp)
-lw $9, -8736($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8740($sp)
-add $8, $29, -18516
-sw $8, -8744($sp)
-lw $8, -8740($sp)
-lw $9, -8744($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9068($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8756($sp)
+add $11, $29, -18512
 lw $9, -632($sp)
-lw $8, 0($9)
-sw $8, -8752($sp)
-lw $8, -8752($sp)
-lw $9, -8756($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8760($sp)
-add $8, $29, -18516
-sw $8, -8764($sp)
-lw $8, -8760($sp)
-lw $9, -8764($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9092($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8776($sp)
+add $11, $29, -18512
 lw $9, -640($sp)
-lw $8, 0($9)
-sw $8, -8772($sp)
-lw $8, -8772($sp)
-lw $9, -8776($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8780($sp)
-add $8, $29, -18516
-sw $8, -8784($sp)
-lw $8, -8780($sp)
-lw $9, -8784($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9116($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8796($sp)
+add $11, $29, -18512
 lw $9, -648($sp)
-lw $8, 0($9)
-sw $8, -8792($sp)
-lw $8, -8792($sp)
-lw $9, -8796($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8800($sp)
-add $8, $29, -18516
-sw $8, -8804($sp)
-lw $8, -8800($sp)
-lw $9, -8804($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9140($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8816($sp)
+add $11, $29, -18512
 lw $9, -656($sp)
-lw $8, 0($9)
-sw $8, -8812($sp)
-lw $8, -8812($sp)
-lw $9, -8816($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8820($sp)
-add $8, $29, -18516
-sw $8, -8824($sp)
-lw $8, -8820($sp)
-lw $9, -8824($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9164($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8836($sp)
+add $11, $29, -18512
 lw $9, -664($sp)
-lw $8, 0($9)
-sw $8, -8832($sp)
-lw $8, -8832($sp)
-lw $9, -8836($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8840($sp)
-add $8, $29, -18516
-sw $8, -8844($sp)
-lw $8, -8840($sp)
-lw $9, -8844($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9188($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8856($sp)
+add $11, $29, -18512
 lw $9, -672($sp)
-lw $8, 0($9)
-sw $8, -8852($sp)
-lw $8, -8852($sp)
-lw $9, -8856($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8860($sp)
-add $8, $29, -18516
-sw $8, -8864($sp)
-lw $8, -8860($sp)
-lw $9, -8864($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9212($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8876($sp)
+add $11, $29, -18512
 lw $9, -680($sp)
-lw $8, 0($9)
-sw $8, -8872($sp)
-lw $8, -8872($sp)
-lw $9, -8876($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8880($sp)
-add $8, $29, -18516
-sw $8, -8884($sp)
-lw $8, -8880($sp)
-lw $9, -8884($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9236($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8896($sp)
+add $11, $29, -18512
 lw $9, -688($sp)
-lw $8, 0($9)
-sw $8, -8892($sp)
-lw $8, -8892($sp)
-lw $9, -8896($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8900($sp)
-add $8, $29, -18516
-sw $8, -8904($sp)
-lw $8, -8900($sp)
-lw $9, -8904($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9260($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8916($sp)
+add $11, $29, -18512
 lw $9, -696($sp)
-lw $8, 0($9)
-sw $8, -8912($sp)
-lw $8, -8912($sp)
-lw $9, -8916($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8920($sp)
-add $8, $29, -18516
-sw $8, -8924($sp)
-lw $8, -8920($sp)
-lw $9, -8924($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9284($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8936($sp)
+add $11, $29, -18512
 lw $9, -704($sp)
-lw $8, 0($9)
-sw $8, -8932($sp)
-lw $8, -8932($sp)
-lw $9, -8936($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8940($sp)
-add $8, $29, -18516
-sw $8, -8944($sp)
-lw $8, -8940($sp)
-lw $9, -8944($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9308($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8956($sp)
+add $11, $29, -18512
 lw $9, -712($sp)
-lw $8, 0($9)
-sw $8, -8952($sp)
-lw $8, -8952($sp)
-lw $9, -8956($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8960($sp)
-add $8, $29, -18516
-sw $8, -8964($sp)
-lw $8, -8960($sp)
-lw $9, -8964($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9332($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8976($sp)
+add $11, $29, -18512
 lw $9, -720($sp)
-lw $8, 0($9)
-sw $8, -8972($sp)
-lw $8, -8972($sp)
-lw $9, -8976($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -8980($sp)
-add $8, $29, -18516
-sw $8, -8984($sp)
-lw $8, -8980($sp)
-lw $9, -8984($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9356($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -8996($sp)
+add $11, $29, -18512
 lw $9, -728($sp)
-lw $8, 0($9)
-sw $8, -8992($sp)
-lw $8, -8992($sp)
-lw $9, -8996($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9000($sp)
-add $8, $29, -18516
-sw $8, -9004($sp)
-lw $8, -9000($sp)
-lw $9, -9004($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9380($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9016($sp)
+add $11, $29, -18512
 lw $9, -736($sp)
-lw $8, 0($9)
-sw $8, -9012($sp)
-lw $8, -9012($sp)
-lw $9, -9016($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9020($sp)
-add $8, $29, -18516
-sw $8, -9024($sp)
-lw $8, -9020($sp)
-lw $9, -9024($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9404($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9036($sp)
+add $11, $29, -18512
 lw $9, -744($sp)
-lw $8, 0($9)
-sw $8, -9032($sp)
-lw $8, -9032($sp)
-lw $9, -9036($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9040($sp)
-add $8, $29, -18516
-sw $8, -9044($sp)
-lw $8, -9040($sp)
-lw $9, -9044($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9428($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9056($sp)
+add $11, $29, -18512
 lw $9, -752($sp)
-lw $8, 0($9)
-sw $8, -9052($sp)
-lw $8, -9052($sp)
-lw $9, -9056($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9060($sp)
-add $8, $29, -18516
-sw $8, -9064($sp)
-lw $8, -9060($sp)
-lw $9, -9064($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9452($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9076($sp)
+add $11, $29, -18512
 lw $9, -760($sp)
-lw $8, 0($9)
-sw $8, -9072($sp)
-lw $8, -9072($sp)
-lw $9, -9076($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9080($sp)
-add $8, $29, -18516
-sw $8, -9084($sp)
-lw $8, -9080($sp)
-lw $9, -9084($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9476($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9096($sp)
+add $11, $29, -18512
 lw $9, -768($sp)
-lw $8, 0($9)
-sw $8, -9092($sp)
-lw $8, -9092($sp)
-lw $9, -9096($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9100($sp)
-add $8, $29, -18516
-sw $8, -9104($sp)
-lw $8, -9100($sp)
-lw $9, -9104($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9500($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9116($sp)
+add $11, $29, -18512
 lw $9, -776($sp)
-lw $8, 0($9)
-sw $8, -9112($sp)
-lw $8, -9112($sp)
-lw $9, -9116($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9120($sp)
-add $8, $29, -18516
-sw $8, -9124($sp)
-lw $8, -9120($sp)
-lw $9, -9124($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9524($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9136($sp)
+add $11, $29, -18512
 lw $9, -784($sp)
-lw $8, 0($9)
-sw $8, -9132($sp)
-lw $8, -9132($sp)
-lw $9, -9136($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9140($sp)
-add $8, $29, -18516
-sw $8, -9144($sp)
-lw $8, -9140($sp)
-lw $9, -9144($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9548($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9156($sp)
+add $11, $29, -18512
 lw $9, -792($sp)
-lw $8, 0($9)
-sw $8, -9152($sp)
-lw $8, -9152($sp)
-lw $9, -9156($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9160($sp)
-add $8, $29, -18516
-sw $8, -9164($sp)
-lw $8, -9160($sp)
-lw $9, -9164($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9572($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9176($sp)
+add $11, $29, -18512
 lw $9, -800($sp)
-lw $8, 0($9)
-sw $8, -9172($sp)
-lw $8, -9172($sp)
-lw $9, -9176($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9180($sp)
-add $8, $29, -18516
-sw $8, -9184($sp)
-lw $8, -9180($sp)
-lw $9, -9184($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9596($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9196($sp)
+add $11, $29, -18512
 lw $9, -808($sp)
-lw $8, 0($9)
-sw $8, -9192($sp)
-lw $8, -9192($sp)
-lw $9, -9196($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9200($sp)
-add $8, $29, -18516
-sw $8, -9204($sp)
-lw $8, -9200($sp)
-lw $9, -9204($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9620($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9216($sp)
+add $11, $29, -18512
 lw $9, -816($sp)
-lw $8, 0($9)
-sw $8, -9212($sp)
-lw $8, -9212($sp)
-lw $9, -9216($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9220($sp)
-add $8, $29, -18516
-sw $8, -9224($sp)
-lw $8, -9220($sp)
-lw $9, -9224($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9644($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9236($sp)
+add $11, $29, -18512
 lw $9, -824($sp)
-lw $8, 0($9)
-sw $8, -9232($sp)
-lw $8, -9232($sp)
-lw $9, -9236($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9240($sp)
-add $8, $29, -18516
-sw $8, -9244($sp)
-lw $8, -9240($sp)
-lw $9, -9244($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9668($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9256($sp)
+add $11, $29, -18512
 lw $9, -832($sp)
-lw $8, 0($9)
-sw $8, -9252($sp)
-lw $8, -9252($sp)
-lw $9, -9256($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9260($sp)
-add $8, $29, -18516
-sw $8, -9264($sp)
-lw $8, -9260($sp)
-lw $9, -9264($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9692($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9276($sp)
+add $11, $29, -18512
 lw $9, -840($sp)
-lw $8, 0($9)
-sw $8, -9272($sp)
-lw $8, -9272($sp)
-lw $9, -9276($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9280($sp)
-add $8, $29, -18516
-sw $8, -9284($sp)
-lw $8, -9280($sp)
-lw $9, -9284($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9716($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9296($sp)
+add $11, $29, -18512
 lw $9, -848($sp)
-lw $8, 0($9)
-sw $8, -9292($sp)
-lw $8, -9292($sp)
-lw $9, -9296($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9300($sp)
-add $8, $29, -18516
-sw $8, -9304($sp)
-lw $8, -9300($sp)
-lw $9, -9304($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9740($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9316($sp)
+add $11, $29, -18512
 lw $9, -856($sp)
-lw $8, 0($9)
-sw $8, -9312($sp)
-lw $8, -9312($sp)
-lw $9, -9316($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9320($sp)
-add $8, $29, -18516
-sw $8, -9324($sp)
-lw $8, -9320($sp)
-lw $9, -9324($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9764($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9336($sp)
+add $11, $29, -18512
 lw $9, -864($sp)
-lw $8, 0($9)
-sw $8, -9332($sp)
-lw $8, -9332($sp)
-lw $9, -9336($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9340($sp)
-add $8, $29, -18516
-sw $8, -9344($sp)
-lw $8, -9340($sp)
-lw $9, -9344($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9788($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9356($sp)
+add $11, $29, -18512
 lw $9, -872($sp)
-lw $8, 0($9)
-sw $8, -9352($sp)
-lw $8, -9352($sp)
-lw $9, -9356($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9360($sp)
-add $8, $29, -18516
-sw $8, -9364($sp)
-lw $8, -9360($sp)
-lw $9, -9364($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9812($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9376($sp)
+add $11, $29, -18512
 lw $9, -880($sp)
-lw $8, 0($9)
-sw $8, -9372($sp)
-lw $8, -9372($sp)
-lw $9, -9376($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9380($sp)
-add $8, $29, -18516
-sw $8, -9384($sp)
-lw $8, -9380($sp)
-lw $9, -9384($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9836($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9396($sp)
+add $11, $29, -18512
 lw $9, -888($sp)
-lw $8, 0($9)
-sw $8, -9392($sp)
-lw $8, -9392($sp)
-lw $9, -9396($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9400($sp)
-add $8, $29, -18516
-sw $8, -9404($sp)
-lw $8, -9400($sp)
-lw $9, -9404($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9860($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9416($sp)
+add $11, $29, -18512
 lw $9, -896($sp)
-lw $8, 0($9)
-sw $8, -9412($sp)
-lw $8, -9412($sp)
-lw $9, -9416($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9420($sp)
-add $8, $29, -18516
-sw $8, -9424($sp)
-lw $8, -9420($sp)
-lw $9, -9424($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9884($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9436($sp)
+add $11, $29, -18512
 lw $9, -904($sp)
-lw $8, 0($9)
-sw $8, -9432($sp)
-lw $8, -9432($sp)
-lw $9, -9436($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9440($sp)
-add $8, $29, -18516
-sw $8, -9444($sp)
-lw $8, -9440($sp)
-lw $9, -9444($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9908($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9456($sp)
+add $11, $29, -18512
 lw $9, -912($sp)
-lw $8, 0($9)
-sw $8, -9452($sp)
-lw $8, -9452($sp)
-lw $9, -9456($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9460($sp)
-add $8, $29, -18516
-sw $8, -9464($sp)
-lw $8, -9460($sp)
-lw $9, -9464($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9932($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9476($sp)
+add $11, $29, -18512
 lw $9, -920($sp)
-lw $8, 0($9)
-sw $8, -9472($sp)
-lw $8, -9472($sp)
-lw $9, -9476($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9480($sp)
-add $8, $29, -18516
-sw $8, -9484($sp)
-lw $8, -9480($sp)
-lw $9, -9484($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9956($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9496($sp)
+add $11, $29, -18512
 lw $9, -928($sp)
-lw $8, 0($9)
-sw $8, -9492($sp)
-lw $8, -9492($sp)
-lw $9, -9496($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9500($sp)
-add $8, $29, -18516
-sw $8, -9504($sp)
-lw $8, -9500($sp)
-lw $9, -9504($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 9980($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9516($sp)
+add $11, $29, -18512
 lw $9, -936($sp)
-lw $8, 0($9)
-sw $8, -9512($sp)
-lw $8, -9512($sp)
-lw $9, -9516($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9520($sp)
-add $8, $29, -18516
-sw $8, -9524($sp)
-lw $8, -9520($sp)
-lw $9, -9524($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10004($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9536($sp)
+add $11, $29, -18512
 lw $9, -944($sp)
-lw $8, 0($9)
-sw $8, -9532($sp)
-lw $8, -9532($sp)
-lw $9, -9536($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9540($sp)
-add $8, $29, -18516
-sw $8, -9544($sp)
-lw $8, -9540($sp)
-lw $9, -9544($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10028($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9556($sp)
+add $11, $29, -18512
 lw $9, -952($sp)
-lw $8, 0($9)
-sw $8, -9552($sp)
-lw $8, -9552($sp)
-lw $9, -9556($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9560($sp)
-add $8, $29, -18516
-sw $8, -9564($sp)
-lw $8, -9560($sp)
-lw $9, -9564($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10052($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9576($sp)
+add $11, $29, -18512
 lw $9, -960($sp)
-lw $8, 0($9)
-sw $8, -9572($sp)
-lw $8, -9572($sp)
-lw $9, -9576($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9580($sp)
-add $8, $29, -18516
-sw $8, -9584($sp)
-lw $8, -9580($sp)
-lw $9, -9584($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10076($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9596($sp)
+add $11, $29, -18512
 lw $9, -968($sp)
-lw $8, 0($9)
-sw $8, -9592($sp)
-lw $8, -9592($sp)
-lw $9, -9596($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9600($sp)
-add $8, $29, -18516
-sw $8, -9604($sp)
-lw $8, -9600($sp)
-lw $9, -9604($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10100($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9616($sp)
+add $11, $29, -18512
 lw $9, -976($sp)
-lw $8, 0($9)
-sw $8, -9612($sp)
-lw $8, -9612($sp)
-lw $9, -9616($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9620($sp)
-add $8, $29, -18516
-sw $8, -9624($sp)
-lw $8, -9620($sp)
-lw $9, -9624($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10124($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9636($sp)
+add $11, $29, -18512
 lw $9, -984($sp)
-lw $8, 0($9)
-sw $8, -9632($sp)
-lw $8, -9632($sp)
-lw $9, -9636($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9640($sp)
-add $8, $29, -18516
-sw $8, -9644($sp)
-lw $8, -9640($sp)
-lw $9, -9644($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10148($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9656($sp)
+add $11, $29, -18512
 lw $9, -992($sp)
-lw $8, 0($9)
-sw $8, -9652($sp)
-lw $8, -9652($sp)
-lw $9, -9656($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9660($sp)
-add $8, $29, -18516
-sw $8, -9664($sp)
-lw $8, -9660($sp)
-lw $9, -9664($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10172($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9676($sp)
+add $11, $29, -18512
 lw $9, -1000($sp)
-lw $8, 0($9)
-sw $8, -9672($sp)
-lw $8, -9672($sp)
-lw $9, -9676($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9680($sp)
-add $8, $29, -18516
-sw $8, -9684($sp)
-lw $8, -9680($sp)
-lw $9, -9684($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10196($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9696($sp)
+add $11, $29, -18512
 lw $9, -1008($sp)
-lw $8, 0($9)
-sw $8, -9692($sp)
-lw $8, -9692($sp)
-lw $9, -9696($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9700($sp)
-add $8, $29, -18516
-sw $8, -9704($sp)
-lw $8, -9700($sp)
-lw $9, -9704($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10220($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9716($sp)
+add $11, $29, -18512
 lw $9, -1016($sp)
-lw $8, 0($9)
-sw $8, -9712($sp)
-lw $8, -9712($sp)
-lw $9, -9716($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9720($sp)
-add $8, $29, -18516
-sw $8, -9724($sp)
-lw $8, -9720($sp)
-lw $9, -9724($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10244($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9736($sp)
+add $11, $29, -18512
 lw $9, -1024($sp)
-lw $8, 0($9)
-sw $8, -9732($sp)
-lw $8, -9732($sp)
-lw $9, -9736($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9740($sp)
-add $8, $29, -18516
-sw $8, -9744($sp)
-lw $8, -9740($sp)
-lw $9, -9744($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10268($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9756($sp)
+add $11, $29, -18512
 lw $9, -1032($sp)
-lw $8, 0($9)
-sw $8, -9752($sp)
-lw $8, -9752($sp)
-lw $9, -9756($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9760($sp)
-add $8, $29, -18516
-sw $8, -9764($sp)
-lw $8, -9760($sp)
-lw $9, -9764($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10292($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9776($sp)
+add $11, $29, -18512
 lw $9, -1040($sp)
-lw $8, 0($9)
-sw $8, -9772($sp)
-lw $8, -9772($sp)
-lw $9, -9776($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9780($sp)
-add $8, $29, -18516
-sw $8, -9784($sp)
-lw $8, -9780($sp)
-lw $9, -9784($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10316($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9796($sp)
+add $11, $29, -18512
 lw $9, -1048($sp)
-lw $8, 0($9)
-sw $8, -9792($sp)
-lw $8, -9792($sp)
-lw $9, -9796($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9800($sp)
-add $8, $29, -18516
-sw $8, -9804($sp)
-lw $8, -9800($sp)
-lw $9, -9804($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10340($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9816($sp)
+add $11, $29, -18512
 lw $9, -1056($sp)
-lw $8, 0($9)
-sw $8, -9812($sp)
-lw $8, -9812($sp)
-lw $9, -9816($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9820($sp)
-add $8, $29, -18516
-sw $8, -9824($sp)
-lw $8, -9820($sp)
-lw $9, -9824($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10364($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9836($sp)
+add $11, $29, -18512
 lw $9, -1064($sp)
-lw $8, 0($9)
-sw $8, -9832($sp)
-lw $8, -9832($sp)
-lw $9, -9836($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9840($sp)
-add $8, $29, -18516
-sw $8, -9844($sp)
-lw $8, -9840($sp)
-lw $9, -9844($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10388($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9856($sp)
+add $11, $29, -18512
 lw $9, -1072($sp)
-lw $8, 0($9)
-sw $8, -9852($sp)
-lw $8, -9852($sp)
-lw $9, -9856($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9860($sp)
-add $8, $29, -18516
-sw $8, -9864($sp)
-lw $8, -9860($sp)
-lw $9, -9864($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10412($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9876($sp)
+add $11, $29, -18512
 lw $9, -1080($sp)
-lw $8, 0($9)
-sw $8, -9872($sp)
-lw $8, -9872($sp)
-lw $9, -9876($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9880($sp)
-add $8, $29, -18516
-sw $8, -9884($sp)
-lw $8, -9880($sp)
-lw $9, -9884($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10436($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9896($sp)
+add $11, $29, -18512
 lw $9, -1088($sp)
-lw $8, 0($9)
-sw $8, -9892($sp)
-lw $8, -9892($sp)
-lw $9, -9896($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9900($sp)
-add $8, $29, -18516
-sw $8, -9904($sp)
-lw $8, -9900($sp)
-lw $9, -9904($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10460($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9916($sp)
+add $11, $29, -18512
 lw $9, -1096($sp)
-lw $8, 0($9)
-sw $8, -9912($sp)
-lw $8, -9912($sp)
-lw $9, -9916($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9920($sp)
-add $8, $29, -18516
-sw $8, -9924($sp)
-lw $8, -9920($sp)
-lw $9, -9924($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10484($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9936($sp)
+add $11, $29, -18512
 lw $9, -1104($sp)
-lw $8, 0($9)
-sw $8, -9932($sp)
-lw $8, -9932($sp)
-lw $9, -9936($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9940($sp)
-add $8, $29, -18516
-sw $8, -9944($sp)
-lw $8, -9940($sp)
-lw $9, -9944($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10508($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9956($sp)
+add $11, $29, -18512
 lw $9, -1112($sp)
-lw $8, 0($9)
-sw $8, -9952($sp)
-lw $8, -9952($sp)
-lw $9, -9956($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9960($sp)
-add $8, $29, -18516
-sw $8, -9964($sp)
-lw $8, -9960($sp)
-lw $9, -9964($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10532($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9976($sp)
+add $11, $29, -18512
 lw $9, -1120($sp)
-lw $8, 0($9)
-sw $8, -9972($sp)
-lw $8, -9972($sp)
-lw $9, -9976($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -9980($sp)
-add $8, $29, -18516
-sw $8, -9984($sp)
-lw $8, -9980($sp)
-lw $9, -9984($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10556($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -9996($sp)
+add $11, $29, -18512
 lw $9, -1128($sp)
-lw $8, 0($9)
-sw $8, -9992($sp)
-lw $8, -9992($sp)
-lw $9, -9996($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10000($sp)
-add $8, $29, -18516
-sw $8, -10004($sp)
-lw $8, -10000($sp)
-lw $9, -10004($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10580($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10016($sp)
+add $11, $29, -18512
 lw $9, -1136($sp)
-lw $8, 0($9)
-sw $8, -10012($sp)
-lw $8, -10012($sp)
-lw $9, -10016($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10020($sp)
-add $8, $29, -18516
-sw $8, -10024($sp)
-lw $8, -10020($sp)
-lw $9, -10024($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10604($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10036($sp)
+add $11, $29, -18512
 lw $9, -1144($sp)
-lw $8, 0($9)
-sw $8, -10032($sp)
-lw $8, -10032($sp)
-lw $9, -10036($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10040($sp)
-add $8, $29, -18516
-sw $8, -10044($sp)
-lw $8, -10040($sp)
-lw $9, -10044($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10628($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10056($sp)
+add $11, $29, -18512
 lw $9, -1152($sp)
-lw $8, 0($9)
-sw $8, -10052($sp)
-lw $8, -10052($sp)
-lw $9, -10056($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10060($sp)
-add $8, $29, -18516
-sw $8, -10064($sp)
-lw $8, -10060($sp)
-lw $9, -10064($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10652($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10076($sp)
+add $11, $29, -18512
 lw $9, -1160($sp)
-lw $8, 0($9)
-sw $8, -10072($sp)
-lw $8, -10072($sp)
-lw $9, -10076($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10080($sp)
-add $8, $29, -18516
-sw $8, -10084($sp)
-lw $8, -10080($sp)
-lw $9, -10084($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10676($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10096($sp)
+add $11, $29, -18512
 lw $9, -1168($sp)
-lw $8, 0($9)
-sw $8, -10092($sp)
-lw $8, -10092($sp)
-lw $9, -10096($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10100($sp)
-add $8, $29, -18516
-sw $8, -10104($sp)
-lw $8, -10100($sp)
-lw $9, -10104($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10700($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10116($sp)
+add $11, $29, -18512
 lw $9, -1176($sp)
-lw $8, 0($9)
-sw $8, -10112($sp)
-lw $8, -10112($sp)
-lw $9, -10116($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10120($sp)
-add $8, $29, -18516
-sw $8, -10124($sp)
-lw $8, -10120($sp)
-lw $9, -10124($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10724($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10136($sp)
+add $11, $29, -18512
 lw $9, -1184($sp)
-lw $8, 0($9)
-sw $8, -10132($sp)
-lw $8, -10132($sp)
-lw $9, -10136($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10140($sp)
-add $8, $29, -18516
-sw $8, -10144($sp)
-lw $8, -10140($sp)
-lw $9, -10144($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10748($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10156($sp)
+add $11, $29, -18512
 lw $9, -1192($sp)
-lw $8, 0($9)
-sw $8, -10152($sp)
-lw $8, -10152($sp)
-lw $9, -10156($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10160($sp)
-add $8, $29, -18516
-sw $8, -10164($sp)
-lw $8, -10160($sp)
-lw $9, -10164($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10772($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10176($sp)
+add $11, $29, -18512
 lw $9, -1200($sp)
-lw $8, 0($9)
-sw $8, -10172($sp)
-lw $8, -10172($sp)
-lw $9, -10176($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10180($sp)
-add $8, $29, -18516
-sw $8, -10184($sp)
-lw $8, -10180($sp)
-lw $9, -10184($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10796($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10196($sp)
+add $11, $29, -18512
 lw $9, -1208($sp)
-lw $8, 0($9)
-sw $8, -10192($sp)
-lw $8, -10192($sp)
-lw $9, -10196($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10200($sp)
-add $8, $29, -18516
-sw $8, -10204($sp)
-lw $8, -10200($sp)
-lw $9, -10204($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10820($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10216($sp)
+add $11, $29, -18512
 lw $9, -1216($sp)
-lw $8, 0($9)
-sw $8, -10212($sp)
-lw $8, -10212($sp)
-lw $9, -10216($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10220($sp)
-add $8, $29, -18516
-sw $8, -10224($sp)
-lw $8, -10220($sp)
-lw $9, -10224($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10844($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10236($sp)
+add $11, $29, -18512
 lw $9, -1224($sp)
-lw $8, 0($9)
-sw $8, -10232($sp)
-lw $8, -10232($sp)
-lw $9, -10236($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10240($sp)
-add $8, $29, -18516
-sw $8, -10244($sp)
-lw $8, -10240($sp)
-lw $9, -10244($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10868($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10256($sp)
+add $11, $29, -18512
 lw $9, -1232($sp)
-lw $8, 0($9)
-sw $8, -10252($sp)
-lw $8, -10252($sp)
-lw $9, -10256($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10260($sp)
-add $8, $29, -18516
-sw $8, -10264($sp)
-lw $8, -10260($sp)
-lw $9, -10264($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10892($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10276($sp)
+add $11, $29, -18512
 lw $9, -1240($sp)
-lw $8, 0($9)
-sw $8, -10272($sp)
-lw $8, -10272($sp)
-lw $9, -10276($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10280($sp)
-add $8, $29, -18516
-sw $8, -10284($sp)
-lw $8, -10280($sp)
-lw $9, -10284($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10916($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10296($sp)
+add $11, $29, -18512
 lw $9, -1248($sp)
-lw $8, 0($9)
-sw $8, -10292($sp)
-lw $8, -10292($sp)
-lw $9, -10296($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10300($sp)
-add $8, $29, -18516
-sw $8, -10304($sp)
-lw $8, -10300($sp)
-lw $9, -10304($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10940($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10316($sp)
+add $11, $29, -18512
 lw $9, -1256($sp)
-lw $8, 0($9)
-sw $8, -10312($sp)
-lw $8, -10312($sp)
-lw $9, -10316($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10320($sp)
-add $8, $29, -18516
-sw $8, -10324($sp)
-lw $8, -10320($sp)
-lw $9, -10324($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10964($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10336($sp)
+add $11, $29, -18512
 lw $9, -1264($sp)
-lw $8, 0($9)
-sw $8, -10332($sp)
-lw $8, -10332($sp)
-lw $9, -10336($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10340($sp)
-add $8, $29, -18516
-sw $8, -10344($sp)
-lw $8, -10340($sp)
-lw $9, -10344($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 10988($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10356($sp)
+add $11, $29, -18512
 lw $9, -1272($sp)
-lw $8, 0($9)
-sw $8, -10352($sp)
-lw $8, -10352($sp)
-lw $9, -10356($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10360($sp)
-add $8, $29, -18516
-sw $8, -10364($sp)
-lw $8, -10360($sp)
-lw $9, -10364($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11012($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10376($sp)
+add $11, $29, -18512
 lw $9, -1280($sp)
-lw $8, 0($9)
-sw $8, -10372($sp)
-lw $8, -10372($sp)
-lw $9, -10376($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10380($sp)
-add $8, $29, -18516
-sw $8, -10384($sp)
-lw $8, -10380($sp)
-lw $9, -10384($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11036($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10396($sp)
+add $11, $29, -18512
 lw $9, -1288($sp)
-lw $8, 0($9)
-sw $8, -10392($sp)
-lw $8, -10392($sp)
-lw $9, -10396($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10400($sp)
-add $8, $29, -18516
-sw $8, -10404($sp)
-lw $8, -10400($sp)
-lw $9, -10404($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11060($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10416($sp)
+add $11, $29, -18512
 lw $9, -1296($sp)
-lw $8, 0($9)
-sw $8, -10412($sp)
-lw $8, -10412($sp)
-lw $9, -10416($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10420($sp)
-add $8, $29, -18516
-sw $8, -10424($sp)
-lw $8, -10420($sp)
-lw $9, -10424($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11084($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10436($sp)
+add $11, $29, -18512
 lw $9, -1304($sp)
-lw $8, 0($9)
-sw $8, -10432($sp)
-lw $8, -10432($sp)
-lw $9, -10436($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10440($sp)
-add $8, $29, -18516
-sw $8, -10444($sp)
-lw $8, -10440($sp)
-lw $9, -10444($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11108($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10456($sp)
+add $11, $29, -18512
 lw $9, -1312($sp)
-lw $8, 0($9)
-sw $8, -10452($sp)
-lw $8, -10452($sp)
-lw $9, -10456($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10460($sp)
-add $8, $29, -18516
-sw $8, -10464($sp)
-lw $8, -10460($sp)
-lw $9, -10464($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11132($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10476($sp)
+add $11, $29, -18512
 lw $9, -1320($sp)
-lw $8, 0($9)
-sw $8, -10472($sp)
-lw $8, -10472($sp)
-lw $9, -10476($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10480($sp)
-add $8, $29, -18516
-sw $8, -10484($sp)
-lw $8, -10480($sp)
-lw $9, -10484($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11156($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10496($sp)
+add $11, $29, -18512
 lw $9, -1328($sp)
-lw $8, 0($9)
-sw $8, -10492($sp)
-lw $8, -10492($sp)
-lw $9, -10496($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10500($sp)
-add $8, $29, -18516
-sw $8, -10504($sp)
-lw $8, -10500($sp)
-lw $9, -10504($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11180($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10516($sp)
+add $11, $29, -18512
 lw $9, -1336($sp)
-lw $8, 0($9)
-sw $8, -10512($sp)
-lw $8, -10512($sp)
-lw $9, -10516($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10520($sp)
-add $8, $29, -18516
-sw $8, -10524($sp)
-lw $8, -10520($sp)
-lw $9, -10524($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11204($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10536($sp)
+add $11, $29, -18512
 lw $9, -1344($sp)
-lw $8, 0($9)
-sw $8, -10532($sp)
-lw $8, -10532($sp)
-lw $9, -10536($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10540($sp)
-add $8, $29, -18516
-sw $8, -10544($sp)
-lw $8, -10540($sp)
-lw $9, -10544($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11228($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10556($sp)
+add $11, $29, -18512
 lw $9, -1352($sp)
-lw $8, 0($9)
-sw $8, -10552($sp)
-lw $8, -10552($sp)
-lw $9, -10556($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10560($sp)
-add $8, $29, -18516
-sw $8, -10564($sp)
-lw $8, -10560($sp)
-lw $9, -10564($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11252($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10576($sp)
+add $11, $29, -18512
 lw $9, -1360($sp)
-lw $8, 0($9)
-sw $8, -10572($sp)
-lw $8, -10572($sp)
-lw $9, -10576($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10580($sp)
-add $8, $29, -18516
-sw $8, -10584($sp)
-lw $8, -10580($sp)
-lw $9, -10584($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11276($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10596($sp)
+add $11, $29, -18512
 lw $9, -1368($sp)
-lw $8, 0($9)
-sw $8, -10592($sp)
-lw $8, -10592($sp)
-lw $9, -10596($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10600($sp)
-add $8, $29, -18516
-sw $8, -10604($sp)
-lw $8, -10600($sp)
-lw $9, -10604($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11300($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10616($sp)
+add $11, $29, -18512
 lw $9, -1376($sp)
-lw $8, 0($9)
-sw $8, -10612($sp)
-lw $8, -10612($sp)
-lw $9, -10616($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10620($sp)
-add $8, $29, -18516
-sw $8, -10624($sp)
-lw $8, -10620($sp)
-lw $9, -10624($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11324($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10636($sp)
+add $11, $29, -18512
 lw $9, -1384($sp)
-lw $8, 0($9)
-sw $8, -10632($sp)
-lw $8, -10632($sp)
-lw $9, -10636($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10640($sp)
-add $8, $29, -18516
-sw $8, -10644($sp)
-lw $8, -10640($sp)
-lw $9, -10644($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11348($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10656($sp)
+add $11, $29, -18512
 lw $9, -1392($sp)
-lw $8, 0($9)
-sw $8, -10652($sp)
-lw $8, -10652($sp)
-lw $9, -10656($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10660($sp)
-add $8, $29, -18516
-sw $8, -10664($sp)
-lw $8, -10660($sp)
-lw $9, -10664($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11372($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10676($sp)
+add $11, $29, -18512
 lw $9, -1400($sp)
-lw $8, 0($9)
-sw $8, -10672($sp)
-lw $8, -10672($sp)
-lw $9, -10676($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10680($sp)
-add $8, $29, -18516
-sw $8, -10684($sp)
-lw $8, -10680($sp)
-lw $9, -10684($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11396($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10696($sp)
+add $11, $29, -18512
 lw $9, -1408($sp)
-lw $8, 0($9)
-sw $8, -10692($sp)
-lw $8, -10692($sp)
-lw $9, -10696($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10700($sp)
-add $8, $29, -18516
-sw $8, -10704($sp)
-lw $8, -10700($sp)
-lw $9, -10704($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11420($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10716($sp)
+add $11, $29, -18512
 lw $9, -1416($sp)
-lw $8, 0($9)
-sw $8, -10712($sp)
-lw $8, -10712($sp)
-lw $9, -10716($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10720($sp)
-add $8, $29, -18516
-sw $8, -10724($sp)
-lw $8, -10720($sp)
-lw $9, -10724($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11444($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10736($sp)
+add $11, $29, -18512
 lw $9, -1424($sp)
-lw $8, 0($9)
-sw $8, -10732($sp)
-lw $8, -10732($sp)
-lw $9, -10736($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10740($sp)
-add $8, $29, -18516
-sw $8, -10744($sp)
-lw $8, -10740($sp)
-lw $9, -10744($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11468($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10756($sp)
+add $11, $29, -18512
 lw $9, -1432($sp)
-lw $8, 0($9)
-sw $8, -10752($sp)
-lw $8, -10752($sp)
-lw $9, -10756($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10760($sp)
-add $8, $29, -18516
-sw $8, -10764($sp)
-lw $8, -10760($sp)
-lw $9, -10764($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11492($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10776($sp)
+add $11, $29, -18512
 lw $9, -1440($sp)
-lw $8, 0($9)
-sw $8, -10772($sp)
-lw $8, -10772($sp)
-lw $9, -10776($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10780($sp)
-add $8, $29, -18516
-sw $8, -10784($sp)
-lw $8, -10780($sp)
-lw $9, -10784($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11516($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10796($sp)
+add $11, $29, -18512
 lw $9, -1448($sp)
-lw $8, 0($9)
-sw $8, -10792($sp)
-lw $8, -10792($sp)
-lw $9, -10796($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10800($sp)
-add $8, $29, -18516
-sw $8, -10804($sp)
-lw $8, -10800($sp)
-lw $9, -10804($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11540($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10816($sp)
+add $11, $29, -18512
 lw $9, -1456($sp)
-lw $8, 0($9)
-sw $8, -10812($sp)
-lw $8, -10812($sp)
-lw $9, -10816($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10820($sp)
-add $8, $29, -18516
-sw $8, -10824($sp)
-lw $8, -10820($sp)
-lw $9, -10824($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11564($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10836($sp)
+add $11, $29, -18512
 lw $9, -1464($sp)
-lw $8, 0($9)
-sw $8, -10832($sp)
-lw $8, -10832($sp)
-lw $9, -10836($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10840($sp)
-add $8, $29, -18516
-sw $8, -10844($sp)
-lw $8, -10840($sp)
-lw $9, -10844($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11588($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10856($sp)
+add $11, $29, -18512
 lw $9, -1472($sp)
-lw $8, 0($9)
-sw $8, -10852($sp)
-lw $8, -10852($sp)
-lw $9, -10856($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10860($sp)
-add $8, $29, -18516
-sw $8, -10864($sp)
-lw $8, -10860($sp)
-lw $9, -10864($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11612($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10876($sp)
+add $11, $29, -18512
 lw $9, -1480($sp)
-lw $8, 0($9)
-sw $8, -10872($sp)
-lw $8, -10872($sp)
-lw $9, -10876($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10880($sp)
-add $8, $29, -18516
-sw $8, -10884($sp)
-lw $8, -10880($sp)
-lw $9, -10884($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11636($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10896($sp)
+add $11, $29, -18512
 lw $9, -1488($sp)
-lw $8, 0($9)
-sw $8, -10892($sp)
-lw $8, -10892($sp)
-lw $9, -10896($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10900($sp)
-add $8, $29, -18516
-sw $8, -10904($sp)
-lw $8, -10900($sp)
-lw $9, -10904($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11660($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10916($sp)
+add $11, $29, -18512
 lw $9, -1496($sp)
-lw $8, 0($9)
-sw $8, -10912($sp)
-lw $8, -10912($sp)
-lw $9, -10916($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10920($sp)
-add $8, $29, -18516
-sw $8, -10924($sp)
-lw $8, -10920($sp)
-lw $9, -10924($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11684($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10936($sp)
+add $11, $29, -18512
 lw $9, -1504($sp)
-lw $8, 0($9)
-sw $8, -10932($sp)
-lw $8, -10932($sp)
-lw $9, -10936($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10940($sp)
-add $8, $29, -18516
-sw $8, -10944($sp)
-lw $8, -10940($sp)
-lw $9, -10944($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11708($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10956($sp)
+add $11, $29, -18512
 lw $9, -1512($sp)
-lw $8, 0($9)
-sw $8, -10952($sp)
-lw $8, -10952($sp)
-lw $9, -10956($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10960($sp)
-add $8, $29, -18516
-sw $8, -10964($sp)
-lw $8, -10960($sp)
-lw $9, -10964($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11732($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10976($sp)
+add $11, $29, -18512
 lw $9, -1520($sp)
-lw $8, 0($9)
-sw $8, -10972($sp)
-lw $8, -10972($sp)
-lw $9, -10976($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -10980($sp)
-add $8, $29, -18516
-sw $8, -10984($sp)
-lw $8, -10980($sp)
-lw $9, -10984($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11756($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -10996($sp)
+add $11, $29, -18512
 lw $9, -1528($sp)
-lw $8, 0($9)
-sw $8, -10992($sp)
-lw $8, -10992($sp)
-lw $9, -10996($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11000($sp)
-add $8, $29, -18516
-sw $8, -11004($sp)
-lw $8, -11000($sp)
-lw $9, -11004($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11780($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11016($sp)
+add $11, $29, -18512
 lw $9, -1536($sp)
-lw $8, 0($9)
-sw $8, -11012($sp)
-lw $8, -11012($sp)
-lw $9, -11016($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11020($sp)
-add $8, $29, -18516
-sw $8, -11024($sp)
-lw $8, -11020($sp)
-lw $9, -11024($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11804($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11036($sp)
+add $11, $29, -18512
 lw $9, -1544($sp)
-lw $8, 0($9)
-sw $8, -11032($sp)
-lw $8, -11032($sp)
-lw $9, -11036($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11040($sp)
-add $8, $29, -18516
-sw $8, -11044($sp)
-lw $8, -11040($sp)
-lw $9, -11044($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11828($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11056($sp)
+add $11, $29, -18512
 lw $9, -1552($sp)
-lw $8, 0($9)
-sw $8, -11052($sp)
-lw $8, -11052($sp)
-lw $9, -11056($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11060($sp)
-add $8, $29, -18516
-sw $8, -11064($sp)
-lw $8, -11060($sp)
-lw $9, -11064($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11852($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11076($sp)
+add $11, $29, -18512
 lw $9, -1560($sp)
-lw $8, 0($9)
-sw $8, -11072($sp)
-lw $8, -11072($sp)
-lw $9, -11076($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11080($sp)
-add $8, $29, -18516
-sw $8, -11084($sp)
-lw $8, -11080($sp)
-lw $9, -11084($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11876($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11096($sp)
+add $11, $29, -18512
 lw $9, -1568($sp)
-lw $8, 0($9)
-sw $8, -11092($sp)
-lw $8, -11092($sp)
-lw $9, -11096($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11100($sp)
-add $8, $29, -18516
-sw $8, -11104($sp)
-lw $8, -11100($sp)
-lw $9, -11104($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11900($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11116($sp)
+add $11, $29, -18512
 lw $9, -1576($sp)
-lw $8, 0($9)
-sw $8, -11112($sp)
-lw $8, -11112($sp)
-lw $9, -11116($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11120($sp)
-add $8, $29, -18516
-sw $8, -11124($sp)
-lw $8, -11120($sp)
-lw $9, -11124($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11924($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11136($sp)
+add $11, $29, -18512
 lw $9, -1584($sp)
-lw $8, 0($9)
-sw $8, -11132($sp)
-lw $8, -11132($sp)
-lw $9, -11136($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11140($sp)
-add $8, $29, -18516
-sw $8, -11144($sp)
-lw $8, -11140($sp)
-lw $9, -11144($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11948($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11156($sp)
+add $11, $29, -18512
 lw $9, -1592($sp)
-lw $8, 0($9)
-sw $8, -11152($sp)
-lw $8, -11152($sp)
-lw $9, -11156($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11160($sp)
-add $8, $29, -18516
-sw $8, -11164($sp)
-lw $8, -11160($sp)
-lw $9, -11164($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11972($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11176($sp)
+add $11, $29, -18512
 lw $9, -1600($sp)
-lw $8, 0($9)
-sw $8, -11172($sp)
-lw $8, -11172($sp)
-lw $9, -11176($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11180($sp)
-add $8, $29, -18516
-sw $8, -11184($sp)
-lw $8, -11180($sp)
-lw $9, -11184($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 11996($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11196($sp)
+add $11, $29, -18512
 lw $9, -1608($sp)
-lw $8, 0($9)
-sw $8, -11192($sp)
-lw $8, -11192($sp)
-lw $9, -11196($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11200($sp)
-add $8, $29, -18516
-sw $8, -11204($sp)
-lw $8, -11200($sp)
-lw $9, -11204($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12020($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11216($sp)
+add $11, $29, -18512
 lw $9, -1616($sp)
-lw $8, 0($9)
-sw $8, -11212($sp)
-lw $8, -11212($sp)
-lw $9, -11216($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11220($sp)
-add $8, $29, -18516
-sw $8, -11224($sp)
-lw $8, -11220($sp)
-lw $9, -11224($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12044($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11236($sp)
+add $11, $29, -18512
 lw $9, -1624($sp)
-lw $8, 0($9)
-sw $8, -11232($sp)
-lw $8, -11232($sp)
-lw $9, -11236($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11240($sp)
-add $8, $29, -18516
-sw $8, -11244($sp)
-lw $8, -11240($sp)
-lw $9, -11244($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12068($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11256($sp)
+add $11, $29, -18512
 lw $9, -1632($sp)
-lw $8, 0($9)
-sw $8, -11252($sp)
-lw $8, -11252($sp)
-lw $9, -11256($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11260($sp)
-add $8, $29, -18516
-sw $8, -11264($sp)
-lw $8, -11260($sp)
-lw $9, -11264($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12092($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11276($sp)
+add $11, $29, -18512
 lw $9, -1640($sp)
-lw $8, 0($9)
-sw $8, -11272($sp)
-lw $8, -11272($sp)
-lw $9, -11276($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11280($sp)
-add $8, $29, -18516
-sw $8, -11284($sp)
-lw $8, -11280($sp)
-lw $9, -11284($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12116($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11296($sp)
+add $11, $29, -18512
 lw $9, -1648($sp)
-lw $8, 0($9)
-sw $8, -11292($sp)
-lw $8, -11292($sp)
-lw $9, -11296($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11300($sp)
-add $8, $29, -18516
-sw $8, -11304($sp)
-lw $8, -11300($sp)
-lw $9, -11304($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12140($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11316($sp)
+add $11, $29, -18512
 lw $9, -1656($sp)
-lw $8, 0($9)
-sw $8, -11312($sp)
-lw $8, -11312($sp)
-lw $9, -11316($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11320($sp)
-add $8, $29, -18516
-sw $8, -11324($sp)
-lw $8, -11320($sp)
-lw $9, -11324($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12164($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11336($sp)
+add $11, $29, -18512
 lw $9, -1664($sp)
-lw $8, 0($9)
-sw $8, -11332($sp)
-lw $8, -11332($sp)
-lw $9, -11336($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11340($sp)
-add $8, $29, -18516
-sw $8, -11344($sp)
-lw $8, -11340($sp)
-lw $9, -11344($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12188($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11356($sp)
+add $11, $29, -18512
 lw $9, -1672($sp)
-lw $8, 0($9)
-sw $8, -11352($sp)
-lw $8, -11352($sp)
-lw $9, -11356($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11360($sp)
-add $8, $29, -18516
-sw $8, -11364($sp)
-lw $8, -11360($sp)
-lw $9, -11364($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12212($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11376($sp)
+add $11, $29, -18512
 lw $9, -1680($sp)
-lw $8, 0($9)
-sw $8, -11372($sp)
-lw $8, -11372($sp)
-lw $9, -11376($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11380($sp)
-add $8, $29, -18516
-sw $8, -11384($sp)
-lw $8, -11380($sp)
-lw $9, -11384($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12236($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11396($sp)
+add $11, $29, -18512
 lw $9, -1688($sp)
-lw $8, 0($9)
-sw $8, -11392($sp)
-lw $8, -11392($sp)
-lw $9, -11396($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11400($sp)
-add $8, $29, -18516
-sw $8, -11404($sp)
-lw $8, -11400($sp)
-lw $9, -11404($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12260($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11416($sp)
+add $11, $29, -18512
 lw $9, -1696($sp)
-lw $8, 0($9)
-sw $8, -11412($sp)
-lw $8, -11412($sp)
-lw $9, -11416($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11420($sp)
-add $8, $29, -18516
-sw $8, -11424($sp)
-lw $8, -11420($sp)
-lw $9, -11424($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12284($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11436($sp)
+add $11, $29, -18512
 lw $9, -1704($sp)
-lw $8, 0($9)
-sw $8, -11432($sp)
-lw $8, -11432($sp)
-lw $9, -11436($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11440($sp)
-add $8, $29, -18516
-sw $8, -11444($sp)
-lw $8, -11440($sp)
-lw $9, -11444($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12308($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11456($sp)
+add $11, $29, -18512
 lw $9, -1712($sp)
-lw $8, 0($9)
-sw $8, -11452($sp)
-lw $8, -11452($sp)
-lw $9, -11456($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11460($sp)
-add $8, $29, -18516
-sw $8, -11464($sp)
-lw $8, -11460($sp)
-lw $9, -11464($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12332($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11476($sp)
+add $11, $29, -18512
 lw $9, -1720($sp)
-lw $8, 0($9)
-sw $8, -11472($sp)
-lw $8, -11472($sp)
-lw $9, -11476($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11480($sp)
-add $8, $29, -18516
-sw $8, -11484($sp)
-lw $8, -11480($sp)
-lw $9, -11484($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12356($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11496($sp)
+add $11, $29, -18512
 lw $9, -1728($sp)
-lw $8, 0($9)
-sw $8, -11492($sp)
-lw $8, -11492($sp)
-lw $9, -11496($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11500($sp)
-add $8, $29, -18516
-sw $8, -11504($sp)
-lw $8, -11500($sp)
-lw $9, -11504($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12380($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11516($sp)
+add $11, $29, -18512
 lw $9, -1736($sp)
-lw $8, 0($9)
-sw $8, -11512($sp)
-lw $8, -11512($sp)
-lw $9, -11516($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11520($sp)
-add $8, $29, -18516
-sw $8, -11524($sp)
-lw $8, -11520($sp)
-lw $9, -11524($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12404($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11536($sp)
+add $11, $29, -18512
 lw $9, -1744($sp)
-lw $8, 0($9)
-sw $8, -11532($sp)
-lw $8, -11532($sp)
-lw $9, -11536($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11540($sp)
-add $8, $29, -18516
-sw $8, -11544($sp)
-lw $8, -11540($sp)
-lw $9, -11544($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12428($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11556($sp)
+add $11, $29, -18512
 lw $9, -1752($sp)
-lw $8, 0($9)
-sw $8, -11552($sp)
-lw $8, -11552($sp)
-lw $9, -11556($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11560($sp)
-add $8, $29, -18516
-sw $8, -11564($sp)
-lw $8, -11560($sp)
-lw $9, -11564($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12452($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11576($sp)
+add $11, $29, -18512
 lw $9, -1760($sp)
-lw $8, 0($9)
-sw $8, -11572($sp)
-lw $8, -11572($sp)
-lw $9, -11576($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11580($sp)
-add $8, $29, -18516
-sw $8, -11584($sp)
-lw $8, -11580($sp)
-lw $9, -11584($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12476($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11596($sp)
+add $11, $29, -18512
 lw $9, -1768($sp)
-lw $8, 0($9)
-sw $8, -11592($sp)
-lw $8, -11592($sp)
-lw $9, -11596($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11600($sp)
-add $8, $29, -18516
-sw $8, -11604($sp)
-lw $8, -11600($sp)
-lw $9, -11604($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12500($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11616($sp)
+add $11, $29, -18512
 lw $9, -1776($sp)
-lw $8, 0($9)
-sw $8, -11612($sp)
-lw $8, -11612($sp)
-lw $9, -11616($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11620($sp)
-add $8, $29, -18516
-sw $8, -11624($sp)
-lw $8, -11620($sp)
-lw $9, -11624($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12524($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11636($sp)
+add $11, $29, -18512
 lw $9, -1784($sp)
-lw $8, 0($9)
-sw $8, -11632($sp)
-lw $8, -11632($sp)
-lw $9, -11636($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11640($sp)
-add $8, $29, -18516
-sw $8, -11644($sp)
-lw $8, -11640($sp)
-lw $9, -11644($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12548($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11656($sp)
+add $11, $29, -18512
 lw $9, -1792($sp)
-lw $8, 0($9)
-sw $8, -11652($sp)
-lw $8, -11652($sp)
-lw $9, -11656($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11660($sp)
-add $8, $29, -18516
-sw $8, -11664($sp)
-lw $8, -11660($sp)
-lw $9, -11664($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12572($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11676($sp)
+add $11, $29, -18512
 lw $9, -1800($sp)
-lw $8, 0($9)
-sw $8, -11672($sp)
-lw $8, -11672($sp)
-lw $9, -11676($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11680($sp)
-add $8, $29, -18516
-sw $8, -11684($sp)
-lw $8, -11680($sp)
-lw $9, -11684($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12596($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11696($sp)
+add $11, $29, -18512
 lw $9, -1808($sp)
-lw $8, 0($9)
-sw $8, -11692($sp)
-lw $8, -11692($sp)
-lw $9, -11696($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11700($sp)
-add $8, $29, -18516
-sw $8, -11704($sp)
-lw $8, -11700($sp)
-lw $9, -11704($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12620($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11716($sp)
+add $11, $29, -18512
 lw $9, -1816($sp)
-lw $8, 0($9)
-sw $8, -11712($sp)
-lw $8, -11712($sp)
-lw $9, -11716($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11720($sp)
-add $8, $29, -18516
-sw $8, -11724($sp)
-lw $8, -11720($sp)
-lw $9, -11724($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12644($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11736($sp)
+add $11, $29, -18512
 lw $9, -1824($sp)
-lw $8, 0($9)
-sw $8, -11732($sp)
-lw $8, -11732($sp)
-lw $9, -11736($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11740($sp)
-add $8, $29, -18516
-sw $8, -11744($sp)
-lw $8, -11740($sp)
-lw $9, -11744($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12668($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11756($sp)
+add $11, $29, -18512
 lw $9, -1832($sp)
-lw $8, 0($9)
-sw $8, -11752($sp)
-lw $8, -11752($sp)
-lw $9, -11756($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11760($sp)
-add $8, $29, -18516
-sw $8, -11764($sp)
-lw $8, -11760($sp)
-lw $9, -11764($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12692($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11776($sp)
+add $11, $29, -18512
 lw $9, -1840($sp)
-lw $8, 0($9)
-sw $8, -11772($sp)
-lw $8, -11772($sp)
-lw $9, -11776($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11780($sp)
-add $8, $29, -18516
-sw $8, -11784($sp)
-lw $8, -11780($sp)
-lw $9, -11784($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12716($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11796($sp)
+add $11, $29, -18512
 lw $9, -1848($sp)
-lw $8, 0($9)
-sw $8, -11792($sp)
-lw $8, -11792($sp)
-lw $9, -11796($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11800($sp)
-add $8, $29, -18516
-sw $8, -11804($sp)
-lw $8, -11800($sp)
-lw $9, -11804($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12740($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11816($sp)
+add $11, $29, -18512
 lw $9, -1856($sp)
-lw $8, 0($9)
-sw $8, -11812($sp)
-lw $8, -11812($sp)
-lw $9, -11816($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11820($sp)
-add $8, $29, -18516
-sw $8, -11824($sp)
-lw $8, -11820($sp)
-lw $9, -11824($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12764($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11836($sp)
+add $11, $29, -18512
 lw $9, -1864($sp)
-lw $8, 0($9)
-sw $8, -11832($sp)
-lw $8, -11832($sp)
-lw $9, -11836($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11840($sp)
-add $8, $29, -18516
-sw $8, -11844($sp)
-lw $8, -11840($sp)
-lw $9, -11844($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12788($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11856($sp)
+add $11, $29, -18512
 lw $9, -1872($sp)
-lw $8, 0($9)
-sw $8, -11852($sp)
-lw $8, -11852($sp)
-lw $9, -11856($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11860($sp)
-add $8, $29, -18516
-sw $8, -11864($sp)
-lw $8, -11860($sp)
-lw $9, -11864($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12812($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11876($sp)
+add $11, $29, -18512
 lw $9, -1880($sp)
-lw $8, 0($9)
-sw $8, -11872($sp)
-lw $8, -11872($sp)
-lw $9, -11876($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11880($sp)
-add $8, $29, -18516
-sw $8, -11884($sp)
-lw $8, -11880($sp)
-lw $9, -11884($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12836($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11896($sp)
+add $11, $29, -18512
 lw $9, -1888($sp)
-lw $8, 0($9)
-sw $8, -11892($sp)
-lw $8, -11892($sp)
-lw $9, -11896($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11900($sp)
-add $8, $29, -18516
-sw $8, -11904($sp)
-lw $8, -11900($sp)
-lw $9, -11904($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12860($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11916($sp)
+add $11, $29, -18512
 lw $9, -1896($sp)
-lw $8, 0($9)
-sw $8, -11912($sp)
-lw $8, -11912($sp)
-lw $9, -11916($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11920($sp)
-add $8, $29, -18516
-sw $8, -11924($sp)
-lw $8, -11920($sp)
-lw $9, -11924($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12884($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11936($sp)
+add $11, $29, -18512
 lw $9, -1904($sp)
-lw $8, 0($9)
-sw $8, -11932($sp)
-lw $8, -11932($sp)
-lw $9, -11936($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11940($sp)
-add $8, $29, -18516
-sw $8, -11944($sp)
-lw $8, -11940($sp)
-lw $9, -11944($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12908($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11956($sp)
+add $11, $29, -18512
 lw $9, -1912($sp)
-lw $8, 0($9)
-sw $8, -11952($sp)
-lw $8, -11952($sp)
-lw $9, -11956($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11960($sp)
-add $8, $29, -18516
-sw $8, -11964($sp)
-lw $8, -11960($sp)
-lw $9, -11964($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12932($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11976($sp)
+add $11, $29, -18512
 lw $9, -1920($sp)
-lw $8, 0($9)
-sw $8, -11972($sp)
-lw $8, -11972($sp)
-lw $9, -11976($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -11980($sp)
-add $8, $29, -18516
-sw $8, -11984($sp)
-lw $8, -11980($sp)
-lw $9, -11984($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12956($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -11996($sp)
+add $11, $29, -18512
 lw $9, -1928($sp)
-lw $8, 0($9)
-sw $8, -11992($sp)
-lw $8, -11992($sp)
-lw $9, -11996($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12000($sp)
-add $8, $29, -18516
-sw $8, -12004($sp)
-lw $8, -12000($sp)
-lw $9, -12004($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 12980($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12016($sp)
+add $11, $29, -18512
 lw $9, -1936($sp)
-lw $8, 0($9)
-sw $8, -12012($sp)
-lw $8, -12012($sp)
-lw $9, -12016($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12020($sp)
-add $8, $29, -18516
-sw $8, -12024($sp)
-lw $8, -12020($sp)
-lw $9, -12024($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13004($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12036($sp)
+add $11, $29, -18512
 lw $9, -1944($sp)
-lw $8, 0($9)
-sw $8, -12032($sp)
-lw $8, -12032($sp)
-lw $9, -12036($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12040($sp)
-add $8, $29, -18516
-sw $8, -12044($sp)
-lw $8, -12040($sp)
-lw $9, -12044($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13028($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12056($sp)
+add $11, $29, -18512
 lw $9, -1952($sp)
-lw $8, 0($9)
-sw $8, -12052($sp)
-lw $8, -12052($sp)
-lw $9, -12056($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12060($sp)
-add $8, $29, -18516
-sw $8, -12064($sp)
-lw $8, -12060($sp)
-lw $9, -12064($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13052($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12076($sp)
+add $11, $29, -18512
 lw $9, -1960($sp)
-lw $8, 0($9)
-sw $8, -12072($sp)
-lw $8, -12072($sp)
-lw $9, -12076($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12080($sp)
-add $8, $29, -18516
-sw $8, -12084($sp)
-lw $8, -12080($sp)
-lw $9, -12084($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13076($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12096($sp)
+add $11, $29, -18512
 lw $9, -1968($sp)
-lw $8, 0($9)
-sw $8, -12092($sp)
-lw $8, -12092($sp)
-lw $9, -12096($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12100($sp)
-add $8, $29, -18516
-sw $8, -12104($sp)
-lw $8, -12100($sp)
-lw $9, -12104($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13100($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12116($sp)
+add $11, $29, -18512
 lw $9, -1976($sp)
-lw $8, 0($9)
-sw $8, -12112($sp)
-lw $8, -12112($sp)
-lw $9, -12116($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12120($sp)
-add $8, $29, -18516
-sw $8, -12124($sp)
-lw $8, -12120($sp)
-lw $9, -12124($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13124($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12136($sp)
+add $11, $29, -18512
 lw $9, -1984($sp)
-lw $8, 0($9)
-sw $8, -12132($sp)
-lw $8, -12132($sp)
-lw $9, -12136($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12140($sp)
-add $8, $29, -18516
-sw $8, -12144($sp)
-lw $8, -12140($sp)
-lw $9, -12144($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13148($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12156($sp)
+add $11, $29, -18512
 lw $9, -1992($sp)
-lw $8, 0($9)
-sw $8, -12152($sp)
-lw $8, -12152($sp)
-lw $9, -12156($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12160($sp)
-add $8, $29, -18516
-sw $8, -12164($sp)
-lw $8, -12160($sp)
-lw $9, -12164($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13172($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12176($sp)
+add $11, $29, -18512
 lw $9, -2000($sp)
-lw $8, 0($9)
-sw $8, -12172($sp)
-lw $8, -12172($sp)
-lw $9, -12176($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12180($sp)
-add $8, $29, -18516
-sw $8, -12184($sp)
-lw $8, -12180($sp)
-lw $9, -12184($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13196($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12196($sp)
+add $11, $29, -18512
 lw $9, -2008($sp)
-lw $8, 0($9)
-sw $8, -12192($sp)
-lw $8, -12192($sp)
-lw $9, -12196($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12200($sp)
-add $8, $29, -18516
-sw $8, -12204($sp)
-lw $8, -12200($sp)
-lw $9, -12204($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13220($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12216($sp)
+add $11, $29, -18512
 lw $9, -2016($sp)
-lw $8, 0($9)
-sw $8, -12212($sp)
-lw $8, -12212($sp)
-lw $9, -12216($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12220($sp)
-add $8, $29, -18516
-sw $8, -12224($sp)
-lw $8, -12220($sp)
-lw $9, -12224($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13244($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12236($sp)
+add $11, $29, -18512
 lw $9, -2024($sp)
-lw $8, 0($9)
-sw $8, -12232($sp)
-lw $8, -12232($sp)
-lw $9, -12236($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12240($sp)
-add $8, $29, -18516
-sw $8, -12244($sp)
-lw $8, -12240($sp)
-lw $9, -12244($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13268($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12256($sp)
+add $11, $29, -18512
 lw $9, -2032($sp)
-lw $8, 0($9)
-sw $8, -12252($sp)
-lw $8, -12252($sp)
-lw $9, -12256($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12260($sp)
-add $8, $29, -18516
-sw $8, -12264($sp)
-lw $8, -12260($sp)
-lw $9, -12264($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13292($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12276($sp)
+add $11, $29, -18512
 lw $9, -2040($sp)
-lw $8, 0($9)
-sw $8, -12272($sp)
-lw $8, -12272($sp)
-lw $9, -12276($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12280($sp)
-add $8, $29, -18516
-sw $8, -12284($sp)
-lw $8, -12280($sp)
-lw $9, -12284($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13316($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12296($sp)
+add $11, $29, -18512
 lw $9, -2048($sp)
-lw $8, 0($9)
-sw $8, -12292($sp)
-lw $8, -12292($sp)
-lw $9, -12296($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12300($sp)
-add $8, $29, -18516
-sw $8, -12304($sp)
-lw $8, -12300($sp)
-lw $9, -12304($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13340($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12316($sp)
+add $11, $29, -18512
 lw $9, -2056($sp)
-lw $8, 0($9)
-sw $8, -12312($sp)
-lw $8, -12312($sp)
-lw $9, -12316($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12320($sp)
-add $8, $29, -18516
-sw $8, -12324($sp)
-lw $8, -12320($sp)
-lw $9, -12324($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13364($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-lw $9, 12360($a3)
-move $8, $9
-sw $8, -12332($sp)
-add $8, $29, -18512
-sw $8, -12336($sp)
-lw $8, -12332($sp)
-lw $9, -12336($sp)
-sw $8, 0($9)
+lw $9, 13380($a3)
+move $11, $9
+add $12, $29, -18512
+sw $11, 0($12)
 add $29, $29, -18512
 jal __printf_single
 sub $29, $29, -18512
-add $8, $29, -18512
-sw $8, -12348($sp)
+add $11, $29, -18512
 lw $9, -16($sp)
-lw $8, 0($9)
-sw $8, -12344($sp)
-lw $8, -12344($sp)
-lw $9, -12348($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12352($sp)
-add $8, $29, -18516
-sw $8, -12356($sp)
-lw $8, -12352($sp)
-lw $9, -12356($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13404($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12368($sp)
+add $11, $29, -18512
 lw $9, -24($sp)
-lw $8, 0($9)
-sw $8, -12364($sp)
-lw $8, -12364($sp)
-lw $9, -12368($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12372($sp)
-add $8, $29, -18516
-sw $8, -12376($sp)
-lw $8, -12372($sp)
-lw $9, -12376($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13428($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12388($sp)
+add $11, $29, -18512
 lw $9, -32($sp)
-lw $8, 0($9)
-sw $8, -12384($sp)
-lw $8, -12384($sp)
-lw $9, -12388($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12392($sp)
-add $8, $29, -18516
-sw $8, -12396($sp)
-lw $8, -12392($sp)
-lw $9, -12396($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13452($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12408($sp)
+add $11, $29, -18512
 lw $9, -40($sp)
-lw $8, 0($9)
-sw $8, -12404($sp)
-lw $8, -12404($sp)
-lw $9, -12408($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12412($sp)
-add $8, $29, -18516
-sw $8, -12416($sp)
-lw $8, -12412($sp)
-lw $9, -12416($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13476($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12428($sp)
+add $11, $29, -18512
 lw $9, -48($sp)
-lw $8, 0($9)
-sw $8, -12424($sp)
-lw $8, -12424($sp)
-lw $9, -12428($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12432($sp)
-add $8, $29, -18516
-sw $8, -12436($sp)
-lw $8, -12432($sp)
-lw $9, -12436($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13500($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12448($sp)
+add $11, $29, -18512
 lw $9, -56($sp)
-lw $8, 0($9)
-sw $8, -12444($sp)
-lw $8, -12444($sp)
-lw $9, -12448($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12452($sp)
-add $8, $29, -18516
-sw $8, -12456($sp)
-lw $8, -12452($sp)
-lw $9, -12456($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13524($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12468($sp)
+add $11, $29, -18512
 lw $9, -64($sp)
-lw $8, 0($9)
-sw $8, -12464($sp)
-lw $8, -12464($sp)
-lw $9, -12468($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12472($sp)
-add $8, $29, -18516
-sw $8, -12476($sp)
-lw $8, -12472($sp)
-lw $9, -12476($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13548($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12488($sp)
+add $11, $29, -18512
 lw $9, -72($sp)
-lw $8, 0($9)
-sw $8, -12484($sp)
-lw $8, -12484($sp)
-lw $9, -12488($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12492($sp)
-add $8, $29, -18516
-sw $8, -12496($sp)
-lw $8, -12492($sp)
-lw $9, -12496($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13572($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12508($sp)
+add $11, $29, -18512
 lw $9, -80($sp)
-lw $8, 0($9)
-sw $8, -12504($sp)
-lw $8, -12504($sp)
-lw $9, -12508($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12512($sp)
-add $8, $29, -18516
-sw $8, -12516($sp)
-lw $8, -12512($sp)
-lw $9, -12516($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13596($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12528($sp)
+add $11, $29, -18512
 lw $9, -88($sp)
-lw $8, 0($9)
-sw $8, -12524($sp)
-lw $8, -12524($sp)
-lw $9, -12528($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12532($sp)
-add $8, $29, -18516
-sw $8, -12536($sp)
-lw $8, -12532($sp)
-lw $9, -12536($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13620($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12548($sp)
+add $11, $29, -18512
 lw $9, -96($sp)
-lw $8, 0($9)
-sw $8, -12544($sp)
-lw $8, -12544($sp)
-lw $9, -12548($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12552($sp)
-add $8, $29, -18516
-sw $8, -12556($sp)
-lw $8, -12552($sp)
-lw $9, -12556($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13644($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12568($sp)
+add $11, $29, -18512
 lw $9, -104($sp)
-lw $8, 0($9)
-sw $8, -12564($sp)
-lw $8, -12564($sp)
-lw $9, -12568($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12572($sp)
-add $8, $29, -18516
-sw $8, -12576($sp)
-lw $8, -12572($sp)
-lw $9, -12576($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13668($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12588($sp)
+add $11, $29, -18512
 lw $9, -112($sp)
-lw $8, 0($9)
-sw $8, -12584($sp)
-lw $8, -12584($sp)
-lw $9, -12588($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12592($sp)
-add $8, $29, -18516
-sw $8, -12596($sp)
-lw $8, -12592($sp)
-lw $9, -12596($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13692($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12608($sp)
+add $11, $29, -18512
 lw $9, -120($sp)
-lw $8, 0($9)
-sw $8, -12604($sp)
-lw $8, -12604($sp)
-lw $9, -12608($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12612($sp)
-add $8, $29, -18516
-sw $8, -12616($sp)
-lw $8, -12612($sp)
-lw $9, -12616($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13716($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12628($sp)
+add $11, $29, -18512
 lw $9, -128($sp)
-lw $8, 0($9)
-sw $8, -12624($sp)
-lw $8, -12624($sp)
-lw $9, -12628($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12632($sp)
-add $8, $29, -18516
-sw $8, -12636($sp)
-lw $8, -12632($sp)
-lw $9, -12636($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13740($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12648($sp)
+add $11, $29, -18512
 lw $9, -136($sp)
-lw $8, 0($9)
-sw $8, -12644($sp)
-lw $8, -12644($sp)
-lw $9, -12648($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12652($sp)
-add $8, $29, -18516
-sw $8, -12656($sp)
-lw $8, -12652($sp)
-lw $9, -12656($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13764($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12668($sp)
+add $11, $29, -18512
 lw $9, -144($sp)
-lw $8, 0($9)
-sw $8, -12664($sp)
-lw $8, -12664($sp)
-lw $9, -12668($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12672($sp)
-add $8, $29, -18516
-sw $8, -12676($sp)
-lw $8, -12672($sp)
-lw $9, -12676($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13788($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12688($sp)
+add $11, $29, -18512
 lw $9, -152($sp)
-lw $8, 0($9)
-sw $8, -12684($sp)
-lw $8, -12684($sp)
-lw $9, -12688($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12692($sp)
-add $8, $29, -18516
-sw $8, -12696($sp)
-lw $8, -12692($sp)
-lw $9, -12696($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13812($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12708($sp)
+add $11, $29, -18512
 lw $9, -160($sp)
-lw $8, 0($9)
-sw $8, -12704($sp)
-lw $8, -12704($sp)
-lw $9, -12708($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12712($sp)
-add $8, $29, -18516
-sw $8, -12716($sp)
-lw $8, -12712($sp)
-lw $9, -12716($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13836($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12728($sp)
+add $11, $29, -18512
 lw $9, -168($sp)
-lw $8, 0($9)
-sw $8, -12724($sp)
-lw $8, -12724($sp)
-lw $9, -12728($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12732($sp)
-add $8, $29, -18516
-sw $8, -12736($sp)
-lw $8, -12732($sp)
-lw $9, -12736($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13860($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12748($sp)
+add $11, $29, -18512
 lw $9, -176($sp)
-lw $8, 0($9)
-sw $8, -12744($sp)
-lw $8, -12744($sp)
-lw $9, -12748($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12752($sp)
-add $8, $29, -18516
-sw $8, -12756($sp)
-lw $8, -12752($sp)
-lw $9, -12756($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13884($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12768($sp)
+add $11, $29, -18512
 lw $9, -184($sp)
-lw $8, 0($9)
-sw $8, -12764($sp)
-lw $8, -12764($sp)
-lw $9, -12768($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12772($sp)
-add $8, $29, -18516
-sw $8, -12776($sp)
-lw $8, -12772($sp)
-lw $9, -12776($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13908($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12788($sp)
+add $11, $29, -18512
 lw $9, -192($sp)
-lw $8, 0($9)
-sw $8, -12784($sp)
-lw $8, -12784($sp)
-lw $9, -12788($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12792($sp)
-add $8, $29, -18516
-sw $8, -12796($sp)
-lw $8, -12792($sp)
-lw $9, -12796($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13932($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12808($sp)
+add $11, $29, -18512
 lw $9, -200($sp)
-lw $8, 0($9)
-sw $8, -12804($sp)
-lw $8, -12804($sp)
-lw $9, -12808($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12812($sp)
-add $8, $29, -18516
-sw $8, -12816($sp)
-lw $8, -12812($sp)
-lw $9, -12816($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13956($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12828($sp)
+add $11, $29, -18512
 lw $9, -208($sp)
-lw $8, 0($9)
-sw $8, -12824($sp)
-lw $8, -12824($sp)
-lw $9, -12828($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12832($sp)
-add $8, $29, -18516
-sw $8, -12836($sp)
-lw $8, -12832($sp)
-lw $9, -12836($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 13980($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12848($sp)
+add $11, $29, -18512
 lw $9, -216($sp)
-lw $8, 0($9)
-sw $8, -12844($sp)
-lw $8, -12844($sp)
-lw $9, -12848($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12852($sp)
-add $8, $29, -18516
-sw $8, -12856($sp)
-lw $8, -12852($sp)
-lw $9, -12856($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14004($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12868($sp)
+add $11, $29, -18512
 lw $9, -224($sp)
-lw $8, 0($9)
-sw $8, -12864($sp)
-lw $8, -12864($sp)
-lw $9, -12868($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12872($sp)
-add $8, $29, -18516
-sw $8, -12876($sp)
-lw $8, -12872($sp)
-lw $9, -12876($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14028($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12888($sp)
+add $11, $29, -18512
 lw $9, -232($sp)
-lw $8, 0($9)
-sw $8, -12884($sp)
-lw $8, -12884($sp)
-lw $9, -12888($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12892($sp)
-add $8, $29, -18516
-sw $8, -12896($sp)
-lw $8, -12892($sp)
-lw $9, -12896($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14052($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12908($sp)
+add $11, $29, -18512
 lw $9, -240($sp)
-lw $8, 0($9)
-sw $8, -12904($sp)
-lw $8, -12904($sp)
-lw $9, -12908($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12912($sp)
-add $8, $29, -18516
-sw $8, -12916($sp)
-lw $8, -12912($sp)
-lw $9, -12916($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14076($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12928($sp)
+add $11, $29, -18512
 lw $9, -248($sp)
-lw $8, 0($9)
-sw $8, -12924($sp)
-lw $8, -12924($sp)
-lw $9, -12928($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12932($sp)
-add $8, $29, -18516
-sw $8, -12936($sp)
-lw $8, -12932($sp)
-lw $9, -12936($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14100($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12948($sp)
+add $11, $29, -18512
 lw $9, -256($sp)
-lw $8, 0($9)
-sw $8, -12944($sp)
-lw $8, -12944($sp)
-lw $9, -12948($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12952($sp)
-add $8, $29, -18516
-sw $8, -12956($sp)
-lw $8, -12952($sp)
-lw $9, -12956($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14124($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12968($sp)
+add $11, $29, -18512
 lw $9, -264($sp)
-lw $8, 0($9)
-sw $8, -12964($sp)
-lw $8, -12964($sp)
-lw $9, -12968($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12972($sp)
-add $8, $29, -18516
-sw $8, -12976($sp)
-lw $8, -12972($sp)
-lw $9, -12976($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14148($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -12988($sp)
+add $11, $29, -18512
 lw $9, -272($sp)
-lw $8, 0($9)
-sw $8, -12984($sp)
-lw $8, -12984($sp)
-lw $9, -12988($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -12992($sp)
-add $8, $29, -18516
-sw $8, -12996($sp)
-lw $8, -12992($sp)
-lw $9, -12996($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14172($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13008($sp)
+add $11, $29, -18512
 lw $9, -280($sp)
-lw $8, 0($9)
-sw $8, -13004($sp)
-lw $8, -13004($sp)
-lw $9, -13008($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13012($sp)
-add $8, $29, -18516
-sw $8, -13016($sp)
-lw $8, -13012($sp)
-lw $9, -13016($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14196($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13028($sp)
+add $11, $29, -18512
 lw $9, -288($sp)
-lw $8, 0($9)
-sw $8, -13024($sp)
-lw $8, -13024($sp)
-lw $9, -13028($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13032($sp)
-add $8, $29, -18516
-sw $8, -13036($sp)
-lw $8, -13032($sp)
-lw $9, -13036($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14220($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13048($sp)
+add $11, $29, -18512
 lw $9, -296($sp)
-lw $8, 0($9)
-sw $8, -13044($sp)
-lw $8, -13044($sp)
-lw $9, -13048($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13052($sp)
-add $8, $29, -18516
-sw $8, -13056($sp)
-lw $8, -13052($sp)
-lw $9, -13056($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14244($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13068($sp)
+add $11, $29, -18512
 lw $9, -304($sp)
-lw $8, 0($9)
-sw $8, -13064($sp)
-lw $8, -13064($sp)
-lw $9, -13068($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13072($sp)
-add $8, $29, -18516
-sw $8, -13076($sp)
-lw $8, -13072($sp)
-lw $9, -13076($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14268($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13088($sp)
+add $11, $29, -18512
 lw $9, -312($sp)
-lw $8, 0($9)
-sw $8, -13084($sp)
-lw $8, -13084($sp)
-lw $9, -13088($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13092($sp)
-add $8, $29, -18516
-sw $8, -13096($sp)
-lw $8, -13092($sp)
-lw $9, -13096($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14292($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13108($sp)
+add $11, $29, -18512
 lw $9, -320($sp)
-lw $8, 0($9)
-sw $8, -13104($sp)
-lw $8, -13104($sp)
-lw $9, -13108($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13112($sp)
-add $8, $29, -18516
-sw $8, -13116($sp)
-lw $8, -13112($sp)
-lw $9, -13116($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14316($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13128($sp)
+add $11, $29, -18512
 lw $9, -328($sp)
-lw $8, 0($9)
-sw $8, -13124($sp)
-lw $8, -13124($sp)
-lw $9, -13128($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13132($sp)
-add $8, $29, -18516
-sw $8, -13136($sp)
-lw $8, -13132($sp)
-lw $9, -13136($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14340($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13148($sp)
+add $11, $29, -18512
 lw $9, -336($sp)
-lw $8, 0($9)
-sw $8, -13144($sp)
-lw $8, -13144($sp)
-lw $9, -13148($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13152($sp)
-add $8, $29, -18516
-sw $8, -13156($sp)
-lw $8, -13152($sp)
-lw $9, -13156($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14364($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13168($sp)
+add $11, $29, -18512
 lw $9, -344($sp)
-lw $8, 0($9)
-sw $8, -13164($sp)
-lw $8, -13164($sp)
-lw $9, -13168($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13172($sp)
-add $8, $29, -18516
-sw $8, -13176($sp)
-lw $8, -13172($sp)
-lw $9, -13176($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14388($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13188($sp)
+add $11, $29, -18512
 lw $9, -352($sp)
-lw $8, 0($9)
-sw $8, -13184($sp)
-lw $8, -13184($sp)
-lw $9, -13188($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13192($sp)
-add $8, $29, -18516
-sw $8, -13196($sp)
-lw $8, -13192($sp)
-lw $9, -13196($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14412($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13208($sp)
+add $11, $29, -18512
 lw $9, -360($sp)
-lw $8, 0($9)
-sw $8, -13204($sp)
-lw $8, -13204($sp)
-lw $9, -13208($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13212($sp)
-add $8, $29, -18516
-sw $8, -13216($sp)
-lw $8, -13212($sp)
-lw $9, -13216($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14436($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13228($sp)
+add $11, $29, -18512
 lw $9, -368($sp)
-lw $8, 0($9)
-sw $8, -13224($sp)
-lw $8, -13224($sp)
-lw $9, -13228($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13232($sp)
-add $8, $29, -18516
-sw $8, -13236($sp)
-lw $8, -13232($sp)
-lw $9, -13236($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14460($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13248($sp)
+add $11, $29, -18512
 lw $9, -376($sp)
-lw $8, 0($9)
-sw $8, -13244($sp)
-lw $8, -13244($sp)
-lw $9, -13248($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13252($sp)
-add $8, $29, -18516
-sw $8, -13256($sp)
-lw $8, -13252($sp)
-lw $9, -13256($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14484($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13268($sp)
+add $11, $29, -18512
 lw $9, -384($sp)
-lw $8, 0($9)
-sw $8, -13264($sp)
-lw $8, -13264($sp)
-lw $9, -13268($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13272($sp)
-add $8, $29, -18516
-sw $8, -13276($sp)
-lw $8, -13272($sp)
-lw $9, -13276($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14508($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13288($sp)
+add $11, $29, -18512
 lw $9, -392($sp)
-lw $8, 0($9)
-sw $8, -13284($sp)
-lw $8, -13284($sp)
-lw $9, -13288($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13292($sp)
-add $8, $29, -18516
-sw $8, -13296($sp)
-lw $8, -13292($sp)
-lw $9, -13296($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14532($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13308($sp)
+add $11, $29, -18512
 lw $9, -400($sp)
-lw $8, 0($9)
-sw $8, -13304($sp)
-lw $8, -13304($sp)
-lw $9, -13308($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13312($sp)
-add $8, $29, -18516
-sw $8, -13316($sp)
-lw $8, -13312($sp)
-lw $9, -13316($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14556($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13328($sp)
+add $11, $29, -18512
 lw $9, -408($sp)
-lw $8, 0($9)
-sw $8, -13324($sp)
-lw $8, -13324($sp)
-lw $9, -13328($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13332($sp)
-add $8, $29, -18516
-sw $8, -13336($sp)
-lw $8, -13332($sp)
-lw $9, -13336($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14580($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13348($sp)
+add $11, $29, -18512
 lw $9, -416($sp)
-lw $8, 0($9)
-sw $8, -13344($sp)
-lw $8, -13344($sp)
-lw $9, -13348($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13352($sp)
-add $8, $29, -18516
-sw $8, -13356($sp)
-lw $8, -13352($sp)
-lw $9, -13356($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14604($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13368($sp)
+add $11, $29, -18512
 lw $9, -424($sp)
-lw $8, 0($9)
-sw $8, -13364($sp)
-lw $8, -13364($sp)
-lw $9, -13368($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13372($sp)
-add $8, $29, -18516
-sw $8, -13376($sp)
-lw $8, -13372($sp)
-lw $9, -13376($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14628($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13388($sp)
+add $11, $29, -18512
 lw $9, -432($sp)
-lw $8, 0($9)
-sw $8, -13384($sp)
-lw $8, -13384($sp)
-lw $9, -13388($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13392($sp)
-add $8, $29, -18516
-sw $8, -13396($sp)
-lw $8, -13392($sp)
-lw $9, -13396($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14652($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13408($sp)
+add $11, $29, -18512
 lw $9, -440($sp)
-lw $8, 0($9)
-sw $8, -13404($sp)
-lw $8, -13404($sp)
-lw $9, -13408($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13412($sp)
-add $8, $29, -18516
-sw $8, -13416($sp)
-lw $8, -13412($sp)
-lw $9, -13416($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14676($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13428($sp)
+add $11, $29, -18512
 lw $9, -448($sp)
-lw $8, 0($9)
-sw $8, -13424($sp)
-lw $8, -13424($sp)
-lw $9, -13428($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13432($sp)
-add $8, $29, -18516
-sw $8, -13436($sp)
-lw $8, -13432($sp)
-lw $9, -13436($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14700($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13448($sp)
+add $11, $29, -18512
 lw $9, -456($sp)
-lw $8, 0($9)
-sw $8, -13444($sp)
-lw $8, -13444($sp)
-lw $9, -13448($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13452($sp)
-add $8, $29, -18516
-sw $8, -13456($sp)
-lw $8, -13452($sp)
-lw $9, -13456($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14724($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13468($sp)
+add $11, $29, -18512
 lw $9, -464($sp)
-lw $8, 0($9)
-sw $8, -13464($sp)
-lw $8, -13464($sp)
-lw $9, -13468($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13472($sp)
-add $8, $29, -18516
-sw $8, -13476($sp)
-lw $8, -13472($sp)
-lw $9, -13476($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14748($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13488($sp)
+add $11, $29, -18512
 lw $9, -472($sp)
-lw $8, 0($9)
-sw $8, -13484($sp)
-lw $8, -13484($sp)
-lw $9, -13488($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13492($sp)
-add $8, $29, -18516
-sw $8, -13496($sp)
-lw $8, -13492($sp)
-lw $9, -13496($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14772($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13508($sp)
+add $11, $29, -18512
 lw $9, -480($sp)
-lw $8, 0($9)
-sw $8, -13504($sp)
-lw $8, -13504($sp)
-lw $9, -13508($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13512($sp)
-add $8, $29, -18516
-sw $8, -13516($sp)
-lw $8, -13512($sp)
-lw $9, -13516($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14796($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13528($sp)
+add $11, $29, -18512
 lw $9, -488($sp)
-lw $8, 0($9)
-sw $8, -13524($sp)
-lw $8, -13524($sp)
-lw $9, -13528($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13532($sp)
-add $8, $29, -18516
-sw $8, -13536($sp)
-lw $8, -13532($sp)
-lw $9, -13536($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14820($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13548($sp)
+add $11, $29, -18512
 lw $9, -496($sp)
-lw $8, 0($9)
-sw $8, -13544($sp)
-lw $8, -13544($sp)
-lw $9, -13548($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13552($sp)
-add $8, $29, -18516
-sw $8, -13556($sp)
-lw $8, -13552($sp)
-lw $9, -13556($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14844($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13568($sp)
+add $11, $29, -18512
 lw $9, -504($sp)
-lw $8, 0($9)
-sw $8, -13564($sp)
-lw $8, -13564($sp)
-lw $9, -13568($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13572($sp)
-add $8, $29, -18516
-sw $8, -13576($sp)
-lw $8, -13572($sp)
-lw $9, -13576($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14868($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13588($sp)
+add $11, $29, -18512
 lw $9, -512($sp)
-lw $8, 0($9)
-sw $8, -13584($sp)
-lw $8, -13584($sp)
-lw $9, -13588($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13592($sp)
-add $8, $29, -18516
-sw $8, -13596($sp)
-lw $8, -13592($sp)
-lw $9, -13596($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14892($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13608($sp)
+add $11, $29, -18512
 lw $9, -520($sp)
-lw $8, 0($9)
-sw $8, -13604($sp)
-lw $8, -13604($sp)
-lw $9, -13608($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13612($sp)
-add $8, $29, -18516
-sw $8, -13616($sp)
-lw $8, -13612($sp)
-lw $9, -13616($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14916($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13628($sp)
+add $11, $29, -18512
 lw $9, -528($sp)
-lw $8, 0($9)
-sw $8, -13624($sp)
-lw $8, -13624($sp)
-lw $9, -13628($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13632($sp)
-add $8, $29, -18516
-sw $8, -13636($sp)
-lw $8, -13632($sp)
-lw $9, -13636($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14940($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13648($sp)
+add $11, $29, -18512
 lw $9, -536($sp)
-lw $8, 0($9)
-sw $8, -13644($sp)
-lw $8, -13644($sp)
-lw $9, -13648($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13652($sp)
-add $8, $29, -18516
-sw $8, -13656($sp)
-lw $8, -13652($sp)
-lw $9, -13656($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14964($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13668($sp)
+add $11, $29, -18512
 lw $9, -544($sp)
-lw $8, 0($9)
-sw $8, -13664($sp)
-lw $8, -13664($sp)
-lw $9, -13668($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13672($sp)
-add $8, $29, -18516
-sw $8, -13676($sp)
-lw $8, -13672($sp)
-lw $9, -13676($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 14988($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13688($sp)
+add $11, $29, -18512
 lw $9, -552($sp)
-lw $8, 0($9)
-sw $8, -13684($sp)
-lw $8, -13684($sp)
-lw $9, -13688($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13692($sp)
-add $8, $29, -18516
-sw $8, -13696($sp)
-lw $8, -13692($sp)
-lw $9, -13696($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15012($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13708($sp)
+add $11, $29, -18512
 lw $9, -560($sp)
-lw $8, 0($9)
-sw $8, -13704($sp)
-lw $8, -13704($sp)
-lw $9, -13708($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13712($sp)
-add $8, $29, -18516
-sw $8, -13716($sp)
-lw $8, -13712($sp)
-lw $9, -13716($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15036($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13728($sp)
+add $11, $29, -18512
 lw $9, -568($sp)
-lw $8, 0($9)
-sw $8, -13724($sp)
-lw $8, -13724($sp)
-lw $9, -13728($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13732($sp)
-add $8, $29, -18516
-sw $8, -13736($sp)
-lw $8, -13732($sp)
-lw $9, -13736($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15060($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13748($sp)
+add $11, $29, -18512
 lw $9, -576($sp)
-lw $8, 0($9)
-sw $8, -13744($sp)
-lw $8, -13744($sp)
-lw $9, -13748($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13752($sp)
-add $8, $29, -18516
-sw $8, -13756($sp)
-lw $8, -13752($sp)
-lw $9, -13756($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15084($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13768($sp)
+add $11, $29, -18512
 lw $9, -584($sp)
-lw $8, 0($9)
-sw $8, -13764($sp)
-lw $8, -13764($sp)
-lw $9, -13768($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13772($sp)
-add $8, $29, -18516
-sw $8, -13776($sp)
-lw $8, -13772($sp)
-lw $9, -13776($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15108($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13788($sp)
+add $11, $29, -18512
 lw $9, -592($sp)
-lw $8, 0($9)
-sw $8, -13784($sp)
-lw $8, -13784($sp)
-lw $9, -13788($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13792($sp)
-add $8, $29, -18516
-sw $8, -13796($sp)
-lw $8, -13792($sp)
-lw $9, -13796($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15132($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13808($sp)
+add $11, $29, -18512
 lw $9, -600($sp)
-lw $8, 0($9)
-sw $8, -13804($sp)
-lw $8, -13804($sp)
-lw $9, -13808($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13812($sp)
-add $8, $29, -18516
-sw $8, -13816($sp)
-lw $8, -13812($sp)
-lw $9, -13816($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15156($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13828($sp)
+add $11, $29, -18512
 lw $9, -608($sp)
-lw $8, 0($9)
-sw $8, -13824($sp)
-lw $8, -13824($sp)
-lw $9, -13828($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13832($sp)
-add $8, $29, -18516
-sw $8, -13836($sp)
-lw $8, -13832($sp)
-lw $9, -13836($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15180($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13848($sp)
+add $11, $29, -18512
 lw $9, -616($sp)
-lw $8, 0($9)
-sw $8, -13844($sp)
-lw $8, -13844($sp)
-lw $9, -13848($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13852($sp)
-add $8, $29, -18516
-sw $8, -13856($sp)
-lw $8, -13852($sp)
-lw $9, -13856($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15204($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13868($sp)
+add $11, $29, -18512
 lw $9, -624($sp)
-lw $8, 0($9)
-sw $8, -13864($sp)
-lw $8, -13864($sp)
-lw $9, -13868($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13872($sp)
-add $8, $29, -18516
-sw $8, -13876($sp)
-lw $8, -13872($sp)
-lw $9, -13876($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15228($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13888($sp)
+add $11, $29, -18512
 lw $9, -632($sp)
-lw $8, 0($9)
-sw $8, -13884($sp)
-lw $8, -13884($sp)
-lw $9, -13888($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13892($sp)
-add $8, $29, -18516
-sw $8, -13896($sp)
-lw $8, -13892($sp)
-lw $9, -13896($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15252($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13908($sp)
+add $11, $29, -18512
 lw $9, -640($sp)
-lw $8, 0($9)
-sw $8, -13904($sp)
-lw $8, -13904($sp)
-lw $9, -13908($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13912($sp)
-add $8, $29, -18516
-sw $8, -13916($sp)
-lw $8, -13912($sp)
-lw $9, -13916($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15276($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13928($sp)
+add $11, $29, -18512
 lw $9, -648($sp)
-lw $8, 0($9)
-sw $8, -13924($sp)
-lw $8, -13924($sp)
-lw $9, -13928($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13932($sp)
-add $8, $29, -18516
-sw $8, -13936($sp)
-lw $8, -13932($sp)
-lw $9, -13936($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15300($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13948($sp)
+add $11, $29, -18512
 lw $9, -656($sp)
-lw $8, 0($9)
-sw $8, -13944($sp)
-lw $8, -13944($sp)
-lw $9, -13948($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13952($sp)
-add $8, $29, -18516
-sw $8, -13956($sp)
-lw $8, -13952($sp)
-lw $9, -13956($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15324($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13968($sp)
+add $11, $29, -18512
 lw $9, -664($sp)
-lw $8, 0($9)
-sw $8, -13964($sp)
-lw $8, -13964($sp)
-lw $9, -13968($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13972($sp)
-add $8, $29, -18516
-sw $8, -13976($sp)
-lw $8, -13972($sp)
-lw $9, -13976($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15348($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -13988($sp)
+add $11, $29, -18512
 lw $9, -672($sp)
-lw $8, 0($9)
-sw $8, -13984($sp)
-lw $8, -13984($sp)
-lw $9, -13988($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -13992($sp)
-add $8, $29, -18516
-sw $8, -13996($sp)
-lw $8, -13992($sp)
-lw $9, -13996($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15372($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14008($sp)
+add $11, $29, -18512
 lw $9, -680($sp)
-lw $8, 0($9)
-sw $8, -14004($sp)
-lw $8, -14004($sp)
-lw $9, -14008($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14012($sp)
-add $8, $29, -18516
-sw $8, -14016($sp)
-lw $8, -14012($sp)
-lw $9, -14016($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15396($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14028($sp)
+add $11, $29, -18512
 lw $9, -688($sp)
-lw $8, 0($9)
-sw $8, -14024($sp)
-lw $8, -14024($sp)
-lw $9, -14028($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14032($sp)
-add $8, $29, -18516
-sw $8, -14036($sp)
-lw $8, -14032($sp)
-lw $9, -14036($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15420($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14048($sp)
+add $11, $29, -18512
 lw $9, -696($sp)
-lw $8, 0($9)
-sw $8, -14044($sp)
-lw $8, -14044($sp)
-lw $9, -14048($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14052($sp)
-add $8, $29, -18516
-sw $8, -14056($sp)
-lw $8, -14052($sp)
-lw $9, -14056($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15444($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14068($sp)
+add $11, $29, -18512
 lw $9, -704($sp)
-lw $8, 0($9)
-sw $8, -14064($sp)
-lw $8, -14064($sp)
-lw $9, -14068($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14072($sp)
-add $8, $29, -18516
-sw $8, -14076($sp)
-lw $8, -14072($sp)
-lw $9, -14076($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15468($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14088($sp)
+add $11, $29, -18512
 lw $9, -712($sp)
-lw $8, 0($9)
-sw $8, -14084($sp)
-lw $8, -14084($sp)
-lw $9, -14088($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14092($sp)
-add $8, $29, -18516
-sw $8, -14096($sp)
-lw $8, -14092($sp)
-lw $9, -14096($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15492($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14108($sp)
+add $11, $29, -18512
 lw $9, -720($sp)
-lw $8, 0($9)
-sw $8, -14104($sp)
-lw $8, -14104($sp)
-lw $9, -14108($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14112($sp)
-add $8, $29, -18516
-sw $8, -14116($sp)
-lw $8, -14112($sp)
-lw $9, -14116($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15516($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14128($sp)
+add $11, $29, -18512
 lw $9, -728($sp)
-lw $8, 0($9)
-sw $8, -14124($sp)
-lw $8, -14124($sp)
-lw $9, -14128($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14132($sp)
-add $8, $29, -18516
-sw $8, -14136($sp)
-lw $8, -14132($sp)
-lw $9, -14136($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15540($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14148($sp)
+add $11, $29, -18512
 lw $9, -736($sp)
-lw $8, 0($9)
-sw $8, -14144($sp)
-lw $8, -14144($sp)
-lw $9, -14148($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14152($sp)
-add $8, $29, -18516
-sw $8, -14156($sp)
-lw $8, -14152($sp)
-lw $9, -14156($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15564($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14168($sp)
+add $11, $29, -18512
 lw $9, -744($sp)
-lw $8, 0($9)
-sw $8, -14164($sp)
-lw $8, -14164($sp)
-lw $9, -14168($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14172($sp)
-add $8, $29, -18516
-sw $8, -14176($sp)
-lw $8, -14172($sp)
-lw $9, -14176($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15588($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14188($sp)
+add $11, $29, -18512
 lw $9, -752($sp)
-lw $8, 0($9)
-sw $8, -14184($sp)
-lw $8, -14184($sp)
-lw $9, -14188($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14192($sp)
-add $8, $29, -18516
-sw $8, -14196($sp)
-lw $8, -14192($sp)
-lw $9, -14196($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15612($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14208($sp)
+add $11, $29, -18512
 lw $9, -760($sp)
-lw $8, 0($9)
-sw $8, -14204($sp)
-lw $8, -14204($sp)
-lw $9, -14208($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14212($sp)
-add $8, $29, -18516
-sw $8, -14216($sp)
-lw $8, -14212($sp)
-lw $9, -14216($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15636($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14228($sp)
+add $11, $29, -18512
 lw $9, -768($sp)
-lw $8, 0($9)
-sw $8, -14224($sp)
-lw $8, -14224($sp)
-lw $9, -14228($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14232($sp)
-add $8, $29, -18516
-sw $8, -14236($sp)
-lw $8, -14232($sp)
-lw $9, -14236($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15660($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14248($sp)
+add $11, $29, -18512
 lw $9, -776($sp)
-lw $8, 0($9)
-sw $8, -14244($sp)
-lw $8, -14244($sp)
-lw $9, -14248($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14252($sp)
-add $8, $29, -18516
-sw $8, -14256($sp)
-lw $8, -14252($sp)
-lw $9, -14256($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15684($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14268($sp)
+add $11, $29, -18512
 lw $9, -784($sp)
-lw $8, 0($9)
-sw $8, -14264($sp)
-lw $8, -14264($sp)
-lw $9, -14268($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14272($sp)
-add $8, $29, -18516
-sw $8, -14276($sp)
-lw $8, -14272($sp)
-lw $9, -14276($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15708($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14288($sp)
+add $11, $29, -18512
 lw $9, -792($sp)
-lw $8, 0($9)
-sw $8, -14284($sp)
-lw $8, -14284($sp)
-lw $9, -14288($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14292($sp)
-add $8, $29, -18516
-sw $8, -14296($sp)
-lw $8, -14292($sp)
-lw $9, -14296($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15732($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14308($sp)
+add $11, $29, -18512
 lw $9, -800($sp)
-lw $8, 0($9)
-sw $8, -14304($sp)
-lw $8, -14304($sp)
-lw $9, -14308($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14312($sp)
-add $8, $29, -18516
-sw $8, -14316($sp)
-lw $8, -14312($sp)
-lw $9, -14316($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15756($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14328($sp)
+add $11, $29, -18512
 lw $9, -808($sp)
-lw $8, 0($9)
-sw $8, -14324($sp)
-lw $8, -14324($sp)
-lw $9, -14328($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14332($sp)
-add $8, $29, -18516
-sw $8, -14336($sp)
-lw $8, -14332($sp)
-lw $9, -14336($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15780($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14348($sp)
+add $11, $29, -18512
 lw $9, -816($sp)
-lw $8, 0($9)
-sw $8, -14344($sp)
-lw $8, -14344($sp)
-lw $9, -14348($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14352($sp)
-add $8, $29, -18516
-sw $8, -14356($sp)
-lw $8, -14352($sp)
-lw $9, -14356($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15804($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14368($sp)
+add $11, $29, -18512
 lw $9, -824($sp)
-lw $8, 0($9)
-sw $8, -14364($sp)
-lw $8, -14364($sp)
-lw $9, -14368($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14372($sp)
-add $8, $29, -18516
-sw $8, -14376($sp)
-lw $8, -14372($sp)
-lw $9, -14376($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15828($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14388($sp)
+add $11, $29, -18512
 lw $9, -832($sp)
-lw $8, 0($9)
-sw $8, -14384($sp)
-lw $8, -14384($sp)
-lw $9, -14388($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14392($sp)
-add $8, $29, -18516
-sw $8, -14396($sp)
-lw $8, -14392($sp)
-lw $9, -14396($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15852($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14408($sp)
+add $11, $29, -18512
 lw $9, -840($sp)
-lw $8, 0($9)
-sw $8, -14404($sp)
-lw $8, -14404($sp)
-lw $9, -14408($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14412($sp)
-add $8, $29, -18516
-sw $8, -14416($sp)
-lw $8, -14412($sp)
-lw $9, -14416($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15876($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14428($sp)
+add $11, $29, -18512
 lw $9, -848($sp)
-lw $8, 0($9)
-sw $8, -14424($sp)
-lw $8, -14424($sp)
-lw $9, -14428($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14432($sp)
-add $8, $29, -18516
-sw $8, -14436($sp)
-lw $8, -14432($sp)
-lw $9, -14436($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15900($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14448($sp)
+add $11, $29, -18512
 lw $9, -856($sp)
-lw $8, 0($9)
-sw $8, -14444($sp)
-lw $8, -14444($sp)
-lw $9, -14448($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14452($sp)
-add $8, $29, -18516
-sw $8, -14456($sp)
-lw $8, -14452($sp)
-lw $9, -14456($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15924($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14468($sp)
+add $11, $29, -18512
 lw $9, -864($sp)
-lw $8, 0($9)
-sw $8, -14464($sp)
-lw $8, -14464($sp)
-lw $9, -14468($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14472($sp)
-add $8, $29, -18516
-sw $8, -14476($sp)
-lw $8, -14472($sp)
-lw $9, -14476($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15948($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14488($sp)
+add $11, $29, -18512
 lw $9, -872($sp)
-lw $8, 0($9)
-sw $8, -14484($sp)
-lw $8, -14484($sp)
-lw $9, -14488($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14492($sp)
-add $8, $29, -18516
-sw $8, -14496($sp)
-lw $8, -14492($sp)
-lw $9, -14496($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15972($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14508($sp)
+add $11, $29, -18512
 lw $9, -880($sp)
-lw $8, 0($9)
-sw $8, -14504($sp)
-lw $8, -14504($sp)
-lw $9, -14508($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14512($sp)
-add $8, $29, -18516
-sw $8, -14516($sp)
-lw $8, -14512($sp)
-lw $9, -14516($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 15996($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14528($sp)
+add $11, $29, -18512
 lw $9, -888($sp)
-lw $8, 0($9)
-sw $8, -14524($sp)
-lw $8, -14524($sp)
-lw $9, -14528($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14532($sp)
-add $8, $29, -18516
-sw $8, -14536($sp)
-lw $8, -14532($sp)
-lw $9, -14536($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16020($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14548($sp)
+add $11, $29, -18512
 lw $9, -896($sp)
-lw $8, 0($9)
-sw $8, -14544($sp)
-lw $8, -14544($sp)
-lw $9, -14548($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14552($sp)
-add $8, $29, -18516
-sw $8, -14556($sp)
-lw $8, -14552($sp)
-lw $9, -14556($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16044($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14568($sp)
+add $11, $29, -18512
 lw $9, -904($sp)
-lw $8, 0($9)
-sw $8, -14564($sp)
-lw $8, -14564($sp)
-lw $9, -14568($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14572($sp)
-add $8, $29, -18516
-sw $8, -14576($sp)
-lw $8, -14572($sp)
-lw $9, -14576($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16068($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14588($sp)
+add $11, $29, -18512
 lw $9, -912($sp)
-lw $8, 0($9)
-sw $8, -14584($sp)
-lw $8, -14584($sp)
-lw $9, -14588($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14592($sp)
-add $8, $29, -18516
-sw $8, -14596($sp)
-lw $8, -14592($sp)
-lw $9, -14596($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16092($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14608($sp)
+add $11, $29, -18512
 lw $9, -920($sp)
-lw $8, 0($9)
-sw $8, -14604($sp)
-lw $8, -14604($sp)
-lw $9, -14608($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14612($sp)
-add $8, $29, -18516
-sw $8, -14616($sp)
-lw $8, -14612($sp)
-lw $9, -14616($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16116($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14628($sp)
+add $11, $29, -18512
 lw $9, -928($sp)
-lw $8, 0($9)
-sw $8, -14624($sp)
-lw $8, -14624($sp)
-lw $9, -14628($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14632($sp)
-add $8, $29, -18516
-sw $8, -14636($sp)
-lw $8, -14632($sp)
-lw $9, -14636($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16140($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14648($sp)
+add $11, $29, -18512
 lw $9, -936($sp)
-lw $8, 0($9)
-sw $8, -14644($sp)
-lw $8, -14644($sp)
-lw $9, -14648($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14652($sp)
-add $8, $29, -18516
-sw $8, -14656($sp)
-lw $8, -14652($sp)
-lw $9, -14656($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16164($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14668($sp)
+add $11, $29, -18512
 lw $9, -944($sp)
-lw $8, 0($9)
-sw $8, -14664($sp)
-lw $8, -14664($sp)
-lw $9, -14668($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14672($sp)
-add $8, $29, -18516
-sw $8, -14676($sp)
-lw $8, -14672($sp)
-lw $9, -14676($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16188($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14688($sp)
+add $11, $29, -18512
 lw $9, -952($sp)
-lw $8, 0($9)
-sw $8, -14684($sp)
-lw $8, -14684($sp)
-lw $9, -14688($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14692($sp)
-add $8, $29, -18516
-sw $8, -14696($sp)
-lw $8, -14692($sp)
-lw $9, -14696($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16212($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14708($sp)
+add $11, $29, -18512
 lw $9, -960($sp)
-lw $8, 0($9)
-sw $8, -14704($sp)
-lw $8, -14704($sp)
-lw $9, -14708($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14712($sp)
-add $8, $29, -18516
-sw $8, -14716($sp)
-lw $8, -14712($sp)
-lw $9, -14716($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16236($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14728($sp)
+add $11, $29, -18512
 lw $9, -968($sp)
-lw $8, 0($9)
-sw $8, -14724($sp)
-lw $8, -14724($sp)
-lw $9, -14728($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14732($sp)
-add $8, $29, -18516
-sw $8, -14736($sp)
-lw $8, -14732($sp)
-lw $9, -14736($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16260($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14748($sp)
+add $11, $29, -18512
 lw $9, -976($sp)
-lw $8, 0($9)
-sw $8, -14744($sp)
-lw $8, -14744($sp)
-lw $9, -14748($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14752($sp)
-add $8, $29, -18516
-sw $8, -14756($sp)
-lw $8, -14752($sp)
-lw $9, -14756($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16284($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14768($sp)
+add $11, $29, -18512
 lw $9, -984($sp)
-lw $8, 0($9)
-sw $8, -14764($sp)
-lw $8, -14764($sp)
-lw $9, -14768($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14772($sp)
-add $8, $29, -18516
-sw $8, -14776($sp)
-lw $8, -14772($sp)
-lw $9, -14776($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16308($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14788($sp)
+add $11, $29, -18512
 lw $9, -992($sp)
-lw $8, 0($9)
-sw $8, -14784($sp)
-lw $8, -14784($sp)
-lw $9, -14788($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14792($sp)
-add $8, $29, -18516
-sw $8, -14796($sp)
-lw $8, -14792($sp)
-lw $9, -14796($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16332($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14808($sp)
+add $11, $29, -18512
 lw $9, -1000($sp)
-lw $8, 0($9)
-sw $8, -14804($sp)
-lw $8, -14804($sp)
-lw $9, -14808($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14812($sp)
-add $8, $29, -18516
-sw $8, -14816($sp)
-lw $8, -14812($sp)
-lw $9, -14816($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16356($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14828($sp)
+add $11, $29, -18512
 lw $9, -1008($sp)
-lw $8, 0($9)
-sw $8, -14824($sp)
-lw $8, -14824($sp)
-lw $9, -14828($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14832($sp)
-add $8, $29, -18516
-sw $8, -14836($sp)
-lw $8, -14832($sp)
-lw $9, -14836($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16380($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14848($sp)
+add $11, $29, -18512
 lw $9, -1016($sp)
-lw $8, 0($9)
-sw $8, -14844($sp)
-lw $8, -14844($sp)
-lw $9, -14848($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14852($sp)
-add $8, $29, -18516
-sw $8, -14856($sp)
-lw $8, -14852($sp)
-lw $9, -14856($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16404($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14868($sp)
+add $11, $29, -18512
 lw $9, -1024($sp)
-lw $8, 0($9)
-sw $8, -14864($sp)
-lw $8, -14864($sp)
-lw $9, -14868($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14872($sp)
-add $8, $29, -18516
-sw $8, -14876($sp)
-lw $8, -14872($sp)
-lw $9, -14876($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16428($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14888($sp)
+add $11, $29, -18512
 lw $9, -1032($sp)
-lw $8, 0($9)
-sw $8, -14884($sp)
-lw $8, -14884($sp)
-lw $9, -14888($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14892($sp)
-add $8, $29, -18516
-sw $8, -14896($sp)
-lw $8, -14892($sp)
-lw $9, -14896($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16452($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14908($sp)
+add $11, $29, -18512
 lw $9, -1040($sp)
-lw $8, 0($9)
-sw $8, -14904($sp)
-lw $8, -14904($sp)
-lw $9, -14908($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14912($sp)
-add $8, $29, -18516
-sw $8, -14916($sp)
-lw $8, -14912($sp)
-lw $9, -14916($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16476($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14928($sp)
+add $11, $29, -18512
 lw $9, -1048($sp)
-lw $8, 0($9)
-sw $8, -14924($sp)
-lw $8, -14924($sp)
-lw $9, -14928($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14932($sp)
-add $8, $29, -18516
-sw $8, -14936($sp)
-lw $8, -14932($sp)
-lw $9, -14936($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16500($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14948($sp)
+add $11, $29, -18512
 lw $9, -1056($sp)
-lw $8, 0($9)
-sw $8, -14944($sp)
-lw $8, -14944($sp)
-lw $9, -14948($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14952($sp)
-add $8, $29, -18516
-sw $8, -14956($sp)
-lw $8, -14952($sp)
-lw $9, -14956($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16524($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14968($sp)
+add $11, $29, -18512
 lw $9, -1064($sp)
-lw $8, 0($9)
-sw $8, -14964($sp)
-lw $8, -14964($sp)
-lw $9, -14968($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14972($sp)
-add $8, $29, -18516
-sw $8, -14976($sp)
-lw $8, -14972($sp)
-lw $9, -14976($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16548($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -14988($sp)
+add $11, $29, -18512
 lw $9, -1072($sp)
-lw $8, 0($9)
-sw $8, -14984($sp)
-lw $8, -14984($sp)
-lw $9, -14988($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -14992($sp)
-add $8, $29, -18516
-sw $8, -14996($sp)
-lw $8, -14992($sp)
-lw $9, -14996($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16572($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15008($sp)
+add $11, $29, -18512
 lw $9, -1080($sp)
-lw $8, 0($9)
-sw $8, -15004($sp)
-lw $8, -15004($sp)
-lw $9, -15008($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15012($sp)
-add $8, $29, -18516
-sw $8, -15016($sp)
-lw $8, -15012($sp)
-lw $9, -15016($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16596($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15028($sp)
+add $11, $29, -18512
 lw $9, -1088($sp)
-lw $8, 0($9)
-sw $8, -15024($sp)
-lw $8, -15024($sp)
-lw $9, -15028($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15032($sp)
-add $8, $29, -18516
-sw $8, -15036($sp)
-lw $8, -15032($sp)
-lw $9, -15036($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16620($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15048($sp)
+add $11, $29, -18512
 lw $9, -1096($sp)
-lw $8, 0($9)
-sw $8, -15044($sp)
-lw $8, -15044($sp)
-lw $9, -15048($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15052($sp)
-add $8, $29, -18516
-sw $8, -15056($sp)
-lw $8, -15052($sp)
-lw $9, -15056($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16644($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15068($sp)
+add $11, $29, -18512
 lw $9, -1104($sp)
-lw $8, 0($9)
-sw $8, -15064($sp)
-lw $8, -15064($sp)
-lw $9, -15068($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15072($sp)
-add $8, $29, -18516
-sw $8, -15076($sp)
-lw $8, -15072($sp)
-lw $9, -15076($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16668($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15088($sp)
+add $11, $29, -18512
 lw $9, -1112($sp)
-lw $8, 0($9)
-sw $8, -15084($sp)
-lw $8, -15084($sp)
-lw $9, -15088($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15092($sp)
-add $8, $29, -18516
-sw $8, -15096($sp)
-lw $8, -15092($sp)
-lw $9, -15096($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16692($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15108($sp)
+add $11, $29, -18512
 lw $9, -1120($sp)
-lw $8, 0($9)
-sw $8, -15104($sp)
-lw $8, -15104($sp)
-lw $9, -15108($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15112($sp)
-add $8, $29, -18516
-sw $8, -15116($sp)
-lw $8, -15112($sp)
-lw $9, -15116($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16716($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15128($sp)
+add $11, $29, -18512
 lw $9, -1128($sp)
-lw $8, 0($9)
-sw $8, -15124($sp)
-lw $8, -15124($sp)
-lw $9, -15128($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15132($sp)
-add $8, $29, -18516
-sw $8, -15136($sp)
-lw $8, -15132($sp)
-lw $9, -15136($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16740($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15148($sp)
+add $11, $29, -18512
 lw $9, -1136($sp)
-lw $8, 0($9)
-sw $8, -15144($sp)
-lw $8, -15144($sp)
-lw $9, -15148($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15152($sp)
-add $8, $29, -18516
-sw $8, -15156($sp)
-lw $8, -15152($sp)
-lw $9, -15156($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16764($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15168($sp)
+add $11, $29, -18512
 lw $9, -1144($sp)
-lw $8, 0($9)
-sw $8, -15164($sp)
-lw $8, -15164($sp)
-lw $9, -15168($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15172($sp)
-add $8, $29, -18516
-sw $8, -15176($sp)
-lw $8, -15172($sp)
-lw $9, -15176($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16788($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15188($sp)
+add $11, $29, -18512
 lw $9, -1152($sp)
-lw $8, 0($9)
-sw $8, -15184($sp)
-lw $8, -15184($sp)
-lw $9, -15188($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15192($sp)
-add $8, $29, -18516
-sw $8, -15196($sp)
-lw $8, -15192($sp)
-lw $9, -15196($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16812($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15208($sp)
+add $11, $29, -18512
 lw $9, -1160($sp)
-lw $8, 0($9)
-sw $8, -15204($sp)
-lw $8, -15204($sp)
-lw $9, -15208($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15212($sp)
-add $8, $29, -18516
-sw $8, -15216($sp)
-lw $8, -15212($sp)
-lw $9, -15216($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16836($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15228($sp)
+add $11, $29, -18512
 lw $9, -1168($sp)
-lw $8, 0($9)
-sw $8, -15224($sp)
-lw $8, -15224($sp)
-lw $9, -15228($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15232($sp)
-add $8, $29, -18516
-sw $8, -15236($sp)
-lw $8, -15232($sp)
-lw $9, -15236($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16860($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15248($sp)
+add $11, $29, -18512
 lw $9, -1176($sp)
-lw $8, 0($9)
-sw $8, -15244($sp)
-lw $8, -15244($sp)
-lw $9, -15248($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15252($sp)
-add $8, $29, -18516
-sw $8, -15256($sp)
-lw $8, -15252($sp)
-lw $9, -15256($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16884($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15268($sp)
+add $11, $29, -18512
 lw $9, -1184($sp)
-lw $8, 0($9)
-sw $8, -15264($sp)
-lw $8, -15264($sp)
-lw $9, -15268($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15272($sp)
-add $8, $29, -18516
-sw $8, -15276($sp)
-lw $8, -15272($sp)
-lw $9, -15276($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16908($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15288($sp)
+add $11, $29, -18512
 lw $9, -1192($sp)
-lw $8, 0($9)
-sw $8, -15284($sp)
-lw $8, -15284($sp)
-lw $9, -15288($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15292($sp)
-add $8, $29, -18516
-sw $8, -15296($sp)
-lw $8, -15292($sp)
-lw $9, -15296($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16932($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15308($sp)
+add $11, $29, -18512
 lw $9, -1200($sp)
-lw $8, 0($9)
-sw $8, -15304($sp)
-lw $8, -15304($sp)
-lw $9, -15308($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15312($sp)
-add $8, $29, -18516
-sw $8, -15316($sp)
-lw $8, -15312($sp)
-lw $9, -15316($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16956($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15328($sp)
+add $11, $29, -18512
 lw $9, -1208($sp)
-lw $8, 0($9)
-sw $8, -15324($sp)
-lw $8, -15324($sp)
-lw $9, -15328($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15332($sp)
-add $8, $29, -18516
-sw $8, -15336($sp)
-lw $8, -15332($sp)
-lw $9, -15336($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 16980($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15348($sp)
+add $11, $29, -18512
 lw $9, -1216($sp)
-lw $8, 0($9)
-sw $8, -15344($sp)
-lw $8, -15344($sp)
-lw $9, -15348($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15352($sp)
-add $8, $29, -18516
-sw $8, -15356($sp)
-lw $8, -15352($sp)
-lw $9, -15356($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17004($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15368($sp)
+add $11, $29, -18512
 lw $9, -1224($sp)
-lw $8, 0($9)
-sw $8, -15364($sp)
-lw $8, -15364($sp)
-lw $9, -15368($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15372($sp)
-add $8, $29, -18516
-sw $8, -15376($sp)
-lw $8, -15372($sp)
-lw $9, -15376($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17028($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15388($sp)
+add $11, $29, -18512
 lw $9, -1232($sp)
-lw $8, 0($9)
-sw $8, -15384($sp)
-lw $8, -15384($sp)
-lw $9, -15388($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15392($sp)
-add $8, $29, -18516
-sw $8, -15396($sp)
-lw $8, -15392($sp)
-lw $9, -15396($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17052($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15408($sp)
+add $11, $29, -18512
 lw $9, -1240($sp)
-lw $8, 0($9)
-sw $8, -15404($sp)
-lw $8, -15404($sp)
-lw $9, -15408($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15412($sp)
-add $8, $29, -18516
-sw $8, -15416($sp)
-lw $8, -15412($sp)
-lw $9, -15416($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17076($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15428($sp)
+add $11, $29, -18512
 lw $9, -1248($sp)
-lw $8, 0($9)
-sw $8, -15424($sp)
-lw $8, -15424($sp)
-lw $9, -15428($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15432($sp)
-add $8, $29, -18516
-sw $8, -15436($sp)
-lw $8, -15432($sp)
-lw $9, -15436($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17100($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15448($sp)
+add $11, $29, -18512
 lw $9, -1256($sp)
-lw $8, 0($9)
-sw $8, -15444($sp)
-lw $8, -15444($sp)
-lw $9, -15448($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15452($sp)
-add $8, $29, -18516
-sw $8, -15456($sp)
-lw $8, -15452($sp)
-lw $9, -15456($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17124($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15468($sp)
+add $11, $29, -18512
 lw $9, -1264($sp)
-lw $8, 0($9)
-sw $8, -15464($sp)
-lw $8, -15464($sp)
-lw $9, -15468($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15472($sp)
-add $8, $29, -18516
-sw $8, -15476($sp)
-lw $8, -15472($sp)
-lw $9, -15476($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17148($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15488($sp)
+add $11, $29, -18512
 lw $9, -1272($sp)
-lw $8, 0($9)
-sw $8, -15484($sp)
-lw $8, -15484($sp)
-lw $9, -15488($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15492($sp)
-add $8, $29, -18516
-sw $8, -15496($sp)
-lw $8, -15492($sp)
-lw $9, -15496($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17172($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15508($sp)
+add $11, $29, -18512
 lw $9, -1280($sp)
-lw $8, 0($9)
-sw $8, -15504($sp)
-lw $8, -15504($sp)
-lw $9, -15508($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15512($sp)
-add $8, $29, -18516
-sw $8, -15516($sp)
-lw $8, -15512($sp)
-lw $9, -15516($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17196($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15528($sp)
+add $11, $29, -18512
 lw $9, -1288($sp)
-lw $8, 0($9)
-sw $8, -15524($sp)
-lw $8, -15524($sp)
-lw $9, -15528($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15532($sp)
-add $8, $29, -18516
-sw $8, -15536($sp)
-lw $8, -15532($sp)
-lw $9, -15536($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17220($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15548($sp)
+add $11, $29, -18512
 lw $9, -1296($sp)
-lw $8, 0($9)
-sw $8, -15544($sp)
-lw $8, -15544($sp)
-lw $9, -15548($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15552($sp)
-add $8, $29, -18516
-sw $8, -15556($sp)
-lw $8, -15552($sp)
-lw $9, -15556($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17244($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15568($sp)
+add $11, $29, -18512
 lw $9, -1304($sp)
-lw $8, 0($9)
-sw $8, -15564($sp)
-lw $8, -15564($sp)
-lw $9, -15568($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15572($sp)
-add $8, $29, -18516
-sw $8, -15576($sp)
-lw $8, -15572($sp)
-lw $9, -15576($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17268($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15588($sp)
+add $11, $29, -18512
 lw $9, -1312($sp)
-lw $8, 0($9)
-sw $8, -15584($sp)
-lw $8, -15584($sp)
-lw $9, -15588($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15592($sp)
-add $8, $29, -18516
-sw $8, -15596($sp)
-lw $8, -15592($sp)
-lw $9, -15596($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17292($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15608($sp)
+add $11, $29, -18512
 lw $9, -1320($sp)
-lw $8, 0($9)
-sw $8, -15604($sp)
-lw $8, -15604($sp)
-lw $9, -15608($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15612($sp)
-add $8, $29, -18516
-sw $8, -15616($sp)
-lw $8, -15612($sp)
-lw $9, -15616($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17316($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15628($sp)
+add $11, $29, -18512
 lw $9, -1328($sp)
-lw $8, 0($9)
-sw $8, -15624($sp)
-lw $8, -15624($sp)
-lw $9, -15628($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15632($sp)
-add $8, $29, -18516
-sw $8, -15636($sp)
-lw $8, -15632($sp)
-lw $9, -15636($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17340($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15648($sp)
+add $11, $29, -18512
 lw $9, -1336($sp)
-lw $8, 0($9)
-sw $8, -15644($sp)
-lw $8, -15644($sp)
-lw $9, -15648($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15652($sp)
-add $8, $29, -18516
-sw $8, -15656($sp)
-lw $8, -15652($sp)
-lw $9, -15656($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17364($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15668($sp)
+add $11, $29, -18512
 lw $9, -1344($sp)
-lw $8, 0($9)
-sw $8, -15664($sp)
-lw $8, -15664($sp)
-lw $9, -15668($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15672($sp)
-add $8, $29, -18516
-sw $8, -15676($sp)
-lw $8, -15672($sp)
-lw $9, -15676($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17388($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15688($sp)
+add $11, $29, -18512
 lw $9, -1352($sp)
-lw $8, 0($9)
-sw $8, -15684($sp)
-lw $8, -15684($sp)
-lw $9, -15688($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15692($sp)
-add $8, $29, -18516
-sw $8, -15696($sp)
-lw $8, -15692($sp)
-lw $9, -15696($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17412($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15708($sp)
+add $11, $29, -18512
 lw $9, -1360($sp)
-lw $8, 0($9)
-sw $8, -15704($sp)
-lw $8, -15704($sp)
-lw $9, -15708($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15712($sp)
-add $8, $29, -18516
-sw $8, -15716($sp)
-lw $8, -15712($sp)
-lw $9, -15716($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17436($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15728($sp)
+add $11, $29, -18512
 lw $9, -1368($sp)
-lw $8, 0($9)
-sw $8, -15724($sp)
-lw $8, -15724($sp)
-lw $9, -15728($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15732($sp)
-add $8, $29, -18516
-sw $8, -15736($sp)
-lw $8, -15732($sp)
-lw $9, -15736($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17460($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15748($sp)
+add $11, $29, -18512
 lw $9, -1376($sp)
-lw $8, 0($9)
-sw $8, -15744($sp)
-lw $8, -15744($sp)
-lw $9, -15748($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15752($sp)
-add $8, $29, -18516
-sw $8, -15756($sp)
-lw $8, -15752($sp)
-lw $9, -15756($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17484($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15768($sp)
+add $11, $29, -18512
 lw $9, -1384($sp)
-lw $8, 0($9)
-sw $8, -15764($sp)
-lw $8, -15764($sp)
-lw $9, -15768($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15772($sp)
-add $8, $29, -18516
-sw $8, -15776($sp)
-lw $8, -15772($sp)
-lw $9, -15776($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17508($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15788($sp)
+add $11, $29, -18512
 lw $9, -1392($sp)
-lw $8, 0($9)
-sw $8, -15784($sp)
-lw $8, -15784($sp)
-lw $9, -15788($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15792($sp)
-add $8, $29, -18516
-sw $8, -15796($sp)
-lw $8, -15792($sp)
-lw $9, -15796($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17532($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15808($sp)
+add $11, $29, -18512
 lw $9, -1400($sp)
-lw $8, 0($9)
-sw $8, -15804($sp)
-lw $8, -15804($sp)
-lw $9, -15808($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15812($sp)
-add $8, $29, -18516
-sw $8, -15816($sp)
-lw $8, -15812($sp)
-lw $9, -15816($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17556($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15828($sp)
+add $11, $29, -18512
 lw $9, -1408($sp)
-lw $8, 0($9)
-sw $8, -15824($sp)
-lw $8, -15824($sp)
-lw $9, -15828($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15832($sp)
-add $8, $29, -18516
-sw $8, -15836($sp)
-lw $8, -15832($sp)
-lw $9, -15836($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17580($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15848($sp)
+add $11, $29, -18512
 lw $9, -1416($sp)
-lw $8, 0($9)
-sw $8, -15844($sp)
-lw $8, -15844($sp)
-lw $9, -15848($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15852($sp)
-add $8, $29, -18516
-sw $8, -15856($sp)
-lw $8, -15852($sp)
-lw $9, -15856($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17604($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15868($sp)
+add $11, $29, -18512
 lw $9, -1424($sp)
-lw $8, 0($9)
-sw $8, -15864($sp)
-lw $8, -15864($sp)
-lw $9, -15868($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15872($sp)
-add $8, $29, -18516
-sw $8, -15876($sp)
-lw $8, -15872($sp)
-lw $9, -15876($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17628($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15888($sp)
+add $11, $29, -18512
 lw $9, -1432($sp)
-lw $8, 0($9)
-sw $8, -15884($sp)
-lw $8, -15884($sp)
-lw $9, -15888($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15892($sp)
-add $8, $29, -18516
-sw $8, -15896($sp)
-lw $8, -15892($sp)
-lw $9, -15896($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17652($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15908($sp)
+add $11, $29, -18512
 lw $9, -1440($sp)
-lw $8, 0($9)
-sw $8, -15904($sp)
-lw $8, -15904($sp)
-lw $9, -15908($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15912($sp)
-add $8, $29, -18516
-sw $8, -15916($sp)
-lw $8, -15912($sp)
-lw $9, -15916($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17676($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15928($sp)
+add $11, $29, -18512
 lw $9, -1448($sp)
-lw $8, 0($9)
-sw $8, -15924($sp)
-lw $8, -15924($sp)
-lw $9, -15928($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15932($sp)
-add $8, $29, -18516
-sw $8, -15936($sp)
-lw $8, -15932($sp)
-lw $9, -15936($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17700($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15948($sp)
+add $11, $29, -18512
 lw $9, -1456($sp)
-lw $8, 0($9)
-sw $8, -15944($sp)
-lw $8, -15944($sp)
-lw $9, -15948($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15952($sp)
-add $8, $29, -18516
-sw $8, -15956($sp)
-lw $8, -15952($sp)
-lw $9, -15956($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17724($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15968($sp)
+add $11, $29, -18512
 lw $9, -1464($sp)
-lw $8, 0($9)
-sw $8, -15964($sp)
-lw $8, -15964($sp)
-lw $9, -15968($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15972($sp)
-add $8, $29, -18516
-sw $8, -15976($sp)
-lw $8, -15972($sp)
-lw $9, -15976($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17748($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -15988($sp)
+add $11, $29, -18512
 lw $9, -1472($sp)
-lw $8, 0($9)
-sw $8, -15984($sp)
-lw $8, -15984($sp)
-lw $9, -15988($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -15992($sp)
-add $8, $29, -18516
-sw $8, -15996($sp)
-lw $8, -15992($sp)
-lw $9, -15996($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17772($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16008($sp)
+add $11, $29, -18512
 lw $9, -1480($sp)
-lw $8, 0($9)
-sw $8, -16004($sp)
-lw $8, -16004($sp)
-lw $9, -16008($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16012($sp)
-add $8, $29, -18516
-sw $8, -16016($sp)
-lw $8, -16012($sp)
-lw $9, -16016($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17796($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16028($sp)
+add $11, $29, -18512
 lw $9, -1488($sp)
-lw $8, 0($9)
-sw $8, -16024($sp)
-lw $8, -16024($sp)
-lw $9, -16028($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16032($sp)
-add $8, $29, -18516
-sw $8, -16036($sp)
-lw $8, -16032($sp)
-lw $9, -16036($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17820($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16048($sp)
+add $11, $29, -18512
 lw $9, -1496($sp)
-lw $8, 0($9)
-sw $8, -16044($sp)
-lw $8, -16044($sp)
-lw $9, -16048($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16052($sp)
-add $8, $29, -18516
-sw $8, -16056($sp)
-lw $8, -16052($sp)
-lw $9, -16056($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17844($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16068($sp)
+add $11, $29, -18512
 lw $9, -1504($sp)
-lw $8, 0($9)
-sw $8, -16064($sp)
-lw $8, -16064($sp)
-lw $9, -16068($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16072($sp)
-add $8, $29, -18516
-sw $8, -16076($sp)
-lw $8, -16072($sp)
-lw $9, -16076($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17868($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16088($sp)
+add $11, $29, -18512
 lw $9, -1512($sp)
-lw $8, 0($9)
-sw $8, -16084($sp)
-lw $8, -16084($sp)
-lw $9, -16088($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16092($sp)
-add $8, $29, -18516
-sw $8, -16096($sp)
-lw $8, -16092($sp)
-lw $9, -16096($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17892($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16108($sp)
+add $11, $29, -18512
 lw $9, -1520($sp)
-lw $8, 0($9)
-sw $8, -16104($sp)
-lw $8, -16104($sp)
-lw $9, -16108($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16112($sp)
-add $8, $29, -18516
-sw $8, -16116($sp)
-lw $8, -16112($sp)
-lw $9, -16116($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17916($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16128($sp)
+add $11, $29, -18512
 lw $9, -1528($sp)
-lw $8, 0($9)
-sw $8, -16124($sp)
-lw $8, -16124($sp)
-lw $9, -16128($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16132($sp)
-add $8, $29, -18516
-sw $8, -16136($sp)
-lw $8, -16132($sp)
-lw $9, -16136($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17940($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16148($sp)
+add $11, $29, -18512
 lw $9, -1536($sp)
-lw $8, 0($9)
-sw $8, -16144($sp)
-lw $8, -16144($sp)
-lw $9, -16148($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16152($sp)
-add $8, $29, -18516
-sw $8, -16156($sp)
-lw $8, -16152($sp)
-lw $9, -16156($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17964($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16168($sp)
+add $11, $29, -18512
 lw $9, -1544($sp)
-lw $8, 0($9)
-sw $8, -16164($sp)
-lw $8, -16164($sp)
-lw $9, -16168($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16172($sp)
-add $8, $29, -18516
-sw $8, -16176($sp)
-lw $8, -16172($sp)
-lw $9, -16176($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 17988($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16188($sp)
+add $11, $29, -18512
 lw $9, -1552($sp)
-lw $8, 0($9)
-sw $8, -16184($sp)
-lw $8, -16184($sp)
-lw $9, -16188($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16192($sp)
-add $8, $29, -18516
-sw $8, -16196($sp)
-lw $8, -16192($sp)
-lw $9, -16196($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18012($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16208($sp)
+add $11, $29, -18512
 lw $9, -1560($sp)
-lw $8, 0($9)
-sw $8, -16204($sp)
-lw $8, -16204($sp)
-lw $9, -16208($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16212($sp)
-add $8, $29, -18516
-sw $8, -16216($sp)
-lw $8, -16212($sp)
-lw $9, -16216($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18036($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16228($sp)
+add $11, $29, -18512
 lw $9, -1568($sp)
-lw $8, 0($9)
-sw $8, -16224($sp)
-lw $8, -16224($sp)
-lw $9, -16228($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16232($sp)
-add $8, $29, -18516
-sw $8, -16236($sp)
-lw $8, -16232($sp)
-lw $9, -16236($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18060($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16248($sp)
+add $11, $29, -18512
 lw $9, -1576($sp)
-lw $8, 0($9)
-sw $8, -16244($sp)
-lw $8, -16244($sp)
-lw $9, -16248($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16252($sp)
-add $8, $29, -18516
-sw $8, -16256($sp)
-lw $8, -16252($sp)
-lw $9, -16256($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18084($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16268($sp)
+add $11, $29, -18512
 lw $9, -1584($sp)
-lw $8, 0($9)
-sw $8, -16264($sp)
-lw $8, -16264($sp)
-lw $9, -16268($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16272($sp)
-add $8, $29, -18516
-sw $8, -16276($sp)
-lw $8, -16272($sp)
-lw $9, -16276($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18108($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16288($sp)
+add $11, $29, -18512
 lw $9, -1592($sp)
-lw $8, 0($9)
-sw $8, -16284($sp)
-lw $8, -16284($sp)
-lw $9, -16288($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16292($sp)
-add $8, $29, -18516
-sw $8, -16296($sp)
-lw $8, -16292($sp)
-lw $9, -16296($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18132($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16308($sp)
+add $11, $29, -18512
 lw $9, -1600($sp)
-lw $8, 0($9)
-sw $8, -16304($sp)
-lw $8, -16304($sp)
-lw $9, -16308($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16312($sp)
-add $8, $29, -18516
-sw $8, -16316($sp)
-lw $8, -16312($sp)
-lw $9, -16316($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18156($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16328($sp)
+add $11, $29, -18512
 lw $9, -1608($sp)
-lw $8, 0($9)
-sw $8, -16324($sp)
-lw $8, -16324($sp)
-lw $9, -16328($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16332($sp)
-add $8, $29, -18516
-sw $8, -16336($sp)
-lw $8, -16332($sp)
-lw $9, -16336($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18180($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16348($sp)
+add $11, $29, -18512
 lw $9, -1616($sp)
-lw $8, 0($9)
-sw $8, -16344($sp)
-lw $8, -16344($sp)
-lw $9, -16348($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16352($sp)
-add $8, $29, -18516
-sw $8, -16356($sp)
-lw $8, -16352($sp)
-lw $9, -16356($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18204($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16368($sp)
+add $11, $29, -18512
 lw $9, -1624($sp)
-lw $8, 0($9)
-sw $8, -16364($sp)
-lw $8, -16364($sp)
-lw $9, -16368($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16372($sp)
-add $8, $29, -18516
-sw $8, -16376($sp)
-lw $8, -16372($sp)
-lw $9, -16376($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18228($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16388($sp)
+add $11, $29, -18512
 lw $9, -1632($sp)
-lw $8, 0($9)
-sw $8, -16384($sp)
-lw $8, -16384($sp)
-lw $9, -16388($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16392($sp)
-add $8, $29, -18516
-sw $8, -16396($sp)
-lw $8, -16392($sp)
-lw $9, -16396($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18252($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16408($sp)
+add $11, $29, -18512
 lw $9, -1640($sp)
-lw $8, 0($9)
-sw $8, -16404($sp)
-lw $8, -16404($sp)
-lw $9, -16408($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16412($sp)
-add $8, $29, -18516
-sw $8, -16416($sp)
-lw $8, -16412($sp)
-lw $9, -16416($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18276($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16428($sp)
+add $11, $29, -18512
 lw $9, -1648($sp)
-lw $8, 0($9)
-sw $8, -16424($sp)
-lw $8, -16424($sp)
-lw $9, -16428($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16432($sp)
-add $8, $29, -18516
-sw $8, -16436($sp)
-lw $8, -16432($sp)
-lw $9, -16436($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18300($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16448($sp)
+add $11, $29, -18512
 lw $9, -1656($sp)
-lw $8, 0($9)
-sw $8, -16444($sp)
-lw $8, -16444($sp)
-lw $9, -16448($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16452($sp)
-add $8, $29, -18516
-sw $8, -16456($sp)
-lw $8, -16452($sp)
-lw $9, -16456($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18324($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16468($sp)
+add $11, $29, -18512
 lw $9, -1664($sp)
-lw $8, 0($9)
-sw $8, -16464($sp)
-lw $8, -16464($sp)
-lw $9, -16468($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16472($sp)
-add $8, $29, -18516
-sw $8, -16476($sp)
-lw $8, -16472($sp)
-lw $9, -16476($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18348($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16488($sp)
+add $11, $29, -18512
 lw $9, -1672($sp)
-lw $8, 0($9)
-sw $8, -16484($sp)
-lw $8, -16484($sp)
-lw $9, -16488($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16492($sp)
-add $8, $29, -18516
-sw $8, -16496($sp)
-lw $8, -16492($sp)
-lw $9, -16496($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18372($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16508($sp)
+add $11, $29, -18512
 lw $9, -1680($sp)
-lw $8, 0($9)
-sw $8, -16504($sp)
-lw $8, -16504($sp)
-lw $9, -16508($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16512($sp)
-add $8, $29, -18516
-sw $8, -16516($sp)
-lw $8, -16512($sp)
-lw $9, -16516($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18396($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16528($sp)
+add $11, $29, -18512
 lw $9, -1688($sp)
-lw $8, 0($9)
-sw $8, -16524($sp)
-lw $8, -16524($sp)
-lw $9, -16528($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16532($sp)
-add $8, $29, -18516
-sw $8, -16536($sp)
-lw $8, -16532($sp)
-lw $9, -16536($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18420($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16548($sp)
+add $11, $29, -18512
 lw $9, -1696($sp)
-lw $8, 0($9)
-sw $8, -16544($sp)
-lw $8, -16544($sp)
-lw $9, -16548($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16552($sp)
-add $8, $29, -18516
-sw $8, -16556($sp)
-lw $8, -16552($sp)
-lw $9, -16556($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18444($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16568($sp)
+add $11, $29, -18512
 lw $9, -1704($sp)
-lw $8, 0($9)
-sw $8, -16564($sp)
-lw $8, -16564($sp)
-lw $9, -16568($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16572($sp)
-add $8, $29, -18516
-sw $8, -16576($sp)
-lw $8, -16572($sp)
-lw $9, -16576($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18468($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16588($sp)
+add $11, $29, -18512
 lw $9, -1712($sp)
-lw $8, 0($9)
-sw $8, -16584($sp)
-lw $8, -16584($sp)
-lw $9, -16588($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16592($sp)
-add $8, $29, -18516
-sw $8, -16596($sp)
-lw $8, -16592($sp)
-lw $9, -16596($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18492($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16608($sp)
+add $11, $29, -18512
 lw $9, -1720($sp)
-lw $8, 0($9)
-sw $8, -16604($sp)
-lw $8, -16604($sp)
-lw $9, -16608($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16612($sp)
-add $8, $29, -18516
-sw $8, -16616($sp)
-lw $8, -16612($sp)
-lw $9, -16616($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18516($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16628($sp)
+add $11, $29, -18512
 lw $9, -1728($sp)
-lw $8, 0($9)
-sw $8, -16624($sp)
-lw $8, -16624($sp)
-lw $9, -16628($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16632($sp)
-add $8, $29, -18516
-sw $8, -16636($sp)
-lw $8, -16632($sp)
-lw $9, -16636($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18540($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16648($sp)
+add $11, $29, -18512
 lw $9, -1736($sp)
-lw $8, 0($9)
-sw $8, -16644($sp)
-lw $8, -16644($sp)
-lw $9, -16648($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16652($sp)
-add $8, $29, -18516
-sw $8, -16656($sp)
-lw $8, -16652($sp)
-lw $9, -16656($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18564($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16668($sp)
+add $11, $29, -18512
 lw $9, -1744($sp)
-lw $8, 0($9)
-sw $8, -16664($sp)
-lw $8, -16664($sp)
-lw $9, -16668($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16672($sp)
-add $8, $29, -18516
-sw $8, -16676($sp)
-lw $8, -16672($sp)
-lw $9, -16676($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18588($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16688($sp)
+add $11, $29, -18512
 lw $9, -1752($sp)
-lw $8, 0($9)
-sw $8, -16684($sp)
-lw $8, -16684($sp)
-lw $9, -16688($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16692($sp)
-add $8, $29, -18516
-sw $8, -16696($sp)
-lw $8, -16692($sp)
-lw $9, -16696($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18612($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16708($sp)
+add $11, $29, -18512
 lw $9, -1760($sp)
-lw $8, 0($9)
-sw $8, -16704($sp)
-lw $8, -16704($sp)
-lw $9, -16708($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16712($sp)
-add $8, $29, -18516
-sw $8, -16716($sp)
-lw $8, -16712($sp)
-lw $9, -16716($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18636($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16728($sp)
+add $11, $29, -18512
 lw $9, -1768($sp)
-lw $8, 0($9)
-sw $8, -16724($sp)
-lw $8, -16724($sp)
-lw $9, -16728($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16732($sp)
-add $8, $29, -18516
-sw $8, -16736($sp)
-lw $8, -16732($sp)
-lw $9, -16736($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18660($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16748($sp)
+add $11, $29, -18512
 lw $9, -1776($sp)
-lw $8, 0($9)
-sw $8, -16744($sp)
-lw $8, -16744($sp)
-lw $9, -16748($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16752($sp)
-add $8, $29, -18516
-sw $8, -16756($sp)
-lw $8, -16752($sp)
-lw $9, -16756($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18684($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16768($sp)
+add $11, $29, -18512
 lw $9, -1784($sp)
-lw $8, 0($9)
-sw $8, -16764($sp)
-lw $8, -16764($sp)
-lw $9, -16768($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16772($sp)
-add $8, $29, -18516
-sw $8, -16776($sp)
-lw $8, -16772($sp)
-lw $9, -16776($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18708($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16788($sp)
+add $11, $29, -18512
 lw $9, -1792($sp)
-lw $8, 0($9)
-sw $8, -16784($sp)
-lw $8, -16784($sp)
-lw $9, -16788($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16792($sp)
-add $8, $29, -18516
-sw $8, -16796($sp)
-lw $8, -16792($sp)
-lw $9, -16796($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18732($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16808($sp)
+add $11, $29, -18512
 lw $9, -1800($sp)
-lw $8, 0($9)
-sw $8, -16804($sp)
-lw $8, -16804($sp)
-lw $9, -16808($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16812($sp)
-add $8, $29, -18516
-sw $8, -16816($sp)
-lw $8, -16812($sp)
-lw $9, -16816($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18756($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16828($sp)
+add $11, $29, -18512
 lw $9, -1808($sp)
-lw $8, 0($9)
-sw $8, -16824($sp)
-lw $8, -16824($sp)
-lw $9, -16828($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16832($sp)
-add $8, $29, -18516
-sw $8, -16836($sp)
-lw $8, -16832($sp)
-lw $9, -16836($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18780($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16848($sp)
+add $11, $29, -18512
 lw $9, -1816($sp)
-lw $8, 0($9)
-sw $8, -16844($sp)
-lw $8, -16844($sp)
-lw $9, -16848($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16852($sp)
-add $8, $29, -18516
-sw $8, -16856($sp)
-lw $8, -16852($sp)
-lw $9, -16856($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18804($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16868($sp)
+add $11, $29, -18512
 lw $9, -1824($sp)
-lw $8, 0($9)
-sw $8, -16864($sp)
-lw $8, -16864($sp)
-lw $9, -16868($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16872($sp)
-add $8, $29, -18516
-sw $8, -16876($sp)
-lw $8, -16872($sp)
-lw $9, -16876($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18828($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16888($sp)
+add $11, $29, -18512
 lw $9, -1832($sp)
-lw $8, 0($9)
-sw $8, -16884($sp)
-lw $8, -16884($sp)
-lw $9, -16888($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16892($sp)
-add $8, $29, -18516
-sw $8, -16896($sp)
-lw $8, -16892($sp)
-lw $9, -16896($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18852($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16908($sp)
+add $11, $29, -18512
 lw $9, -1840($sp)
-lw $8, 0($9)
-sw $8, -16904($sp)
-lw $8, -16904($sp)
-lw $9, -16908($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16912($sp)
-add $8, $29, -18516
-sw $8, -16916($sp)
-lw $8, -16912($sp)
-lw $9, -16916($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18876($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16928($sp)
+add $11, $29, -18512
 lw $9, -1848($sp)
-lw $8, 0($9)
-sw $8, -16924($sp)
-lw $8, -16924($sp)
-lw $9, -16928($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16932($sp)
-add $8, $29, -18516
-sw $8, -16936($sp)
-lw $8, -16932($sp)
-lw $9, -16936($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18900($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16948($sp)
+add $11, $29, -18512
 lw $9, -1856($sp)
-lw $8, 0($9)
-sw $8, -16944($sp)
-lw $8, -16944($sp)
-lw $9, -16948($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16952($sp)
-add $8, $29, -18516
-sw $8, -16956($sp)
-lw $8, -16952($sp)
-lw $9, -16956($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18924($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16968($sp)
+add $11, $29, -18512
 lw $9, -1864($sp)
-lw $8, 0($9)
-sw $8, -16964($sp)
-lw $8, -16964($sp)
-lw $9, -16968($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16972($sp)
-add $8, $29, -18516
-sw $8, -16976($sp)
-lw $8, -16972($sp)
-lw $9, -16976($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18948($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -16988($sp)
+add $11, $29, -18512
 lw $9, -1872($sp)
-lw $8, 0($9)
-sw $8, -16984($sp)
-lw $8, -16984($sp)
-lw $9, -16988($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -16992($sp)
-add $8, $29, -18516
-sw $8, -16996($sp)
-lw $8, -16992($sp)
-lw $9, -16996($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18972($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17008($sp)
+add $11, $29, -18512
 lw $9, -1880($sp)
-lw $8, 0($9)
-sw $8, -17004($sp)
-lw $8, -17004($sp)
-lw $9, -17008($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17012($sp)
-add $8, $29, -18516
-sw $8, -17016($sp)
-lw $8, -17012($sp)
-lw $9, -17016($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 18996($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17028($sp)
+add $11, $29, -18512
 lw $9, -1888($sp)
-lw $8, 0($9)
-sw $8, -17024($sp)
-lw $8, -17024($sp)
-lw $9, -17028($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17032($sp)
-add $8, $29, -18516
-sw $8, -17036($sp)
-lw $8, -17032($sp)
-lw $9, -17036($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19020($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17048($sp)
+add $11, $29, -18512
 lw $9, -1896($sp)
-lw $8, 0($9)
-sw $8, -17044($sp)
-lw $8, -17044($sp)
-lw $9, -17048($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17052($sp)
-add $8, $29, -18516
-sw $8, -17056($sp)
-lw $8, -17052($sp)
-lw $9, -17056($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19044($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17068($sp)
+add $11, $29, -18512
 lw $9, -1904($sp)
-lw $8, 0($9)
-sw $8, -17064($sp)
-lw $8, -17064($sp)
-lw $9, -17068($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17072($sp)
-add $8, $29, -18516
-sw $8, -17076($sp)
-lw $8, -17072($sp)
-lw $9, -17076($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19068($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17088($sp)
+add $11, $29, -18512
 lw $9, -1912($sp)
-lw $8, 0($9)
-sw $8, -17084($sp)
-lw $8, -17084($sp)
-lw $9, -17088($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17092($sp)
-add $8, $29, -18516
-sw $8, -17096($sp)
-lw $8, -17092($sp)
-lw $9, -17096($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19092($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17108($sp)
+add $11, $29, -18512
 lw $9, -1920($sp)
-lw $8, 0($9)
-sw $8, -17104($sp)
-lw $8, -17104($sp)
-lw $9, -17108($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17112($sp)
-add $8, $29, -18516
-sw $8, -17116($sp)
-lw $8, -17112($sp)
-lw $9, -17116($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19116($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17128($sp)
+add $11, $29, -18512
 lw $9, -1928($sp)
-lw $8, 0($9)
-sw $8, -17124($sp)
-lw $8, -17124($sp)
-lw $9, -17128($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17132($sp)
-add $8, $29, -18516
-sw $8, -17136($sp)
-lw $8, -17132($sp)
-lw $9, -17136($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19140($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17148($sp)
+add $11, $29, -18512
 lw $9, -1936($sp)
-lw $8, 0($9)
-sw $8, -17144($sp)
-lw $8, -17144($sp)
-lw $9, -17148($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17152($sp)
-add $8, $29, -18516
-sw $8, -17156($sp)
-lw $8, -17152($sp)
-lw $9, -17156($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19164($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17168($sp)
+add $11, $29, -18512
 lw $9, -1944($sp)
-lw $8, 0($9)
-sw $8, -17164($sp)
-lw $8, -17164($sp)
-lw $9, -17168($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17172($sp)
-add $8, $29, -18516
-sw $8, -17176($sp)
-lw $8, -17172($sp)
-lw $9, -17176($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19188($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17188($sp)
+add $11, $29, -18512
 lw $9, -1952($sp)
-lw $8, 0($9)
-sw $8, -17184($sp)
-lw $8, -17184($sp)
-lw $9, -17188($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17192($sp)
-add $8, $29, -18516
-sw $8, -17196($sp)
-lw $8, -17192($sp)
-lw $9, -17196($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19212($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17208($sp)
+add $11, $29, -18512
 lw $9, -1960($sp)
-lw $8, 0($9)
-sw $8, -17204($sp)
-lw $8, -17204($sp)
-lw $9, -17208($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17212($sp)
-add $8, $29, -18516
-sw $8, -17216($sp)
-lw $8, -17212($sp)
-lw $9, -17216($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19236($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17228($sp)
+add $11, $29, -18512
 lw $9, -1968($sp)
-lw $8, 0($9)
-sw $8, -17224($sp)
-lw $8, -17224($sp)
-lw $9, -17228($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17232($sp)
-add $8, $29, -18516
-sw $8, -17236($sp)
-lw $8, -17232($sp)
-lw $9, -17236($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19260($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17248($sp)
+add $11, $29, -18512
 lw $9, -1976($sp)
-lw $8, 0($9)
-sw $8, -17244($sp)
-lw $8, -17244($sp)
-lw $9, -17248($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17252($sp)
-add $8, $29, -18516
-sw $8, -17256($sp)
-lw $8, -17252($sp)
-lw $9, -17256($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19284($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17268($sp)
+add $11, $29, -18512
 lw $9, -1984($sp)
-lw $8, 0($9)
-sw $8, -17264($sp)
-lw $8, -17264($sp)
-lw $9, -17268($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17272($sp)
-add $8, $29, -18516
-sw $8, -17276($sp)
-lw $8, -17272($sp)
-lw $9, -17276($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19308($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17288($sp)
+add $11, $29, -18512
 lw $9, -1992($sp)
-lw $8, 0($9)
-sw $8, -17284($sp)
-lw $8, -17284($sp)
-lw $9, -17288($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17292($sp)
-add $8, $29, -18516
-sw $8, -17296($sp)
-lw $8, -17292($sp)
-lw $9, -17296($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19332($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17308($sp)
+add $11, $29, -18512
 lw $9, -2000($sp)
-lw $8, 0($9)
-sw $8, -17304($sp)
-lw $8, -17304($sp)
-lw $9, -17308($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17312($sp)
-add $8, $29, -18516
-sw $8, -17316($sp)
-lw $8, -17312($sp)
-lw $9, -17316($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19356($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17328($sp)
+add $11, $29, -18512
 lw $9, -2008($sp)
-lw $8, 0($9)
-sw $8, -17324($sp)
-lw $8, -17324($sp)
-lw $9, -17328($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17332($sp)
-add $8, $29, -18516
-sw $8, -17336($sp)
-lw $8, -17332($sp)
-lw $9, -17336($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19380($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17348($sp)
+add $11, $29, -18512
 lw $9, -2016($sp)
-lw $8, 0($9)
-sw $8, -17344($sp)
-lw $8, -17344($sp)
-lw $9, -17348($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17352($sp)
-add $8, $29, -18516
-sw $8, -17356($sp)
-lw $8, -17352($sp)
-lw $9, -17356($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19404($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17368($sp)
+add $11, $29, -18512
 lw $9, -2024($sp)
-lw $8, 0($9)
-sw $8, -17364($sp)
-lw $8, -17364($sp)
-lw $9, -17368($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17372($sp)
-add $8, $29, -18516
-sw $8, -17376($sp)
-lw $8, -17372($sp)
-lw $9, -17376($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19428($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17388($sp)
+add $11, $29, -18512
 lw $9, -2032($sp)
-lw $8, 0($9)
-sw $8, -17384($sp)
-lw $8, -17384($sp)
-lw $9, -17388($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17392($sp)
-add $8, $29, -18516
-sw $8, -17396($sp)
-lw $8, -17392($sp)
-lw $9, -17396($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19452($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17408($sp)
+add $11, $29, -18512
 lw $9, -2040($sp)
-lw $8, 0($9)
-sw $8, -17404($sp)
-lw $8, -17404($sp)
-lw $9, -17408($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17412($sp)
-add $8, $29, -18516
-sw $8, -17416($sp)
-lw $8, -17412($sp)
-lw $9, -17416($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19476($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17428($sp)
+add $11, $29, -18512
 lw $9, -2048($sp)
-lw $8, 0($9)
-sw $8, -17424($sp)
-lw $8, -17424($sp)
-lw $9, -17428($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17432($sp)
-add $8, $29, -18516
-sw $8, -17436($sp)
-lw $8, -17432($sp)
-lw $9, -17436($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19500($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-add $8, $29, -18512
-sw $8, -17448($sp)
+add $11, $29, -18512
 lw $9, -2056($sp)
-lw $8, 0($9)
-sw $8, -17444($sp)
-lw $8, -17444($sp)
-lw $9, -17448($sp)
-sw $8, 0($9)
-lw $9, 7244($a3)
-move $8, $9
-sw $8, -17452($sp)
-add $8, $29, -18516
-sw $8, -17456($sp)
-lw $8, -17452($sp)
-lw $9, -17456($sp)
-sw $8, 0($9)
+lw $12, 0($9)
+sw $12, 0($11)
+lw $9, 19524($a3)
+move $11, $9
+add $12, $29, -18516
+sw $11, 0($12)
 add $29, $29, -18516
 jal __printf
 sub $29, $29, -18516
-lw $9, 12360($a3)
-move $8, $9
-sw $8, -17464($sp)
-add $8, $29, -18512
-sw $8, -17468($sp)
-lw $8, -17464($sp)
-lw $9, -17468($sp)
-sw $8, 0($9)
+lw $9, 19540($a3)
+move $11, $9
+add $12, $29, -18512
+sw $11, 0($12)
 add $29, $29, -18512
 jal __printf_single
 sub $29, $29, -18512
-li $8, 0
-sw $8, -17472($sp)
-add $8, $29, 4
-sw $8, -17476($sp)
-lw $8, -17472($sp)
-lw $9, -17476($sp)
-sw $8, 0($9)
+li $11, 0
+add $12, $29, 4
+sw $11, 0($12)
 j __main_end
 j __main_end
 __main_end:
 li $v0, 10
 syscall
-#string $1811 #%d 
-#string $3090 #\n
-#----------------------------
-#func #getcount
-#addi $2 $0 0
-####move $3 $2
-#lw $3 $2 0
-#move $4 $3
-#lw $3 $3 0
-#addi $3 $3 1
-#sw $3 $4 0
-#addi $5 $0 8
-#sw $3 $5 0
-#return
-#return
-#----------------------------
-#func #main
-#addi $7 $0 -17480
-####move $6 $7
-#addi $9 $0 -17484
-####move $8 $9
-#addi $11 $0 -17488
-####move $10 $11
-#addi $13 $0 -17492
-####move $12 $13
-#addi $15 $0 -17496
-####move $14 $15
-#addi $17 $0 -17500
-####move $16 $17
-#addi $19 $0 -17504
-####move $18 $19
-#addi $21 $0 -17508
-####move $20 $21
-#addi $23 $0 -17512
-####move $22 $23
-#addi $25 $0 -17516
-####move $24 $25
-#addi $27 $0 -17520
-####move $26 $27
-#addi $29 $0 -17524
-####move $28 $29
-#addi $31 $0 -17528
-####move $30 $31
-#addi $33 $0 -17532
-####move $32 $33
-#addi $35 $0 -17536
-####move $34 $35
-#addi $37 $0 -17540
-####move $36 $37
-#addi $39 $0 -17544
-####move $38 $39
-#addi $41 $0 -17548
-####move $40 $41
-#addi $43 $0 -17552
-####move $42 $43
-#addi $45 $0 -17556
-####move $44 $45
-#addi $47 $0 -17560
-####move $46 $47
-#addi $49 $0 -17564
-####move $48 $49
-#addi $51 $0 -17568
-####move $50 $51
-#addi $53 $0 -17572
-####move $52 $53
-#addi $55 $0 -17576
-####move $54 $55
-#addi $57 $0 -17580
-####move $56 $57
-#addi $59 $0 -17584
-####move $58 $59
-#addi $61 $0 -17588
-####move $60 $61
-#addi $63 $0 -17592
-####move $62 $63
-#addi $65 $0 -17596
-####move $64 $65
-#addi $67 $0 -17600
-####move $66 $67
-#addi $69 $0 -17604
-####move $68 $69
-#addi $71 $0 -17608
-####move $70 $71
-#addi $73 $0 -17612
-####move $72 $73
-#addi $75 $0 -17616
-####move $74 $75
-#addi $77 $0 -17620
-####move $76 $77
-#addi $79 $0 -17624
-####move $78 $79
-#addi $81 $0 -17628
-####move $80 $81
-#addi $83 $0 -17632
-####move $82 $83
-#addi $85 $0 -17636
-####move $84 $85
-#addi $87 $0 -17640
-####move $86 $87
-#addi $89 $0 -17644
-####move $88 $89
-#addi $91 $0 -17648
-####move $90 $91
-#addi $93 $0 -17652
-####move $92 $93
-#addi $95 $0 -17656
-####move $94 $95
-#addi $97 $0 -17660
-####move $96 $97
-#addi $99 $0 -17664
-####move $98 $99
-#addi $101 $0 -17668
-####move $100 $101
-#addi $103 $0 -17672
-####move $102 $103
-#addi $105 $0 -17676
-####move $104 $105
-#addi $107 $0 -17680
-####move $106 $107
-#addi $109 $0 -17684
-####move $108 $109
-#addi $111 $0 -17688
-####move $110 $111
-#addi $113 $0 -17692
-####move $112 $113
-#addi $115 $0 -17696
-####move $114 $115
-#addi $117 $0 -17700
-####move $116 $117
-#addi $119 $0 -17704
-####move $118 $119
-#addi $121 $0 -17708
-####move $120 $121
-#addi $123 $0 -17712
-####move $122 $123
-#addi $125 $0 -17716
-####move $124 $125
-#addi $127 $0 -17720
-####move $126 $127
-#addi $129 $0 -17724
-####move $128 $129
-#addi $131 $0 -17728
-####move $130 $131
-#addi $133 $0 -17732
-####move $132 $133
-#addi $135 $0 -17736
-####move $134 $135
-#addi $137 $0 -17740
-####move $136 $137
-#addi $139 $0 -17744
-####move $138 $139
-#addi $141 $0 -17748
-####move $140 $141
-#addi $143 $0 -17752
-####move $142 $143
-#addi $145 $0 -17756
-####move $144 $145
-#addi $147 $0 -17760
-####move $146 $147
-#addi $149 $0 -17764
-####move $148 $149
-#addi $151 $0 -17768
-####move $150 $151
-#addi $153 $0 -17772
-####move $152 $153
-#addi $155 $0 -17776
-####move $154 $155
-#addi $157 $0 -17780
-####move $156 $157
-#addi $159 $0 -17784
-####move $158 $159
-#addi $161 $0 -17788
-####move $160 $161
-#addi $163 $0 -17792
-####move $162 $163
-#addi $165 $0 -17796
-####move $164 $165
-#addi $167 $0 -17800
-####move $166 $167
-#addi $169 $0 -17804
-####move $168 $169
-#addi $171 $0 -17808
-####move $170 $171
-#addi $173 $0 -17812
-####move $172 $173
-#addi $175 $0 -17816
-####move $174 $175
-#addi $177 $0 -17820
-####move $176 $177
-#addi $179 $0 -17824
-####move $178 $179
-#addi $181 $0 -17828
-####move $180 $181
-#addi $183 $0 -17832
-####move $182 $183
-#addi $185 $0 -17836
-####move $184 $185
-#addi $187 $0 -17840
-####move $186 $187
-#addi $189 $0 -17844
-####move $188 $189
-#addi $191 $0 -17848
-####move $190 $191
-#addi $193 $0 -17852
-####move $192 $193
-#addi $195 $0 -17856
-####move $194 $195
-#addi $197 $0 -17860
-####move $196 $197
-#addi $199 $0 -17864
-####move $198 $199
-#addi $201 $0 -17868
-####move $200 $201
-#addi $203 $0 -17872
-####move $202 $203
-#addi $205 $0 -17876
-####move $204 $205
-#addi $207 $0 -17880
-####move $206 $207
-#addi $209 $0 -17884
-####move $208 $209
-#addi $211 $0 -17888
-####move $210 $211
-#addi $213 $0 -17892
-####move $212 $213
-#addi $215 $0 -17896
-####move $214 $215
-#addi $217 $0 -17900
-####move $216 $217
-#addi $219 $0 -17904
-####move $218 $219
-#addi $221 $0 -17908
-####move $220 $221
-#addi $223 $0 -17912
-####move $222 $223
-#addi $225 $0 -17916
-####move $224 $225
-#addi $227 $0 -17920
-####move $226 $227
-#addi $229 $0 -17924
-####move $228 $229
-#addi $231 $0 -17928
-####move $230 $231
-#addi $233 $0 -17932
-####move $232 $233
-#addi $235 $0 -17936
-####move $234 $235
-#addi $237 $0 -17940
-####move $236 $237
-#addi $239 $0 -17944
-####move $238 $239
-#addi $241 $0 -17948
-####move $240 $241
-#addi $243 $0 -17952
-####move $242 $243
-#addi $245 $0 -17956
-####move $244 $245
-#addi $247 $0 -17960
-####move $246 $247
-#addi $249 $0 -17964
-####move $248 $249
-#addi $251 $0 -17968
-####move $250 $251
-#addi $253 $0 -17972
-####move $252 $253
-#addi $255 $0 -17976
-####move $254 $255
-#addi $257 $0 -17980
-####move $256 $257
-#addi $259 $0 -17984
-####move $258 $259
-#addi $261 $0 -17988
-####move $260 $261
-#addi $263 $0 -17992
-####move $262 $263
-#addi $265 $0 -17996
-####move $264 $265
-#addi $267 $0 -18000
-####move $266 $267
-#addi $269 $0 -18004
-####move $268 $269
-#addi $271 $0 -18008
-####move $270 $271
-#addi $273 $0 -18012
-####move $272 $273
-#addi $275 $0 -18016
-####move $274 $275
-#addi $277 $0 -18020
-####move $276 $277
-#addi $279 $0 -18024
-####move $278 $279
-#addi $281 $0 -18028
-####move $280 $281
-#addi $283 $0 -18032
-####move $282 $283
-#addi $285 $0 -18036
-####move $284 $285
-#addi $287 $0 -18040
-####move $286 $287
-#addi $289 $0 -18044
-####move $288 $289
-#addi $291 $0 -18048
-####move $290 $291
-#addi $293 $0 -18052
-####move $292 $293
-#addi $295 $0 -18056
-####move $294 $295
-#addi $297 $0 -18060
-####move $296 $297
-#addi $299 $0 -18064
-####move $298 $299
-#addi $301 $0 -18068
-####move $300 $301
-#addi $303 $0 -18072
-####move $302 $303
-#addi $305 $0 -18076
-####move $304 $305
-#addi $307 $0 -18080
-####move $306 $307
-#addi $309 $0 -18084
-####move $308 $309
-#addi $311 $0 -18088
-####move $310 $311
-#addi $313 $0 -18092
-####move $312 $313
-#addi $315 $0 -18096
-####move $314 $315
-#addi $317 $0 -18100
-####move $316 $317
-#addi $319 $0 -18104
-####move $318 $319
-#addi $321 $0 -18108
-####move $320 $321
-#addi $323 $0 -18112
-####move $322 $323
-#addi $325 $0 -18116
-####move $324 $325
-#addi $327 $0 -18120
-####move $326 $327
-#addi $329 $0 -18124
-####move $328 $329
-#addi $331 $0 -18128
-####move $330 $331
-#addi $333 $0 -18132
-####move $332 $333
-#addi $335 $0 -18136
-####move $334 $335
-#addi $337 $0 -18140
-####move $336 $337
-#addi $339 $0 -18144
-####move $338 $339
-#addi $341 $0 -18148
-####move $340 $341
-#addi $343 $0 -18152
-####move $342 $343
-#addi $345 $0 -18156
-####move $344 $345
-#addi $347 $0 -18160
-####move $346 $347
-#addi $349 $0 -18164
-####move $348 $349
-#addi $351 $0 -18168
-####move $350 $351
-#addi $353 $0 -18172
-####move $352 $353
-#addi $355 $0 -18176
-####move $354 $355
-#addi $357 $0 -18180
-####move $356 $357
-#addi $359 $0 -18184
-####move $358 $359
-#addi $361 $0 -18188
-####move $360 $361
-#addi $363 $0 -18192
-####move $362 $363
-#addi $365 $0 -18196
-####move $364 $365
-#addi $367 $0 -18200
-####move $366 $367
-#addi $369 $0 -18204
-####move $368 $369
-#addi $371 $0 -18208
-####move $370 $371
-#addi $373 $0 -18212
-####move $372 $373
-#addi $375 $0 -18216
-####move $374 $375
-#addi $377 $0 -18220
-####move $376 $377
-#addi $379 $0 -18224
-####move $378 $379
-#addi $381 $0 -18228
-####move $380 $381
-#addi $383 $0 -18232
-####move $382 $383
-#addi $385 $0 -18236
-####move $384 $385
-#addi $387 $0 -18240
-####move $386 $387
-#addi $389 $0 -18244
-####move $388 $389
-#addi $391 $0 -18248
-####move $390 $391
-#addi $393 $0 -18252
-####move $392 $393
-#addi $395 $0 -18256
-####move $394 $395
-#addi $397 $0 -18260
-####move $396 $397
-#addi $399 $0 -18264
-####move $398 $399
-#addi $401 $0 -18268
-####move $400 $401
-#addi $403 $0 -18272
-####move $402 $403
-#addi $405 $0 -18276
-####move $404 $405
-#addi $407 $0 -18280
-####move $406 $407
-#addi $409 $0 -18284
-####move $408 $409
-#addi $411 $0 -18288
-####move $410 $411
-#addi $413 $0 -18292
-####move $412 $413
-#addi $415 $0 -18296
-####move $414 $415
-#addi $417 $0 -18300
-####move $416 $417
-#addi $419 $0 -18304
-####move $418 $419
-#addi $421 $0 -18308
-####move $420 $421
-#addi $423 $0 -18312
-####move $422 $423
-#addi $425 $0 -18316
-####move $424 $425
-#addi $427 $0 -18320
-####move $426 $427
-#addi $429 $0 -18324
-####move $428 $429
-#addi $431 $0 -18328
-####move $430 $431
-#addi $433 $0 -18332
-####move $432 $433
-#addi $435 $0 -18336
-####move $434 $435
-#addi $437 $0 -18340
-####move $436 $437
-#addi $439 $0 -18344
-####move $438 $439
-#addi $441 $0 -18348
-####move $440 $441
-#addi $443 $0 -18352
-####move $442 $443
-#addi $445 $0 -18356
-####move $444 $445
-#addi $447 $0 -18360
-####move $446 $447
-#addi $449 $0 -18364
-####move $448 $449
-#addi $451 $0 -18368
-####move $450 $451
-#addi $453 $0 -18372
-####move $452 $453
-#addi $455 $0 -18376
-####move $454 $455
-#addi $457 $0 -18380
-####move $456 $457
-#addi $459 $0 -18384
-####move $458 $459
-#addi $461 $0 -18388
-####move $460 $461
-#addi $463 $0 -18392
-####move $462 $463
-#addi $465 $0 -18396
-####move $464 $465
-#addi $467 $0 -18400
-####move $466 $467
-#addi $469 $0 -18404
-####move $468 $469
-#addi $471 $0 -18408
-####move $470 $471
-#addi $473 $0 -18412
-####move $472 $473
-#addi $475 $0 -18416
-####move $474 $475
-#addi $477 $0 -18420
-####move $476 $477
-#addi $479 $0 -18424
-####move $478 $479
-#addi $481 $0 -18428
-####move $480 $481
-#addi $483 $0 -18432
-####move $482 $483
-#addi $485 $0 -18436
-####move $484 $485
-#addi $487 $0 -18440
-####move $486 $487
-#addi $489 $0 -18444
-####move $488 $489
-#addi $491 $0 -18448
-####move $490 $491
-#addi $493 $0 -18452
-####move $492 $493
-#addi $495 $0 -18456
-####move $494 $495
-#addi $497 $0 -18460
-####move $496 $497
-#addi $499 $0 -18464
-####move $498 $499
-#addi $501 $0 -18468
-####move $500 $501
-#addi $503 $0 -18472
-####move $502 $503
-#addi $505 $0 -18476
-####move $504 $505
-#addi $507 $0 -18480
-####move $506 $507
-#addi $509 $0 -18484
-####move $508 $509
-#addi $511 $0 -18488
-####move $510 $511
-#addi $513 $0 -18492
-####move $512 $513
-#addi $515 $0 -18496
-####move $514 $515
-#addi $517 $0 -18500
-####move $516 $517
-#addi $519 $0 -18504
-####move $518 $519
-#move $520 $7
-#li $522 4
-#addi $523 $0 -18516
-#sw $522 $523 0
-#addi $0 $0 -18516
-#call #malloc
-#subi $0 $0 -18516
-#addi $524 $0 -18508
-####move $521 $524
-#lw $521 $524 0
-#sw $521 $520 0
-####move $525 $7
-#lw $525 $7 0
-#li $526 0
-#sw $526 $525 0
-#move $527 $9
-####move $529 $7
-#addi $530 $0 -18516
-#lw $529 $7 0
-#sw $529 $530 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $531 $0 -18508
-####move $528 $531
-#lw $528 $531 0
-#sw $528 $527 0
-#move $532 $11
-####move $534 $7
-#addi $535 $0 -18516
-#lw $534 $7 0
-#sw $534 $535 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $536 $0 -18508
-####move $533 $536
-#lw $533 $536 0
-#sw $533 $532 0
-#move $537 $13
-####move $539 $7
-#addi $540 $0 -18516
-#lw $539 $7 0
-#sw $539 $540 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $541 $0 -18508
-####move $538 $541
-#lw $538 $541 0
-#sw $538 $537 0
-#move $542 $15
-####move $544 $7
-#addi $545 $0 -18516
-#lw $544 $7 0
-#sw $544 $545 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $546 $0 -18508
-####move $543 $546
-#lw $543 $546 0
-#sw $543 $542 0
-#move $547 $17
-####move $549 $7
-#addi $550 $0 -18516
-#lw $549 $7 0
-#sw $549 $550 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $551 $0 -18508
-####move $548 $551
-#lw $548 $551 0
-#sw $548 $547 0
-#move $552 $19
-####move $554 $7
-#addi $555 $0 -18516
-#lw $554 $7 0
-#sw $554 $555 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $556 $0 -18508
-####move $553 $556
-#lw $553 $556 0
-#sw $553 $552 0
-#move $557 $21
-####move $559 $7
-#addi $560 $0 -18516
-#lw $559 $7 0
-#sw $559 $560 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $561 $0 -18508
-####move $558 $561
-#lw $558 $561 0
-#sw $558 $557 0
-#move $562 $23
-####move $564 $7
-#addi $565 $0 -18516
-#lw $564 $7 0
-#sw $564 $565 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $566 $0 -18508
-####move $563 $566
-#lw $563 $566 0
-#sw $563 $562 0
-#move $567 $25
-####move $569 $7
-#addi $570 $0 -18516
-#lw $569 $7 0
-#sw $569 $570 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $571 $0 -18508
-####move $568 $571
-#lw $568 $571 0
-#sw $568 $567 0
-#move $572 $27
-####move $574 $7
-#addi $575 $0 -18516
-#lw $574 $7 0
-#sw $574 $575 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $576 $0 -18508
-####move $573 $576
-#lw $573 $576 0
-#sw $573 $572 0
-#move $577 $29
-####move $579 $7
-#addi $580 $0 -18516
-#lw $579 $7 0
-#sw $579 $580 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $581 $0 -18508
-####move $578 $581
-#lw $578 $581 0
-#sw $578 $577 0
-#move $582 $31
-####move $584 $7
-#addi $585 $0 -18516
-#lw $584 $7 0
-#sw $584 $585 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $586 $0 -18508
-####move $583 $586
-#lw $583 $586 0
-#sw $583 $582 0
-#move $587 $33
-####move $589 $7
-#addi $590 $0 -18516
-#lw $589 $7 0
-#sw $589 $590 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $591 $0 -18508
-####move $588 $591
-#lw $588 $591 0
-#sw $588 $587 0
-#move $592 $35
-####move $594 $7
-#addi $595 $0 -18516
-#lw $594 $7 0
-#sw $594 $595 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $596 $0 -18508
-####move $593 $596
-#lw $593 $596 0
-#sw $593 $592 0
-#move $597 $37
-####move $599 $7
-#addi $600 $0 -18516
-#lw $599 $7 0
-#sw $599 $600 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $601 $0 -18508
-####move $598 $601
-#lw $598 $601 0
-#sw $598 $597 0
-#move $602 $39
-####move $604 $7
-#addi $605 $0 -18516
-#lw $604 $7 0
-#sw $604 $605 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $606 $0 -18508
-####move $603 $606
-#lw $603 $606 0
-#sw $603 $602 0
-#move $607 $41
-####move $609 $7
-#addi $610 $0 -18516
-#lw $609 $7 0
-#sw $609 $610 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $611 $0 -18508
-####move $608 $611
-#lw $608 $611 0
-#sw $608 $607 0
-#move $612 $43
-####move $614 $7
-#addi $615 $0 -18516
-#lw $614 $7 0
-#sw $614 $615 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $616 $0 -18508
-####move $613 $616
-#lw $613 $616 0
-#sw $613 $612 0
-#move $617 $45
-####move $619 $7
-#addi $620 $0 -18516
-#lw $619 $7 0
-#sw $619 $620 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $621 $0 -18508
-####move $618 $621
-#lw $618 $621 0
-#sw $618 $617 0
-#move $622 $47
-####move $624 $7
-#addi $625 $0 -18516
-#lw $624 $7 0
-#sw $624 $625 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $626 $0 -18508
-####move $623 $626
-#lw $623 $626 0
-#sw $623 $622 0
-#move $627 $49
-####move $629 $7
-#addi $630 $0 -18516
-#lw $629 $7 0
-#sw $629 $630 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $631 $0 -18508
-####move $628 $631
-#lw $628 $631 0
-#sw $628 $627 0
-#move $632 $51
-####move $634 $7
-#addi $635 $0 -18516
-#lw $634 $7 0
-#sw $634 $635 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $636 $0 -18508
-####move $633 $636
-#lw $633 $636 0
-#sw $633 $632 0
-#move $637 $53
-####move $639 $7
-#addi $640 $0 -18516
-#lw $639 $7 0
-#sw $639 $640 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $641 $0 -18508
-####move $638 $641
-#lw $638 $641 0
-#sw $638 $637 0
-#move $642 $55
-####move $644 $7
-#addi $645 $0 -18516
-#lw $644 $7 0
-#sw $644 $645 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $646 $0 -18508
-####move $643 $646
-#lw $643 $646 0
-#sw $643 $642 0
-#move $647 $57
-####move $649 $7
-#addi $650 $0 -18516
-#lw $649 $7 0
-#sw $649 $650 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $651 $0 -18508
-####move $648 $651
-#lw $648 $651 0
-#sw $648 $647 0
-#move $652 $59
-####move $654 $7
-#addi $655 $0 -18516
-#lw $654 $7 0
-#sw $654 $655 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $656 $0 -18508
-####move $653 $656
-#lw $653 $656 0
-#sw $653 $652 0
-#move $657 $61
-####move $659 $7
-#addi $660 $0 -18516
-#lw $659 $7 0
-#sw $659 $660 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $661 $0 -18508
-####move $658 $661
-#lw $658 $661 0
-#sw $658 $657 0
-#move $662 $63
-####move $664 $7
-#addi $665 $0 -18516
-#lw $664 $7 0
-#sw $664 $665 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $666 $0 -18508
-####move $663 $666
-#lw $663 $666 0
-#sw $663 $662 0
-#move $667 $65
-####move $669 $7
-#addi $670 $0 -18516
-#lw $669 $7 0
-#sw $669 $670 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $671 $0 -18508
-####move $668 $671
-#lw $668 $671 0
-#sw $668 $667 0
-#move $672 $67
-####move $674 $7
-#addi $675 $0 -18516
-#lw $674 $7 0
-#sw $674 $675 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $676 $0 -18508
-####move $673 $676
-#lw $673 $676 0
-#sw $673 $672 0
-#move $677 $69
-####move $679 $7
-#addi $680 $0 -18516
-#lw $679 $7 0
-#sw $679 $680 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $681 $0 -18508
-####move $678 $681
-#lw $678 $681 0
-#sw $678 $677 0
-#move $682 $71
-####move $684 $7
-#addi $685 $0 -18516
-#lw $684 $7 0
-#sw $684 $685 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $686 $0 -18508
-####move $683 $686
-#lw $683 $686 0
-#sw $683 $682 0
-#move $687 $73
-####move $689 $7
-#addi $690 $0 -18516
-#lw $689 $7 0
-#sw $689 $690 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $691 $0 -18508
-####move $688 $691
-#lw $688 $691 0
-#sw $688 $687 0
-#move $692 $75
-####move $694 $7
-#addi $695 $0 -18516
-#lw $694 $7 0
-#sw $694 $695 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $696 $0 -18508
-####move $693 $696
-#lw $693 $696 0
-#sw $693 $692 0
-#move $697 $77
-####move $699 $7
-#addi $700 $0 -18516
-#lw $699 $7 0
-#sw $699 $700 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $701 $0 -18508
-####move $698 $701
-#lw $698 $701 0
-#sw $698 $697 0
-#move $702 $79
-####move $704 $7
-#addi $705 $0 -18516
-#lw $704 $7 0
-#sw $704 $705 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $706 $0 -18508
-####move $703 $706
-#lw $703 $706 0
-#sw $703 $702 0
-#move $707 $81
-####move $709 $7
-#addi $710 $0 -18516
-#lw $709 $7 0
-#sw $709 $710 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $711 $0 -18508
-####move $708 $711
-#lw $708 $711 0
-#sw $708 $707 0
-#move $712 $83
-####move $714 $7
-#addi $715 $0 -18516
-#lw $714 $7 0
-#sw $714 $715 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $716 $0 -18508
-####move $713 $716
-#lw $713 $716 0
-#sw $713 $712 0
-#move $717 $85
-####move $719 $7
-#addi $720 $0 -18516
-#lw $719 $7 0
-#sw $719 $720 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $721 $0 -18508
-####move $718 $721
-#lw $718 $721 0
-#sw $718 $717 0
-#move $722 $87
-####move $724 $7
-#addi $725 $0 -18516
-#lw $724 $7 0
-#sw $724 $725 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $726 $0 -18508
-####move $723 $726
-#lw $723 $726 0
-#sw $723 $722 0
-#move $727 $89
-####move $729 $7
-#addi $730 $0 -18516
-#lw $729 $7 0
-#sw $729 $730 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $731 $0 -18508
-####move $728 $731
-#lw $728 $731 0
-#sw $728 $727 0
-#move $732 $91
-####move $734 $7
-#addi $735 $0 -18516
-#lw $734 $7 0
-#sw $734 $735 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $736 $0 -18508
-####move $733 $736
-#lw $733 $736 0
-#sw $733 $732 0
-#move $737 $93
-####move $739 $7
-#addi $740 $0 -18516
-#lw $739 $7 0
-#sw $739 $740 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $741 $0 -18508
-####move $738 $741
-#lw $738 $741 0
-#sw $738 $737 0
-#move $742 $95
-####move $744 $7
-#addi $745 $0 -18516
-#lw $744 $7 0
-#sw $744 $745 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $746 $0 -18508
-####move $743 $746
-#lw $743 $746 0
-#sw $743 $742 0
-#move $747 $97
-####move $749 $7
-#addi $750 $0 -18516
-#lw $749 $7 0
-#sw $749 $750 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $751 $0 -18508
-####move $748 $751
-#lw $748 $751 0
-#sw $748 $747 0
-#move $752 $99
-####move $754 $7
-#addi $755 $0 -18516
-#lw $754 $7 0
-#sw $754 $755 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $756 $0 -18508
-####move $753 $756
-#lw $753 $756 0
-#sw $753 $752 0
-#move $757 $101
-####move $759 $7
-#addi $760 $0 -18516
-#lw $759 $7 0
-#sw $759 $760 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $761 $0 -18508
-####move $758 $761
-#lw $758 $761 0
-#sw $758 $757 0
-#move $762 $103
-####move $764 $7
-#addi $765 $0 -18516
-#lw $764 $7 0
-#sw $764 $765 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $766 $0 -18508
-####move $763 $766
-#lw $763 $766 0
-#sw $763 $762 0
-#move $767 $105
-####move $769 $7
-#addi $770 $0 -18516
-#lw $769 $7 0
-#sw $769 $770 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $771 $0 -18508
-####move $768 $771
-#lw $768 $771 0
-#sw $768 $767 0
-#move $772 $107
-####move $774 $7
-#addi $775 $0 -18516
-#lw $774 $7 0
-#sw $774 $775 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $776 $0 -18508
-####move $773 $776
-#lw $773 $776 0
-#sw $773 $772 0
-#move $777 $109
-####move $779 $7
-#addi $780 $0 -18516
-#lw $779 $7 0
-#sw $779 $780 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $781 $0 -18508
-####move $778 $781
-#lw $778 $781 0
-#sw $778 $777 0
-#move $782 $111
-####move $784 $7
-#addi $785 $0 -18516
-#lw $784 $7 0
-#sw $784 $785 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $786 $0 -18508
-####move $783 $786
-#lw $783 $786 0
-#sw $783 $782 0
-#move $787 $113
-####move $789 $7
-#addi $790 $0 -18516
-#lw $789 $7 0
-#sw $789 $790 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $791 $0 -18508
-####move $788 $791
-#lw $788 $791 0
-#sw $788 $787 0
-#move $792 $115
-####move $794 $7
-#addi $795 $0 -18516
-#lw $794 $7 0
-#sw $794 $795 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $796 $0 -18508
-####move $793 $796
-#lw $793 $796 0
-#sw $793 $792 0
-#move $797 $117
-####move $799 $7
-#addi $800 $0 -18516
-#lw $799 $7 0
-#sw $799 $800 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $801 $0 -18508
-####move $798 $801
-#lw $798 $801 0
-#sw $798 $797 0
-#move $802 $119
-####move $804 $7
-#addi $805 $0 -18516
-#lw $804 $7 0
-#sw $804 $805 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $806 $0 -18508
-####move $803 $806
-#lw $803 $806 0
-#sw $803 $802 0
-#move $807 $121
-####move $809 $7
-#addi $810 $0 -18516
-#lw $809 $7 0
-#sw $809 $810 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $811 $0 -18508
-####move $808 $811
-#lw $808 $811 0
-#sw $808 $807 0
-#move $812 $123
-####move $814 $7
-#addi $815 $0 -18516
-#lw $814 $7 0
-#sw $814 $815 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $816 $0 -18508
-####move $813 $816
-#lw $813 $816 0
-#sw $813 $812 0
-#move $817 $125
-####move $819 $7
-#addi $820 $0 -18516
-#lw $819 $7 0
-#sw $819 $820 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $821 $0 -18508
-####move $818 $821
-#lw $818 $821 0
-#sw $818 $817 0
-#move $822 $127
-####move $824 $7
-#addi $825 $0 -18516
-#lw $824 $7 0
-#sw $824 $825 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $826 $0 -18508
-####move $823 $826
-#lw $823 $826 0
-#sw $823 $822 0
-#move $827 $129
-####move $829 $7
-#addi $830 $0 -18516
-#lw $829 $7 0
-#sw $829 $830 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $831 $0 -18508
-####move $828 $831
-#lw $828 $831 0
-#sw $828 $827 0
-#move $832 $131
-####move $834 $7
-#addi $835 $0 -18516
-#lw $834 $7 0
-#sw $834 $835 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $836 $0 -18508
-####move $833 $836
-#lw $833 $836 0
-#sw $833 $832 0
-#move $837 $133
-####move $839 $7
-#addi $840 $0 -18516
-#lw $839 $7 0
-#sw $839 $840 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $841 $0 -18508
-####move $838 $841
-#lw $838 $841 0
-#sw $838 $837 0
-#move $842 $135
-####move $844 $7
-#addi $845 $0 -18516
-#lw $844 $7 0
-#sw $844 $845 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $846 $0 -18508
-####move $843 $846
-#lw $843 $846 0
-#sw $843 $842 0
-#move $847 $137
-####move $849 $7
-#addi $850 $0 -18516
-#lw $849 $7 0
-#sw $849 $850 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $851 $0 -18508
-####move $848 $851
-#lw $848 $851 0
-#sw $848 $847 0
-#move $852 $139
-####move $854 $7
-#addi $855 $0 -18516
-#lw $854 $7 0
-#sw $854 $855 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $856 $0 -18508
-####move $853 $856
-#lw $853 $856 0
-#sw $853 $852 0
-#move $857 $141
-####move $859 $7
-#addi $860 $0 -18516
-#lw $859 $7 0
-#sw $859 $860 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $861 $0 -18508
-####move $858 $861
-#lw $858 $861 0
-#sw $858 $857 0
-#move $862 $143
-####move $864 $7
-#addi $865 $0 -18516
-#lw $864 $7 0
-#sw $864 $865 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $866 $0 -18508
-####move $863 $866
-#lw $863 $866 0
-#sw $863 $862 0
-#move $867 $145
-####move $869 $7
-#addi $870 $0 -18516
-#lw $869 $7 0
-#sw $869 $870 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $871 $0 -18508
-####move $868 $871
-#lw $868 $871 0
-#sw $868 $867 0
-#move $872 $147
-####move $874 $7
-#addi $875 $0 -18516
-#lw $874 $7 0
-#sw $874 $875 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $876 $0 -18508
-####move $873 $876
-#lw $873 $876 0
-#sw $873 $872 0
-#move $877 $149
-####move $879 $7
-#addi $880 $0 -18516
-#lw $879 $7 0
-#sw $879 $880 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $881 $0 -18508
-####move $878 $881
-#lw $878 $881 0
-#sw $878 $877 0
-#move $882 $151
-####move $884 $7
-#addi $885 $0 -18516
-#lw $884 $7 0
-#sw $884 $885 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $886 $0 -18508
-####move $883 $886
-#lw $883 $886 0
-#sw $883 $882 0
-#move $887 $153
-####move $889 $7
-#addi $890 $0 -18516
-#lw $889 $7 0
-#sw $889 $890 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $891 $0 -18508
-####move $888 $891
-#lw $888 $891 0
-#sw $888 $887 0
-#move $892 $155
-####move $894 $7
-#addi $895 $0 -18516
-#lw $894 $7 0
-#sw $894 $895 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $896 $0 -18508
-####move $893 $896
-#lw $893 $896 0
-#sw $893 $892 0
-#move $897 $157
-####move $899 $7
-#addi $900 $0 -18516
-#lw $899 $7 0
-#sw $899 $900 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $901 $0 -18508
-####move $898 $901
-#lw $898 $901 0
-#sw $898 $897 0
-#move $902 $159
-####move $904 $7
-#addi $905 $0 -18516
-#lw $904 $7 0
-#sw $904 $905 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $906 $0 -18508
-####move $903 $906
-#lw $903 $906 0
-#sw $903 $902 0
-#move $907 $161
-####move $909 $7
-#addi $910 $0 -18516
-#lw $909 $7 0
-#sw $909 $910 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $911 $0 -18508
-####move $908 $911
-#lw $908 $911 0
-#sw $908 $907 0
-#move $912 $163
-####move $914 $7
-#addi $915 $0 -18516
-#lw $914 $7 0
-#sw $914 $915 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $916 $0 -18508
-####move $913 $916
-#lw $913 $916 0
-#sw $913 $912 0
-#move $917 $165
-####move $919 $7
-#addi $920 $0 -18516
-#lw $919 $7 0
-#sw $919 $920 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $921 $0 -18508
-####move $918 $921
-#lw $918 $921 0
-#sw $918 $917 0
-#move $922 $167
-####move $924 $7
-#addi $925 $0 -18516
-#lw $924 $7 0
-#sw $924 $925 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $926 $0 -18508
-####move $923 $926
-#lw $923 $926 0
-#sw $923 $922 0
-#move $927 $169
-####move $929 $7
-#addi $930 $0 -18516
-#lw $929 $7 0
-#sw $929 $930 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $931 $0 -18508
-####move $928 $931
-#lw $928 $931 0
-#sw $928 $927 0
-#move $932 $171
-####move $934 $7
-#addi $935 $0 -18516
-#lw $934 $7 0
-#sw $934 $935 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $936 $0 -18508
-####move $933 $936
-#lw $933 $936 0
-#sw $933 $932 0
-#move $937 $173
-####move $939 $7
-#addi $940 $0 -18516
-#lw $939 $7 0
-#sw $939 $940 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $941 $0 -18508
-####move $938 $941
-#lw $938 $941 0
-#sw $938 $937 0
-#move $942 $175
-####move $944 $7
-#addi $945 $0 -18516
-#lw $944 $7 0
-#sw $944 $945 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $946 $0 -18508
-####move $943 $946
-#lw $943 $946 0
-#sw $943 $942 0
-#move $947 $177
-####move $949 $7
-#addi $950 $0 -18516
-#lw $949 $7 0
-#sw $949 $950 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $951 $0 -18508
-####move $948 $951
-#lw $948 $951 0
-#sw $948 $947 0
-#move $952 $179
-####move $954 $7
-#addi $955 $0 -18516
-#lw $954 $7 0
-#sw $954 $955 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $956 $0 -18508
-####move $953 $956
-#lw $953 $956 0
-#sw $953 $952 0
-#move $957 $181
-####move $959 $7
-#addi $960 $0 -18516
-#lw $959 $7 0
-#sw $959 $960 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $961 $0 -18508
-####move $958 $961
-#lw $958 $961 0
-#sw $958 $957 0
-#move $962 $183
-####move $964 $7
-#addi $965 $0 -18516
-#lw $964 $7 0
-#sw $964 $965 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $966 $0 -18508
-####move $963 $966
-#lw $963 $966 0
-#sw $963 $962 0
-#move $967 $185
-####move $969 $7
-#addi $970 $0 -18516
-#lw $969 $7 0
-#sw $969 $970 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $971 $0 -18508
-####move $968 $971
-#lw $968 $971 0
-#sw $968 $967 0
-#move $972 $187
-####move $974 $7
-#addi $975 $0 -18516
-#lw $974 $7 0
-#sw $974 $975 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $976 $0 -18508
-####move $973 $976
-#lw $973 $976 0
-#sw $973 $972 0
-#move $977 $189
-####move $979 $7
-#addi $980 $0 -18516
-#lw $979 $7 0
-#sw $979 $980 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $981 $0 -18508
-####move $978 $981
-#lw $978 $981 0
-#sw $978 $977 0
-#move $982 $191
-####move $984 $7
-#addi $985 $0 -18516
-#lw $984 $7 0
-#sw $984 $985 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $986 $0 -18508
-####move $983 $986
-#lw $983 $986 0
-#sw $983 $982 0
-#move $987 $193
-####move $989 $7
-#addi $990 $0 -18516
-#lw $989 $7 0
-#sw $989 $990 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $991 $0 -18508
-####move $988 $991
-#lw $988 $991 0
-#sw $988 $987 0
-#move $992 $195
-####move $994 $7
-#addi $995 $0 -18516
-#lw $994 $7 0
-#sw $994 $995 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $996 $0 -18508
-####move $993 $996
-#lw $993 $996 0
-#sw $993 $992 0
-#move $997 $197
-####move $999 $7
-#addi $1000 $0 -18516
-#lw $999 $7 0
-#sw $999 $1000 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1001 $0 -18508
-####move $998 $1001
-#lw $998 $1001 0
-#sw $998 $997 0
-#move $1002 $199
-####move $1004 $7
-#addi $1005 $0 -18516
-#lw $1004 $7 0
-#sw $1004 $1005 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1006 $0 -18508
-####move $1003 $1006
-#lw $1003 $1006 0
-#sw $1003 $1002 0
-#move $1007 $201
-####move $1009 $7
-#addi $1010 $0 -18516
-#lw $1009 $7 0
-#sw $1009 $1010 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1011 $0 -18508
-####move $1008 $1011
-#lw $1008 $1011 0
-#sw $1008 $1007 0
-#move $1012 $203
-####move $1014 $7
-#addi $1015 $0 -18516
-#lw $1014 $7 0
-#sw $1014 $1015 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1016 $0 -18508
-####move $1013 $1016
-#lw $1013 $1016 0
-#sw $1013 $1012 0
-#move $1017 $205
-####move $1019 $7
-#addi $1020 $0 -18516
-#lw $1019 $7 0
-#sw $1019 $1020 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1021 $0 -18508
-####move $1018 $1021
-#lw $1018 $1021 0
-#sw $1018 $1017 0
-#move $1022 $207
-####move $1024 $7
-#addi $1025 $0 -18516
-#lw $1024 $7 0
-#sw $1024 $1025 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1026 $0 -18508
-####move $1023 $1026
-#lw $1023 $1026 0
-#sw $1023 $1022 0
-#move $1027 $209
-####move $1029 $7
-#addi $1030 $0 -18516
-#lw $1029 $7 0
-#sw $1029 $1030 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1031 $0 -18508
-####move $1028 $1031
-#lw $1028 $1031 0
-#sw $1028 $1027 0
-#move $1032 $211
-####move $1034 $7
-#addi $1035 $0 -18516
-#lw $1034 $7 0
-#sw $1034 $1035 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1036 $0 -18508
-####move $1033 $1036
-#lw $1033 $1036 0
-#sw $1033 $1032 0
-#move $1037 $213
-####move $1039 $7
-#addi $1040 $0 -18516
-#lw $1039 $7 0
-#sw $1039 $1040 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1041 $0 -18508
-####move $1038 $1041
-#lw $1038 $1041 0
-#sw $1038 $1037 0
-#move $1042 $215
-####move $1044 $7
-#addi $1045 $0 -18516
-#lw $1044 $7 0
-#sw $1044 $1045 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1046 $0 -18508
-####move $1043 $1046
-#lw $1043 $1046 0
-#sw $1043 $1042 0
-#move $1047 $217
-####move $1049 $7
-#addi $1050 $0 -18516
-#lw $1049 $7 0
-#sw $1049 $1050 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1051 $0 -18508
-####move $1048 $1051
-#lw $1048 $1051 0
-#sw $1048 $1047 0
-#move $1052 $219
-####move $1054 $7
-#addi $1055 $0 -18516
-#lw $1054 $7 0
-#sw $1054 $1055 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1056 $0 -18508
-####move $1053 $1056
-#lw $1053 $1056 0
-#sw $1053 $1052 0
-#move $1057 $221
-####move $1059 $7
-#addi $1060 $0 -18516
-#lw $1059 $7 0
-#sw $1059 $1060 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1061 $0 -18508
-####move $1058 $1061
-#lw $1058 $1061 0
-#sw $1058 $1057 0
-#move $1062 $223
-####move $1064 $7
-#addi $1065 $0 -18516
-#lw $1064 $7 0
-#sw $1064 $1065 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1066 $0 -18508
-####move $1063 $1066
-#lw $1063 $1066 0
-#sw $1063 $1062 0
-#move $1067 $225
-####move $1069 $7
-#addi $1070 $0 -18516
-#lw $1069 $7 0
-#sw $1069 $1070 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1071 $0 -18508
-####move $1068 $1071
-#lw $1068 $1071 0
-#sw $1068 $1067 0
-#move $1072 $227
-####move $1074 $7
-#addi $1075 $0 -18516
-#lw $1074 $7 0
-#sw $1074 $1075 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1076 $0 -18508
-####move $1073 $1076
-#lw $1073 $1076 0
-#sw $1073 $1072 0
-#move $1077 $229
-####move $1079 $7
-#addi $1080 $0 -18516
-#lw $1079 $7 0
-#sw $1079 $1080 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1081 $0 -18508
-####move $1078 $1081
-#lw $1078 $1081 0
-#sw $1078 $1077 0
-#move $1082 $231
-####move $1084 $7
-#addi $1085 $0 -18516
-#lw $1084 $7 0
-#sw $1084 $1085 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1086 $0 -18508
-####move $1083 $1086
-#lw $1083 $1086 0
-#sw $1083 $1082 0
-#move $1087 $233
-####move $1089 $7
-#addi $1090 $0 -18516
-#lw $1089 $7 0
-#sw $1089 $1090 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1091 $0 -18508
-####move $1088 $1091
-#lw $1088 $1091 0
-#sw $1088 $1087 0
-#move $1092 $235
-####move $1094 $7
-#addi $1095 $0 -18516
-#lw $1094 $7 0
-#sw $1094 $1095 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1096 $0 -18508
-####move $1093 $1096
-#lw $1093 $1096 0
-#sw $1093 $1092 0
-#move $1097 $237
-####move $1099 $7
-#addi $1100 $0 -18516
-#lw $1099 $7 0
-#sw $1099 $1100 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1101 $0 -18508
-####move $1098 $1101
-#lw $1098 $1101 0
-#sw $1098 $1097 0
-#move $1102 $239
-####move $1104 $7
-#addi $1105 $0 -18516
-#lw $1104 $7 0
-#sw $1104 $1105 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1106 $0 -18508
-####move $1103 $1106
-#lw $1103 $1106 0
-#sw $1103 $1102 0
-#move $1107 $241
-####move $1109 $7
-#addi $1110 $0 -18516
-#lw $1109 $7 0
-#sw $1109 $1110 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1111 $0 -18508
-####move $1108 $1111
-#lw $1108 $1111 0
-#sw $1108 $1107 0
-#move $1112 $243
-####move $1114 $7
-#addi $1115 $0 -18516
-#lw $1114 $7 0
-#sw $1114 $1115 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1116 $0 -18508
-####move $1113 $1116
-#lw $1113 $1116 0
-#sw $1113 $1112 0
-#move $1117 $245
-####move $1119 $7
-#addi $1120 $0 -18516
-#lw $1119 $7 0
-#sw $1119 $1120 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1121 $0 -18508
-####move $1118 $1121
-#lw $1118 $1121 0
-#sw $1118 $1117 0
-#move $1122 $247
-####move $1124 $7
-#addi $1125 $0 -18516
-#lw $1124 $7 0
-#sw $1124 $1125 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1126 $0 -18508
-####move $1123 $1126
-#lw $1123 $1126 0
-#sw $1123 $1122 0
-#move $1127 $249
-####move $1129 $7
-#addi $1130 $0 -18516
-#lw $1129 $7 0
-#sw $1129 $1130 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1131 $0 -18508
-####move $1128 $1131
-#lw $1128 $1131 0
-#sw $1128 $1127 0
-#move $1132 $251
-####move $1134 $7
-#addi $1135 $0 -18516
-#lw $1134 $7 0
-#sw $1134 $1135 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1136 $0 -18508
-####move $1133 $1136
-#lw $1133 $1136 0
-#sw $1133 $1132 0
-#move $1137 $253
-####move $1139 $7
-#addi $1140 $0 -18516
-#lw $1139 $7 0
-#sw $1139 $1140 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1141 $0 -18508
-####move $1138 $1141
-#lw $1138 $1141 0
-#sw $1138 $1137 0
-#move $1142 $255
-####move $1144 $7
-#addi $1145 $0 -18516
-#lw $1144 $7 0
-#sw $1144 $1145 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1146 $0 -18508
-####move $1143 $1146
-#lw $1143 $1146 0
-#sw $1143 $1142 0
-#move $1147 $257
-####move $1149 $7
-#addi $1150 $0 -18516
-#lw $1149 $7 0
-#sw $1149 $1150 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1151 $0 -18508
-####move $1148 $1151
-#lw $1148 $1151 0
-#sw $1148 $1147 0
-#move $1152 $259
-####move $1154 $7
-#addi $1155 $0 -18516
-#lw $1154 $7 0
-#sw $1154 $1155 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1156 $0 -18508
-####move $1153 $1156
-#lw $1153 $1156 0
-#sw $1153 $1152 0
-#move $1157 $261
-####move $1159 $7
-#addi $1160 $0 -18516
-#lw $1159 $7 0
-#sw $1159 $1160 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1161 $0 -18508
-####move $1158 $1161
-#lw $1158 $1161 0
-#sw $1158 $1157 0
-#move $1162 $263
-####move $1164 $7
-#addi $1165 $0 -18516
-#lw $1164 $7 0
-#sw $1164 $1165 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1166 $0 -18508
-####move $1163 $1166
-#lw $1163 $1166 0
-#sw $1163 $1162 0
-#move $1167 $265
-####move $1169 $7
-#addi $1170 $0 -18516
-#lw $1169 $7 0
-#sw $1169 $1170 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1171 $0 -18508
-####move $1168 $1171
-#lw $1168 $1171 0
-#sw $1168 $1167 0
-#move $1172 $267
-####move $1174 $7
-#addi $1175 $0 -18516
-#lw $1174 $7 0
-#sw $1174 $1175 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1176 $0 -18508
-####move $1173 $1176
-#lw $1173 $1176 0
-#sw $1173 $1172 0
-#move $1177 $269
-####move $1179 $7
-#addi $1180 $0 -18516
-#lw $1179 $7 0
-#sw $1179 $1180 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1181 $0 -18508
-####move $1178 $1181
-#lw $1178 $1181 0
-#sw $1178 $1177 0
-#move $1182 $271
-####move $1184 $7
-#addi $1185 $0 -18516
-#lw $1184 $7 0
-#sw $1184 $1185 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1186 $0 -18508
-####move $1183 $1186
-#lw $1183 $1186 0
-#sw $1183 $1182 0
-#move $1187 $273
-####move $1189 $7
-#addi $1190 $0 -18516
-#lw $1189 $7 0
-#sw $1189 $1190 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1191 $0 -18508
-####move $1188 $1191
-#lw $1188 $1191 0
-#sw $1188 $1187 0
-#move $1192 $275
-####move $1194 $7
-#addi $1195 $0 -18516
-#lw $1194 $7 0
-#sw $1194 $1195 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1196 $0 -18508
-####move $1193 $1196
-#lw $1193 $1196 0
-#sw $1193 $1192 0
-#move $1197 $277
-####move $1199 $7
-#addi $1200 $0 -18516
-#lw $1199 $7 0
-#sw $1199 $1200 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1201 $0 -18508
-####move $1198 $1201
-#lw $1198 $1201 0
-#sw $1198 $1197 0
-#move $1202 $279
-####move $1204 $7
-#addi $1205 $0 -18516
-#lw $1204 $7 0
-#sw $1204 $1205 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1206 $0 -18508
-####move $1203 $1206
-#lw $1203 $1206 0
-#sw $1203 $1202 0
-#move $1207 $281
-####move $1209 $7
-#addi $1210 $0 -18516
-#lw $1209 $7 0
-#sw $1209 $1210 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1211 $0 -18508
-####move $1208 $1211
-#lw $1208 $1211 0
-#sw $1208 $1207 0
-#move $1212 $283
-####move $1214 $7
-#addi $1215 $0 -18516
-#lw $1214 $7 0
-#sw $1214 $1215 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1216 $0 -18508
-####move $1213 $1216
-#lw $1213 $1216 0
-#sw $1213 $1212 0
-#move $1217 $285
-####move $1219 $7
-#addi $1220 $0 -18516
-#lw $1219 $7 0
-#sw $1219 $1220 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1221 $0 -18508
-####move $1218 $1221
-#lw $1218 $1221 0
-#sw $1218 $1217 0
-#move $1222 $287
-####move $1224 $7
-#addi $1225 $0 -18516
-#lw $1224 $7 0
-#sw $1224 $1225 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1226 $0 -18508
-####move $1223 $1226
-#lw $1223 $1226 0
-#sw $1223 $1222 0
-#move $1227 $289
-####move $1229 $7
-#addi $1230 $0 -18516
-#lw $1229 $7 0
-#sw $1229 $1230 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1231 $0 -18508
-####move $1228 $1231
-#lw $1228 $1231 0
-#sw $1228 $1227 0
-#move $1232 $291
-####move $1234 $7
-#addi $1235 $0 -18516
-#lw $1234 $7 0
-#sw $1234 $1235 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1236 $0 -18508
-####move $1233 $1236
-#lw $1233 $1236 0
-#sw $1233 $1232 0
-#move $1237 $293
-####move $1239 $7
-#addi $1240 $0 -18516
-#lw $1239 $7 0
-#sw $1239 $1240 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1241 $0 -18508
-####move $1238 $1241
-#lw $1238 $1241 0
-#sw $1238 $1237 0
-#move $1242 $295
-####move $1244 $7
-#addi $1245 $0 -18516
-#lw $1244 $7 0
-#sw $1244 $1245 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1246 $0 -18508
-####move $1243 $1246
-#lw $1243 $1246 0
-#sw $1243 $1242 0
-#move $1247 $297
-####move $1249 $7
-#addi $1250 $0 -18516
-#lw $1249 $7 0
-#sw $1249 $1250 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1251 $0 -18508
-####move $1248 $1251
-#lw $1248 $1251 0
-#sw $1248 $1247 0
-#move $1252 $299
-####move $1254 $7
-#addi $1255 $0 -18516
-#lw $1254 $7 0
-#sw $1254 $1255 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1256 $0 -18508
-####move $1253 $1256
-#lw $1253 $1256 0
-#sw $1253 $1252 0
-#move $1257 $301
-####move $1259 $7
-#addi $1260 $0 -18516
-#lw $1259 $7 0
-#sw $1259 $1260 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1261 $0 -18508
-####move $1258 $1261
-#lw $1258 $1261 0
-#sw $1258 $1257 0
-#move $1262 $303
-####move $1264 $7
-#addi $1265 $0 -18516
-#lw $1264 $7 0
-#sw $1264 $1265 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1266 $0 -18508
-####move $1263 $1266
-#lw $1263 $1266 0
-#sw $1263 $1262 0
-#move $1267 $305
-####move $1269 $7
-#addi $1270 $0 -18516
-#lw $1269 $7 0
-#sw $1269 $1270 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1271 $0 -18508
-####move $1268 $1271
-#lw $1268 $1271 0
-#sw $1268 $1267 0
-#move $1272 $307
-####move $1274 $7
-#addi $1275 $0 -18516
-#lw $1274 $7 0
-#sw $1274 $1275 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1276 $0 -18508
-####move $1273 $1276
-#lw $1273 $1276 0
-#sw $1273 $1272 0
-#move $1277 $309
-####move $1279 $7
-#addi $1280 $0 -18516
-#lw $1279 $7 0
-#sw $1279 $1280 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1281 $0 -18508
-####move $1278 $1281
-#lw $1278 $1281 0
-#sw $1278 $1277 0
-#move $1282 $311
-####move $1284 $7
-#addi $1285 $0 -18516
-#lw $1284 $7 0
-#sw $1284 $1285 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1286 $0 -18508
-####move $1283 $1286
-#lw $1283 $1286 0
-#sw $1283 $1282 0
-#move $1287 $313
-####move $1289 $7
-#addi $1290 $0 -18516
-#lw $1289 $7 0
-#sw $1289 $1290 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1291 $0 -18508
-####move $1288 $1291
-#lw $1288 $1291 0
-#sw $1288 $1287 0
-#move $1292 $315
-####move $1294 $7
-#addi $1295 $0 -18516
-#lw $1294 $7 0
-#sw $1294 $1295 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1296 $0 -18508
-####move $1293 $1296
-#lw $1293 $1296 0
-#sw $1293 $1292 0
-#move $1297 $317
-####move $1299 $7
-#addi $1300 $0 -18516
-#lw $1299 $7 0
-#sw $1299 $1300 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1301 $0 -18508
-####move $1298 $1301
-#lw $1298 $1301 0
-#sw $1298 $1297 0
-#move $1302 $319
-####move $1304 $7
-#addi $1305 $0 -18516
-#lw $1304 $7 0
-#sw $1304 $1305 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1306 $0 -18508
-####move $1303 $1306
-#lw $1303 $1306 0
-#sw $1303 $1302 0
-#move $1307 $321
-####move $1309 $7
-#addi $1310 $0 -18516
-#lw $1309 $7 0
-#sw $1309 $1310 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1311 $0 -18508
-####move $1308 $1311
-#lw $1308 $1311 0
-#sw $1308 $1307 0
-#move $1312 $323
-####move $1314 $7
-#addi $1315 $0 -18516
-#lw $1314 $7 0
-#sw $1314 $1315 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1316 $0 -18508
-####move $1313 $1316
-#lw $1313 $1316 0
-#sw $1313 $1312 0
-#move $1317 $325
-####move $1319 $7
-#addi $1320 $0 -18516
-#lw $1319 $7 0
-#sw $1319 $1320 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1321 $0 -18508
-####move $1318 $1321
-#lw $1318 $1321 0
-#sw $1318 $1317 0
-#move $1322 $327
-####move $1324 $7
-#addi $1325 $0 -18516
-#lw $1324 $7 0
-#sw $1324 $1325 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1326 $0 -18508
-####move $1323 $1326
-#lw $1323 $1326 0
-#sw $1323 $1322 0
-#move $1327 $329
-####move $1329 $7
-#addi $1330 $0 -18516
-#lw $1329 $7 0
-#sw $1329 $1330 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1331 $0 -18508
-####move $1328 $1331
-#lw $1328 $1331 0
-#sw $1328 $1327 0
-#move $1332 $331
-####move $1334 $7
-#addi $1335 $0 -18516
-#lw $1334 $7 0
-#sw $1334 $1335 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1336 $0 -18508
-####move $1333 $1336
-#lw $1333 $1336 0
-#sw $1333 $1332 0
-#move $1337 $333
-####move $1339 $7
-#addi $1340 $0 -18516
-#lw $1339 $7 0
-#sw $1339 $1340 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1341 $0 -18508
-####move $1338 $1341
-#lw $1338 $1341 0
-#sw $1338 $1337 0
-#move $1342 $335
-####move $1344 $7
-#addi $1345 $0 -18516
-#lw $1344 $7 0
-#sw $1344 $1345 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1346 $0 -18508
-####move $1343 $1346
-#lw $1343 $1346 0
-#sw $1343 $1342 0
-#move $1347 $337
-####move $1349 $7
-#addi $1350 $0 -18516
-#lw $1349 $7 0
-#sw $1349 $1350 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1351 $0 -18508
-####move $1348 $1351
-#lw $1348 $1351 0
-#sw $1348 $1347 0
-#move $1352 $339
-####move $1354 $7
-#addi $1355 $0 -18516
-#lw $1354 $7 0
-#sw $1354 $1355 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1356 $0 -18508
-####move $1353 $1356
-#lw $1353 $1356 0
-#sw $1353 $1352 0
-#move $1357 $341
-####move $1359 $7
-#addi $1360 $0 -18516
-#lw $1359 $7 0
-#sw $1359 $1360 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1361 $0 -18508
-####move $1358 $1361
-#lw $1358 $1361 0
-#sw $1358 $1357 0
-#move $1362 $343
-####move $1364 $7
-#addi $1365 $0 -18516
-#lw $1364 $7 0
-#sw $1364 $1365 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1366 $0 -18508
-####move $1363 $1366
-#lw $1363 $1366 0
-#sw $1363 $1362 0
-#move $1367 $345
-####move $1369 $7
-#addi $1370 $0 -18516
-#lw $1369 $7 0
-#sw $1369 $1370 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1371 $0 -18508
-####move $1368 $1371
-#lw $1368 $1371 0
-#sw $1368 $1367 0
-#move $1372 $347
-####move $1374 $7
-#addi $1375 $0 -18516
-#lw $1374 $7 0
-#sw $1374 $1375 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1376 $0 -18508
-####move $1373 $1376
-#lw $1373 $1376 0
-#sw $1373 $1372 0
-#move $1377 $349
-####move $1379 $7
-#addi $1380 $0 -18516
-#lw $1379 $7 0
-#sw $1379 $1380 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1381 $0 -18508
-####move $1378 $1381
-#lw $1378 $1381 0
-#sw $1378 $1377 0
-#move $1382 $351
-####move $1384 $7
-#addi $1385 $0 -18516
-#lw $1384 $7 0
-#sw $1384 $1385 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1386 $0 -18508
-####move $1383 $1386
-#lw $1383 $1386 0
-#sw $1383 $1382 0
-#move $1387 $353
-####move $1389 $7
-#addi $1390 $0 -18516
-#lw $1389 $7 0
-#sw $1389 $1390 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1391 $0 -18508
-####move $1388 $1391
-#lw $1388 $1391 0
-#sw $1388 $1387 0
-#move $1392 $355
-####move $1394 $7
-#addi $1395 $0 -18516
-#lw $1394 $7 0
-#sw $1394 $1395 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1396 $0 -18508
-####move $1393 $1396
-#lw $1393 $1396 0
-#sw $1393 $1392 0
-#move $1397 $357
-####move $1399 $7
-#addi $1400 $0 -18516
-#lw $1399 $7 0
-#sw $1399 $1400 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1401 $0 -18508
-####move $1398 $1401
-#lw $1398 $1401 0
-#sw $1398 $1397 0
-#move $1402 $359
-####move $1404 $7
-#addi $1405 $0 -18516
-#lw $1404 $7 0
-#sw $1404 $1405 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1406 $0 -18508
-####move $1403 $1406
-#lw $1403 $1406 0
-#sw $1403 $1402 0
-#move $1407 $361
-####move $1409 $7
-#addi $1410 $0 -18516
-#lw $1409 $7 0
-#sw $1409 $1410 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1411 $0 -18508
-####move $1408 $1411
-#lw $1408 $1411 0
-#sw $1408 $1407 0
-#move $1412 $363
-####move $1414 $7
-#addi $1415 $0 -18516
-#lw $1414 $7 0
-#sw $1414 $1415 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1416 $0 -18508
-####move $1413 $1416
-#lw $1413 $1416 0
-#sw $1413 $1412 0
-#move $1417 $365
-####move $1419 $7
-#addi $1420 $0 -18516
-#lw $1419 $7 0
-#sw $1419 $1420 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1421 $0 -18508
-####move $1418 $1421
-#lw $1418 $1421 0
-#sw $1418 $1417 0
-#move $1422 $367
-####move $1424 $7
-#addi $1425 $0 -18516
-#lw $1424 $7 0
-#sw $1424 $1425 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1426 $0 -18508
-####move $1423 $1426
-#lw $1423 $1426 0
-#sw $1423 $1422 0
-#move $1427 $369
-####move $1429 $7
-#addi $1430 $0 -18516
-#lw $1429 $7 0
-#sw $1429 $1430 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1431 $0 -18508
-####move $1428 $1431
-#lw $1428 $1431 0
-#sw $1428 $1427 0
-#move $1432 $371
-####move $1434 $7
-#addi $1435 $0 -18516
-#lw $1434 $7 0
-#sw $1434 $1435 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1436 $0 -18508
-####move $1433 $1436
-#lw $1433 $1436 0
-#sw $1433 $1432 0
-#move $1437 $373
-####move $1439 $7
-#addi $1440 $0 -18516
-#lw $1439 $7 0
-#sw $1439 $1440 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1441 $0 -18508
-####move $1438 $1441
-#lw $1438 $1441 0
-#sw $1438 $1437 0
-#move $1442 $375
-####move $1444 $7
-#addi $1445 $0 -18516
-#lw $1444 $7 0
-#sw $1444 $1445 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1446 $0 -18508
-####move $1443 $1446
-#lw $1443 $1446 0
-#sw $1443 $1442 0
-#move $1447 $377
-####move $1449 $7
-#addi $1450 $0 -18516
-#lw $1449 $7 0
-#sw $1449 $1450 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1451 $0 -18508
-####move $1448 $1451
-#lw $1448 $1451 0
-#sw $1448 $1447 0
-#move $1452 $379
-####move $1454 $7
-#addi $1455 $0 -18516
-#lw $1454 $7 0
-#sw $1454 $1455 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1456 $0 -18508
-####move $1453 $1456
-#lw $1453 $1456 0
-#sw $1453 $1452 0
-#move $1457 $381
-####move $1459 $7
-#addi $1460 $0 -18516
-#lw $1459 $7 0
-#sw $1459 $1460 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1461 $0 -18508
-####move $1458 $1461
-#lw $1458 $1461 0
-#sw $1458 $1457 0
-#move $1462 $383
-####move $1464 $7
-#addi $1465 $0 -18516
-#lw $1464 $7 0
-#sw $1464 $1465 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1466 $0 -18508
-####move $1463 $1466
-#lw $1463 $1466 0
-#sw $1463 $1462 0
-#move $1467 $385
-####move $1469 $7
-#addi $1470 $0 -18516
-#lw $1469 $7 0
-#sw $1469 $1470 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1471 $0 -18508
-####move $1468 $1471
-#lw $1468 $1471 0
-#sw $1468 $1467 0
-#move $1472 $387
-####move $1474 $7
-#addi $1475 $0 -18516
-#lw $1474 $7 0
-#sw $1474 $1475 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1476 $0 -18508
-####move $1473 $1476
-#lw $1473 $1476 0
-#sw $1473 $1472 0
-#move $1477 $389
-####move $1479 $7
-#addi $1480 $0 -18516
-#lw $1479 $7 0
-#sw $1479 $1480 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1481 $0 -18508
-####move $1478 $1481
-#lw $1478 $1481 0
-#sw $1478 $1477 0
-#move $1482 $391
-####move $1484 $7
-#addi $1485 $0 -18516
-#lw $1484 $7 0
-#sw $1484 $1485 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1486 $0 -18508
-####move $1483 $1486
-#lw $1483 $1486 0
-#sw $1483 $1482 0
-#move $1487 $393
-####move $1489 $7
-#addi $1490 $0 -18516
-#lw $1489 $7 0
-#sw $1489 $1490 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1491 $0 -18508
-####move $1488 $1491
-#lw $1488 $1491 0
-#sw $1488 $1487 0
-#move $1492 $395
-####move $1494 $7
-#addi $1495 $0 -18516
-#lw $1494 $7 0
-#sw $1494 $1495 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1496 $0 -18508
-####move $1493 $1496
-#lw $1493 $1496 0
-#sw $1493 $1492 0
-#move $1497 $397
-####move $1499 $7
-#addi $1500 $0 -18516
-#lw $1499 $7 0
-#sw $1499 $1500 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1501 $0 -18508
-####move $1498 $1501
-#lw $1498 $1501 0
-#sw $1498 $1497 0
-#move $1502 $399
-####move $1504 $7
-#addi $1505 $0 -18516
-#lw $1504 $7 0
-#sw $1504 $1505 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1506 $0 -18508
-####move $1503 $1506
-#lw $1503 $1506 0
-#sw $1503 $1502 0
-#move $1507 $401
-####move $1509 $7
-#addi $1510 $0 -18516
-#lw $1509 $7 0
-#sw $1509 $1510 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1511 $0 -18508
-####move $1508 $1511
-#lw $1508 $1511 0
-#sw $1508 $1507 0
-#move $1512 $403
-####move $1514 $7
-#addi $1515 $0 -18516
-#lw $1514 $7 0
-#sw $1514 $1515 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1516 $0 -18508
-####move $1513 $1516
-#lw $1513 $1516 0
-#sw $1513 $1512 0
-#move $1517 $405
-####move $1519 $7
-#addi $1520 $0 -18516
-#lw $1519 $7 0
-#sw $1519 $1520 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1521 $0 -18508
-####move $1518 $1521
-#lw $1518 $1521 0
-#sw $1518 $1517 0
-#move $1522 $407
-####move $1524 $7
-#addi $1525 $0 -18516
-#lw $1524 $7 0
-#sw $1524 $1525 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1526 $0 -18508
-####move $1523 $1526
-#lw $1523 $1526 0
-#sw $1523 $1522 0
-#move $1527 $409
-####move $1529 $7
-#addi $1530 $0 -18516
-#lw $1529 $7 0
-#sw $1529 $1530 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1531 $0 -18508
-####move $1528 $1531
-#lw $1528 $1531 0
-#sw $1528 $1527 0
-#move $1532 $411
-####move $1534 $7
-#addi $1535 $0 -18516
-#lw $1534 $7 0
-#sw $1534 $1535 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1536 $0 -18508
-####move $1533 $1536
-#lw $1533 $1536 0
-#sw $1533 $1532 0
-#move $1537 $413
-####move $1539 $7
-#addi $1540 $0 -18516
-#lw $1539 $7 0
-#sw $1539 $1540 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1541 $0 -18508
-####move $1538 $1541
-#lw $1538 $1541 0
-#sw $1538 $1537 0
-#move $1542 $415
-####move $1544 $7
-#addi $1545 $0 -18516
-#lw $1544 $7 0
-#sw $1544 $1545 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1546 $0 -18508
-####move $1543 $1546
-#lw $1543 $1546 0
-#sw $1543 $1542 0
-#move $1547 $417
-####move $1549 $7
-#addi $1550 $0 -18516
-#lw $1549 $7 0
-#sw $1549 $1550 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1551 $0 -18508
-####move $1548 $1551
-#lw $1548 $1551 0
-#sw $1548 $1547 0
-#move $1552 $419
-####move $1554 $7
-#addi $1555 $0 -18516
-#lw $1554 $7 0
-#sw $1554 $1555 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1556 $0 -18508
-####move $1553 $1556
-#lw $1553 $1556 0
-#sw $1553 $1552 0
-#move $1557 $421
-####move $1559 $7
-#addi $1560 $0 -18516
-#lw $1559 $7 0
-#sw $1559 $1560 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1561 $0 -18508
-####move $1558 $1561
-#lw $1558 $1561 0
-#sw $1558 $1557 0
-#move $1562 $423
-####move $1564 $7
-#addi $1565 $0 -18516
-#lw $1564 $7 0
-#sw $1564 $1565 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1566 $0 -18508
-####move $1563 $1566
-#lw $1563 $1566 0
-#sw $1563 $1562 0
-#move $1567 $425
-####move $1569 $7
-#addi $1570 $0 -18516
-#lw $1569 $7 0
-#sw $1569 $1570 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1571 $0 -18508
-####move $1568 $1571
-#lw $1568 $1571 0
-#sw $1568 $1567 0
-#move $1572 $427
-####move $1574 $7
-#addi $1575 $0 -18516
-#lw $1574 $7 0
-#sw $1574 $1575 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1576 $0 -18508
-####move $1573 $1576
-#lw $1573 $1576 0
-#sw $1573 $1572 0
-#move $1577 $429
-####move $1579 $7
-#addi $1580 $0 -18516
-#lw $1579 $7 0
-#sw $1579 $1580 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1581 $0 -18508
-####move $1578 $1581
-#lw $1578 $1581 0
-#sw $1578 $1577 0
-#move $1582 $431
-####move $1584 $7
-#addi $1585 $0 -18516
-#lw $1584 $7 0
-#sw $1584 $1585 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1586 $0 -18508
-####move $1583 $1586
-#lw $1583 $1586 0
-#sw $1583 $1582 0
-#move $1587 $433
-####move $1589 $7
-#addi $1590 $0 -18516
-#lw $1589 $7 0
-#sw $1589 $1590 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1591 $0 -18508
-####move $1588 $1591
-#lw $1588 $1591 0
-#sw $1588 $1587 0
-#move $1592 $435
-####move $1594 $7
-#addi $1595 $0 -18516
-#lw $1594 $7 0
-#sw $1594 $1595 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1596 $0 -18508
-####move $1593 $1596
-#lw $1593 $1596 0
-#sw $1593 $1592 0
-#move $1597 $437
-####move $1599 $7
-#addi $1600 $0 -18516
-#lw $1599 $7 0
-#sw $1599 $1600 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1601 $0 -18508
-####move $1598 $1601
-#lw $1598 $1601 0
-#sw $1598 $1597 0
-#move $1602 $439
-####move $1604 $7
-#addi $1605 $0 -18516
-#lw $1604 $7 0
-#sw $1604 $1605 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1606 $0 -18508
-####move $1603 $1606
-#lw $1603 $1606 0
-#sw $1603 $1602 0
-#move $1607 $441
-####move $1609 $7
-#addi $1610 $0 -18516
-#lw $1609 $7 0
-#sw $1609 $1610 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1611 $0 -18508
-####move $1608 $1611
-#lw $1608 $1611 0
-#sw $1608 $1607 0
-#move $1612 $443
-####move $1614 $7
-#addi $1615 $0 -18516
-#lw $1614 $7 0
-#sw $1614 $1615 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1616 $0 -18508
-####move $1613 $1616
-#lw $1613 $1616 0
-#sw $1613 $1612 0
-#move $1617 $445
-####move $1619 $7
-#addi $1620 $0 -18516
-#lw $1619 $7 0
-#sw $1619 $1620 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1621 $0 -18508
-####move $1618 $1621
-#lw $1618 $1621 0
-#sw $1618 $1617 0
-#move $1622 $447
-####move $1624 $7
-#addi $1625 $0 -18516
-#lw $1624 $7 0
-#sw $1624 $1625 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1626 $0 -18508
-####move $1623 $1626
-#lw $1623 $1626 0
-#sw $1623 $1622 0
-#move $1627 $449
-####move $1629 $7
-#addi $1630 $0 -18516
-#lw $1629 $7 0
-#sw $1629 $1630 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1631 $0 -18508
-####move $1628 $1631
-#lw $1628 $1631 0
-#sw $1628 $1627 0
-#move $1632 $451
-####move $1634 $7
-#addi $1635 $0 -18516
-#lw $1634 $7 0
-#sw $1634 $1635 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1636 $0 -18508
-####move $1633 $1636
-#lw $1633 $1636 0
-#sw $1633 $1632 0
-#move $1637 $453
-####move $1639 $7
-#addi $1640 $0 -18516
-#lw $1639 $7 0
-#sw $1639 $1640 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1641 $0 -18508
-####move $1638 $1641
-#lw $1638 $1641 0
-#sw $1638 $1637 0
-#move $1642 $455
-####move $1644 $7
-#addi $1645 $0 -18516
-#lw $1644 $7 0
-#sw $1644 $1645 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1646 $0 -18508
-####move $1643 $1646
-#lw $1643 $1646 0
-#sw $1643 $1642 0
-#move $1647 $457
-####move $1649 $7
-#addi $1650 $0 -18516
-#lw $1649 $7 0
-#sw $1649 $1650 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1651 $0 -18508
-####move $1648 $1651
-#lw $1648 $1651 0
-#sw $1648 $1647 0
-#move $1652 $459
-####move $1654 $7
-#addi $1655 $0 -18516
-#lw $1654 $7 0
-#sw $1654 $1655 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1656 $0 -18508
-####move $1653 $1656
-#lw $1653 $1656 0
-#sw $1653 $1652 0
-#move $1657 $461
-####move $1659 $7
-#addi $1660 $0 -18516
-#lw $1659 $7 0
-#sw $1659 $1660 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1661 $0 -18508
-####move $1658 $1661
-#lw $1658 $1661 0
-#sw $1658 $1657 0
-#move $1662 $463
-####move $1664 $7
-#addi $1665 $0 -18516
-#lw $1664 $7 0
-#sw $1664 $1665 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1666 $0 -18508
-####move $1663 $1666
-#lw $1663 $1666 0
-#sw $1663 $1662 0
-#move $1667 $465
-####move $1669 $7
-#addi $1670 $0 -18516
-#lw $1669 $7 0
-#sw $1669 $1670 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1671 $0 -18508
-####move $1668 $1671
-#lw $1668 $1671 0
-#sw $1668 $1667 0
-#move $1672 $467
-####move $1674 $7
-#addi $1675 $0 -18516
-#lw $1674 $7 0
-#sw $1674 $1675 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1676 $0 -18508
-####move $1673 $1676
-#lw $1673 $1676 0
-#sw $1673 $1672 0
-#move $1677 $469
-####move $1679 $7
-#addi $1680 $0 -18516
-#lw $1679 $7 0
-#sw $1679 $1680 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1681 $0 -18508
-####move $1678 $1681
-#lw $1678 $1681 0
-#sw $1678 $1677 0
-#move $1682 $471
-####move $1684 $7
-#addi $1685 $0 -18516
-#lw $1684 $7 0
-#sw $1684 $1685 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1686 $0 -18508
-####move $1683 $1686
-#lw $1683 $1686 0
-#sw $1683 $1682 0
-#move $1687 $473
-####move $1689 $7
-#addi $1690 $0 -18516
-#lw $1689 $7 0
-#sw $1689 $1690 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1691 $0 -18508
-####move $1688 $1691
-#lw $1688 $1691 0
-#sw $1688 $1687 0
-#move $1692 $475
-####move $1694 $7
-#addi $1695 $0 -18516
-#lw $1694 $7 0
-#sw $1694 $1695 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1696 $0 -18508
-####move $1693 $1696
-#lw $1693 $1696 0
-#sw $1693 $1692 0
-#move $1697 $477
-####move $1699 $7
-#addi $1700 $0 -18516
-#lw $1699 $7 0
-#sw $1699 $1700 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1701 $0 -18508
-####move $1698 $1701
-#lw $1698 $1701 0
-#sw $1698 $1697 0
-#move $1702 $479
-####move $1704 $7
-#addi $1705 $0 -18516
-#lw $1704 $7 0
-#sw $1704 $1705 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1706 $0 -18508
-####move $1703 $1706
-#lw $1703 $1706 0
-#sw $1703 $1702 0
-#move $1707 $481
-####move $1709 $7
-#addi $1710 $0 -18516
-#lw $1709 $7 0
-#sw $1709 $1710 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1711 $0 -18508
-####move $1708 $1711
-#lw $1708 $1711 0
-#sw $1708 $1707 0
-#move $1712 $483
-####move $1714 $7
-#addi $1715 $0 -18516
-#lw $1714 $7 0
-#sw $1714 $1715 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1716 $0 -18508
-####move $1713 $1716
-#lw $1713 $1716 0
-#sw $1713 $1712 0
-#move $1717 $485
-####move $1719 $7
-#addi $1720 $0 -18516
-#lw $1719 $7 0
-#sw $1719 $1720 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1721 $0 -18508
-####move $1718 $1721
-#lw $1718 $1721 0
-#sw $1718 $1717 0
-#move $1722 $487
-####move $1724 $7
-#addi $1725 $0 -18516
-#lw $1724 $7 0
-#sw $1724 $1725 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1726 $0 -18508
-####move $1723 $1726
-#lw $1723 $1726 0
-#sw $1723 $1722 0
-#move $1727 $489
-####move $1729 $7
-#addi $1730 $0 -18516
-#lw $1729 $7 0
-#sw $1729 $1730 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1731 $0 -18508
-####move $1728 $1731
-#lw $1728 $1731 0
-#sw $1728 $1727 0
-#move $1732 $491
-####move $1734 $7
-#addi $1735 $0 -18516
-#lw $1734 $7 0
-#sw $1734 $1735 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1736 $0 -18508
-####move $1733 $1736
-#lw $1733 $1736 0
-#sw $1733 $1732 0
-#move $1737 $493
-####move $1739 $7
-#addi $1740 $0 -18516
-#lw $1739 $7 0
-#sw $1739 $1740 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1741 $0 -18508
-####move $1738 $1741
-#lw $1738 $1741 0
-#sw $1738 $1737 0
-#move $1742 $495
-####move $1744 $7
-#addi $1745 $0 -18516
-#lw $1744 $7 0
-#sw $1744 $1745 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1746 $0 -18508
-####move $1743 $1746
-#lw $1743 $1746 0
-#sw $1743 $1742 0
-#move $1747 $497
-####move $1749 $7
-#addi $1750 $0 -18516
-#lw $1749 $7 0
-#sw $1749 $1750 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1751 $0 -18508
-####move $1748 $1751
-#lw $1748 $1751 0
-#sw $1748 $1747 0
-#move $1752 $499
-####move $1754 $7
-#addi $1755 $0 -18516
-#lw $1754 $7 0
-#sw $1754 $1755 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1756 $0 -18508
-####move $1753 $1756
-#lw $1753 $1756 0
-#sw $1753 $1752 0
-#move $1757 $501
-####move $1759 $7
-#addi $1760 $0 -18516
-#lw $1759 $7 0
-#sw $1759 $1760 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1761 $0 -18508
-####move $1758 $1761
-#lw $1758 $1761 0
-#sw $1758 $1757 0
-#move $1762 $503
-####move $1764 $7
-#addi $1765 $0 -18516
-#lw $1764 $7 0
-#sw $1764 $1765 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1766 $0 -18508
-####move $1763 $1766
-#lw $1763 $1766 0
-#sw $1763 $1762 0
-#move $1767 $505
-####move $1769 $7
-#addi $1770 $0 -18516
-#lw $1769 $7 0
-#sw $1769 $1770 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1771 $0 -18508
-####move $1768 $1771
-#lw $1768 $1771 0
-#sw $1768 $1767 0
-#move $1772 $507
-####move $1774 $7
-#addi $1775 $0 -18516
-#lw $1774 $7 0
-#sw $1774 $1775 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1776 $0 -18508
-####move $1773 $1776
-#lw $1773 $1776 0
-#sw $1773 $1772 0
-#move $1777 $509
-####move $1779 $7
-#addi $1780 $0 -18516
-#lw $1779 $7 0
-#sw $1779 $1780 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1781 $0 -18508
-####move $1778 $1781
-#lw $1778 $1781 0
-#sw $1778 $1777 0
-#move $1782 $511
-####move $1784 $7
-#addi $1785 $0 -18516
-#lw $1784 $7 0
-#sw $1784 $1785 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1786 $0 -18508
-####move $1783 $1786
-#lw $1783 $1786 0
-#sw $1783 $1782 0
-#move $1787 $513
-####move $1789 $7
-#addi $1790 $0 -18516
-#lw $1789 $7 0
-#sw $1789 $1790 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1791 $0 -18508
-####move $1788 $1791
-#lw $1788 $1791 0
-#sw $1788 $1787 0
-#move $1792 $515
-####move $1794 $7
-#addi $1795 $0 -18516
-#lw $1794 $7 0
-#sw $1794 $1795 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1796 $0 -18508
-####move $1793 $1796
-#lw $1793 $1796 0
-#sw $1793 $1792 0
-#move $1797 $517
-####move $1799 $7
-#addi $1800 $0 -18516
-#lw $1799 $7 0
-#sw $1799 $1800 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1801 $0 -18508
-####move $1798 $1801
-#lw $1798 $1801 0
-#sw $1798 $1797 0
-#move $1802 $519
-####move $1804 $7
-#addi $1805 $0 -18516
-#lw $1804 $7 0
-#sw $1804 $1805 0
-#addi $0 $0 -18516
-#call #getcount
-#subi $0 $0 -18516
-#addi $1806 $0 -18508
-####move $1803 $1806
-#lw $1803 $1806 0
-#sw $1803 $1802 0
-####move $1808 $9
-#addi $1809 $0 -18512
-#lw $1808 $9 0
-#sw $1808 $1809 0
-#move $1810 $1811
-#addi $1812 $0 -18516
-#sw $1810 $1812 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1814 $11
-#addi $1815 $0 -18512
-#lw $1814 $11 0
-#sw $1814 $1815 0
-#move $1816 $1811
-#addi $1817 $0 -18516
-#sw $1816 $1817 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1819 $13
-#addi $1820 $0 -18512
-#lw $1819 $13 0
-#sw $1819 $1820 0
-#move $1821 $1811
-#addi $1822 $0 -18516
-#sw $1821 $1822 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1824 $15
-#addi $1825 $0 -18512
-#lw $1824 $15 0
-#sw $1824 $1825 0
-#move $1826 $1811
-#addi $1827 $0 -18516
-#sw $1826 $1827 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1829 $17
-#addi $1830 $0 -18512
-#lw $1829 $17 0
-#sw $1829 $1830 0
-#move $1831 $1811
-#addi $1832 $0 -18516
-#sw $1831 $1832 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1834 $19
-#addi $1835 $0 -18512
-#lw $1834 $19 0
-#sw $1834 $1835 0
-#move $1836 $1811
-#addi $1837 $0 -18516
-#sw $1836 $1837 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1839 $21
-#addi $1840 $0 -18512
-#lw $1839 $21 0
-#sw $1839 $1840 0
-#move $1841 $1811
-#addi $1842 $0 -18516
-#sw $1841 $1842 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1844 $23
-#addi $1845 $0 -18512
-#lw $1844 $23 0
-#sw $1844 $1845 0
-#move $1846 $1811
-#addi $1847 $0 -18516
-#sw $1846 $1847 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1849 $25
-#addi $1850 $0 -18512
-#lw $1849 $25 0
-#sw $1849 $1850 0
-#move $1851 $1811
-#addi $1852 $0 -18516
-#sw $1851 $1852 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1854 $27
-#addi $1855 $0 -18512
-#lw $1854 $27 0
-#sw $1854 $1855 0
-#move $1856 $1811
-#addi $1857 $0 -18516
-#sw $1856 $1857 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1859 $29
-#addi $1860 $0 -18512
-#lw $1859 $29 0
-#sw $1859 $1860 0
-#move $1861 $1811
-#addi $1862 $0 -18516
-#sw $1861 $1862 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1864 $31
-#addi $1865 $0 -18512
-#lw $1864 $31 0
-#sw $1864 $1865 0
-#move $1866 $1811
-#addi $1867 $0 -18516
-#sw $1866 $1867 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1869 $33
-#addi $1870 $0 -18512
-#lw $1869 $33 0
-#sw $1869 $1870 0
-#move $1871 $1811
-#addi $1872 $0 -18516
-#sw $1871 $1872 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1874 $35
-#addi $1875 $0 -18512
-#lw $1874 $35 0
-#sw $1874 $1875 0
-#move $1876 $1811
-#addi $1877 $0 -18516
-#sw $1876 $1877 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1879 $37
-#addi $1880 $0 -18512
-#lw $1879 $37 0
-#sw $1879 $1880 0
-#move $1881 $1811
-#addi $1882 $0 -18516
-#sw $1881 $1882 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1884 $39
-#addi $1885 $0 -18512
-#lw $1884 $39 0
-#sw $1884 $1885 0
-#move $1886 $1811
-#addi $1887 $0 -18516
-#sw $1886 $1887 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1889 $41
-#addi $1890 $0 -18512
-#lw $1889 $41 0
-#sw $1889 $1890 0
-#move $1891 $1811
-#addi $1892 $0 -18516
-#sw $1891 $1892 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1894 $43
-#addi $1895 $0 -18512
-#lw $1894 $43 0
-#sw $1894 $1895 0
-#move $1896 $1811
-#addi $1897 $0 -18516
-#sw $1896 $1897 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1899 $45
-#addi $1900 $0 -18512
-#lw $1899 $45 0
-#sw $1899 $1900 0
-#move $1901 $1811
-#addi $1902 $0 -18516
-#sw $1901 $1902 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1904 $47
-#addi $1905 $0 -18512
-#lw $1904 $47 0
-#sw $1904 $1905 0
-#move $1906 $1811
-#addi $1907 $0 -18516
-#sw $1906 $1907 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1909 $49
-#addi $1910 $0 -18512
-#lw $1909 $49 0
-#sw $1909 $1910 0
-#move $1911 $1811
-#addi $1912 $0 -18516
-#sw $1911 $1912 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1914 $51
-#addi $1915 $0 -18512
-#lw $1914 $51 0
-#sw $1914 $1915 0
-#move $1916 $1811
-#addi $1917 $0 -18516
-#sw $1916 $1917 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1919 $53
-#addi $1920 $0 -18512
-#lw $1919 $53 0
-#sw $1919 $1920 0
-#move $1921 $1811
-#addi $1922 $0 -18516
-#sw $1921 $1922 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1924 $55
-#addi $1925 $0 -18512
-#lw $1924 $55 0
-#sw $1924 $1925 0
-#move $1926 $1811
-#addi $1927 $0 -18516
-#sw $1926 $1927 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1929 $57
-#addi $1930 $0 -18512
-#lw $1929 $57 0
-#sw $1929 $1930 0
-#move $1931 $1811
-#addi $1932 $0 -18516
-#sw $1931 $1932 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1934 $59
-#addi $1935 $0 -18512
-#lw $1934 $59 0
-#sw $1934 $1935 0
-#move $1936 $1811
-#addi $1937 $0 -18516
-#sw $1936 $1937 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1939 $61
-#addi $1940 $0 -18512
-#lw $1939 $61 0
-#sw $1939 $1940 0
-#move $1941 $1811
-#addi $1942 $0 -18516
-#sw $1941 $1942 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1944 $63
-#addi $1945 $0 -18512
-#lw $1944 $63 0
-#sw $1944 $1945 0
-#move $1946 $1811
-#addi $1947 $0 -18516
-#sw $1946 $1947 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1949 $65
-#addi $1950 $0 -18512
-#lw $1949 $65 0
-#sw $1949 $1950 0
-#move $1951 $1811
-#addi $1952 $0 -18516
-#sw $1951 $1952 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1954 $67
-#addi $1955 $0 -18512
-#lw $1954 $67 0
-#sw $1954 $1955 0
-#move $1956 $1811
-#addi $1957 $0 -18516
-#sw $1956 $1957 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1959 $69
-#addi $1960 $0 -18512
-#lw $1959 $69 0
-#sw $1959 $1960 0
-#move $1961 $1811
-#addi $1962 $0 -18516
-#sw $1961 $1962 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1964 $71
-#addi $1965 $0 -18512
-#lw $1964 $71 0
-#sw $1964 $1965 0
-#move $1966 $1811
-#addi $1967 $0 -18516
-#sw $1966 $1967 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1969 $73
-#addi $1970 $0 -18512
-#lw $1969 $73 0
-#sw $1969 $1970 0
-#move $1971 $1811
-#addi $1972 $0 -18516
-#sw $1971 $1972 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1974 $75
-#addi $1975 $0 -18512
-#lw $1974 $75 0
-#sw $1974 $1975 0
-#move $1976 $1811
-#addi $1977 $0 -18516
-#sw $1976 $1977 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1979 $77
-#addi $1980 $0 -18512
-#lw $1979 $77 0
-#sw $1979 $1980 0
-#move $1981 $1811
-#addi $1982 $0 -18516
-#sw $1981 $1982 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1984 $79
-#addi $1985 $0 -18512
-#lw $1984 $79 0
-#sw $1984 $1985 0
-#move $1986 $1811
-#addi $1987 $0 -18516
-#sw $1986 $1987 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1989 $81
-#addi $1990 $0 -18512
-#lw $1989 $81 0
-#sw $1989 $1990 0
-#move $1991 $1811
-#addi $1992 $0 -18516
-#sw $1991 $1992 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1994 $83
-#addi $1995 $0 -18512
-#lw $1994 $83 0
-#sw $1994 $1995 0
-#move $1996 $1811
-#addi $1997 $0 -18516
-#sw $1996 $1997 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $1999 $85
-#addi $2000 $0 -18512
-#lw $1999 $85 0
-#sw $1999 $2000 0
-#move $2001 $1811
-#addi $2002 $0 -18516
-#sw $2001 $2002 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2004 $87
-#addi $2005 $0 -18512
-#lw $2004 $87 0
-#sw $2004 $2005 0
-#move $2006 $1811
-#addi $2007 $0 -18516
-#sw $2006 $2007 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2009 $89
-#addi $2010 $0 -18512
-#lw $2009 $89 0
-#sw $2009 $2010 0
-#move $2011 $1811
-#addi $2012 $0 -18516
-#sw $2011 $2012 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2014 $91
-#addi $2015 $0 -18512
-#lw $2014 $91 0
-#sw $2014 $2015 0
-#move $2016 $1811
-#addi $2017 $0 -18516
-#sw $2016 $2017 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2019 $93
-#addi $2020 $0 -18512
-#lw $2019 $93 0
-#sw $2019 $2020 0
-#move $2021 $1811
-#addi $2022 $0 -18516
-#sw $2021 $2022 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2024 $95
-#addi $2025 $0 -18512
-#lw $2024 $95 0
-#sw $2024 $2025 0
-#move $2026 $1811
-#addi $2027 $0 -18516
-#sw $2026 $2027 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2029 $97
-#addi $2030 $0 -18512
-#lw $2029 $97 0
-#sw $2029 $2030 0
-#move $2031 $1811
-#addi $2032 $0 -18516
-#sw $2031 $2032 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2034 $99
-#addi $2035 $0 -18512
-#lw $2034 $99 0
-#sw $2034 $2035 0
-#move $2036 $1811
-#addi $2037 $0 -18516
-#sw $2036 $2037 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2039 $101
-#addi $2040 $0 -18512
-#lw $2039 $101 0
-#sw $2039 $2040 0
-#move $2041 $1811
-#addi $2042 $0 -18516
-#sw $2041 $2042 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2044 $103
-#addi $2045 $0 -18512
-#lw $2044 $103 0
-#sw $2044 $2045 0
-#move $2046 $1811
-#addi $2047 $0 -18516
-#sw $2046 $2047 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2049 $105
-#addi $2050 $0 -18512
-#lw $2049 $105 0
-#sw $2049 $2050 0
-#move $2051 $1811
-#addi $2052 $0 -18516
-#sw $2051 $2052 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2054 $107
-#addi $2055 $0 -18512
-#lw $2054 $107 0
-#sw $2054 $2055 0
-#move $2056 $1811
-#addi $2057 $0 -18516
-#sw $2056 $2057 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2059 $109
-#addi $2060 $0 -18512
-#lw $2059 $109 0
-#sw $2059 $2060 0
-#move $2061 $1811
-#addi $2062 $0 -18516
-#sw $2061 $2062 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2064 $111
-#addi $2065 $0 -18512
-#lw $2064 $111 0
-#sw $2064 $2065 0
-#move $2066 $1811
-#addi $2067 $0 -18516
-#sw $2066 $2067 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2069 $113
-#addi $2070 $0 -18512
-#lw $2069 $113 0
-#sw $2069 $2070 0
-#move $2071 $1811
-#addi $2072 $0 -18516
-#sw $2071 $2072 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2074 $115
-#addi $2075 $0 -18512
-#lw $2074 $115 0
-#sw $2074 $2075 0
-#move $2076 $1811
-#addi $2077 $0 -18516
-#sw $2076 $2077 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2079 $117
-#addi $2080 $0 -18512
-#lw $2079 $117 0
-#sw $2079 $2080 0
-#move $2081 $1811
-#addi $2082 $0 -18516
-#sw $2081 $2082 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2084 $119
-#addi $2085 $0 -18512
-#lw $2084 $119 0
-#sw $2084 $2085 0
-#move $2086 $1811
-#addi $2087 $0 -18516
-#sw $2086 $2087 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2089 $121
-#addi $2090 $0 -18512
-#lw $2089 $121 0
-#sw $2089 $2090 0
-#move $2091 $1811
-#addi $2092 $0 -18516
-#sw $2091 $2092 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2094 $123
-#addi $2095 $0 -18512
-#lw $2094 $123 0
-#sw $2094 $2095 0
-#move $2096 $1811
-#addi $2097 $0 -18516
-#sw $2096 $2097 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2099 $125
-#addi $2100 $0 -18512
-#lw $2099 $125 0
-#sw $2099 $2100 0
-#move $2101 $1811
-#addi $2102 $0 -18516
-#sw $2101 $2102 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2104 $127
-#addi $2105 $0 -18512
-#lw $2104 $127 0
-#sw $2104 $2105 0
-#move $2106 $1811
-#addi $2107 $0 -18516
-#sw $2106 $2107 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2109 $129
-#addi $2110 $0 -18512
-#lw $2109 $129 0
-#sw $2109 $2110 0
-#move $2111 $1811
-#addi $2112 $0 -18516
-#sw $2111 $2112 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2114 $131
-#addi $2115 $0 -18512
-#lw $2114 $131 0
-#sw $2114 $2115 0
-#move $2116 $1811
-#addi $2117 $0 -18516
-#sw $2116 $2117 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2119 $133
-#addi $2120 $0 -18512
-#lw $2119 $133 0
-#sw $2119 $2120 0
-#move $2121 $1811
-#addi $2122 $0 -18516
-#sw $2121 $2122 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2124 $135
-#addi $2125 $0 -18512
-#lw $2124 $135 0
-#sw $2124 $2125 0
-#move $2126 $1811
-#addi $2127 $0 -18516
-#sw $2126 $2127 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2129 $137
-#addi $2130 $0 -18512
-#lw $2129 $137 0
-#sw $2129 $2130 0
-#move $2131 $1811
-#addi $2132 $0 -18516
-#sw $2131 $2132 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2134 $139
-#addi $2135 $0 -18512
-#lw $2134 $139 0
-#sw $2134 $2135 0
-#move $2136 $1811
-#addi $2137 $0 -18516
-#sw $2136 $2137 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2139 $141
-#addi $2140 $0 -18512
-#lw $2139 $141 0
-#sw $2139 $2140 0
-#move $2141 $1811
-#addi $2142 $0 -18516
-#sw $2141 $2142 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2144 $143
-#addi $2145 $0 -18512
-#lw $2144 $143 0
-#sw $2144 $2145 0
-#move $2146 $1811
-#addi $2147 $0 -18516
-#sw $2146 $2147 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2149 $145
-#addi $2150 $0 -18512
-#lw $2149 $145 0
-#sw $2149 $2150 0
-#move $2151 $1811
-#addi $2152 $0 -18516
-#sw $2151 $2152 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2154 $147
-#addi $2155 $0 -18512
-#lw $2154 $147 0
-#sw $2154 $2155 0
-#move $2156 $1811
-#addi $2157 $0 -18516
-#sw $2156 $2157 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2159 $149
-#addi $2160 $0 -18512
-#lw $2159 $149 0
-#sw $2159 $2160 0
-#move $2161 $1811
-#addi $2162 $0 -18516
-#sw $2161 $2162 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2164 $151
-#addi $2165 $0 -18512
-#lw $2164 $151 0
-#sw $2164 $2165 0
-#move $2166 $1811
-#addi $2167 $0 -18516
-#sw $2166 $2167 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2169 $153
-#addi $2170 $0 -18512
-#lw $2169 $153 0
-#sw $2169 $2170 0
-#move $2171 $1811
-#addi $2172 $0 -18516
-#sw $2171 $2172 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2174 $155
-#addi $2175 $0 -18512
-#lw $2174 $155 0
-#sw $2174 $2175 0
-#move $2176 $1811
-#addi $2177 $0 -18516
-#sw $2176 $2177 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2179 $157
-#addi $2180 $0 -18512
-#lw $2179 $157 0
-#sw $2179 $2180 0
-#move $2181 $1811
-#addi $2182 $0 -18516
-#sw $2181 $2182 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2184 $159
-#addi $2185 $0 -18512
-#lw $2184 $159 0
-#sw $2184 $2185 0
-#move $2186 $1811
-#addi $2187 $0 -18516
-#sw $2186 $2187 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2189 $161
-#addi $2190 $0 -18512
-#lw $2189 $161 0
-#sw $2189 $2190 0
-#move $2191 $1811
-#addi $2192 $0 -18516
-#sw $2191 $2192 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2194 $163
-#addi $2195 $0 -18512
-#lw $2194 $163 0
-#sw $2194 $2195 0
-#move $2196 $1811
-#addi $2197 $0 -18516
-#sw $2196 $2197 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2199 $165
-#addi $2200 $0 -18512
-#lw $2199 $165 0
-#sw $2199 $2200 0
-#move $2201 $1811
-#addi $2202 $0 -18516
-#sw $2201 $2202 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2204 $167
-#addi $2205 $0 -18512
-#lw $2204 $167 0
-#sw $2204 $2205 0
-#move $2206 $1811
-#addi $2207 $0 -18516
-#sw $2206 $2207 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2209 $169
-#addi $2210 $0 -18512
-#lw $2209 $169 0
-#sw $2209 $2210 0
-#move $2211 $1811
-#addi $2212 $0 -18516
-#sw $2211 $2212 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2214 $171
-#addi $2215 $0 -18512
-#lw $2214 $171 0
-#sw $2214 $2215 0
-#move $2216 $1811
-#addi $2217 $0 -18516
-#sw $2216 $2217 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2219 $173
-#addi $2220 $0 -18512
-#lw $2219 $173 0
-#sw $2219 $2220 0
-#move $2221 $1811
-#addi $2222 $0 -18516
-#sw $2221 $2222 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2224 $175
-#addi $2225 $0 -18512
-#lw $2224 $175 0
-#sw $2224 $2225 0
-#move $2226 $1811
-#addi $2227 $0 -18516
-#sw $2226 $2227 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2229 $177
-#addi $2230 $0 -18512
-#lw $2229 $177 0
-#sw $2229 $2230 0
-#move $2231 $1811
-#addi $2232 $0 -18516
-#sw $2231 $2232 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2234 $179
-#addi $2235 $0 -18512
-#lw $2234 $179 0
-#sw $2234 $2235 0
-#move $2236 $1811
-#addi $2237 $0 -18516
-#sw $2236 $2237 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2239 $181
-#addi $2240 $0 -18512
-#lw $2239 $181 0
-#sw $2239 $2240 0
-#move $2241 $1811
-#addi $2242 $0 -18516
-#sw $2241 $2242 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2244 $183
-#addi $2245 $0 -18512
-#lw $2244 $183 0
-#sw $2244 $2245 0
-#move $2246 $1811
-#addi $2247 $0 -18516
-#sw $2246 $2247 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2249 $185
-#addi $2250 $0 -18512
-#lw $2249 $185 0
-#sw $2249 $2250 0
-#move $2251 $1811
-#addi $2252 $0 -18516
-#sw $2251 $2252 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2254 $187
-#addi $2255 $0 -18512
-#lw $2254 $187 0
-#sw $2254 $2255 0
-#move $2256 $1811
-#addi $2257 $0 -18516
-#sw $2256 $2257 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2259 $189
-#addi $2260 $0 -18512
-#lw $2259 $189 0
-#sw $2259 $2260 0
-#move $2261 $1811
-#addi $2262 $0 -18516
-#sw $2261 $2262 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2264 $191
-#addi $2265 $0 -18512
-#lw $2264 $191 0
-#sw $2264 $2265 0
-#move $2266 $1811
-#addi $2267 $0 -18516
-#sw $2266 $2267 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2269 $193
-#addi $2270 $0 -18512
-#lw $2269 $193 0
-#sw $2269 $2270 0
-#move $2271 $1811
-#addi $2272 $0 -18516
-#sw $2271 $2272 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2274 $195
-#addi $2275 $0 -18512
-#lw $2274 $195 0
-#sw $2274 $2275 0
-#move $2276 $1811
-#addi $2277 $0 -18516
-#sw $2276 $2277 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2279 $197
-#addi $2280 $0 -18512
-#lw $2279 $197 0
-#sw $2279 $2280 0
-#move $2281 $1811
-#addi $2282 $0 -18516
-#sw $2281 $2282 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2284 $199
-#addi $2285 $0 -18512
-#lw $2284 $199 0
-#sw $2284 $2285 0
-#move $2286 $1811
-#addi $2287 $0 -18516
-#sw $2286 $2287 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2289 $201
-#addi $2290 $0 -18512
-#lw $2289 $201 0
-#sw $2289 $2290 0
-#move $2291 $1811
-#addi $2292 $0 -18516
-#sw $2291 $2292 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2294 $203
-#addi $2295 $0 -18512
-#lw $2294 $203 0
-#sw $2294 $2295 0
-#move $2296 $1811
-#addi $2297 $0 -18516
-#sw $2296 $2297 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2299 $205
-#addi $2300 $0 -18512
-#lw $2299 $205 0
-#sw $2299 $2300 0
-#move $2301 $1811
-#addi $2302 $0 -18516
-#sw $2301 $2302 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2304 $207
-#addi $2305 $0 -18512
-#lw $2304 $207 0
-#sw $2304 $2305 0
-#move $2306 $1811
-#addi $2307 $0 -18516
-#sw $2306 $2307 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2309 $209
-#addi $2310 $0 -18512
-#lw $2309 $209 0
-#sw $2309 $2310 0
-#move $2311 $1811
-#addi $2312 $0 -18516
-#sw $2311 $2312 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2314 $211
-#addi $2315 $0 -18512
-#lw $2314 $211 0
-#sw $2314 $2315 0
-#move $2316 $1811
-#addi $2317 $0 -18516
-#sw $2316 $2317 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2319 $213
-#addi $2320 $0 -18512
-#lw $2319 $213 0
-#sw $2319 $2320 0
-#move $2321 $1811
-#addi $2322 $0 -18516
-#sw $2321 $2322 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2324 $215
-#addi $2325 $0 -18512
-#lw $2324 $215 0
-#sw $2324 $2325 0
-#move $2326 $1811
-#addi $2327 $0 -18516
-#sw $2326 $2327 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2329 $217
-#addi $2330 $0 -18512
-#lw $2329 $217 0
-#sw $2329 $2330 0
-#move $2331 $1811
-#addi $2332 $0 -18516
-#sw $2331 $2332 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2334 $219
-#addi $2335 $0 -18512
-#lw $2334 $219 0
-#sw $2334 $2335 0
-#move $2336 $1811
-#addi $2337 $0 -18516
-#sw $2336 $2337 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2339 $221
-#addi $2340 $0 -18512
-#lw $2339 $221 0
-#sw $2339 $2340 0
-#move $2341 $1811
-#addi $2342 $0 -18516
-#sw $2341 $2342 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2344 $223
-#addi $2345 $0 -18512
-#lw $2344 $223 0
-#sw $2344 $2345 0
-#move $2346 $1811
-#addi $2347 $0 -18516
-#sw $2346 $2347 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2349 $225
-#addi $2350 $0 -18512
-#lw $2349 $225 0
-#sw $2349 $2350 0
-#move $2351 $1811
-#addi $2352 $0 -18516
-#sw $2351 $2352 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2354 $227
-#addi $2355 $0 -18512
-#lw $2354 $227 0
-#sw $2354 $2355 0
-#move $2356 $1811
-#addi $2357 $0 -18516
-#sw $2356 $2357 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2359 $229
-#addi $2360 $0 -18512
-#lw $2359 $229 0
-#sw $2359 $2360 0
-#move $2361 $1811
-#addi $2362 $0 -18516
-#sw $2361 $2362 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2364 $231
-#addi $2365 $0 -18512
-#lw $2364 $231 0
-#sw $2364 $2365 0
-#move $2366 $1811
-#addi $2367 $0 -18516
-#sw $2366 $2367 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2369 $233
-#addi $2370 $0 -18512
-#lw $2369 $233 0
-#sw $2369 $2370 0
-#move $2371 $1811
-#addi $2372 $0 -18516
-#sw $2371 $2372 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2374 $235
-#addi $2375 $0 -18512
-#lw $2374 $235 0
-#sw $2374 $2375 0
-#move $2376 $1811
-#addi $2377 $0 -18516
-#sw $2376 $2377 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2379 $237
-#addi $2380 $0 -18512
-#lw $2379 $237 0
-#sw $2379 $2380 0
-#move $2381 $1811
-#addi $2382 $0 -18516
-#sw $2381 $2382 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2384 $239
-#addi $2385 $0 -18512
-#lw $2384 $239 0
-#sw $2384 $2385 0
-#move $2386 $1811
-#addi $2387 $0 -18516
-#sw $2386 $2387 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2389 $241
-#addi $2390 $0 -18512
-#lw $2389 $241 0
-#sw $2389 $2390 0
-#move $2391 $1811
-#addi $2392 $0 -18516
-#sw $2391 $2392 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2394 $243
-#addi $2395 $0 -18512
-#lw $2394 $243 0
-#sw $2394 $2395 0
-#move $2396 $1811
-#addi $2397 $0 -18516
-#sw $2396 $2397 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2399 $245
-#addi $2400 $0 -18512
-#lw $2399 $245 0
-#sw $2399 $2400 0
-#move $2401 $1811
-#addi $2402 $0 -18516
-#sw $2401 $2402 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2404 $247
-#addi $2405 $0 -18512
-#lw $2404 $247 0
-#sw $2404 $2405 0
-#move $2406 $1811
-#addi $2407 $0 -18516
-#sw $2406 $2407 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2409 $249
-#addi $2410 $0 -18512
-#lw $2409 $249 0
-#sw $2409 $2410 0
-#move $2411 $1811
-#addi $2412 $0 -18516
-#sw $2411 $2412 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2414 $251
-#addi $2415 $0 -18512
-#lw $2414 $251 0
-#sw $2414 $2415 0
-#move $2416 $1811
-#addi $2417 $0 -18516
-#sw $2416 $2417 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2419 $253
-#addi $2420 $0 -18512
-#lw $2419 $253 0
-#sw $2419 $2420 0
-#move $2421 $1811
-#addi $2422 $0 -18516
-#sw $2421 $2422 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2424 $255
-#addi $2425 $0 -18512
-#lw $2424 $255 0
-#sw $2424 $2425 0
-#move $2426 $1811
-#addi $2427 $0 -18516
-#sw $2426 $2427 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2429 $257
-#addi $2430 $0 -18512
-#lw $2429 $257 0
-#sw $2429 $2430 0
-#move $2431 $1811
-#addi $2432 $0 -18516
-#sw $2431 $2432 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2434 $259
-#addi $2435 $0 -18512
-#lw $2434 $259 0
-#sw $2434 $2435 0
-#move $2436 $1811
-#addi $2437 $0 -18516
-#sw $2436 $2437 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2439 $261
-#addi $2440 $0 -18512
-#lw $2439 $261 0
-#sw $2439 $2440 0
-#move $2441 $1811
-#addi $2442 $0 -18516
-#sw $2441 $2442 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2444 $263
-#addi $2445 $0 -18512
-#lw $2444 $263 0
-#sw $2444 $2445 0
-#move $2446 $1811
-#addi $2447 $0 -18516
-#sw $2446 $2447 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2449 $265
-#addi $2450 $0 -18512
-#lw $2449 $265 0
-#sw $2449 $2450 0
-#move $2451 $1811
-#addi $2452 $0 -18516
-#sw $2451 $2452 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2454 $267
-#addi $2455 $0 -18512
-#lw $2454 $267 0
-#sw $2454 $2455 0
-#move $2456 $1811
-#addi $2457 $0 -18516
-#sw $2456 $2457 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2459 $269
-#addi $2460 $0 -18512
-#lw $2459 $269 0
-#sw $2459 $2460 0
-#move $2461 $1811
-#addi $2462 $0 -18516
-#sw $2461 $2462 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2464 $271
-#addi $2465 $0 -18512
-#lw $2464 $271 0
-#sw $2464 $2465 0
-#move $2466 $1811
-#addi $2467 $0 -18516
-#sw $2466 $2467 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2469 $273
-#addi $2470 $0 -18512
-#lw $2469 $273 0
-#sw $2469 $2470 0
-#move $2471 $1811
-#addi $2472 $0 -18516
-#sw $2471 $2472 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2474 $275
-#addi $2475 $0 -18512
-#lw $2474 $275 0
-#sw $2474 $2475 0
-#move $2476 $1811
-#addi $2477 $0 -18516
-#sw $2476 $2477 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2479 $277
-#addi $2480 $0 -18512
-#lw $2479 $277 0
-#sw $2479 $2480 0
-#move $2481 $1811
-#addi $2482 $0 -18516
-#sw $2481 $2482 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2484 $279
-#addi $2485 $0 -18512
-#lw $2484 $279 0
-#sw $2484 $2485 0
-#move $2486 $1811
-#addi $2487 $0 -18516
-#sw $2486 $2487 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2489 $281
-#addi $2490 $0 -18512
-#lw $2489 $281 0
-#sw $2489 $2490 0
-#move $2491 $1811
-#addi $2492 $0 -18516
-#sw $2491 $2492 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2494 $283
-#addi $2495 $0 -18512
-#lw $2494 $283 0
-#sw $2494 $2495 0
-#move $2496 $1811
-#addi $2497 $0 -18516
-#sw $2496 $2497 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2499 $285
-#addi $2500 $0 -18512
-#lw $2499 $285 0
-#sw $2499 $2500 0
-#move $2501 $1811
-#addi $2502 $0 -18516
-#sw $2501 $2502 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2504 $287
-#addi $2505 $0 -18512
-#lw $2504 $287 0
-#sw $2504 $2505 0
-#move $2506 $1811
-#addi $2507 $0 -18516
-#sw $2506 $2507 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2509 $289
-#addi $2510 $0 -18512
-#lw $2509 $289 0
-#sw $2509 $2510 0
-#move $2511 $1811
-#addi $2512 $0 -18516
-#sw $2511 $2512 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2514 $291
-#addi $2515 $0 -18512
-#lw $2514 $291 0
-#sw $2514 $2515 0
-#move $2516 $1811
-#addi $2517 $0 -18516
-#sw $2516 $2517 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2519 $293
-#addi $2520 $0 -18512
-#lw $2519 $293 0
-#sw $2519 $2520 0
-#move $2521 $1811
-#addi $2522 $0 -18516
-#sw $2521 $2522 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2524 $295
-#addi $2525 $0 -18512
-#lw $2524 $295 0
-#sw $2524 $2525 0
-#move $2526 $1811
-#addi $2527 $0 -18516
-#sw $2526 $2527 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2529 $297
-#addi $2530 $0 -18512
-#lw $2529 $297 0
-#sw $2529 $2530 0
-#move $2531 $1811
-#addi $2532 $0 -18516
-#sw $2531 $2532 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2534 $299
-#addi $2535 $0 -18512
-#lw $2534 $299 0
-#sw $2534 $2535 0
-#move $2536 $1811
-#addi $2537 $0 -18516
-#sw $2536 $2537 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2539 $301
-#addi $2540 $0 -18512
-#lw $2539 $301 0
-#sw $2539 $2540 0
-#move $2541 $1811
-#addi $2542 $0 -18516
-#sw $2541 $2542 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2544 $303
-#addi $2545 $0 -18512
-#lw $2544 $303 0
-#sw $2544 $2545 0
-#move $2546 $1811
-#addi $2547 $0 -18516
-#sw $2546 $2547 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2549 $305
-#addi $2550 $0 -18512
-#lw $2549 $305 0
-#sw $2549 $2550 0
-#move $2551 $1811
-#addi $2552 $0 -18516
-#sw $2551 $2552 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2554 $307
-#addi $2555 $0 -18512
-#lw $2554 $307 0
-#sw $2554 $2555 0
-#move $2556 $1811
-#addi $2557 $0 -18516
-#sw $2556 $2557 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2559 $309
-#addi $2560 $0 -18512
-#lw $2559 $309 0
-#sw $2559 $2560 0
-#move $2561 $1811
-#addi $2562 $0 -18516
-#sw $2561 $2562 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2564 $311
-#addi $2565 $0 -18512
-#lw $2564 $311 0
-#sw $2564 $2565 0
-#move $2566 $1811
-#addi $2567 $0 -18516
-#sw $2566 $2567 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2569 $313
-#addi $2570 $0 -18512
-#lw $2569 $313 0
-#sw $2569 $2570 0
-#move $2571 $1811
-#addi $2572 $0 -18516
-#sw $2571 $2572 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2574 $315
-#addi $2575 $0 -18512
-#lw $2574 $315 0
-#sw $2574 $2575 0
-#move $2576 $1811
-#addi $2577 $0 -18516
-#sw $2576 $2577 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2579 $317
-#addi $2580 $0 -18512
-#lw $2579 $317 0
-#sw $2579 $2580 0
-#move $2581 $1811
-#addi $2582 $0 -18516
-#sw $2581 $2582 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2584 $319
-#addi $2585 $0 -18512
-#lw $2584 $319 0
-#sw $2584 $2585 0
-#move $2586 $1811
-#addi $2587 $0 -18516
-#sw $2586 $2587 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2589 $321
-#addi $2590 $0 -18512
-#lw $2589 $321 0
-#sw $2589 $2590 0
-#move $2591 $1811
-#addi $2592 $0 -18516
-#sw $2591 $2592 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2594 $323
-#addi $2595 $0 -18512
-#lw $2594 $323 0
-#sw $2594 $2595 0
-#move $2596 $1811
-#addi $2597 $0 -18516
-#sw $2596 $2597 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2599 $325
-#addi $2600 $0 -18512
-#lw $2599 $325 0
-#sw $2599 $2600 0
-#move $2601 $1811
-#addi $2602 $0 -18516
-#sw $2601 $2602 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2604 $327
-#addi $2605 $0 -18512
-#lw $2604 $327 0
-#sw $2604 $2605 0
-#move $2606 $1811
-#addi $2607 $0 -18516
-#sw $2606 $2607 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2609 $329
-#addi $2610 $0 -18512
-#lw $2609 $329 0
-#sw $2609 $2610 0
-#move $2611 $1811
-#addi $2612 $0 -18516
-#sw $2611 $2612 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2614 $331
-#addi $2615 $0 -18512
-#lw $2614 $331 0
-#sw $2614 $2615 0
-#move $2616 $1811
-#addi $2617 $0 -18516
-#sw $2616 $2617 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2619 $333
-#addi $2620 $0 -18512
-#lw $2619 $333 0
-#sw $2619 $2620 0
-#move $2621 $1811
-#addi $2622 $0 -18516
-#sw $2621 $2622 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2624 $335
-#addi $2625 $0 -18512
-#lw $2624 $335 0
-#sw $2624 $2625 0
-#move $2626 $1811
-#addi $2627 $0 -18516
-#sw $2626 $2627 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2629 $337
-#addi $2630 $0 -18512
-#lw $2629 $337 0
-#sw $2629 $2630 0
-#move $2631 $1811
-#addi $2632 $0 -18516
-#sw $2631 $2632 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2634 $339
-#addi $2635 $0 -18512
-#lw $2634 $339 0
-#sw $2634 $2635 0
-#move $2636 $1811
-#addi $2637 $0 -18516
-#sw $2636 $2637 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2639 $341
-#addi $2640 $0 -18512
-#lw $2639 $341 0
-#sw $2639 $2640 0
-#move $2641 $1811
-#addi $2642 $0 -18516
-#sw $2641 $2642 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2644 $343
-#addi $2645 $0 -18512
-#lw $2644 $343 0
-#sw $2644 $2645 0
-#move $2646 $1811
-#addi $2647 $0 -18516
-#sw $2646 $2647 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2649 $345
-#addi $2650 $0 -18512
-#lw $2649 $345 0
-#sw $2649 $2650 0
-#move $2651 $1811
-#addi $2652 $0 -18516
-#sw $2651 $2652 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2654 $347
-#addi $2655 $0 -18512
-#lw $2654 $347 0
-#sw $2654 $2655 0
-#move $2656 $1811
-#addi $2657 $0 -18516
-#sw $2656 $2657 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2659 $349
-#addi $2660 $0 -18512
-#lw $2659 $349 0
-#sw $2659 $2660 0
-#move $2661 $1811
-#addi $2662 $0 -18516
-#sw $2661 $2662 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2664 $351
-#addi $2665 $0 -18512
-#lw $2664 $351 0
-#sw $2664 $2665 0
-#move $2666 $1811
-#addi $2667 $0 -18516
-#sw $2666 $2667 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2669 $353
-#addi $2670 $0 -18512
-#lw $2669 $353 0
-#sw $2669 $2670 0
-#move $2671 $1811
-#addi $2672 $0 -18516
-#sw $2671 $2672 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2674 $355
-#addi $2675 $0 -18512
-#lw $2674 $355 0
-#sw $2674 $2675 0
-#move $2676 $1811
-#addi $2677 $0 -18516
-#sw $2676 $2677 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2679 $357
-#addi $2680 $0 -18512
-#lw $2679 $357 0
-#sw $2679 $2680 0
-#move $2681 $1811
-#addi $2682 $0 -18516
-#sw $2681 $2682 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2684 $359
-#addi $2685 $0 -18512
-#lw $2684 $359 0
-#sw $2684 $2685 0
-#move $2686 $1811
-#addi $2687 $0 -18516
-#sw $2686 $2687 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2689 $361
-#addi $2690 $0 -18512
-#lw $2689 $361 0
-#sw $2689 $2690 0
-#move $2691 $1811
-#addi $2692 $0 -18516
-#sw $2691 $2692 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2694 $363
-#addi $2695 $0 -18512
-#lw $2694 $363 0
-#sw $2694 $2695 0
-#move $2696 $1811
-#addi $2697 $0 -18516
-#sw $2696 $2697 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2699 $365
-#addi $2700 $0 -18512
-#lw $2699 $365 0
-#sw $2699 $2700 0
-#move $2701 $1811
-#addi $2702 $0 -18516
-#sw $2701 $2702 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2704 $367
-#addi $2705 $0 -18512
-#lw $2704 $367 0
-#sw $2704 $2705 0
-#move $2706 $1811
-#addi $2707 $0 -18516
-#sw $2706 $2707 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2709 $369
-#addi $2710 $0 -18512
-#lw $2709 $369 0
-#sw $2709 $2710 0
-#move $2711 $1811
-#addi $2712 $0 -18516
-#sw $2711 $2712 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2714 $371
-#addi $2715 $0 -18512
-#lw $2714 $371 0
-#sw $2714 $2715 0
-#move $2716 $1811
-#addi $2717 $0 -18516
-#sw $2716 $2717 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2719 $373
-#addi $2720 $0 -18512
-#lw $2719 $373 0
-#sw $2719 $2720 0
-#move $2721 $1811
-#addi $2722 $0 -18516
-#sw $2721 $2722 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2724 $375
-#addi $2725 $0 -18512
-#lw $2724 $375 0
-#sw $2724 $2725 0
-#move $2726 $1811
-#addi $2727 $0 -18516
-#sw $2726 $2727 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2729 $377
-#addi $2730 $0 -18512
-#lw $2729 $377 0
-#sw $2729 $2730 0
-#move $2731 $1811
-#addi $2732 $0 -18516
-#sw $2731 $2732 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2734 $379
-#addi $2735 $0 -18512
-#lw $2734 $379 0
-#sw $2734 $2735 0
-#move $2736 $1811
-#addi $2737 $0 -18516
-#sw $2736 $2737 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2739 $381
-#addi $2740 $0 -18512
-#lw $2739 $381 0
-#sw $2739 $2740 0
-#move $2741 $1811
-#addi $2742 $0 -18516
-#sw $2741 $2742 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2744 $383
-#addi $2745 $0 -18512
-#lw $2744 $383 0
-#sw $2744 $2745 0
-#move $2746 $1811
-#addi $2747 $0 -18516
-#sw $2746 $2747 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2749 $385
-#addi $2750 $0 -18512
-#lw $2749 $385 0
-#sw $2749 $2750 0
-#move $2751 $1811
-#addi $2752 $0 -18516
-#sw $2751 $2752 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2754 $387
-#addi $2755 $0 -18512
-#lw $2754 $387 0
-#sw $2754 $2755 0
-#move $2756 $1811
-#addi $2757 $0 -18516
-#sw $2756 $2757 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2759 $389
-#addi $2760 $0 -18512
-#lw $2759 $389 0
-#sw $2759 $2760 0
-#move $2761 $1811
-#addi $2762 $0 -18516
-#sw $2761 $2762 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2764 $391
-#addi $2765 $0 -18512
-#lw $2764 $391 0
-#sw $2764 $2765 0
-#move $2766 $1811
-#addi $2767 $0 -18516
-#sw $2766 $2767 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2769 $393
-#addi $2770 $0 -18512
-#lw $2769 $393 0
-#sw $2769 $2770 0
-#move $2771 $1811
-#addi $2772 $0 -18516
-#sw $2771 $2772 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2774 $395
-#addi $2775 $0 -18512
-#lw $2774 $395 0
-#sw $2774 $2775 0
-#move $2776 $1811
-#addi $2777 $0 -18516
-#sw $2776 $2777 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2779 $397
-#addi $2780 $0 -18512
-#lw $2779 $397 0
-#sw $2779 $2780 0
-#move $2781 $1811
-#addi $2782 $0 -18516
-#sw $2781 $2782 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2784 $399
-#addi $2785 $0 -18512
-#lw $2784 $399 0
-#sw $2784 $2785 0
-#move $2786 $1811
-#addi $2787 $0 -18516
-#sw $2786 $2787 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2789 $401
-#addi $2790 $0 -18512
-#lw $2789 $401 0
-#sw $2789 $2790 0
-#move $2791 $1811
-#addi $2792 $0 -18516
-#sw $2791 $2792 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2794 $403
-#addi $2795 $0 -18512
-#lw $2794 $403 0
-#sw $2794 $2795 0
-#move $2796 $1811
-#addi $2797 $0 -18516
-#sw $2796 $2797 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2799 $405
-#addi $2800 $0 -18512
-#lw $2799 $405 0
-#sw $2799 $2800 0
-#move $2801 $1811
-#addi $2802 $0 -18516
-#sw $2801 $2802 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2804 $407
-#addi $2805 $0 -18512
-#lw $2804 $407 0
-#sw $2804 $2805 0
-#move $2806 $1811
-#addi $2807 $0 -18516
-#sw $2806 $2807 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2809 $409
-#addi $2810 $0 -18512
-#lw $2809 $409 0
-#sw $2809 $2810 0
-#move $2811 $1811
-#addi $2812 $0 -18516
-#sw $2811 $2812 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2814 $411
-#addi $2815 $0 -18512
-#lw $2814 $411 0
-#sw $2814 $2815 0
-#move $2816 $1811
-#addi $2817 $0 -18516
-#sw $2816 $2817 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2819 $413
-#addi $2820 $0 -18512
-#lw $2819 $413 0
-#sw $2819 $2820 0
-#move $2821 $1811
-#addi $2822 $0 -18516
-#sw $2821 $2822 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2824 $415
-#addi $2825 $0 -18512
-#lw $2824 $415 0
-#sw $2824 $2825 0
-#move $2826 $1811
-#addi $2827 $0 -18516
-#sw $2826 $2827 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2829 $417
-#addi $2830 $0 -18512
-#lw $2829 $417 0
-#sw $2829 $2830 0
-#move $2831 $1811
-#addi $2832 $0 -18516
-#sw $2831 $2832 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2834 $419
-#addi $2835 $0 -18512
-#lw $2834 $419 0
-#sw $2834 $2835 0
-#move $2836 $1811
-#addi $2837 $0 -18516
-#sw $2836 $2837 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2839 $421
-#addi $2840 $0 -18512
-#lw $2839 $421 0
-#sw $2839 $2840 0
-#move $2841 $1811
-#addi $2842 $0 -18516
-#sw $2841 $2842 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2844 $423
-#addi $2845 $0 -18512
-#lw $2844 $423 0
-#sw $2844 $2845 0
-#move $2846 $1811
-#addi $2847 $0 -18516
-#sw $2846 $2847 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2849 $425
-#addi $2850 $0 -18512
-#lw $2849 $425 0
-#sw $2849 $2850 0
-#move $2851 $1811
-#addi $2852 $0 -18516
-#sw $2851 $2852 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2854 $427
-#addi $2855 $0 -18512
-#lw $2854 $427 0
-#sw $2854 $2855 0
-#move $2856 $1811
-#addi $2857 $0 -18516
-#sw $2856 $2857 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2859 $429
-#addi $2860 $0 -18512
-#lw $2859 $429 0
-#sw $2859 $2860 0
-#move $2861 $1811
-#addi $2862 $0 -18516
-#sw $2861 $2862 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2864 $431
-#addi $2865 $0 -18512
-#lw $2864 $431 0
-#sw $2864 $2865 0
-#move $2866 $1811
-#addi $2867 $0 -18516
-#sw $2866 $2867 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2869 $433
-#addi $2870 $0 -18512
-#lw $2869 $433 0
-#sw $2869 $2870 0
-#move $2871 $1811
-#addi $2872 $0 -18516
-#sw $2871 $2872 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2874 $435
-#addi $2875 $0 -18512
-#lw $2874 $435 0
-#sw $2874 $2875 0
-#move $2876 $1811
-#addi $2877 $0 -18516
-#sw $2876 $2877 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2879 $437
-#addi $2880 $0 -18512
-#lw $2879 $437 0
-#sw $2879 $2880 0
-#move $2881 $1811
-#addi $2882 $0 -18516
-#sw $2881 $2882 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2884 $439
-#addi $2885 $0 -18512
-#lw $2884 $439 0
-#sw $2884 $2885 0
-#move $2886 $1811
-#addi $2887 $0 -18516
-#sw $2886 $2887 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2889 $441
-#addi $2890 $0 -18512
-#lw $2889 $441 0
-#sw $2889 $2890 0
-#move $2891 $1811
-#addi $2892 $0 -18516
-#sw $2891 $2892 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2894 $443
-#addi $2895 $0 -18512
-#lw $2894 $443 0
-#sw $2894 $2895 0
-#move $2896 $1811
-#addi $2897 $0 -18516
-#sw $2896 $2897 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2899 $445
-#addi $2900 $0 -18512
-#lw $2899 $445 0
-#sw $2899 $2900 0
-#move $2901 $1811
-#addi $2902 $0 -18516
-#sw $2901 $2902 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2904 $447
-#addi $2905 $0 -18512
-#lw $2904 $447 0
-#sw $2904 $2905 0
-#move $2906 $1811
-#addi $2907 $0 -18516
-#sw $2906 $2907 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2909 $449
-#addi $2910 $0 -18512
-#lw $2909 $449 0
-#sw $2909 $2910 0
-#move $2911 $1811
-#addi $2912 $0 -18516
-#sw $2911 $2912 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2914 $451
-#addi $2915 $0 -18512
-#lw $2914 $451 0
-#sw $2914 $2915 0
-#move $2916 $1811
-#addi $2917 $0 -18516
-#sw $2916 $2917 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2919 $453
-#addi $2920 $0 -18512
-#lw $2919 $453 0
-#sw $2919 $2920 0
-#move $2921 $1811
-#addi $2922 $0 -18516
-#sw $2921 $2922 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2924 $455
-#addi $2925 $0 -18512
-#lw $2924 $455 0
-#sw $2924 $2925 0
-#move $2926 $1811
-#addi $2927 $0 -18516
-#sw $2926 $2927 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2929 $457
-#addi $2930 $0 -18512
-#lw $2929 $457 0
-#sw $2929 $2930 0
-#move $2931 $1811
-#addi $2932 $0 -18516
-#sw $2931 $2932 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2934 $459
-#addi $2935 $0 -18512
-#lw $2934 $459 0
-#sw $2934 $2935 0
-#move $2936 $1811
-#addi $2937 $0 -18516
-#sw $2936 $2937 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2939 $461
-#addi $2940 $0 -18512
-#lw $2939 $461 0
-#sw $2939 $2940 0
-#move $2941 $1811
-#addi $2942 $0 -18516
-#sw $2941 $2942 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2944 $463
-#addi $2945 $0 -18512
-#lw $2944 $463 0
-#sw $2944 $2945 0
-#move $2946 $1811
-#addi $2947 $0 -18516
-#sw $2946 $2947 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2949 $465
-#addi $2950 $0 -18512
-#lw $2949 $465 0
-#sw $2949 $2950 0
-#move $2951 $1811
-#addi $2952 $0 -18516
-#sw $2951 $2952 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2954 $467
-#addi $2955 $0 -18512
-#lw $2954 $467 0
-#sw $2954 $2955 0
-#move $2956 $1811
-#addi $2957 $0 -18516
-#sw $2956 $2957 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2959 $469
-#addi $2960 $0 -18512
-#lw $2959 $469 0
-#sw $2959 $2960 0
-#move $2961 $1811
-#addi $2962 $0 -18516
-#sw $2961 $2962 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2964 $471
-#addi $2965 $0 -18512
-#lw $2964 $471 0
-#sw $2964 $2965 0
-#move $2966 $1811
-#addi $2967 $0 -18516
-#sw $2966 $2967 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2969 $473
-#addi $2970 $0 -18512
-#lw $2969 $473 0
-#sw $2969 $2970 0
-#move $2971 $1811
-#addi $2972 $0 -18516
-#sw $2971 $2972 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2974 $475
-#addi $2975 $0 -18512
-#lw $2974 $475 0
-#sw $2974 $2975 0
-#move $2976 $1811
-#addi $2977 $0 -18516
-#sw $2976 $2977 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2979 $477
-#addi $2980 $0 -18512
-#lw $2979 $477 0
-#sw $2979 $2980 0
-#move $2981 $1811
-#addi $2982 $0 -18516
-#sw $2981 $2982 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2984 $479
-#addi $2985 $0 -18512
-#lw $2984 $479 0
-#sw $2984 $2985 0
-#move $2986 $1811
-#addi $2987 $0 -18516
-#sw $2986 $2987 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2989 $481
-#addi $2990 $0 -18512
-#lw $2989 $481 0
-#sw $2989 $2990 0
-#move $2991 $1811
-#addi $2992 $0 -18516
-#sw $2991 $2992 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2994 $483
-#addi $2995 $0 -18512
-#lw $2994 $483 0
-#sw $2994 $2995 0
-#move $2996 $1811
-#addi $2997 $0 -18516
-#sw $2996 $2997 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $2999 $485
-#addi $3000 $0 -18512
-#lw $2999 $485 0
-#sw $2999 $3000 0
-#move $3001 $1811
-#addi $3002 $0 -18516
-#sw $3001 $3002 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3004 $487
-#addi $3005 $0 -18512
-#lw $3004 $487 0
-#sw $3004 $3005 0
-#move $3006 $1811
-#addi $3007 $0 -18516
-#sw $3006 $3007 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3009 $489
-#addi $3010 $0 -18512
-#lw $3009 $489 0
-#sw $3009 $3010 0
-#move $3011 $1811
-#addi $3012 $0 -18516
-#sw $3011 $3012 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3014 $491
-#addi $3015 $0 -18512
-#lw $3014 $491 0
-#sw $3014 $3015 0
-#move $3016 $1811
-#addi $3017 $0 -18516
-#sw $3016 $3017 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3019 $493
-#addi $3020 $0 -18512
-#lw $3019 $493 0
-#sw $3019 $3020 0
-#move $3021 $1811
-#addi $3022 $0 -18516
-#sw $3021 $3022 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3024 $495
-#addi $3025 $0 -18512
-#lw $3024 $495 0
-#sw $3024 $3025 0
-#move $3026 $1811
-#addi $3027 $0 -18516
-#sw $3026 $3027 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3029 $497
-#addi $3030 $0 -18512
-#lw $3029 $497 0
-#sw $3029 $3030 0
-#move $3031 $1811
-#addi $3032 $0 -18516
-#sw $3031 $3032 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3034 $499
-#addi $3035 $0 -18512
-#lw $3034 $499 0
-#sw $3034 $3035 0
-#move $3036 $1811
-#addi $3037 $0 -18516
-#sw $3036 $3037 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3039 $501
-#addi $3040 $0 -18512
-#lw $3039 $501 0
-#sw $3039 $3040 0
-#move $3041 $1811
-#addi $3042 $0 -18516
-#sw $3041 $3042 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3044 $503
-#addi $3045 $0 -18512
-#lw $3044 $503 0
-#sw $3044 $3045 0
-#move $3046 $1811
-#addi $3047 $0 -18516
-#sw $3046 $3047 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3049 $505
-#addi $3050 $0 -18512
-#lw $3049 $505 0
-#sw $3049 $3050 0
-#move $3051 $1811
-#addi $3052 $0 -18516
-#sw $3051 $3052 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3054 $507
-#addi $3055 $0 -18512
-#lw $3054 $507 0
-#sw $3054 $3055 0
-#move $3056 $1811
-#addi $3057 $0 -18516
-#sw $3056 $3057 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3059 $509
-#addi $3060 $0 -18512
-#lw $3059 $509 0
-#sw $3059 $3060 0
-#move $3061 $1811
-#addi $3062 $0 -18516
-#sw $3061 $3062 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3064 $511
-#addi $3065 $0 -18512
-#lw $3064 $511 0
-#sw $3064 $3065 0
-#move $3066 $1811
-#addi $3067 $0 -18516
-#sw $3066 $3067 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3069 $513
-#addi $3070 $0 -18512
-#lw $3069 $513 0
-#sw $3069 $3070 0
-#move $3071 $1811
-#addi $3072 $0 -18516
-#sw $3071 $3072 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3074 $515
-#addi $3075 $0 -18512
-#lw $3074 $515 0
-#sw $3074 $3075 0
-#move $3076 $1811
-#addi $3077 $0 -18516
-#sw $3076 $3077 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3079 $517
-#addi $3080 $0 -18512
-#lw $3079 $517 0
-#sw $3079 $3080 0
-#move $3081 $1811
-#addi $3082 $0 -18516
-#sw $3081 $3082 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3084 $519
-#addi $3085 $0 -18512
-#lw $3084 $519 0
-#sw $3084 $3085 0
-#move $3086 $1811
-#addi $3087 $0 -18516
-#sw $3086 $3087 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-#move $3089 $3090
-#addi $3091 $0 -18512
-#sw $3089 $3091 0
-#addi $0 $0 -18512
-#call #printf_single
-#subi $0 $0 -18512
-####move $3093 $9
-#addi $3094 $0 -18512
-#lw $3093 $9 0
-#sw $3093 $3094 0
-#move $3095 $1811
-#addi $3096 $0 -18516
-#sw $3095 $3096 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3098 $11
-#addi $3099 $0 -18512
-#lw $3098 $11 0
-#sw $3098 $3099 0
-#move $3100 $1811
-#addi $3101 $0 -18516
-#sw $3100 $3101 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3103 $13
-#addi $3104 $0 -18512
-#lw $3103 $13 0
-#sw $3103 $3104 0
-#move $3105 $1811
-#addi $3106 $0 -18516
-#sw $3105 $3106 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3108 $15
-#addi $3109 $0 -18512
-#lw $3108 $15 0
-#sw $3108 $3109 0
-#move $3110 $1811
-#addi $3111 $0 -18516
-#sw $3110 $3111 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3113 $17
-#addi $3114 $0 -18512
-#lw $3113 $17 0
-#sw $3113 $3114 0
-#move $3115 $1811
-#addi $3116 $0 -18516
-#sw $3115 $3116 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3118 $19
-#addi $3119 $0 -18512
-#lw $3118 $19 0
-#sw $3118 $3119 0
-#move $3120 $1811
-#addi $3121 $0 -18516
-#sw $3120 $3121 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3123 $21
-#addi $3124 $0 -18512
-#lw $3123 $21 0
-#sw $3123 $3124 0
-#move $3125 $1811
-#addi $3126 $0 -18516
-#sw $3125 $3126 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3128 $23
-#addi $3129 $0 -18512
-#lw $3128 $23 0
-#sw $3128 $3129 0
-#move $3130 $1811
-#addi $3131 $0 -18516
-#sw $3130 $3131 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3133 $25
-#addi $3134 $0 -18512
-#lw $3133 $25 0
-#sw $3133 $3134 0
-#move $3135 $1811
-#addi $3136 $0 -18516
-#sw $3135 $3136 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3138 $27
-#addi $3139 $0 -18512
-#lw $3138 $27 0
-#sw $3138 $3139 0
-#move $3140 $1811
-#addi $3141 $0 -18516
-#sw $3140 $3141 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3143 $29
-#addi $3144 $0 -18512
-#lw $3143 $29 0
-#sw $3143 $3144 0
-#move $3145 $1811
-#addi $3146 $0 -18516
-#sw $3145 $3146 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3148 $31
-#addi $3149 $0 -18512
-#lw $3148 $31 0
-#sw $3148 $3149 0
-#move $3150 $1811
-#addi $3151 $0 -18516
-#sw $3150 $3151 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3153 $33
-#addi $3154 $0 -18512
-#lw $3153 $33 0
-#sw $3153 $3154 0
-#move $3155 $1811
-#addi $3156 $0 -18516
-#sw $3155 $3156 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3158 $35
-#addi $3159 $0 -18512
-#lw $3158 $35 0
-#sw $3158 $3159 0
-#move $3160 $1811
-#addi $3161 $0 -18516
-#sw $3160 $3161 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3163 $37
-#addi $3164 $0 -18512
-#lw $3163 $37 0
-#sw $3163 $3164 0
-#move $3165 $1811
-#addi $3166 $0 -18516
-#sw $3165 $3166 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3168 $39
-#addi $3169 $0 -18512
-#lw $3168 $39 0
-#sw $3168 $3169 0
-#move $3170 $1811
-#addi $3171 $0 -18516
-#sw $3170 $3171 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3173 $41
-#addi $3174 $0 -18512
-#lw $3173 $41 0
-#sw $3173 $3174 0
-#move $3175 $1811
-#addi $3176 $0 -18516
-#sw $3175 $3176 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3178 $43
-#addi $3179 $0 -18512
-#lw $3178 $43 0
-#sw $3178 $3179 0
-#move $3180 $1811
-#addi $3181 $0 -18516
-#sw $3180 $3181 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3183 $45
-#addi $3184 $0 -18512
-#lw $3183 $45 0
-#sw $3183 $3184 0
-#move $3185 $1811
-#addi $3186 $0 -18516
-#sw $3185 $3186 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3188 $47
-#addi $3189 $0 -18512
-#lw $3188 $47 0
-#sw $3188 $3189 0
-#move $3190 $1811
-#addi $3191 $0 -18516
-#sw $3190 $3191 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3193 $49
-#addi $3194 $0 -18512
-#lw $3193 $49 0
-#sw $3193 $3194 0
-#move $3195 $1811
-#addi $3196 $0 -18516
-#sw $3195 $3196 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3198 $51
-#addi $3199 $0 -18512
-#lw $3198 $51 0
-#sw $3198 $3199 0
-#move $3200 $1811
-#addi $3201 $0 -18516
-#sw $3200 $3201 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3203 $53
-#addi $3204 $0 -18512
-#lw $3203 $53 0
-#sw $3203 $3204 0
-#move $3205 $1811
-#addi $3206 $0 -18516
-#sw $3205 $3206 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3208 $55
-#addi $3209 $0 -18512
-#lw $3208 $55 0
-#sw $3208 $3209 0
-#move $3210 $1811
-#addi $3211 $0 -18516
-#sw $3210 $3211 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3213 $57
-#addi $3214 $0 -18512
-#lw $3213 $57 0
-#sw $3213 $3214 0
-#move $3215 $1811
-#addi $3216 $0 -18516
-#sw $3215 $3216 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3218 $59
-#addi $3219 $0 -18512
-#lw $3218 $59 0
-#sw $3218 $3219 0
-#move $3220 $1811
-#addi $3221 $0 -18516
-#sw $3220 $3221 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3223 $61
-#addi $3224 $0 -18512
-#lw $3223 $61 0
-#sw $3223 $3224 0
-#move $3225 $1811
-#addi $3226 $0 -18516
-#sw $3225 $3226 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3228 $63
-#addi $3229 $0 -18512
-#lw $3228 $63 0
-#sw $3228 $3229 0
-#move $3230 $1811
-#addi $3231 $0 -18516
-#sw $3230 $3231 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3233 $65
-#addi $3234 $0 -18512
-#lw $3233 $65 0
-#sw $3233 $3234 0
-#move $3235 $1811
-#addi $3236 $0 -18516
-#sw $3235 $3236 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3238 $67
-#addi $3239 $0 -18512
-#lw $3238 $67 0
-#sw $3238 $3239 0
-#move $3240 $1811
-#addi $3241 $0 -18516
-#sw $3240 $3241 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3243 $69
-#addi $3244 $0 -18512
-#lw $3243 $69 0
-#sw $3243 $3244 0
-#move $3245 $1811
-#addi $3246 $0 -18516
-#sw $3245 $3246 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3248 $71
-#addi $3249 $0 -18512
-#lw $3248 $71 0
-#sw $3248 $3249 0
-#move $3250 $1811
-#addi $3251 $0 -18516
-#sw $3250 $3251 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3253 $73
-#addi $3254 $0 -18512
-#lw $3253 $73 0
-#sw $3253 $3254 0
-#move $3255 $1811
-#addi $3256 $0 -18516
-#sw $3255 $3256 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3258 $75
-#addi $3259 $0 -18512
-#lw $3258 $75 0
-#sw $3258 $3259 0
-#move $3260 $1811
-#addi $3261 $0 -18516
-#sw $3260 $3261 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3263 $77
-#addi $3264 $0 -18512
-#lw $3263 $77 0
-#sw $3263 $3264 0
-#move $3265 $1811
-#addi $3266 $0 -18516
-#sw $3265 $3266 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3268 $79
-#addi $3269 $0 -18512
-#lw $3268 $79 0
-#sw $3268 $3269 0
-#move $3270 $1811
-#addi $3271 $0 -18516
-#sw $3270 $3271 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3273 $81
-#addi $3274 $0 -18512
-#lw $3273 $81 0
-#sw $3273 $3274 0
-#move $3275 $1811
-#addi $3276 $0 -18516
-#sw $3275 $3276 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3278 $83
-#addi $3279 $0 -18512
-#lw $3278 $83 0
-#sw $3278 $3279 0
-#move $3280 $1811
-#addi $3281 $0 -18516
-#sw $3280 $3281 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3283 $85
-#addi $3284 $0 -18512
-#lw $3283 $85 0
-#sw $3283 $3284 0
-#move $3285 $1811
-#addi $3286 $0 -18516
-#sw $3285 $3286 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3288 $87
-#addi $3289 $0 -18512
-#lw $3288 $87 0
-#sw $3288 $3289 0
-#move $3290 $1811
-#addi $3291 $0 -18516
-#sw $3290 $3291 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3293 $89
-#addi $3294 $0 -18512
-#lw $3293 $89 0
-#sw $3293 $3294 0
-#move $3295 $1811
-#addi $3296 $0 -18516
-#sw $3295 $3296 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3298 $91
-#addi $3299 $0 -18512
-#lw $3298 $91 0
-#sw $3298 $3299 0
-#move $3300 $1811
-#addi $3301 $0 -18516
-#sw $3300 $3301 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3303 $93
-#addi $3304 $0 -18512
-#lw $3303 $93 0
-#sw $3303 $3304 0
-#move $3305 $1811
-#addi $3306 $0 -18516
-#sw $3305 $3306 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3308 $95
-#addi $3309 $0 -18512
-#lw $3308 $95 0
-#sw $3308 $3309 0
-#move $3310 $1811
-#addi $3311 $0 -18516
-#sw $3310 $3311 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3313 $97
-#addi $3314 $0 -18512
-#lw $3313 $97 0
-#sw $3313 $3314 0
-#move $3315 $1811
-#addi $3316 $0 -18516
-#sw $3315 $3316 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3318 $99
-#addi $3319 $0 -18512
-#lw $3318 $99 0
-#sw $3318 $3319 0
-#move $3320 $1811
-#addi $3321 $0 -18516
-#sw $3320 $3321 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3323 $101
-#addi $3324 $0 -18512
-#lw $3323 $101 0
-#sw $3323 $3324 0
-#move $3325 $1811
-#addi $3326 $0 -18516
-#sw $3325 $3326 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3328 $103
-#addi $3329 $0 -18512
-#lw $3328 $103 0
-#sw $3328 $3329 0
-#move $3330 $1811
-#addi $3331 $0 -18516
-#sw $3330 $3331 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3333 $105
-#addi $3334 $0 -18512
-#lw $3333 $105 0
-#sw $3333 $3334 0
-#move $3335 $1811
-#addi $3336 $0 -18516
-#sw $3335 $3336 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3338 $107
-#addi $3339 $0 -18512
-#lw $3338 $107 0
-#sw $3338 $3339 0
-#move $3340 $1811
-#addi $3341 $0 -18516
-#sw $3340 $3341 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3343 $109
-#addi $3344 $0 -18512
-#lw $3343 $109 0
-#sw $3343 $3344 0
-#move $3345 $1811
-#addi $3346 $0 -18516
-#sw $3345 $3346 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3348 $111
-#addi $3349 $0 -18512
-#lw $3348 $111 0
-#sw $3348 $3349 0
-#move $3350 $1811
-#addi $3351 $0 -18516
-#sw $3350 $3351 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3353 $113
-#addi $3354 $0 -18512
-#lw $3353 $113 0
-#sw $3353 $3354 0
-#move $3355 $1811
-#addi $3356 $0 -18516
-#sw $3355 $3356 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3358 $115
-#addi $3359 $0 -18512
-#lw $3358 $115 0
-#sw $3358 $3359 0
-#move $3360 $1811
-#addi $3361 $0 -18516
-#sw $3360 $3361 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3363 $117
-#addi $3364 $0 -18512
-#lw $3363 $117 0
-#sw $3363 $3364 0
-#move $3365 $1811
-#addi $3366 $0 -18516
-#sw $3365 $3366 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3368 $119
-#addi $3369 $0 -18512
-#lw $3368 $119 0
-#sw $3368 $3369 0
-#move $3370 $1811
-#addi $3371 $0 -18516
-#sw $3370 $3371 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3373 $121
-#addi $3374 $0 -18512
-#lw $3373 $121 0
-#sw $3373 $3374 0
-#move $3375 $1811
-#addi $3376 $0 -18516
-#sw $3375 $3376 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3378 $123
-#addi $3379 $0 -18512
-#lw $3378 $123 0
-#sw $3378 $3379 0
-#move $3380 $1811
-#addi $3381 $0 -18516
-#sw $3380 $3381 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3383 $125
-#addi $3384 $0 -18512
-#lw $3383 $125 0
-#sw $3383 $3384 0
-#move $3385 $1811
-#addi $3386 $0 -18516
-#sw $3385 $3386 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3388 $127
-#addi $3389 $0 -18512
-#lw $3388 $127 0
-#sw $3388 $3389 0
-#move $3390 $1811
-#addi $3391 $0 -18516
-#sw $3390 $3391 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3393 $129
-#addi $3394 $0 -18512
-#lw $3393 $129 0
-#sw $3393 $3394 0
-#move $3395 $1811
-#addi $3396 $0 -18516
-#sw $3395 $3396 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3398 $131
-#addi $3399 $0 -18512
-#lw $3398 $131 0
-#sw $3398 $3399 0
-#move $3400 $1811
-#addi $3401 $0 -18516
-#sw $3400 $3401 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3403 $133
-#addi $3404 $0 -18512
-#lw $3403 $133 0
-#sw $3403 $3404 0
-#move $3405 $1811
-#addi $3406 $0 -18516
-#sw $3405 $3406 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3408 $135
-#addi $3409 $0 -18512
-#lw $3408 $135 0
-#sw $3408 $3409 0
-#move $3410 $1811
-#addi $3411 $0 -18516
-#sw $3410 $3411 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3413 $137
-#addi $3414 $0 -18512
-#lw $3413 $137 0
-#sw $3413 $3414 0
-#move $3415 $1811
-#addi $3416 $0 -18516
-#sw $3415 $3416 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3418 $139
-#addi $3419 $0 -18512
-#lw $3418 $139 0
-#sw $3418 $3419 0
-#move $3420 $1811
-#addi $3421 $0 -18516
-#sw $3420 $3421 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3423 $141
-#addi $3424 $0 -18512
-#lw $3423 $141 0
-#sw $3423 $3424 0
-#move $3425 $1811
-#addi $3426 $0 -18516
-#sw $3425 $3426 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3428 $143
-#addi $3429 $0 -18512
-#lw $3428 $143 0
-#sw $3428 $3429 0
-#move $3430 $1811
-#addi $3431 $0 -18516
-#sw $3430 $3431 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3433 $145
-#addi $3434 $0 -18512
-#lw $3433 $145 0
-#sw $3433 $3434 0
-#move $3435 $1811
-#addi $3436 $0 -18516
-#sw $3435 $3436 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3438 $147
-#addi $3439 $0 -18512
-#lw $3438 $147 0
-#sw $3438 $3439 0
-#move $3440 $1811
-#addi $3441 $0 -18516
-#sw $3440 $3441 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3443 $149
-#addi $3444 $0 -18512
-#lw $3443 $149 0
-#sw $3443 $3444 0
-#move $3445 $1811
-#addi $3446 $0 -18516
-#sw $3445 $3446 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3448 $151
-#addi $3449 $0 -18512
-#lw $3448 $151 0
-#sw $3448 $3449 0
-#move $3450 $1811
-#addi $3451 $0 -18516
-#sw $3450 $3451 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3453 $153
-#addi $3454 $0 -18512
-#lw $3453 $153 0
-#sw $3453 $3454 0
-#move $3455 $1811
-#addi $3456 $0 -18516
-#sw $3455 $3456 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3458 $155
-#addi $3459 $0 -18512
-#lw $3458 $155 0
-#sw $3458 $3459 0
-#move $3460 $1811
-#addi $3461 $0 -18516
-#sw $3460 $3461 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3463 $157
-#addi $3464 $0 -18512
-#lw $3463 $157 0
-#sw $3463 $3464 0
-#move $3465 $1811
-#addi $3466 $0 -18516
-#sw $3465 $3466 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3468 $159
-#addi $3469 $0 -18512
-#lw $3468 $159 0
-#sw $3468 $3469 0
-#move $3470 $1811
-#addi $3471 $0 -18516
-#sw $3470 $3471 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3473 $161
-#addi $3474 $0 -18512
-#lw $3473 $161 0
-#sw $3473 $3474 0
-#move $3475 $1811
-#addi $3476 $0 -18516
-#sw $3475 $3476 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3478 $163
-#addi $3479 $0 -18512
-#lw $3478 $163 0
-#sw $3478 $3479 0
-#move $3480 $1811
-#addi $3481 $0 -18516
-#sw $3480 $3481 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3483 $165
-#addi $3484 $0 -18512
-#lw $3483 $165 0
-#sw $3483 $3484 0
-#move $3485 $1811
-#addi $3486 $0 -18516
-#sw $3485 $3486 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3488 $167
-#addi $3489 $0 -18512
-#lw $3488 $167 0
-#sw $3488 $3489 0
-#move $3490 $1811
-#addi $3491 $0 -18516
-#sw $3490 $3491 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3493 $169
-#addi $3494 $0 -18512
-#lw $3493 $169 0
-#sw $3493 $3494 0
-#move $3495 $1811
-#addi $3496 $0 -18516
-#sw $3495 $3496 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3498 $171
-#addi $3499 $0 -18512
-#lw $3498 $171 0
-#sw $3498 $3499 0
-#move $3500 $1811
-#addi $3501 $0 -18516
-#sw $3500 $3501 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3503 $173
-#addi $3504 $0 -18512
-#lw $3503 $173 0
-#sw $3503 $3504 0
-#move $3505 $1811
-#addi $3506 $0 -18516
-#sw $3505 $3506 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3508 $175
-#addi $3509 $0 -18512
-#lw $3508 $175 0
-#sw $3508 $3509 0
-#move $3510 $1811
-#addi $3511 $0 -18516
-#sw $3510 $3511 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3513 $177
-#addi $3514 $0 -18512
-#lw $3513 $177 0
-#sw $3513 $3514 0
-#move $3515 $1811
-#addi $3516 $0 -18516
-#sw $3515 $3516 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3518 $179
-#addi $3519 $0 -18512
-#lw $3518 $179 0
-#sw $3518 $3519 0
-#move $3520 $1811
-#addi $3521 $0 -18516
-#sw $3520 $3521 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3523 $181
-#addi $3524 $0 -18512
-#lw $3523 $181 0
-#sw $3523 $3524 0
-#move $3525 $1811
-#addi $3526 $0 -18516
-#sw $3525 $3526 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3528 $183
-#addi $3529 $0 -18512
-#lw $3528 $183 0
-#sw $3528 $3529 0
-#move $3530 $1811
-#addi $3531 $0 -18516
-#sw $3530 $3531 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3533 $185
-#addi $3534 $0 -18512
-#lw $3533 $185 0
-#sw $3533 $3534 0
-#move $3535 $1811
-#addi $3536 $0 -18516
-#sw $3535 $3536 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3538 $187
-#addi $3539 $0 -18512
-#lw $3538 $187 0
-#sw $3538 $3539 0
-#move $3540 $1811
-#addi $3541 $0 -18516
-#sw $3540 $3541 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3543 $189
-#addi $3544 $0 -18512
-#lw $3543 $189 0
-#sw $3543 $3544 0
-#move $3545 $1811
-#addi $3546 $0 -18516
-#sw $3545 $3546 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3548 $191
-#addi $3549 $0 -18512
-#lw $3548 $191 0
-#sw $3548 $3549 0
-#move $3550 $1811
-#addi $3551 $0 -18516
-#sw $3550 $3551 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3553 $193
-#addi $3554 $0 -18512
-#lw $3553 $193 0
-#sw $3553 $3554 0
-#move $3555 $1811
-#addi $3556 $0 -18516
-#sw $3555 $3556 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3558 $195
-#addi $3559 $0 -18512
-#lw $3558 $195 0
-#sw $3558 $3559 0
-#move $3560 $1811
-#addi $3561 $0 -18516
-#sw $3560 $3561 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3563 $197
-#addi $3564 $0 -18512
-#lw $3563 $197 0
-#sw $3563 $3564 0
-#move $3565 $1811
-#addi $3566 $0 -18516
-#sw $3565 $3566 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3568 $199
-#addi $3569 $0 -18512
-#lw $3568 $199 0
-#sw $3568 $3569 0
-#move $3570 $1811
-#addi $3571 $0 -18516
-#sw $3570 $3571 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3573 $201
-#addi $3574 $0 -18512
-#lw $3573 $201 0
-#sw $3573 $3574 0
-#move $3575 $1811
-#addi $3576 $0 -18516
-#sw $3575 $3576 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3578 $203
-#addi $3579 $0 -18512
-#lw $3578 $203 0
-#sw $3578 $3579 0
-#move $3580 $1811
-#addi $3581 $0 -18516
-#sw $3580 $3581 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3583 $205
-#addi $3584 $0 -18512
-#lw $3583 $205 0
-#sw $3583 $3584 0
-#move $3585 $1811
-#addi $3586 $0 -18516
-#sw $3585 $3586 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3588 $207
-#addi $3589 $0 -18512
-#lw $3588 $207 0
-#sw $3588 $3589 0
-#move $3590 $1811
-#addi $3591 $0 -18516
-#sw $3590 $3591 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3593 $209
-#addi $3594 $0 -18512
-#lw $3593 $209 0
-#sw $3593 $3594 0
-#move $3595 $1811
-#addi $3596 $0 -18516
-#sw $3595 $3596 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3598 $211
-#addi $3599 $0 -18512
-#lw $3598 $211 0
-#sw $3598 $3599 0
-#move $3600 $1811
-#addi $3601 $0 -18516
-#sw $3600 $3601 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3603 $213
-#addi $3604 $0 -18512
-#lw $3603 $213 0
-#sw $3603 $3604 0
-#move $3605 $1811
-#addi $3606 $0 -18516
-#sw $3605 $3606 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3608 $215
-#addi $3609 $0 -18512
-#lw $3608 $215 0
-#sw $3608 $3609 0
-#move $3610 $1811
-#addi $3611 $0 -18516
-#sw $3610 $3611 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3613 $217
-#addi $3614 $0 -18512
-#lw $3613 $217 0
-#sw $3613 $3614 0
-#move $3615 $1811
-#addi $3616 $0 -18516
-#sw $3615 $3616 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3618 $219
-#addi $3619 $0 -18512
-#lw $3618 $219 0
-#sw $3618 $3619 0
-#move $3620 $1811
-#addi $3621 $0 -18516
-#sw $3620 $3621 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3623 $221
-#addi $3624 $0 -18512
-#lw $3623 $221 0
-#sw $3623 $3624 0
-#move $3625 $1811
-#addi $3626 $0 -18516
-#sw $3625 $3626 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3628 $223
-#addi $3629 $0 -18512
-#lw $3628 $223 0
-#sw $3628 $3629 0
-#move $3630 $1811
-#addi $3631 $0 -18516
-#sw $3630 $3631 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3633 $225
-#addi $3634 $0 -18512
-#lw $3633 $225 0
-#sw $3633 $3634 0
-#move $3635 $1811
-#addi $3636 $0 -18516
-#sw $3635 $3636 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3638 $227
-#addi $3639 $0 -18512
-#lw $3638 $227 0
-#sw $3638 $3639 0
-#move $3640 $1811
-#addi $3641 $0 -18516
-#sw $3640 $3641 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3643 $229
-#addi $3644 $0 -18512
-#lw $3643 $229 0
-#sw $3643 $3644 0
-#move $3645 $1811
-#addi $3646 $0 -18516
-#sw $3645 $3646 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3648 $231
-#addi $3649 $0 -18512
-#lw $3648 $231 0
-#sw $3648 $3649 0
-#move $3650 $1811
-#addi $3651 $0 -18516
-#sw $3650 $3651 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3653 $233
-#addi $3654 $0 -18512
-#lw $3653 $233 0
-#sw $3653 $3654 0
-#move $3655 $1811
-#addi $3656 $0 -18516
-#sw $3655 $3656 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3658 $235
-#addi $3659 $0 -18512
-#lw $3658 $235 0
-#sw $3658 $3659 0
-#move $3660 $1811
-#addi $3661 $0 -18516
-#sw $3660 $3661 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3663 $237
-#addi $3664 $0 -18512
-#lw $3663 $237 0
-#sw $3663 $3664 0
-#move $3665 $1811
-#addi $3666 $0 -18516
-#sw $3665 $3666 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3668 $239
-#addi $3669 $0 -18512
-#lw $3668 $239 0
-#sw $3668 $3669 0
-#move $3670 $1811
-#addi $3671 $0 -18516
-#sw $3670 $3671 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3673 $241
-#addi $3674 $0 -18512
-#lw $3673 $241 0
-#sw $3673 $3674 0
-#move $3675 $1811
-#addi $3676 $0 -18516
-#sw $3675 $3676 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3678 $243
-#addi $3679 $0 -18512
-#lw $3678 $243 0
-#sw $3678 $3679 0
-#move $3680 $1811
-#addi $3681 $0 -18516
-#sw $3680 $3681 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3683 $245
-#addi $3684 $0 -18512
-#lw $3683 $245 0
-#sw $3683 $3684 0
-#move $3685 $1811
-#addi $3686 $0 -18516
-#sw $3685 $3686 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3688 $247
-#addi $3689 $0 -18512
-#lw $3688 $247 0
-#sw $3688 $3689 0
-#move $3690 $1811
-#addi $3691 $0 -18516
-#sw $3690 $3691 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3693 $249
-#addi $3694 $0 -18512
-#lw $3693 $249 0
-#sw $3693 $3694 0
-#move $3695 $1811
-#addi $3696 $0 -18516
-#sw $3695 $3696 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3698 $251
-#addi $3699 $0 -18512
-#lw $3698 $251 0
-#sw $3698 $3699 0
-#move $3700 $1811
-#addi $3701 $0 -18516
-#sw $3700 $3701 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3703 $253
-#addi $3704 $0 -18512
-#lw $3703 $253 0
-#sw $3703 $3704 0
-#move $3705 $1811
-#addi $3706 $0 -18516
-#sw $3705 $3706 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3708 $255
-#addi $3709 $0 -18512
-#lw $3708 $255 0
-#sw $3708 $3709 0
-#move $3710 $1811
-#addi $3711 $0 -18516
-#sw $3710 $3711 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3713 $257
-#addi $3714 $0 -18512
-#lw $3713 $257 0
-#sw $3713 $3714 0
-#move $3715 $1811
-#addi $3716 $0 -18516
-#sw $3715 $3716 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3718 $259
-#addi $3719 $0 -18512
-#lw $3718 $259 0
-#sw $3718 $3719 0
-#move $3720 $1811
-#addi $3721 $0 -18516
-#sw $3720 $3721 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3723 $261
-#addi $3724 $0 -18512
-#lw $3723 $261 0
-#sw $3723 $3724 0
-#move $3725 $1811
-#addi $3726 $0 -18516
-#sw $3725 $3726 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3728 $263
-#addi $3729 $0 -18512
-#lw $3728 $263 0
-#sw $3728 $3729 0
-#move $3730 $1811
-#addi $3731 $0 -18516
-#sw $3730 $3731 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3733 $265
-#addi $3734 $0 -18512
-#lw $3733 $265 0
-#sw $3733 $3734 0
-#move $3735 $1811
-#addi $3736 $0 -18516
-#sw $3735 $3736 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3738 $267
-#addi $3739 $0 -18512
-#lw $3738 $267 0
-#sw $3738 $3739 0
-#move $3740 $1811
-#addi $3741 $0 -18516
-#sw $3740 $3741 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3743 $269
-#addi $3744 $0 -18512
-#lw $3743 $269 0
-#sw $3743 $3744 0
-#move $3745 $1811
-#addi $3746 $0 -18516
-#sw $3745 $3746 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3748 $271
-#addi $3749 $0 -18512
-#lw $3748 $271 0
-#sw $3748 $3749 0
-#move $3750 $1811
-#addi $3751 $0 -18516
-#sw $3750 $3751 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3753 $273
-#addi $3754 $0 -18512
-#lw $3753 $273 0
-#sw $3753 $3754 0
-#move $3755 $1811
-#addi $3756 $0 -18516
-#sw $3755 $3756 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3758 $275
-#addi $3759 $0 -18512
-#lw $3758 $275 0
-#sw $3758 $3759 0
-#move $3760 $1811
-#addi $3761 $0 -18516
-#sw $3760 $3761 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3763 $277
-#addi $3764 $0 -18512
-#lw $3763 $277 0
-#sw $3763 $3764 0
-#move $3765 $1811
-#addi $3766 $0 -18516
-#sw $3765 $3766 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3768 $279
-#addi $3769 $0 -18512
-#lw $3768 $279 0
-#sw $3768 $3769 0
-#move $3770 $1811
-#addi $3771 $0 -18516
-#sw $3770 $3771 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3773 $281
-#addi $3774 $0 -18512
-#lw $3773 $281 0
-#sw $3773 $3774 0
-#move $3775 $1811
-#addi $3776 $0 -18516
-#sw $3775 $3776 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3778 $283
-#addi $3779 $0 -18512
-#lw $3778 $283 0
-#sw $3778 $3779 0
-#move $3780 $1811
-#addi $3781 $0 -18516
-#sw $3780 $3781 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3783 $285
-#addi $3784 $0 -18512
-#lw $3783 $285 0
-#sw $3783 $3784 0
-#move $3785 $1811
-#addi $3786 $0 -18516
-#sw $3785 $3786 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3788 $287
-#addi $3789 $0 -18512
-#lw $3788 $287 0
-#sw $3788 $3789 0
-#move $3790 $1811
-#addi $3791 $0 -18516
-#sw $3790 $3791 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3793 $289
-#addi $3794 $0 -18512
-#lw $3793 $289 0
-#sw $3793 $3794 0
-#move $3795 $1811
-#addi $3796 $0 -18516
-#sw $3795 $3796 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3798 $291
-#addi $3799 $0 -18512
-#lw $3798 $291 0
-#sw $3798 $3799 0
-#move $3800 $1811
-#addi $3801 $0 -18516
-#sw $3800 $3801 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3803 $293
-#addi $3804 $0 -18512
-#lw $3803 $293 0
-#sw $3803 $3804 0
-#move $3805 $1811
-#addi $3806 $0 -18516
-#sw $3805 $3806 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3808 $295
-#addi $3809 $0 -18512
-#lw $3808 $295 0
-#sw $3808 $3809 0
-#move $3810 $1811
-#addi $3811 $0 -18516
-#sw $3810 $3811 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3813 $297
-#addi $3814 $0 -18512
-#lw $3813 $297 0
-#sw $3813 $3814 0
-#move $3815 $1811
-#addi $3816 $0 -18516
-#sw $3815 $3816 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3818 $299
-#addi $3819 $0 -18512
-#lw $3818 $299 0
-#sw $3818 $3819 0
-#move $3820 $1811
-#addi $3821 $0 -18516
-#sw $3820 $3821 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3823 $301
-#addi $3824 $0 -18512
-#lw $3823 $301 0
-#sw $3823 $3824 0
-#move $3825 $1811
-#addi $3826 $0 -18516
-#sw $3825 $3826 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3828 $303
-#addi $3829 $0 -18512
-#lw $3828 $303 0
-#sw $3828 $3829 0
-#move $3830 $1811
-#addi $3831 $0 -18516
-#sw $3830 $3831 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3833 $305
-#addi $3834 $0 -18512
-#lw $3833 $305 0
-#sw $3833 $3834 0
-#move $3835 $1811
-#addi $3836 $0 -18516
-#sw $3835 $3836 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3838 $307
-#addi $3839 $0 -18512
-#lw $3838 $307 0
-#sw $3838 $3839 0
-#move $3840 $1811
-#addi $3841 $0 -18516
-#sw $3840 $3841 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3843 $309
-#addi $3844 $0 -18512
-#lw $3843 $309 0
-#sw $3843 $3844 0
-#move $3845 $1811
-#addi $3846 $0 -18516
-#sw $3845 $3846 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3848 $311
-#addi $3849 $0 -18512
-#lw $3848 $311 0
-#sw $3848 $3849 0
-#move $3850 $1811
-#addi $3851 $0 -18516
-#sw $3850 $3851 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3853 $313
-#addi $3854 $0 -18512
-#lw $3853 $313 0
-#sw $3853 $3854 0
-#move $3855 $1811
-#addi $3856 $0 -18516
-#sw $3855 $3856 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3858 $315
-#addi $3859 $0 -18512
-#lw $3858 $315 0
-#sw $3858 $3859 0
-#move $3860 $1811
-#addi $3861 $0 -18516
-#sw $3860 $3861 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3863 $317
-#addi $3864 $0 -18512
-#lw $3863 $317 0
-#sw $3863 $3864 0
-#move $3865 $1811
-#addi $3866 $0 -18516
-#sw $3865 $3866 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3868 $319
-#addi $3869 $0 -18512
-#lw $3868 $319 0
-#sw $3868 $3869 0
-#move $3870 $1811
-#addi $3871 $0 -18516
-#sw $3870 $3871 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3873 $321
-#addi $3874 $0 -18512
-#lw $3873 $321 0
-#sw $3873 $3874 0
-#move $3875 $1811
-#addi $3876 $0 -18516
-#sw $3875 $3876 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3878 $323
-#addi $3879 $0 -18512
-#lw $3878 $323 0
-#sw $3878 $3879 0
-#move $3880 $1811
-#addi $3881 $0 -18516
-#sw $3880 $3881 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3883 $325
-#addi $3884 $0 -18512
-#lw $3883 $325 0
-#sw $3883 $3884 0
-#move $3885 $1811
-#addi $3886 $0 -18516
-#sw $3885 $3886 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3888 $327
-#addi $3889 $0 -18512
-#lw $3888 $327 0
-#sw $3888 $3889 0
-#move $3890 $1811
-#addi $3891 $0 -18516
-#sw $3890 $3891 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3893 $329
-#addi $3894 $0 -18512
-#lw $3893 $329 0
-#sw $3893 $3894 0
-#move $3895 $1811
-#addi $3896 $0 -18516
-#sw $3895 $3896 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3898 $331
-#addi $3899 $0 -18512
-#lw $3898 $331 0
-#sw $3898 $3899 0
-#move $3900 $1811
-#addi $3901 $0 -18516
-#sw $3900 $3901 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3903 $333
-#addi $3904 $0 -18512
-#lw $3903 $333 0
-#sw $3903 $3904 0
-#move $3905 $1811
-#addi $3906 $0 -18516
-#sw $3905 $3906 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3908 $335
-#addi $3909 $0 -18512
-#lw $3908 $335 0
-#sw $3908 $3909 0
-#move $3910 $1811
-#addi $3911 $0 -18516
-#sw $3910 $3911 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3913 $337
-#addi $3914 $0 -18512
-#lw $3913 $337 0
-#sw $3913 $3914 0
-#move $3915 $1811
-#addi $3916 $0 -18516
-#sw $3915 $3916 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3918 $339
-#addi $3919 $0 -18512
-#lw $3918 $339 0
-#sw $3918 $3919 0
-#move $3920 $1811
-#addi $3921 $0 -18516
-#sw $3920 $3921 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3923 $341
-#addi $3924 $0 -18512
-#lw $3923 $341 0
-#sw $3923 $3924 0
-#move $3925 $1811
-#addi $3926 $0 -18516
-#sw $3925 $3926 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3928 $343
-#addi $3929 $0 -18512
-#lw $3928 $343 0
-#sw $3928 $3929 0
-#move $3930 $1811
-#addi $3931 $0 -18516
-#sw $3930 $3931 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3933 $345
-#addi $3934 $0 -18512
-#lw $3933 $345 0
-#sw $3933 $3934 0
-#move $3935 $1811
-#addi $3936 $0 -18516
-#sw $3935 $3936 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3938 $347
-#addi $3939 $0 -18512
-#lw $3938 $347 0
-#sw $3938 $3939 0
-#move $3940 $1811
-#addi $3941 $0 -18516
-#sw $3940 $3941 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3943 $349
-#addi $3944 $0 -18512
-#lw $3943 $349 0
-#sw $3943 $3944 0
-#move $3945 $1811
-#addi $3946 $0 -18516
-#sw $3945 $3946 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3948 $351
-#addi $3949 $0 -18512
-#lw $3948 $351 0
-#sw $3948 $3949 0
-#move $3950 $1811
-#addi $3951 $0 -18516
-#sw $3950 $3951 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3953 $353
-#addi $3954 $0 -18512
-#lw $3953 $353 0
-#sw $3953 $3954 0
-#move $3955 $1811
-#addi $3956 $0 -18516
-#sw $3955 $3956 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3958 $355
-#addi $3959 $0 -18512
-#lw $3958 $355 0
-#sw $3958 $3959 0
-#move $3960 $1811
-#addi $3961 $0 -18516
-#sw $3960 $3961 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3963 $357
-#addi $3964 $0 -18512
-#lw $3963 $357 0
-#sw $3963 $3964 0
-#move $3965 $1811
-#addi $3966 $0 -18516
-#sw $3965 $3966 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3968 $359
-#addi $3969 $0 -18512
-#lw $3968 $359 0
-#sw $3968 $3969 0
-#move $3970 $1811
-#addi $3971 $0 -18516
-#sw $3970 $3971 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3973 $361
-#addi $3974 $0 -18512
-#lw $3973 $361 0
-#sw $3973 $3974 0
-#move $3975 $1811
-#addi $3976 $0 -18516
-#sw $3975 $3976 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3978 $363
-#addi $3979 $0 -18512
-#lw $3978 $363 0
-#sw $3978 $3979 0
-#move $3980 $1811
-#addi $3981 $0 -18516
-#sw $3980 $3981 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3983 $365
-#addi $3984 $0 -18512
-#lw $3983 $365 0
-#sw $3983 $3984 0
-#move $3985 $1811
-#addi $3986 $0 -18516
-#sw $3985 $3986 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3988 $367
-#addi $3989 $0 -18512
-#lw $3988 $367 0
-#sw $3988 $3989 0
-#move $3990 $1811
-#addi $3991 $0 -18516
-#sw $3990 $3991 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3993 $369
-#addi $3994 $0 -18512
-#lw $3993 $369 0
-#sw $3993 $3994 0
-#move $3995 $1811
-#addi $3996 $0 -18516
-#sw $3995 $3996 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $3998 $371
-#addi $3999 $0 -18512
-#lw $3998 $371 0
-#sw $3998 $3999 0
-#move $4000 $1811
-#addi $4001 $0 -18516
-#sw $4000 $4001 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4003 $373
-#addi $4004 $0 -18512
-#lw $4003 $373 0
-#sw $4003 $4004 0
-#move $4005 $1811
-#addi $4006 $0 -18516
-#sw $4005 $4006 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4008 $375
-#addi $4009 $0 -18512
-#lw $4008 $375 0
-#sw $4008 $4009 0
-#move $4010 $1811
-#addi $4011 $0 -18516
-#sw $4010 $4011 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4013 $377
-#addi $4014 $0 -18512
-#lw $4013 $377 0
-#sw $4013 $4014 0
-#move $4015 $1811
-#addi $4016 $0 -18516
-#sw $4015 $4016 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4018 $379
-#addi $4019 $0 -18512
-#lw $4018 $379 0
-#sw $4018 $4019 0
-#move $4020 $1811
-#addi $4021 $0 -18516
-#sw $4020 $4021 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4023 $381
-#addi $4024 $0 -18512
-#lw $4023 $381 0
-#sw $4023 $4024 0
-#move $4025 $1811
-#addi $4026 $0 -18516
-#sw $4025 $4026 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4028 $383
-#addi $4029 $0 -18512
-#lw $4028 $383 0
-#sw $4028 $4029 0
-#move $4030 $1811
-#addi $4031 $0 -18516
-#sw $4030 $4031 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4033 $385
-#addi $4034 $0 -18512
-#lw $4033 $385 0
-#sw $4033 $4034 0
-#move $4035 $1811
-#addi $4036 $0 -18516
-#sw $4035 $4036 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4038 $387
-#addi $4039 $0 -18512
-#lw $4038 $387 0
-#sw $4038 $4039 0
-#move $4040 $1811
-#addi $4041 $0 -18516
-#sw $4040 $4041 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4043 $389
-#addi $4044 $0 -18512
-#lw $4043 $389 0
-#sw $4043 $4044 0
-#move $4045 $1811
-#addi $4046 $0 -18516
-#sw $4045 $4046 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4048 $391
-#addi $4049 $0 -18512
-#lw $4048 $391 0
-#sw $4048 $4049 0
-#move $4050 $1811
-#addi $4051 $0 -18516
-#sw $4050 $4051 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4053 $393
-#addi $4054 $0 -18512
-#lw $4053 $393 0
-#sw $4053 $4054 0
-#move $4055 $1811
-#addi $4056 $0 -18516
-#sw $4055 $4056 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4058 $395
-#addi $4059 $0 -18512
-#lw $4058 $395 0
-#sw $4058 $4059 0
-#move $4060 $1811
-#addi $4061 $0 -18516
-#sw $4060 $4061 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4063 $397
-#addi $4064 $0 -18512
-#lw $4063 $397 0
-#sw $4063 $4064 0
-#move $4065 $1811
-#addi $4066 $0 -18516
-#sw $4065 $4066 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4068 $399
-#addi $4069 $0 -18512
-#lw $4068 $399 0
-#sw $4068 $4069 0
-#move $4070 $1811
-#addi $4071 $0 -18516
-#sw $4070 $4071 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4073 $401
-#addi $4074 $0 -18512
-#lw $4073 $401 0
-#sw $4073 $4074 0
-#move $4075 $1811
-#addi $4076 $0 -18516
-#sw $4075 $4076 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4078 $403
-#addi $4079 $0 -18512
-#lw $4078 $403 0
-#sw $4078 $4079 0
-#move $4080 $1811
-#addi $4081 $0 -18516
-#sw $4080 $4081 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4083 $405
-#addi $4084 $0 -18512
-#lw $4083 $405 0
-#sw $4083 $4084 0
-#move $4085 $1811
-#addi $4086 $0 -18516
-#sw $4085 $4086 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4088 $407
-#addi $4089 $0 -18512
-#lw $4088 $407 0
-#sw $4088 $4089 0
-#move $4090 $1811
-#addi $4091 $0 -18516
-#sw $4090 $4091 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4093 $409
-#addi $4094 $0 -18512
-#lw $4093 $409 0
-#sw $4093 $4094 0
-#move $4095 $1811
-#addi $4096 $0 -18516
-#sw $4095 $4096 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4098 $411
-#addi $4099 $0 -18512
-#lw $4098 $411 0
-#sw $4098 $4099 0
-#move $4100 $1811
-#addi $4101 $0 -18516
-#sw $4100 $4101 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4103 $413
-#addi $4104 $0 -18512
-#lw $4103 $413 0
-#sw $4103 $4104 0
-#move $4105 $1811
-#addi $4106 $0 -18516
-#sw $4105 $4106 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4108 $415
-#addi $4109 $0 -18512
-#lw $4108 $415 0
-#sw $4108 $4109 0
-#move $4110 $1811
-#addi $4111 $0 -18516
-#sw $4110 $4111 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4113 $417
-#addi $4114 $0 -18512
-#lw $4113 $417 0
-#sw $4113 $4114 0
-#move $4115 $1811
-#addi $4116 $0 -18516
-#sw $4115 $4116 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4118 $419
-#addi $4119 $0 -18512
-#lw $4118 $419 0
-#sw $4118 $4119 0
-#move $4120 $1811
-#addi $4121 $0 -18516
-#sw $4120 $4121 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4123 $421
-#addi $4124 $0 -18512
-#lw $4123 $421 0
-#sw $4123 $4124 0
-#move $4125 $1811
-#addi $4126 $0 -18516
-#sw $4125 $4126 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4128 $423
-#addi $4129 $0 -18512
-#lw $4128 $423 0
-#sw $4128 $4129 0
-#move $4130 $1811
-#addi $4131 $0 -18516
-#sw $4130 $4131 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4133 $425
-#addi $4134 $0 -18512
-#lw $4133 $425 0
-#sw $4133 $4134 0
-#move $4135 $1811
-#addi $4136 $0 -18516
-#sw $4135 $4136 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4138 $427
-#addi $4139 $0 -18512
-#lw $4138 $427 0
-#sw $4138 $4139 0
-#move $4140 $1811
-#addi $4141 $0 -18516
-#sw $4140 $4141 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4143 $429
-#addi $4144 $0 -18512
-#lw $4143 $429 0
-#sw $4143 $4144 0
-#move $4145 $1811
-#addi $4146 $0 -18516
-#sw $4145 $4146 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4148 $431
-#addi $4149 $0 -18512
-#lw $4148 $431 0
-#sw $4148 $4149 0
-#move $4150 $1811
-#addi $4151 $0 -18516
-#sw $4150 $4151 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4153 $433
-#addi $4154 $0 -18512
-#lw $4153 $433 0
-#sw $4153 $4154 0
-#move $4155 $1811
-#addi $4156 $0 -18516
-#sw $4155 $4156 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4158 $435
-#addi $4159 $0 -18512
-#lw $4158 $435 0
-#sw $4158 $4159 0
-#move $4160 $1811
-#addi $4161 $0 -18516
-#sw $4160 $4161 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4163 $437
-#addi $4164 $0 -18512
-#lw $4163 $437 0
-#sw $4163 $4164 0
-#move $4165 $1811
-#addi $4166 $0 -18516
-#sw $4165 $4166 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4168 $439
-#addi $4169 $0 -18512
-#lw $4168 $439 0
-#sw $4168 $4169 0
-#move $4170 $1811
-#addi $4171 $0 -18516
-#sw $4170 $4171 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4173 $441
-#addi $4174 $0 -18512
-#lw $4173 $441 0
-#sw $4173 $4174 0
-#move $4175 $1811
-#addi $4176 $0 -18516
-#sw $4175 $4176 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4178 $443
-#addi $4179 $0 -18512
-#lw $4178 $443 0
-#sw $4178 $4179 0
-#move $4180 $1811
-#addi $4181 $0 -18516
-#sw $4180 $4181 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4183 $445
-#addi $4184 $0 -18512
-#lw $4183 $445 0
-#sw $4183 $4184 0
-#move $4185 $1811
-#addi $4186 $0 -18516
-#sw $4185 $4186 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4188 $447
-#addi $4189 $0 -18512
-#lw $4188 $447 0
-#sw $4188 $4189 0
-#move $4190 $1811
-#addi $4191 $0 -18516
-#sw $4190 $4191 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4193 $449
-#addi $4194 $0 -18512
-#lw $4193 $449 0
-#sw $4193 $4194 0
-#move $4195 $1811
-#addi $4196 $0 -18516
-#sw $4195 $4196 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4198 $451
-#addi $4199 $0 -18512
-#lw $4198 $451 0
-#sw $4198 $4199 0
-#move $4200 $1811
-#addi $4201 $0 -18516
-#sw $4200 $4201 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4203 $453
-#addi $4204 $0 -18512
-#lw $4203 $453 0
-#sw $4203 $4204 0
-#move $4205 $1811
-#addi $4206 $0 -18516
-#sw $4205 $4206 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4208 $455
-#addi $4209 $0 -18512
-#lw $4208 $455 0
-#sw $4208 $4209 0
-#move $4210 $1811
-#addi $4211 $0 -18516
-#sw $4210 $4211 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4213 $457
-#addi $4214 $0 -18512
-#lw $4213 $457 0
-#sw $4213 $4214 0
-#move $4215 $1811
-#addi $4216 $0 -18516
-#sw $4215 $4216 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4218 $459
-#addi $4219 $0 -18512
-#lw $4218 $459 0
-#sw $4218 $4219 0
-#move $4220 $1811
-#addi $4221 $0 -18516
-#sw $4220 $4221 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4223 $461
-#addi $4224 $0 -18512
-#lw $4223 $461 0
-#sw $4223 $4224 0
-#move $4225 $1811
-#addi $4226 $0 -18516
-#sw $4225 $4226 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4228 $463
-#addi $4229 $0 -18512
-#lw $4228 $463 0
-#sw $4228 $4229 0
-#move $4230 $1811
-#addi $4231 $0 -18516
-#sw $4230 $4231 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4233 $465
-#addi $4234 $0 -18512
-#lw $4233 $465 0
-#sw $4233 $4234 0
-#move $4235 $1811
-#addi $4236 $0 -18516
-#sw $4235 $4236 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4238 $467
-#addi $4239 $0 -18512
-#lw $4238 $467 0
-#sw $4238 $4239 0
-#move $4240 $1811
-#addi $4241 $0 -18516
-#sw $4240 $4241 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4243 $469
-#addi $4244 $0 -18512
-#lw $4243 $469 0
-#sw $4243 $4244 0
-#move $4245 $1811
-#addi $4246 $0 -18516
-#sw $4245 $4246 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4248 $471
-#addi $4249 $0 -18512
-#lw $4248 $471 0
-#sw $4248 $4249 0
-#move $4250 $1811
-#addi $4251 $0 -18516
-#sw $4250 $4251 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4253 $473
-#addi $4254 $0 -18512
-#lw $4253 $473 0
-#sw $4253 $4254 0
-#move $4255 $1811
-#addi $4256 $0 -18516
-#sw $4255 $4256 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4258 $475
-#addi $4259 $0 -18512
-#lw $4258 $475 0
-#sw $4258 $4259 0
-#move $4260 $1811
-#addi $4261 $0 -18516
-#sw $4260 $4261 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4263 $477
-#addi $4264 $0 -18512
-#lw $4263 $477 0
-#sw $4263 $4264 0
-#move $4265 $1811
-#addi $4266 $0 -18516
-#sw $4265 $4266 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4268 $479
-#addi $4269 $0 -18512
-#lw $4268 $479 0
-#sw $4268 $4269 0
-#move $4270 $1811
-#addi $4271 $0 -18516
-#sw $4270 $4271 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4273 $481
-#addi $4274 $0 -18512
-#lw $4273 $481 0
-#sw $4273 $4274 0
-#move $4275 $1811
-#addi $4276 $0 -18516
-#sw $4275 $4276 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4278 $483
-#addi $4279 $0 -18512
-#lw $4278 $483 0
-#sw $4278 $4279 0
-#move $4280 $1811
-#addi $4281 $0 -18516
-#sw $4280 $4281 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4283 $485
-#addi $4284 $0 -18512
-#lw $4283 $485 0
-#sw $4283 $4284 0
-#move $4285 $1811
-#addi $4286 $0 -18516
-#sw $4285 $4286 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4288 $487
-#addi $4289 $0 -18512
-#lw $4288 $487 0
-#sw $4288 $4289 0
-#move $4290 $1811
-#addi $4291 $0 -18516
-#sw $4290 $4291 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4293 $489
-#addi $4294 $0 -18512
-#lw $4293 $489 0
-#sw $4293 $4294 0
-#move $4295 $1811
-#addi $4296 $0 -18516
-#sw $4295 $4296 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4298 $491
-#addi $4299 $0 -18512
-#lw $4298 $491 0
-#sw $4298 $4299 0
-#move $4300 $1811
-#addi $4301 $0 -18516
-#sw $4300 $4301 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4303 $493
-#addi $4304 $0 -18512
-#lw $4303 $493 0
-#sw $4303 $4304 0
-#move $4305 $1811
-#addi $4306 $0 -18516
-#sw $4305 $4306 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4308 $495
-#addi $4309 $0 -18512
-#lw $4308 $495 0
-#sw $4308 $4309 0
-#move $4310 $1811
-#addi $4311 $0 -18516
-#sw $4310 $4311 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4313 $497
-#addi $4314 $0 -18512
-#lw $4313 $497 0
-#sw $4313 $4314 0
-#move $4315 $1811
-#addi $4316 $0 -18516
-#sw $4315 $4316 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4318 $499
-#addi $4319 $0 -18512
-#lw $4318 $499 0
-#sw $4318 $4319 0
-#move $4320 $1811
-#addi $4321 $0 -18516
-#sw $4320 $4321 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4323 $501
-#addi $4324 $0 -18512
-#lw $4323 $501 0
-#sw $4323 $4324 0
-#move $4325 $1811
-#addi $4326 $0 -18516
-#sw $4325 $4326 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4328 $503
-#addi $4329 $0 -18512
-#lw $4328 $503 0
-#sw $4328 $4329 0
-#move $4330 $1811
-#addi $4331 $0 -18516
-#sw $4330 $4331 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4333 $505
-#addi $4334 $0 -18512
-#lw $4333 $505 0
-#sw $4333 $4334 0
-#move $4335 $1811
-#addi $4336 $0 -18516
-#sw $4335 $4336 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4338 $507
-#addi $4339 $0 -18512
-#lw $4338 $507 0
-#sw $4338 $4339 0
-#move $4340 $1811
-#addi $4341 $0 -18516
-#sw $4340 $4341 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4343 $509
-#addi $4344 $0 -18512
-#lw $4343 $509 0
-#sw $4343 $4344 0
-#move $4345 $1811
-#addi $4346 $0 -18516
-#sw $4345 $4346 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4348 $511
-#addi $4349 $0 -18512
-#lw $4348 $511 0
-#sw $4348 $4349 0
-#move $4350 $1811
-#addi $4351 $0 -18516
-#sw $4350 $4351 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4353 $513
-#addi $4354 $0 -18512
-#lw $4353 $513 0
-#sw $4353 $4354 0
-#move $4355 $1811
-#addi $4356 $0 -18516
-#sw $4355 $4356 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4358 $515
-#addi $4359 $0 -18512
-#lw $4358 $515 0
-#sw $4358 $4359 0
-#move $4360 $1811
-#addi $4361 $0 -18516
-#sw $4360 $4361 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4363 $517
-#addi $4364 $0 -18512
-#lw $4363 $517 0
-#sw $4363 $4364 0
-#move $4365 $1811
-#addi $4366 $0 -18516
-#sw $4365 $4366 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-####move $4368 $519
-#addi $4369 $0 -18512
-#lw $4368 $519 0
-#sw $4368 $4369 0
-#move $4370 $1811
-#addi $4371 $0 -18516
-#sw $4370 $4371 0
-#addi $0 $0 -18516
-#call #printf
-#subi $0 $0 -18516
-#move $4373 $3090
-#addi $4374 $0 -18512
-#sw $4373 $4374 0
-#addi $0 $0 -18512
-#call #printf_single
-#subi $0 $0 -18512
-#li $4375 0
-#addi $4376 $0 4
-#sw $4375 $4376 0
-#return
-#return

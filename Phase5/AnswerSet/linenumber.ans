@@ -1,0 +1,392 @@
+001 : #include <cassert>
+002 : #include <cmath>
+003 : #include <cstdio>
+004 : #include <cstring>
+005 : #include <set>
+006 : #include <map>
+007 : #include <queue>
+008 : #include <string>
+009 : #include <vector>
+010 : #include <algorithm>
+011 : 
+012 : #define ALL(v) (v).begin(), (v).end()
+013 : #define SIZE(v) ((int)(v).size())
+014 : #define foreach(i, v) for (__typeof((v).begin()) i = (v).begin(); i != (v).end(); ++ i) 
+015 : 
+016 : const int N = 100 + 4;
+017 : const double EPS = 1e-8;
+018 : 
+019 : int signum(double x, double eps = EPS) {
+020 :     return x < -eps ? -1 : x > eps;
+021 : }
+022 : 
+023 : // {{{ Point class
+024 : struct Point {
+025 :     double x, y;
+026 : 
+027 :     Point() : x(0), y(0) {}
+028 :     Point(double x, double y) : x(x), y(y) {}
+029 : 
+030 :     Point &operator +=(const Point &o) {
+031 :         x += o.x;
+032 :         y += o.y;
+033 :         return *this;
+034 :     }
+035 : 
+036 :     Point &operator -=(const Point &o) {
+037 :         x -= o.x;
+038 :         y -= o.y;
+039 :         return *this;
+040 :     }
+041 : 
+042 :     Point &operator *=(double k) {
+043 :         x *= k;
+044 :         y *= k;
+045 :         return *this;
+046 :     }
+047 : 
+048 :     Point &operator /=(double k) {
+049 :         x /= k;
+050 :         y /= k;
+051 :         return *this;
+052 :     }
+053 : 
+054 :     double norm2() const {
+055 :         return x * x + y * y;
+056 :     }
+057 : 
+058 :     double norm() const {
+059 :         return sqrt(norm2());
+060 :     }
+061 : 
+062 :     double arg() const {
+063 :         return atan2(y, x);
+064 :     }
+065 : 
+066 :     bool on(const Point &, const Point &) const;
+067 :     bool in(const std::vector <Point> &) const;
+068 : };
+069 : 
+070 : bool operator <(const Point &a, const Point &b) {
+071 :     return signum(a.x - b.x) < 0 || signum(a.x - b.x) == 0 && signum(a.y - b.y) < 0;
+072 : }
+073 : 
+074 : bool operator ==(const Point &a, const Point &b) {
+075 :     return signum(a.x - b.x) == 0 && signum(a.y - b.y) == 0;
+076 : }
+077 : 
+078 : Point operator +(Point a, const Point &b) {
+079 :     return a += b;
+080 : }
+081 : 
+082 : Point operator -(Point a, const Point &b) {
+083 :     return a -= b;
+084 : }
+085 : 
+086 : Point operator *(Point a, double k) {
+087 :     return a *= k;
+088 : }
+089 : 
+090 : Point operator *(double k, Point a) {
+091 :     return a *= k;
+092 : }
+093 : 
+094 : Point operator /(Point a, double k) {
+095 :     return a /= k;
+096 : }
+097 : 
+098 : double det(const Point &a, const Point &b) {
+099 :     return a.x * b.y - a.y * b.x;
+100 : }
+101 : 
+102 : double dot(const Point &a, const Point &b) {
+103 :     return a.x * b.x + a.y * b.y;
+104 : }
+105 : 
+106 : bool parallel(const Point &a, const Point &b, const Point &c, const Point &d) {
+107 :     return signum(det(b - a, d - c)) == 0;
+108 : }
+109 : 
+110 : Point intersect(const Point &a, const Point &b, const Point &c, const Point &d) {
+111 :     double s1 = det(b - a, c - a);
+112 :     double s2 = det(b - a, d - a);
+113 :     return (c * s2 - d * s1) / (s2 - s1);
+114 : }
+115 : 
+116 : bool Point::on(const Point &a, const Point &b) const {
+117 :     const Point &p = *this;
+118 :     return signum(det(p - a, p - b)) == 0 && signum(dot(p - a, p - b)) <= 0;
+119 : }
+120 : 
+121 : bool Point::in(const std::vector <Point> &polygon) const {
+122 :     const Point &p = *this;
+123 :     int n = SIZE(polygon);
+124 :     int count = 0;
+125 :     for (int i = 0; i < n; ++ i) {
+126 :         const Point &a = polygon[i];
+127 :         const Point &b = polygon[(i + 1) % n];
+128 :         if (p.on(a, b)) {
+129 :             return false;
+130 :         }
+131 :         int t0 = signum(det(a - p, b - p));
+132 :         int t1 = signum(a.y - p.y);
+133 :         int t2 = signum(b.y - p.y);
+134 :         count += t0 > 0 && t1 <= 0 && t2 > 0;
+135 :         count -= t0 < 0 && t2 <= 0 && t1 > 0;
+136 :     }
+137 :     return count != 0;
+138 : }
+139 : // }}}
+140 : 
+141 : int width, height, n;
+142 : Point segments[N][2];
+143 : 
+144 : void addSegment(const Point &a, const Point &b) {
+145 :     segments[n][0] = a;
+146 :     segments[n][1] = b;
+147 :     n ++;
+148 : }
+149 : 
+150 : std::vector <Point> points;
+151 : 
+152 : int getPointID(const Point &p) {
+153 :     return std::lower_bound(ALL(points), p) - points.begin();
+154 : }
+155 : 
+156 : const int V = N * 2 + N * (N - 1) / 2;
+157 : const int E = V * 3 * 2;
+158 : 
+159 : int edgeCount, firstEdge[V], to[E], nextEdge[E], next[E];
+160 : bool visit[E];
+161 : std::set <std::pair <int, int> > geometricEdges;
+162 : 
+163 : void addGeometricEdge(int u, int v) {
+164 :     if (!geometricEdges.count(std::make_pair(u, v))) {
+165 :         geometricEdges.insert(std::make_pair(u, v));
+166 :         to[edgeCount] = v;
+167 :         nextEdge[edgeCount] = firstEdge[u];
+168 :         firstEdge[u] = edgeCount ++;
+169 :     }
+170 : }
+171 : 
+172 : std::vector <double> areas, allAreas;
+173 : std::vector <std::vector <Point> > regions;
+174 : 
+175 : const int VERTEX = 0;
+176 : const int EDGE = 1;
+177 : const int REGION = 2;
+178 : 
+179 : int getID(int type, int id) {
+180 :     if (type == VERTEX) {
+181 :         return id;
+182 :     }
+183 :     if (type == EDGE) {
+184 :         return SIZE(points) + id;
+185 :     }
+186 :     if (type == REGION) {
+187 :         return SIZE(points) + (edgeCount >> 1) + id;
+188 :     }
+189 :     assert(false);
+190 : }
+191 : 
+192 : double getArea(int id) {
+193 :     id -= SIZE(points) + (edgeCount >> 1);
+194 :     return id < 0 ? 0 : areas[id];
+195 : }
+196 : 
+197 : int locate(const Point &p) {
+198 :     for (int i = 0; i < edgeCount; i += 2) {
+199 :         if (p.on(points[to[i]], points[to[i ^ 1]])) {
+200 :             return getID(EDGE, i >> 1);
+201 :         }
+202 :     }
+203 :     int best = -1;
+204 :     for (int i = 0; i < SIZE(regions); ++ i) {
+205 :         if (p.in(regions[i]) && (best == -1 || allAreas[best] > allAreas[i])) {
+206 :             best = i;
+207 :         }
+208 :     }
+209 :     return getID(REGION, best);
+210 : }
+211 : 
+212 : const int VV = V * 5;
+213 : 
+214 : std::vector <int> edges[VV];
+215 : 
+216 : void addTopologicalEdge(int u, int v) {
+217 : //printf("%d -- %d\n", u, v);
+218 :     edges[u].push_back(v);
+219 :     edges[v].push_back(u);
+220 : }
+221 : 
+222 : std::vector <std::string> colorNames;
+223 : std::map <std::string, int> colorIDs;
+224 : 
+225 : int getColorID(const char *color) {
+226 :     if (!colorIDs.count(color)) {
+227 :         colorNames.push_back(color);
+228 :         int newID = colorIDs.size();
+229 :         colorIDs[color] = newID;
+230 :     }
+231 :     return colorIDs[color];
+232 : }
+233 : 
+234 : int color[VV];
+235 : 
+236 : void paint(const Point &p, const char* c) {
+237 :     int start = locate(p);
+238 :     int old = color[start];
+239 :     int cid = getColorID(c);
+240 :     if (old != cid) {
+241 :         std::queue <int> queue;
+242 :         queue.push(start);
+243 :         color[start] = cid;
+244 :         while (!queue.empty()) {
+245 :             int u = queue.front();
+246 :             queue.pop();
+247 :             foreach (iter, edges[u]) {
+248 :                 int v = *iter;
+249 :                 if (color[v] == old) {
+250 :                     color[v] = cid;
+251 :                     queue.push(v);
+252 :                 }
+253 :             }
+254 :         }
+255 :     }
+256 : }
+257 : 
+258 : int main() {
+259 :     scanf("%d%d%d", &width, &height, &n);
+260 :     for (int i = 0; i < n; ++ i) {
+261 :         scanf("%lf%lf%lf%lf", &segments[i][0].x, &segments[i][0].y, &segments[i][1].x, &segments[i][1].y);
+262 :     }
+263 :     addSegment(Point(0, 0), Point(width, 0));
+264 :     addSegment(Point(width, 0), Point(width, height));
+265 :     addSegment(Point(width, height), Point(0, height));
+266 :     addSegment(Point(0, height), Point(0, 0));
+267 : 
+268 :     // farmland
+269 :     for (int i = 0; i < n; ++ i) {
+270 :         points.push_back(segments[i][0]);
+271 :         points.push_back(segments[i][1]);
+272 :         for (int j = 0; j < i; ++ j) {
+273 :             if (!parallel(segments[i][0], segments[i][1], segments[j][0], segments[j][1])) {
+274 :                 Point p = intersect(segments[i][0], segments[i][1], segments[j][0], segments[j][1]);
+275 :                 if (p.on(segments[i][0], segments[i][1]) && p.on(segments[j][0], segments[j][1])) {
+276 :                     points.push_back(p);
+277 :                 }
+278 :             }
+279 :         }
+280 :     }
+281 :     std::sort(ALL(points));
+282 :     points.erase(std::unique(ALL(points)), points.end());
+283 : 
+284 :     edgeCount = 0;
+285 :     memset(firstEdge, -1, sizeof(firstEdge));
+286 :     for (int i = 0; i < n; ++ i) {
+287 :         std::vector <std::pair <double, int> > pairs;
+288 :         const Point &a = segments[i][0];
+289 :         const Point &b = segments[i][1];
+290 :         for (int j = 0; j < SIZE(points); ++ j) {
+291 :             if (points[j].on(a, b)) {
+292 :                 pairs.push_back(std::make_pair((points[j] - a).norm(), j));
+293 :             }
+294 :         }
+295 :         std::sort(ALL(pairs));
+296 :         for (int j = 1; j < SIZE(pairs); ++ j) {
+297 :             int u = pairs[j - 1].second;
+298 :             int v = pairs[j].second;
+299 :             addGeometricEdge(u, v);
+300 :             addGeometricEdge(v, u);
+301 :         }
+302 :     }
+303 : 
+304 :     for (int u = 0; u < SIZE(points); ++ u) {
+305 :         std::vector <std::pair <double, int> > pairs;
+306 :         for (int iter = firstEdge[u]; ~iter; iter = nextEdge[iter]) {
+307 :             pairs.push_back(std::make_pair((points[to[iter]] - points[u]).arg(), iter));
+308 :         }
+309 :         std::sort(ALL(pairs));
+310 :         for (int i = 0; i < SIZE(pairs); ++ i) {
+311 :             next[pairs[(i + 1) % SIZE(pairs)].second ^ 1] = pairs[i].second;
+312 :         }
+313 :     }
+314 : 
+315 :     std::vector <std::pair <Point, double> > waits;
+316 :     memset(visit, 0, sizeof(visit));
+317 :     for (int start = 0; start < edgeCount; ++ start) {
+318 :         if (!visit[start]) {
+319 :             int e = start;
+320 :             double totalArea = 0;
+321 :             std::vector <Point> region;
+322 :             for (; !visit[e]; e = next[e]) {
+323 :                 visit[e] = true;
+324 :                 totalArea += det(points[to[e ^ 1]], points[to[e]]);
+325 :                 region.push_back(points[to[e]]);
+326 :             }
+327 :             if (signum(totalArea) > 0) {
+328 :                 regions.push_back(region);
+329 :                 areas.push_back(totalArea);
+330 :                 allAreas.push_back(totalArea);
+331 :             } else {
+332 :                 waits.push_back(std::make_pair(region.front(), -totalArea));
+333 :             }
+334 :         }
+335 :     }
+336 : 
+337 :     // build graph
+338 :     for (int i = 0; i < edgeCount; ++ i) {
+339 :         addTopologicalEdge(getID(EDGE, i >> 1), getID(VERTEX, to[i]));
+340 :     }
+341 :     for (int i = 0; i < SIZE(regions); ++ i) {
+342 :         addTopologicalEdge(getID(REGION, i), getID(VERTEX, getPointID(regions[i].front())));
+343 :     }
+344 :     foreach (iter, waits) {
+345 :         const Point &p = iter->first;
+346 :         int best = -1;
+347 :         for (int i = 0; i < SIZE(regions); ++ i) {
+348 :             if (p.in(regions[i]) && (best == -1 || allAreas[best] > allAreas[i])) {
+349 :                 best = i;
+350 :             }
+351 :         }
+352 :         if (best != -1) {
+353 :             areas[best] -= iter->second;
+354 :             addTopologicalEdge(getID(REGION, best), getID(VERTEX, getPointID(p)));
+355 :         }
+356 :     }
+357 : 
+358 :     getColorID("white");
+359 :     getColorID("black");
+360 :     getColorID("__COLOR__");
+361 :     // main
+362 :     for (int i = 0; i < SIZE(points); ++ i) {
+363 :         color[getID(VERTEX, i)] = getColorID("black");
+364 :     }
+365 :     for (int i = 0; i < edgeCount >> 1; ++ i) {
+366 :         color[getID(EDGE, i)] = getColorID("black");
+367 :     }
+368 :     for (int i = 0; i < SIZE(regions); ++ i) {
+369 :         color[getID(REGION, i)] = getColorID("white");
+370 :     }
+371 :     paint(Point(0, 0), "__COLOR__");
+372 :     int m;
+373 :     scanf("%d", &m);
+374 :     while (m --) {
+375 :         Point p;
+376 :         char buffer[16];
+377 :         scanf("%lf%lf%s", &p.x, &p.y, buffer);
+378 :         paint(p, buffer);
+379 :     }
+380 : 
+381 :     std::map <std::string, double> answer;
+382 :     for (int i = 0; i < SIZE(points) + (edgeCount >> 1) + SIZE(regions); ++ i) {
+383 :         const std::string &name = colorNames[color[i]];
+384 :         if (name != "__COLOR__") {
+385 :             answer[name] += getArea(i);
+386 :         }
+387 :     }
+388 :     foreach (iter, answer) {
+389 :         printf("%s %.8f\n", iter->first.c_str(), 0.5 * iter->second);
+390 :     }
+391 :     return 0;
+392 : }

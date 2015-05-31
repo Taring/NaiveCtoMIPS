@@ -33,6 +33,7 @@ public class TargetMap {
 	}
 
 	public void insert(String str, int x) {
+		//System.out.println(str + "  -  " + x);
 		Key.get(level).add(str);
 		Value.get(level).add(x);
 	}

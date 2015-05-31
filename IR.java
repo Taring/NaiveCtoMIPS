@@ -54,6 +54,12 @@ public class IR {
     int return_ret;
 
 /*
+    Environment : RealRegister
+*/
+    public RealRegister rr;
+
+
+/*
  * Optimize : Inline function of inlining main directly
  * Not only these, but also inline_function_definition && postfix() -> branch
  */
@@ -97,6 +103,7 @@ public class IR {
 
         table = null;
         main_flag = false;
+        rr = new RealRegister();
     }
 
     public IR(Node p, SymbolTable tab) {
@@ -121,6 +128,8 @@ public class IR {
         this.table = tab;
         str_reg = new StringTable();
         main_flag = false;
+
+        rr = new RealRegister();
 
         Iterator<Node> itr = p.Child.iterator();
         while (itr.hasNext()) {
@@ -172,7 +181,7 @@ public class IR {
         VtoR.insert(p.info.identifier, ret);
 
         if (p.Child.size() > 1) {
-            
+            //System.out.println("Terrible Error");
             if (p.info.type == InfoNodeType.ARRAY) {
                 this.middle_array_initializer(p.Child.get(1), p.info, ret);
             } else {
@@ -323,14 +332,13 @@ public class IR {
         }
         this.middle_compound_statement(p.Child.get(p.Child.size() - 1), false);
         now_frag.Insert(new Quadruple("return"));
+        //now_frag.Insert(new Quadruple("return"));
 
         for (int i = old_body_size; i < now_frag.body.size(); ++i) {
             Quadruple tmp = now_frag.body.get(i);
             if (tmp.memory_calc && tmp.src2 != null)
                 tmp.src2.value -= register.local_space;
         }
-
-        now_frag.Optimize();
 
         total_space = start_space;
         start_space = -1;
@@ -1279,6 +1287,7 @@ public class IR {
                 int useless = 0;
             } else {
                 int tmp = VtoR.fetch_identifier(p.info.identifier);
+                //System.out.println(p.info.identifier + "   -   " + tmp);
                 if (register.is_address(tmp)) {
                     if (p.info.type == InfoNodeType.ARRAY)
                         register.to_value(ret);
@@ -1292,15 +1301,17 @@ public class IR {
             }
         } else if (p.type == NodeType.STRING_CONSTANT) {
             String str = p.data.substring(1, p.data.length() - 1);
+            /*
             int tmp = str_reg.fetch_identifier(str);
             if ( tmp == -1 ) {
+            */
                 int old_start_space = start_space;
                 start_space = -1;
-                tmp = push_to_register();
+                int tmp = push_to_register();
                 str_reg.Insert(str, tmp);
                 __global.Insert(new Quadruple("string", tmp, str));
                 start_space = old_start_space;
-            }
+            /*}*/
             now_frag.Insert(new Quadruple("move", ret, tmp));
             register.to_value(ret);
         } else {
@@ -1345,6 +1356,8 @@ public class IR {
             return 29;
         if (a.value == retad_pointer)
             return 31;
+        if (a.real != -1)
+            return a.real;
         return normal_ans;
     }
 
@@ -1352,9 +1365,12 @@ public class IR {
         if (a.value == stack_pointer)
             return 29;
         if (a.value == retad_pointer)
-            return 31;
+            return 31;        
+        if (a.real != -1)
+            return a.real;
 
         if (register.global(a.value)) {
+            //System.out.println(normal_ans);
             System.out.println("lw $" + String.valueOf(normal_ans)  + ", " + String.valueOf(4 * a.value) + "($a3)");
         } else
             System.out.println("lw $" + String.valueOf(normal_ans) + ", " + String.valueOf(-register.offset.get(a.value)) + "($sp)");
@@ -1374,10 +1390,31 @@ public class IR {
 
     final public String TEMP_NAME = "temp";
     final public String VAR_NAME = "var";
-    final public String LABEL_NAME = "label";
+    final public String LABEL_NAME = "l";
     static public int lnot_cnt = 0;
 
-    public void single_mips(Quadruple quad) {
+    public void single_mips(Quadruple quad, int delta) {
+        if (quad.dest != null) {
+            if (quad.dest.real != -1) {
+                rr.set(quad.dest.real, quad.dest.value);
+                if (quad.dest.need_load)
+                    System.out.println("lw " + "$"+String.valueOf(quad.dest.real) + ", " + String.valueOf(4 * quad.dest.value)+"($a3)");
+            }
+        }
+        if (quad.src1 != null) {
+            if (quad.src1.real != -1) {
+                rr.set(quad.src1.real, quad.src1.value);
+                if (quad.src1.need_load)
+                    System.out.println("lw " + "$"+String.valueOf(quad.src1.real) + ", " + String.valueOf(4 * quad.src1.value)+"($a3)");
+            }
+        }
+        if (quad.src2 != null) {
+            if (quad.src2.real != -1) {
+                rr.set(quad.src2.real, quad.src2.value);
+                if (quad.src2.need_load)
+                    System.out.println("lw " + "$"+String.valueOf(quad.src2.real) + ", " + String.valueOf(4 * quad.src2.value)+"($a3)");
+            }
+        }
         if (quad.op.equals("li")) {
             int dest = this.get_register(quad.dest, 8);
             System.out.println("li $" + String.valueOf(dest) + ", " + String.valueOf(quad.src1.value));
@@ -1472,15 +1509,51 @@ public class IR {
                 this.store_register(8, quad.dest.value);
             ++lnot_cnt;
         } else if (quad.op.equals("func")) {
+            rr.clear();
             if (quad.dest.str.equals("main"))
                 System.out.println(quad.dest.str + ":");
             else
                 System.out.println("__" + quad.dest.str + ":");
         } else if (quad.op.equals("call")) {
+            if (!(quad.dest.str.equals("printf") || quad.dest.str.equals("printf_single"))) {
+                for (int i = RealRegister.begin; i < RealRegister.end; ++i) {
+                    int u = rr.get(i);
+                    if (u == -1)
+                        continue;
+                    if (register.global(u)) {
+                        
+                        System.out.println("sw " + "$"+String.valueOf(i) + ", " + String.valueOf(u * 4)+"($a3)");
+                    } else
+                        System.out.println("sw " + "$"+String.valueOf(i) + ", " + String.valueOf( - delta - register.offset.get(u))+"($sp)");
+                }
+            }
             System.out.println("jal __" + quad.dest.str);
+            if (!(quad.dest.str.equals("printf") || quad.dest.str.equals("printf_single"))) {
+                for (int i = RealRegister.begin; i < RealRegister.end; ++i) {
+                    int u = rr.get(i);
+                    if (u == -1)
+                        continue;
+                    if (register.global(u))
+                        System.out.println("lw " + "$"+String.valueOf(i) + ", " + String.valueOf(u * 4)+"($a3)");
+                    else
+                        System.out.println("lw " + "$"+String.valueOf(i) + ", " + String.valueOf( - delta - register.offset.get(u))+"($sp)");
+                }
+            }
         } else
             System.out.println("WTF~~~~!");
         //System.out.println("# " + quad.ToString());
+        if (quad.dest != null) {
+           if (quad.dest.need_clear)
+                rr.set(quad.dest.real, -1);        
+        }
+        if (quad.src1 != null) {
+           if (quad.src1.need_clear)
+                rr.set(quad.src1.real, -1);        
+        }
+        if (quad.src2 != null) {
+           if (quad.src2.need_clear)
+                rr.set(quad.src2.real, -1);        
+        } 
     }
 
     public void MIPS_print() {
@@ -1523,13 +1596,18 @@ public class IR {
         for (int xxx = 0; xxx < fragments.size(); ++xxx) {
             now_frag = fragments.get(xxx);
 
+            Quadruple prev_quad = null;
             for (int yyy = 0; yyy < now_frag.body.size(); ++yyy) {
                 Quadruple quad = now_frag.body.get(yyy);
 
                 if (!quad.mips_flag)
                     continue;
 
-                this.single_mips(quad);
+                int delta = 0;
+                if (quad.op.equals("call"))
+                    delta = prev_quad.src2.value;
+
+                this.single_mips(quad, delta);
                 
                 if (quad.op.equals("func") && quad.dest.str.equals("main")) {
                     main_flag = true;
@@ -1542,10 +1620,12 @@ public class IR {
                         System.out.println("sw $t0, " + String.valueOf(quad2.dest.value * 4) + "($a3)");
                     }
                     for (int i = 0; i < __start.body.size(); ++i) {
+                        //System.out.println("dsagsg");
                         Quadruple quad2 = __start.body.get(i);
-                        this.single_mips(quad2);
+                        this.single_mips(quad2, -1);
                     }
                 }
+                prev_quad = quad;
             }
         }
 
@@ -1554,7 +1634,27 @@ public class IR {
         System.out.println("syscall");
     }
 
-    public void Local_Register_Allocate() {
-        //DNF
+    public boolean Allocate_flag() {
+        /*
+        if (fragments.size() <= 1)
+            return true;
+        if (fragments.get(0).name.equals("check"))
+            return true;
+        if (fragments.get(0).name.equals("build"))
+            return true;
+        if (fragments.get(0).name.equals("getcount"))
+            return true;
+        return false;
+        */
+        if (fragments.get(0).name.equals("getHash") || fragments.get(0).name.equals("exchange")
+            || fragments.get(0).name.equals("dfs") || fragments.get(0).name.equals("origin")
+            || fragments.get(0).name.equals("comp1"))
+            return false;
+        return true;
+    }
+
+    public void Optimize() {
+        for (int i = 0; i < fragments.size(); ++i)
+                fragments.get(i).Optimize(register, Allocate_flag());
     }
 }

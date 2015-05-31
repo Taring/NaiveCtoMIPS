@@ -23,6 +23,7 @@ public class Main {
 			System.exit(1);
 		}
 
+        /*AST Printer!*/
 		//if (TreeRoot == null) System.out.println("What the Fuck!");
         //WArray xxx = new WArray();
 		//TreeRoot.printAst(xxx, 0);
@@ -46,7 +47,7 @@ public class Main {
         //System.out.println("#---the IR instruction---");
         IR itr = new IR(TreeRoot, sem.table);
         //System.out.println("#---the MIPS instruction---");
-        //itr.Local_Register_Allocate();
+        itr.Optimize();
         itr.MIPS_print();
         //itr.IR_print();
 	}
