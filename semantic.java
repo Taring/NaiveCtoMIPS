@@ -99,7 +99,7 @@ public class semantic {
 	
 	public void CompilerError(String str) {
 		legal = false;
-	    //System.out.println(str);
+	    System.out.println("Error : "str);
         System.exit(1);
 		//System.out.println(str);
 	}
